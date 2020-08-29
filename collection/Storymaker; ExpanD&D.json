@@ -4722,6 +4722,660 @@
             "entries": [
                 "At 17th level, you may unleash your brutal wrath on those around you by channeling your rage to become a tempest of destruction. As an action, you may spend 3 ki points to make a single unarmed attack against each enemy within 20 feet of you. Each attack that successfully hits is a critical hit that also adds your Proficiency bonus to the damage roll."
             ]
+        },
+        {
+            "name": "Oath of Duality",
+            "source": "StorymakerExpanDnD",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Duality",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Temperance and Indulgence. Gluttony and Moderation. These ideas are opposites, but not necessarily opposed. The idea of paradox and duality is worth exploration on its own, and the balance between opposite extremes is an important part of the enlightenment of the Paladins of the Oath of Duality.",
+                {
+                    "type": "entries",
+                    "name": "Tenets of Duality",
+                    "entries": [
+                        "The tenets of Duality are designed to encourage paladins to embrace the contradictory nature and changing flow of the world. They vary from order to order, but often following lines similar to these.",
+                        {
+                            "type": "entries",
+                            "name": "Share your Love with others",
+                            "entries": [
+                                "The bliss of duality is a gift to be shared with others, to allow them to experience what embracing contradiction and change has to offer is the highest glory."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Put others before yourself",
+                            "entries": [
+                                "It is important that others be allowed to indulge or temper themselves before you. Once your quest is done there is time for yourself, but others must come first."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Indulgence and Temperance",
+                            "entries": [
+                                "Indulgence is best experienced when it will not be debilitating afterward, and temperance is most rewarding when it leads to pure indulgence afterward. The cycle of bliss is everlasting."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Embrace the Balance",
+                            "entries": [
+                                "All things have a balance of duality. Those who indulge too much become mindless, those who temper too much become lifeless. Always strive to strike the balance."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Oath Spells",
+                    "entries": [
+                        "You gain oath spells at the paladin levels listed.",
+                        {
+                            "type": "table",
+                            "caption": "Oath of Duality Spells",
+                            "colLabels": [
+                                "Paladin level",
+                                "Spells"
+                            ],
+                            "rows": [
+                                [
+                                    "3rd",
+                                    "Shield of Faith, Burn Fat"
+                                ],
+                                [
+                                    "5th",
+                                    "Lesser Restoration, Narce's Fatness Arrow"
+                                ],
+                                [
+                                    "9th",
+                                    "Remove Curse, Noxious Wave"
+                                ],
+                                [
+                                    "13th",
+                                    "Banishment, Fatball"
+                                ],
+                                [
+                                    "17th",
+                                    "Geas, Slovenly Plague"
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Channel Divinity|Paladin||Duality|StorymakerExpanDnD|3"
+                }
+            ]
+        },
+        {
+            "name": "Channel Divinity",
+            "source": "StorymakerExpanDnD",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Duality",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "When you take this oath at 3rd level, you gain the following two channel divinity options:",
+                {
+                    "type": "entries",
+                    "name": "Indulge the masses",
+                    "entries": [
+                        "As an Action, you Slim for up to five times your Paladin level and distribute holy energy among each other creature of your choice within 20 feet of you. You can distribute 1d4 of Healing for every five pounds you lost, and each creature Fattens for five times the healing they received. Until the start of your next turn, each creature healed this way deals 1d8 additional radiant damage on their next successful weapon attack. Your first successful weapon attack on your next turn deals an additional amount of radiant damage equal to half of the total radiant damage dealt this way."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Temper excesses",
+                    "entries": [
+                        "As an Action, each other allied creature of your choice within 20 feet of you Slims for a total amount of weight divided among them of up to ten times your paladin level. Each affected creature gains advantage on their next Attack Roll or Ability Check. You Fatten for twice the weight lost this way and gain a bonus to your Armor Class equal to your Charisma Modifier (minimum +1) until the end of your next turn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Aura of Duality",
+            "source": "StorymakerExpanDnD",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Duality",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 7,
+            "entries": [
+                "Beginning at 7th level, you emit an aura of Duality that affects yourself and all friendly creatures within 10 feet of you. Your aura has one of the following effects, which you can switch between as a bonus action:",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Indulgence.} You gain resistance to Radiant damage and other friendly creatures gain resistance to Necrotic damage and damage from overeating. Any weight you gain is halved, with the other half being divided across all other creatures affected by your aura. Other creatures affected by your aura have their Stomach capacity increased by your Charisma modifier (minimum +1).",
+                        "{@b Temperance.} You gain resistance to Necrotic damage and damage from overeating and other friendly creatures gain resistance to Radiant damage. Your Stomach capacity is increased by your Charisma modifier (minimum +1). Other creatures affected by your aura halve any weight they gain, the other half going to you instead."
+                    ]
+                },
+                "At 18th level, the range of this aura increases to 30 feet."
+            ]
+        },
+        {
+            "name": "Body of Balance",
+            "source": "StorymakerExpanDnD",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Duality",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 15,
+            "entries": [
+                "Beginning at 15th level, When you deal damage that is resisted by a target, you can use your reaction to ignore that resistance for this one instance of damage. When you do, you slim for half the damage dealt.",
+                "When you take damage of a type you have resistance to, you can use your Reaction to halve that damage again after the reduction provided by resistance, Fattening for the damage reduced this way.",
+                "You may use this ability a number of times per day equal to your Charisma Modifier (minimum 1), regaining expended uses when you finish a long rest.",
+                "Additionally, your body has grown adept at handling the changing nature of your oath. You may add your Charisma modifier to your Strength and Constitution modifiers for the purposes of determining your Bulk limit."
+            ]
+        },
+        {
+            "name": "Avatar of Duality",
+            "source": "StorymakerExpanDnD",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Duality",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 20,
+            "entries": [
+                "At 20th level, you gain the ability to become a personification of Duality. As an Action, you transform, gaining the following benefits for 1 minute:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The damage resistances provided by your Aura of Duality become damage immunities.",
+                        "You and any allies affected by your Aura of Duality gain advantage on Constitution ability checks and saving throws.",
+                        "You may use your Channel Divinity feature without expending its use.",
+                        "Double the maximum weight lost by Indulge the Masses, which subsequently allows you to distribute more healing. The radiant damage provided to affected creatures increases to 2d8.",
+                        "Double the maximum total weight lost by Temper Excess. The Advantage provided affects all attack rolls and ability checks until the end of your next turn, and the bonus to your Armor Class increases to twice your Charisma Modifier."
+                    ]
+                },
+                "Once you use this feature, you can’t use it again until you finish a long rest."
+            ]
+        },
+        {
+            "name": "Oath of Strength",
+            "source": "StorymakerExpanDnD",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Strength",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "The oath of strength is one called upon when tremendous challenges require tremendous force to overcome. Paladins who take up this oath devote themselves to becoming icons of power, bulwarks of strength, and a wall between the weak and those who would choose to threaten them. These Paladins -- Sometimes called Crusaders or Warseekers-- take the field of battle with fervor and zeal, their bodies growing more imposing the longer they stand against their foes as divine power surges through them.",
+                {
+                    "type": "entries",
+                    "name": "Tenets of Strength",
+                    "entries": [
+                        "The exact words of the Oath of Strength vary from order to order, but they all share the same four central tenets. They are often tattooed on the shoulders and back of those who take the oath.",
+                        {
+                            "type": "entries",
+                            "name": "Protect the weak",
+                            "entries": [
+                                "Your strength is a divine blessing that not all can possess. Use it in the defense of those who lack that strength."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Rise to a challenge",
+                            "entries": [
+                                "Any who doubt your strength must be shown the truth. Any true challenge laid down must be answered."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Pursuit of strength",
+                            "entries": [
+                                "To protect more innocents, we must seek more strength to better ourselves. Always seek to grow more powerful, but do so wisely."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Seek great resistance",
+                            "entries": [
+                                "Seek the greatest among your foes to prove your might. Their underlings will cower before you when you have broken their general."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Oath Spells",
+                    "entries": [
+                        "You gain oath spells at the paladin levels listed.",
+                        {
+                            "type": "table",
+                            "caption": "Oath of Strength Spells",
+                            "colLabels": [
+                                "Paladin level",
+                                "Spells"
+                            ],
+                            "rows": [
+                                [
+                                    "3rd",
+                                    "Burn Fat, Modify Metabolism"
+                                ],
+                                [
+                                    "5th",
+                                    "Enhance Ability, Aid"
+                                ],
+                                [
+                                    "9th",
+                                    "Haste, Aura of Vitality"
+                                ],
+                                [
+                                    "13th",
+                                    "Softskin, Guardian of Faith"
+                                ],
+                                [
+                                    "17th",
+                                    "Amazonian Figure, Destructive Wave"
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Channel Divinity|Paladin||Strength|StorymakerExpanDnD|3"
+                }
+            ]
+        },
+        {
+            "name": "Channel Divinity",
+            "source": "StorymakerExpanDnD",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Strength",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "When you take this oath at 3rd level, you gain the following two channel divinity options:",
+                {
+                    "type": "entries",
+                    "name": "Titan of Fortitude",
+                    "entries": [
+                        "You can use your Channel Divinity to grow in size and strength. as an Action, you can increase your size by one size category and gain resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons. For the duration, you may add your Charisma modifier (minimum bonus of +1) to damage rolls of your Melee Weapon Attacks. These benefits last for 1 minute.",
+                        "You can end this effect on your turn as part of any other action. If you fall unconscious, this effect ends."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Taunt the Unholy",
+                    "entries": [
+                        "As an action, you present your holy symbol and speak an inflammatory prayer inciting the ire of your foes. Each enemy that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it has disadvantage on all attack rolls against targets other than you for a number of rounds equal to your Charisma Modifier (minimum 1 round). This effect ends early if you fall unconscious."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Aura of Might",
+            "source": "StorymakerExpanDnD",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Strength",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 7,
+            "entries": [
+                "Starting at 7th level, you emanate a bolstering aura that fortifies your strength and the strength of your allies. You and friendly creatures within 10 feet of you have advantage on Strength Saving Throws, and their Bulk limit increases by one quarter of its normal amount (rounded down).",
+                "At 18th level, the range of this aura increases to 30 feet."
+            ]
+        },
+        {
+            "name": "Divine Bulwark",
+            "source": "StorymakerExpanDnD",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Strength",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 15,
+            "entries": [
+                "Starting at 15th level, you can use your divine magic to redirect blows away from your allies and toward yourself. As a reaction, used in response to an ally within 5 feet of you being attacked, you can redirect the attack toward yourself."
+            ]
+        },
+        {
+            "name": "Divine Behemoth",
+            "source": "StorymakerExpanDnD",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Strength",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 20,
+            "entries": [
+                "At 20th level, you gain the ability to manifest true divine strength. As an action, you can magically become a divine behemoth, gaining the following benefits for 1 minute:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Your Size is increased by one size category, and all Melee Weapon Attacks you make deal an additional d4 damage.",
+                        "Your Melee Weapon Attacks deal double damage to objects and structures.",
+                        "You cannot be charmed, restrained, paralyzed, or petrified."
+                    ]
+                },
+                "Once you use this feature, you can't use it again until you finish a long rest."
+            ]
+        },
+        {
+            "name": "Oath of Protection",
+            "source": "StorymakerExpanDnD",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Protection",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Paladins of the Oath of Protection have devoted their life to protecting others. Growing their own form, they create of themselves a wall, to protect innocents and their allies. Focused on defense and control of the battlefield, they are a force to be reckoned with on the battlefield.",
+                {
+                    "type": "entries",
+                    "name": "Tenets of Protection",
+                    "entries": [
+                        "A paladin of the Oath of Protection unflinchingly puts their life on the line to protect innocents.",
+                        {
+                            "type": "entries",
+                            "name": "Guard the Weak",
+                            "entries": [
+                                "You are their shield. Guard your allies; absorb the hits so that they don’t have to."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Stand Strong",
+                            "entries": [
+                                "Never let yourself be cowed by those who would put you aside."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Build the Wall",
+                            "entries": [
+                                "You are the barrier that protects your wards. Never pass up an opportunity to fortify your form."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Oath Spells",
+                    "entries": [
+                        "You gain oath spells at the paladin levels listed.",
+                        {
+                            "type": "table",
+                            "caption": "Oath of Protection Spells",
+                            "colLabels": [
+                                "Paladin level",
+                                "Spells"
+                            ],
+                            "rows": [
+                                [
+                                    "3rd",
+                                    "Heavy Smite, Shield"
+                                ],
+                                [
+                                    "5th",
+                                    "Enhance Ability, Weighing Ward"
+                                ],
+                                [
+                                    "9th",
+                                    "Aura of Vitality, Spirit Guardians"
+                                ],
+                                [
+                                    "13th",
+                                    "Softskin, Guardian of Faith"
+                                ],
+                                [
+                                    "17th",
+                                    "Amazonian Figure, Wall of Force"
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Channel Divinity|Paladin||Protection|StorymakerExpanDnD|3"
+                }
+            ]
+        },
+        {
+            "name": "Channel Divinity",
+            "source": "StorymakerExpanDnD",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Protection",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "When you take this oath at 3rd level, you gain the following two channel divinity options:",
+                {
+                    "type": "entries",
+                    "name": "Seismic Step",
+                    "entries": [
+                        "As an action, you slam your foot into the ground, sending a shockwave through their vicinity. All creatures of your choice within 20 feet must make a Strength saving throw with a DC equal to 8 + proficiency build + the paladin’s Strength modifier. A creature that fails is moved up to 10 feet in any direction at the paladin’s discretion and is knocked prone."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Body Block",
+                    "entries": [
+                        "As an action, you call out your enemies, using your unmissable figure to draw the ire of their foes. You may choose a number of targets within 30 feet up to their Charisma modifier. A chosen target receives disadvantage if they attack any target other than the paladin. The effect lasts for one minute, or until you choose to end it (no action required). This effect also ends if you fall unconscious."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Buttressing Aura",
+            "source": "StorymakerExpanDnD",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Protection",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 7,
+            "entries": [
+                "Starting at 7th level, your very presence seems to make your companions hardier and more resistant to injury. Allies within 10 feet of you recieve a +1 bonus to their AC and saving throws while you are conscious. If you are Impeded, the bonus increases to +2; and if you are Immobilized, the bonus increases to +3. At 18th level that range of the aura extends to 30 feet."
+            ]
+        },
+        {
+            "name": "Unyielding Stance",
+            "source": "StorymakerExpanDnD",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Protection",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 15,
+            "entries": [
+                "Starting at 15th level, you become nearly impossible to shift against your will. While standing, you cannot be forced to move or knocked prone."
+            ]
+        },
+        {
+            "name": "Stalwart Bastion",
+            "source": "StorymakerExpanDnD",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Protection",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 20,
+            "entries": [
+                "Starting at 20th level, as an action you become an unstoppable force on the battlefield. For one minute, you gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You ignore all penalties associated with bulk limits.",
+                        "You gain advantage on all Strength and Constitution checks and saves.",
+                        "You gain resistance to all forms of damage.",
+                        "As a bonus action, you may perform your Seismic Stomp without expending a use of your Channel Divinity."
+                    ]
+                },
+                "Once you use this feature, you can’t use it again until you finish a long rest."
+            ]
+        },
+        {
+            "name": "Oath of Plenty",
+            "source": "StorymakerExpanDnD",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Plenty",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Paladins who follow the Oath of Plenty are normally makeshift orders that protect the helpless and the poor, keeping people alive and safe with their strength and supplies. More organized followers of the Oath of Feasting are rescue workers and first responders who travel in large groups to carry huge amounts of resources.",
+                {
+                    "type": "entries",
+                    "name": "Tenets of Plenty",
+                    "entries": [
+                        "The Oath of Plenty emphasizes the following tenets.",
+                        {
+                            "type": "entries",
+                            "name": "Destroy Hunger",
+                            "entries": [
+                                "You know the pains of hunger and thirst and the illnesses they can cause. You must preserve the people and feed those who can’t feed themselves."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Sustainable Aid",
+                            "entries": [
+                                "You must foster independence within those you serve, working toward solutions that will maintain their health and happiness even after you move on."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Spread No Strife",
+                            "entries": [
+                                "Stealing or seizing someone else’s belongings, even to benefit another, shows a failure to bring plenty to everyone. Lack and loss breed resentment and jealousy, and you must not be the cause of that conflict."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Answer the Call",
+                            "entries": [
+                                "No request from those in need should go unheard."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Oath Spells",
+                    "entries": [
+                        "You gain oath spells at the paladin levels listed.",
+                        {
+                            "type": "table",
+                            "caption": "Oath of Plenty Spells",
+                            "colLabels": [
+                                "Paladin level",
+                                "Spells"
+                            ],
+                            "rows": [
+                                [
+                                    "3rd",
+                                    "Goodberry, Tango's Tincture"
+                                ],
+                                [
+                                    "5th",
+                                    "Calm Emotions, Prayer of Healing"
+                                ],
+                                [
+                                    "9th",
+                                    "Beacon of Hope, Plant Growth"
+                                ],
+                                [
+                                    "13th",
+                                    "Create Fattening Food and Drink, Fabricate"
+                                ],
+                                [
+                                    "17th",
+                                    "Amazonian Figure, Fist of the Feeding Star"
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Channel Divinity|Paladin||Plenty|StorymakerExpanDnD|3"
+                }
+            ]
+        },
+        {
+            "name": "Channel Divinity",
+            "source": "StorymakerExpanDnD",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Plenty",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "When you take this oath at 3rd level, you gain the following two channel divinity options:",
+                {
+                    "type": "entries",
+                    "name": "Surfeit of Stars",
+                    "entries": [
+                        "As a bonus action, you form stars of food that orbit those under your protection. For the next minute, when an enemy you can see within 30 feet of you attacks a creature besides you, the attacker takes radiant damage equal to 1d4 + your Charisma modifier (minimum 0) and is forcefed a number of pounds of fatty food equal to the damage dealt. After a creature is damaged in this way, it cannot be damaged in this way again until the beginning of its next turn."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Blessed Bounty",
+                    "entries": [
+                        "As an action, you bless all nonmagical food and drink within 10 feet of you for 1 hour. Food blessed in this way is purified and rendered free of poison and disease, and a creature that eats 1 pound of food blessed in this way gains 1d4 pounds of weight. Additionally, any creature that consumes any food blessed in this way before the blessing ends has their current and maximum hit points increased by an amount equal to your Charisma modifier and the number of diet points the food is worth, rounded up, for 1 hour. A creature cannot benefit from this increase again for 1 hour after receiving the increase."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Aura of Plenty",
+            "source": "StorymakerExpanDnD",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Plenty",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 7,
+            "entries": [
+                "Starting at 7th level, creatures around you need not fear famine, for you come bearing plenty. Your aura extends 10 feet from you and provides the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "When a friendly creature within the aura, including you, would lose weight, whether naturally or otherwise, they may choose to halve the weight they lose.",
+                        "You double the amount of food you create with your paladin spells if it is created in an unoccupied space within the range of this aura, and when you feed a creature within the range of this aura with a paladin spell or with Surfeit of Stars, the amount of food the target eats is doubled."
+                    ]
+                },
+                "At 18th level, the range of this aura increases to 30 feet."
+            ]
+        },
+        {
+            "name": "Rapid Response",
+            "source": "StorymakerExpanDnD",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Plenty",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 15,
+            "entries": [
+                "Starting at 15th level, you have the ability to travel quickly to respond to emergencies. You can cast the spell Find Greater Steed without expending a spell slot. When you do, you can also create a number of spectral mounts equal to your Charisma modifier, summoned as if by the spell Phantom Steed. These other mounts follow you, staying within 100 feet of you, unless you mentally instruct them to stay in a location or they have a rider. They must stay within a mile of you or disappear as if the spell that summoned them had ended. All mounts summoned in this way count as one size larger when determining their carrying capacity, bulk limit, and the weight they can push, drag, or lift."
+            ]
+        },
+        {
+            "name": "Faminebreaker",
+            "source": "StorymakerExpanDnD",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Plenty",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 20,
+            "entries": [
+                "At 20th level, as an action, you can transform into a harbinger of abundance, gaining the following benefits for 1 minute:",
+                {
+                    "type": "list",
+                    "items": [
+                        "When you use a paladin spell to create food or drink, you can use a reaction to bless it as if you had used Blessed Bounty on it. The damage dealt by Surfeit of Stars increases to 2d4 + twice your Charisma modifier.",
+                        "You and your allies within 30 feet of you have advantage on Constitution checks, Constitution saving throws, and death saving throws.",
+                        "You and your allies within 30 feet of you have resistance to necrotic and poison damage.",
+                        "Once you use this feature, you can’t use it again until you finish a long rest."
+                    ]
+                },
+                "Once you use this feature, you can’t use it again until you finish a long rest."
+            ]
         }
     ],
     "optionalfeature": [
@@ -5635,6 +6289,230 @@
                 "Crushing Counter|Monk||Myo-Oni|StorymakerExpanDnD|11",
                 "Oni's Appetite|Monk||Myo-Oni|StorymakerExpanDnD|11",
                 "Demon's Rampage|Monk||Myo-Oni|StorymakerExpanDnD|17"
+            ]
+        },
+        {
+            "name": "Oath of Duality",
+            "source": "StorymakerExpanDnD",
+            "page": 52,
+            "shortName": "Duality",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Oath of Duality|Paladin||Duality|StorymakerExpanDnD|3",
+                "Aura of Duality|Paladin||Duality|StorymakerExpanDnD|7",
+                "Body of Balance|Paladin||Duality|StorymakerExpanDnD|15",
+                "Avatar of Duality|Paladin||Duality|StorymakerExpanDnD|20"
+            ],
+            "subclassSpells": [
+                {
+                    "name": "Shield of Faith",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Burn Fat",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Lesser Restoration",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Narce's Fatness Arrow",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Remove Curse",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Noxious Wave",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Banishment",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Fatball",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Geas",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Slovenly Plague",
+                    "source": "StorymakerExpanDnD"
+                }
+            ]
+        },
+        {
+            "name": "Oath of Strength",
+            "source": "StorymakerExpanDnD",
+            "page": 54,
+            "shortName": "Strength",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Oath of Strength|Paladin||Strength|StorymakerExpanDnD|3",
+                "Aura of Might|Paladin||Strength|StorymakerExpanDnD|7",
+                "Divine Bulwark|Paladin||Strength|StorymakerExpanDnD|15",
+                "Divine Behemoth|Paladin||Strength|StorymakerExpanDnD|20"
+            ],
+            "subclassSpells": [
+                {
+                    "name": "Modify Metabolism",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Burn Fat",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Enhance Ability",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Aid",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Haste",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Aura of Vitality",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Softskin",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Guardian of Faith",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Amazonian Figure",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Destructive Wave",
+                    "source": "PHB"
+                }
+            ]
+        },
+        {
+            "name": "Oath of Protection",
+            "source": "StorymakerExpanDnD",
+            "page": 55,
+            "shortName": "Protection",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Oath of Protection|Paladin||Protection|StorymakerExpanDnD|3",
+                "Buttressing Aura|Paladin||Protection|StorymakerExpanDnD|7",
+                "Unyielding Stance|Paladin||Protection|StorymakerExpanDnD|15",
+                "Stalwart Bastion|Paladin||Protection|StorymakerExpanDnD|20"
+            ],
+            "subclassSpells": [
+                {
+                    "name": "Heavy Smite",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Shield",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Enhance Ability",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Weighing Ward",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Aura of Vitality",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Spirit Guardian",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Softskin",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Guardian of Faith",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Amazonian Figure",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Wall of Force",
+                    "source": "PHB"
+                }
+            ]
+        },
+        {
+            "name": "Oath of Plenty",
+            "source": "StorymakerExpanDnD",
+            "page": 55,
+            "shortName": "Plenty",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Oath of Plenty|Paladin||Plenty|StorymakerExpanDnD|3",
+                "Aura of Plenty|Paladin||Plenty|StorymakerExpanDnD|7",
+                "Rapid Response|Paladin||Plenty|StorymakerExpanDnD|15",
+                "Faminebreaker|Paladin||Plenty|StorymakerExpanDnD|20"
+            ],
+            "subclassSpells": [
+                {
+                    "name": "Goodberry",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Tango's Tincture",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Calm Emotions",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Prayer of Healing",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Beacon of Hope",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Plant Growth",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Create Fattening Food and Drink",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Fabricate",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Amazonian Figure",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Fist of the Feeding Star",
+                    "source": "StorymakerExpanDnD"
+                }
             ]
         }
     ]
