@@ -17,7 +17,10 @@
         ],
         "skill": {
             "Eating": "The Constitution (Eating) skill can be used to stomach bad tasting, dangerous, or otherwise difficult to eat food and drink, as well as potentially identify unknown consumable substances by taste, though that might rely on a different ability score than Constitution."
-        }
+        },
+        "optionalFeatureTypes": {
+			"CotSD": "Circle of the Spread Disease"
+		}
     },
     "variantrule": [
         {
@@ -3755,6 +3758,211 @@
             "entries": [
                 "At 17th level, your gaze not only drains foes of the will to act, but fills them with rapture at their own slovenliness. A creature affected by your Gaze of Indolence is also charmed by you for the duration (the triggering attack still happens), and emits noises of pleasure and noxious expulsions that unsettle those around them. Any of the affected creature's allies have disadvantage on attack rolls and ability checks so long as they remain within 20 feet of the affected creature."
             ]
+        },
+        {
+            "name": "Circle of the Harvest",
+            "source": "StorymakerExpanDnD",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Harvest",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 2,
+            "entries": [
+                "Some druids would rather share nature's bounty with as many as they can. They help nature grow strong and numerous plants, which they then use to craft delicious delicacies to help show what bounty the earth can bring. And when others still refuse to respect the power of nature, they bring to bear the danger that gluttony and misuse can bring. This is the Circle of the Harvest; the satisfaction of plenty for their allies, and the terrible penalty of overindulgence for their enemies.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Harvest Hand|Druid|PHB|Harvest|StorymakerExpanDnD|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Growing Touch|Druid|PHB|Harvest|StorymakerExpanDnD|2"
+                }
+            ]
+        },
+        {
+            "name": "Harvest hand",
+            "source": "StorymakerExpanDnD",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Harvest",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 2,
+            "entries": [
+                "At 2nd level you gain proficiency with Cook’s Utensils, and whenever you make a Wisdom (Survival) roll to forage for food, you add your levels in druid to the number of pounds of food you find.",
+                "Additionally, over the course of 1 minute, you can touch a number of pounds of non-meat food equal to your Druid level and make them into food of any quality. You can instead touch a creature’s stomach for 1 minute, changing the the quality of non-meat food in their stomach to any other quality. Once you transmute food in this way, you must finish a short or long rest before you can do so again."
+            ]
+        },
+        {
+            "name": "Growing Touch",
+            "source": "StorymakerExpanDnD",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Harvest",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 2,
+            "entries": [
+                "Also at 2nd level you can summon fruiting plants to aid you, feeding your foes and hampering their movement. As an action you can make a ranged spell attack against a creature you can see within 60 feet. On hit, the target takes bludgeoning damage equal to your Wisdom modifier + you levels in Druid, is fed pounds of fatty food equal to half the damage done (rounded down), and has their movement speed halved by sappy vines until the end of its next turn.",
+                "Additionally, when you are targeted by an attack, you can use a reaction to cause a growth of plants to spring to your defense, imposing disadvantage on one attack roll targeting you."
+            ]
+        },
+        {
+            "name": "Plant Transmutation",
+            "source": "StorymakerExpanDnD",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Harvest",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 6,
+            "entries": [
+                "At 6th level, you can use your touch to immediately turn a nonmagical plant into food, and vice versa. As an Action, you can perform one of the following abilities The number of pounds you can transmute with one use of this feature is equal to twice your druid level.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Plant to Food.} You can turn one nonmagical plant you touch into an amount of food equivalent to its weight, by turning a tree into chocolate or a bush into a stack of apples, for instance.",
+                        "{@b Food to Plant.} You can turn any amount of food into a plant of equivalent weight that grows in a pattern of your choice, such as turning 10 pounds of rations into a 10-pound ladder of vines to climb a wall."
+                    ]
+                },
+                "You can use this feature a number of times equal to your Wisdom modifier between Long rests."
+            ]
+        },
+        {
+            "name": "Food Wild Shape",
+            "source": "StorymakerExpanDnD",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Harvest",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 10,
+            "entries": [
+                "At 10th level, you can expend two uses of Wild Shape at the same time to transform into a Sweet Pudding, a Food Elemental, a Cake Golem, or a Feeder."
+            ]
+        },
+        {
+            "name": "Harvest's Wrath",
+            "source": "StorymakerExpanDnD",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Harvest",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 14,
+            "entries": [
+                "At 14th level, you can call down the wrath of the harvest upon a target, forcing them to feel the penalty of their overindulgence. As an Action, which can be performed while in a wild shape, you can force a target you can touch to make a Constitution save against your Spell DC. On a failure, any food in their stomach has its weight multiplied by 10, and they take 1d6 Bludgeoning damage for each of your levels in Druid. Once you have used this ability, you must complete a Long rest before you can do so again."
+            ]
+        },
+        {
+            "name": "Circle of the Spread",
+            "source": "StorymakerExpanDnD",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Spread",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 2,
+            "entries": [
+                "There is a darker, less beautiful side to nature. The relentless cycle of the mire, the spread of disease, the rampant transference of dangerous change. The Circle of the spread represents this darker side of nature, the infectious spread of their tainted gluttony and baser indulgences spreading like a viral infection to those they come into contact with. While not always, this circle usually represents a darker path, and is intended as a villainous character option.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Circle Spells|Druid|PHB|Spread|StorymakerExpanDnD|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Plaguebringer|Druid|PHB|Spread|StorymakerExpanDnD|2"
+                }
+            ]
+        },
+        {
+            "name": "Circle Spells",
+            "source": "StorymakerExpanDnD",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Spread",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 2,
+            "entries": [
+                "Your connection to the infectious spread of your dark taint grants you access to certain spells. At 2nd level you gain the Flabshock cantrip. At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of the Spread Spells table.",
+                "Once you gain access to one of these spells, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.",
+                {
+                    "type": "table",
+                    "colLabels": [
+                        "Druid level",
+                        "Spells"
+                    ],
+                    "rows": [
+                        [
+                            "3rd",
+                            "Emburden, Narce's Fatness Arrow"
+                        ],
+                        [
+                            "5th",
+                            "Noxious Wave, Overabundance"
+                        ],
+                        [
+                            "7th",
+                            "Blight, Nature's Bounty"
+                        ],
+                        [
+                            "9th",
+                            "Cloudkill, Slovenly Plague"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Plaguebringer",
+            "source": "StorymakerExpanDnD",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Spread",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 2,
+            "entries": [
+                "At 2nd level, your connection to nature allows you to spread disease through touch. When you gain this feature, you learn two diseases from the {@filter Circle of the Spread Diseases list|optionalfeatures|Feature Type=CotSD}. As an action, you can expend one of your uses of your wild-shape ability and make a melee spell attack to touch a creature to force them to make a Constitution Saving throw, contracting one of your known diseases on a failure. Each disease has its own duration and effect.",
+                "You learn an additional disease at 6th level, and again at 10 and 14th level, and each time you gain a level in this class you can exchange one of your diseases known for another whose prerequisites you meet."
+            ]
+        },
+        {
+            "name": "Viral Spread",
+            "source": "StorymakerExpanDnD",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Spread",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 6,
+            "entries": [
+                "At 6th level, you gain the ability to influence the spread of your diseases. As a bonus action, you can cause a creature affected by one of your diseases that you can see within 60 feet of you to spread that disease to another creature within 10 feet, forcing that creature to make a Constitution Saving Throw or contract one of the diseases the first creature has. Once you use this feature, you cannot do so again until you finish a short or long rest."
+            ]
+        },
+        {
+            "name": "Virophage",
+            "source": "StorymakerExpanDnD",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Spread",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 10,
+            "entries": [
+                "At 10th level, you can consume the diseases of others to bolster your strength. By touching a creature that is afflicted by a disease as an action, you remove the disease and gain one of the following benefits:",
+                {
+                    "type": "list",
+                    "entries": [
+                        "Regain one use of your Wild Shape.",
+                        "Gain Temporary Hit points equal to your Druid Level."
+                    ]
+                },
+                "Once you use this feature you cannot do so again until you finish a long rest."
+            ]
+        },
+        {
+            "name": "Patient Zero",
+            "source": "StorymakerExpanDnD",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Spread",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 14,
+            "entries": [
+                "At 14th level, you become an incubator for disease and malignancies. You are immune to poison and unaffected by diseases, but can still contract them. Any disease you are afflicted with does not apply any effects to you unless you allow it (whether one can allow only part of a disease to affect themselves or must take it all is up to the GM), but you can spread them to others. As an action, you can force a creature within 10 feet of you to make a Constitution Saving Throw against your Spell Save DC, contracting one of the diseases you currently have on a failure. The target can make another saving throw at the end of each of their turns. If they succeed on three of these saving throws, the disease ends. If they fail three of them, the disease lasts until removed, or until the instance of the disease that afflicts you ends or is removed."
+            ]
         }
     ],
     "optionalfeature": [
@@ -3813,6 +4021,328 @@
                 }
             ],
             "featureType": "Blood Curse"
+        },
+        {
+            "name": "Bloodblight",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 2,
+                        "class": {
+                            "name": "Druid"
+                        },
+                        "subclass": {
+                            "name": "Circle of the Spread",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "{@i Duration: 1 minute}",
+                "An afflicted creature suffers Necrotic damage at the start of each of its turns equal to your Druid Level. It may make a Constitution saving throw again at the end of each of its turns, ending the effect early on itself on a success."
+            ],
+            "featureType": "CotSD"
+        },
+        {
+            "name": "Fattening Fever",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 2,
+                        "class": {
+                            "name": "Druid"
+                        },
+                        "subclass": {
+                            "name": "Circle of the Spread",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "{@i Duration: 7 days}",
+                "An afflicted creature cannot gain exercise points, gains double the diet points from any food they eat, and gains 1d10 pounds of fat at the end of each long rest."
+            ],
+            "featureType": "CotSD"
+        },
+        {
+            "name": "Hungerplague",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 2,
+                        "class": {
+                            "name": "Druid"
+                        },
+                        "subclass": {
+                            "name": "Circle of the Spread",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "{@i Duration: 1 day}",
+                "An afflicted creature always feels as if their stomach is empty, no matter how full it actually is, and must make a Wisdom Saving Throw against your Spell Save DC any time they come within 5 feet of food or begin eating until all of it is gone."
+            ],
+            "featureType": "CotSD"
+        },
+        {
+            "name": "Zuggtmoy's Revenge",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 2,
+                        "class": {
+                            "name": "Druid"
+                        },
+                        "subclass": {
+                            "name": "Circle of the Spread",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "{@i Duration: 1 hour}",
+                "An afflicted creature can barely form sentences around their constant gaseous emissions. Attempts to form verbal components of spells requires a Concentration check with a DC equal to your Spell Save DC."
+            ],
+            "featureType": "CotSD"
+        },
+        {
+            "name": "Ragefire",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 2,
+                        "class": {
+                            "name": "Druid"
+                        },
+                        "subclass": {
+                            "name": "Circle of the Spread",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "{@i Duration: 1 minute}",
+                "An afflicted creature cannot tell friend from foe, attacking anything that seems remotely threatening in a blind rage. They can make a wisdom saving throw against your spell save DC at the start of each of their turns to ignore the effect for the turn."
+            ],
+            "featureType": "CotSD"
+        },
+        {
+            "name": "Ratsbane",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 2,
+                        "class": {
+                            "name": "Druid"
+                        },
+                        "subclass": {
+                            "name": "Circle of the Spread",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "{@i Duration: Until cured}",
+                "Until the disease is cured, the target can’t regain hit points except by magical means, and the target’s hit point maximum decreases by 3 (1d6) every 24 hours. If the target’s hit point maximum drops to 0 as a result of this disease, the target dies."
+            ],
+            "featureType": "CotSD"
+        },
+        {
+            "name": "Mule's Folley",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 6,
+                        "class": {
+                            "name": "Druid"
+                        },
+                        "subclass": {
+                            "name": "Circle of the Spread",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "{@i Duration: 7 days}",
+                "An afflicted creature's carrying capacity, bulk limit, and lift/drag limits are all halved for the duration, and they have disadvantage on Strength Checks and Strength Saving Throws."
+            ],
+            "featureType": "CotSD"
+        },
+        {
+            "name": "Gutshrink",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 6,
+                        "class": {
+                            "name": "Druid"
+                        },
+                        "subclass": {
+                            "name": "Circle of the Spread",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "{@i Duration: 1 day}",
+                "An afflicted creature's stomach capacity is reduced by half, and they can stuff themselves for only half the result of an overeating check."
+            ],
+            "featureType": "CotSD"
+        },
+        {
+            "name": "Nymph-touch",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 6,
+                        "class": {
+                            "name": "Druid"
+                        },
+                        "subclass": {
+                            "name": "Circle of the Spread",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "{@i Duration: 7 days}",
+                "An afflicted creature is driven wild with lust and must make a Charisma saving throw against your Spell Save DC each time it sees a new creature that shares a creature type with it or be charmed by it until it no longer sees that creature."
+            ],
+            "featureType": "CotSD"
+        },
+        {
+            "name": "Bloat-bulge",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 10,
+                        "class": {
+                            "name": "Druid"
+                        },
+                        "subclass": {
+                            "name": "Circle of the Spread",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "{@i Duration: 1 day}",
+                "An afflicted creature swells with so much internal gas that their body begins to float, hovering at least 5 feet off the ground at all times, and is only able to move by releasing some of the constant internal buildup, allowing them a fly speed of 10 feet per round, and giving them disadvantage on Dexterity checks and Dexterity Saving Throws."
+            ],
+            "featureType": "CotSD"
+        },
+        {
+            "name": "Toxicrete",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 10,
+                        "class": {
+                            "name": "Druid"
+                        },
+                        "subclass": {
+                            "name": "Circle of the Spread",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "{@i Duration: 7 days}",
+                "The affected creature and any creature within 5 feet of them that is not immune to poison or disease is poisoned."
+            ],
+            "featureType": "CotSD"
+        },
+        {
+            "name": "Musclebane",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 10,
+                        "class": {
+                            "name": "Druid"
+                        },
+                        "subclass": {
+                            "name": "Circle of the Spread",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "{@i Duration: 7 days}",
+                "An affected creature's muscles begin to swell and turn to lard. The creature has disadvantage on Attack rolls, and each day half of their current muscle mass is converted into body fat."
+            ],
+            "featureType": "CotSD"
+        },
+        {
+            "name": "Inevitable Immobility",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 14,
+                        "class": {
+                            "name": "Druid"
+                        },
+                        "subclass": {
+                            "name": "Circle of the Spread",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "{@i Duration: Until cured}",
+                "Every 24 hours, if a creature is less than half way to their next bulk limit, they gain enough fat to put them to the half-way point. If they are above half way to the next bulk limit, they gain enough fat to put them past it. If they are already immobile or have no bulk limit, they gain one fifth of their current weight."
+            ],
+            "featureType": "CotSD"
+        },
+        {
+            "name": "The Coming End",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 14,
+                        "class": {
+                            "name": "Druid"
+                        },
+                        "subclass": {
+                            "name": "Circle of the Spread",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "{@i Duration: 7 days}",
+                "The creature has vulnerability to all damage. It can make another Constitution saving throw at the end of each of its turns. If it succeeds on three of them, the disease ends. If it fails three of them, it suffers for the full duration unless removed."
+            ],
+            "featureType": "CotSD"
         }
     ],
     "subclass": [
@@ -4173,6 +4703,68 @@
                 {
                     "name": "Fat Surge",
                     "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Slovenly Plague",
+                    "source": "StorymakerExpanDnD"
+                }
+            ]
+        },
+        {
+            "name": "Circle of the Harvest",
+            "source": "StorymakerExpanDnD",
+            "page": 42,
+            "shortName": "Harvest",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Circle of the Harvest|Druid||Harvest|StorymakerExpanDnD|2",
+                "Plant Transmutation|Druid||Harvest|StorymakerExpanDnD|6",
+                "Food Wild Shape|Druid||Harvest|StorymakerExpanDnD|10",
+                "Harvest's Wrath|Druid||Harvest|StorymakerExpanDnD|14"
+            ]
+        },
+        {
+            "name": "Circle of the Spread",
+            "source": "StorymakerExpanDnD",
+            "page": 43,
+            "shortName": "Spread",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Circle of the Spread|Druid||Spread|StorymakerExpanDnD|2",
+                "Viral Spread|Druid||Spread|StorymakerExpanDnD|6",
+                "Virophage|Druid||Spread|StorymakerExpanDnD|10",
+                "Patient Zero|Druid||Spread|StorymakerExpanDnD|14"
+            ],
+            "subclassSpells": [
+                {
+                    "name": "Emburden",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Narce's Fatness Arrow",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Noxious Wave",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Overabundance",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Blight",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Nature's Bounty",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Cloudkill",
+                    "source": "PHB"
                 },
                 {
                     "name": "Slovenly Plague",
