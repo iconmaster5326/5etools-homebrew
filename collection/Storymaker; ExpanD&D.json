@@ -5376,6 +5376,100 @@
                 },
                 "Once you use this feature, you can’t use it again until you finish a long rest."
             ]
+        },
+        {
+            "name": "Salt and Ceremony",
+            "source": "StorymakerExpanDnD",
+            "className": "Pugilist",
+            "classSource": "SterlingVermin",
+            "subclassShortName": "Salt & Ceremony",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "While the art has evolved for combat, taking on both armor and a more aggressive stance, the Salt and Ceremony fight club originates in a more traditional and ceremonial form of wrestling combat. As such, practitioners of this fight club tend to have at least a faint sense of honor and tradition, though many have simply turned to the style as a method of throwing their weight around; quite literally, as the fight club focuses on forceful blows backed by the weight of fat and muscle that most practitioners build during training.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Ceremonial Salute|Pugilist|SterlingVermin|Salt & Ceremony|StorymakerExpanDnD|3"
+                }
+            ]
+        },
+        {
+            "name": "Ceremonial Salute",
+            "source": "StorymakerExpanDnD",
+            "className": "Pugilist",
+            "classSource": "SterlingVermin",
+            "subclassShortName": "Salt & Ceremony",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Starting when you choose this fight club at 3rd level, you gain proficiency in the Performance skill.",
+                "As a Bonus action, you can expend 1 moxie point make a shout, salute, or other gesture of respect to one target within 30 feet of you that can see and hear you. The target must make a Wisdom saving throw. On a failure, your attack rolls against that target gain advantage until the start of your next turn, and their attack rolls against you gain disadvantage until the start of your next turn, as your imposing presence shakes them to the core. Undead and Constructs are immune to this effect.",
+                "The Save DC for all Salt and Ceremony abilities is calculated as follows:",
+                {
+                    "type": "abilityDc",
+                    "name": "Salt and Ceremony",
+                    "attributes": [
+                        "wis"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Weight Advantage",
+            "source": "StorymakerExpanDnD",
+            "className": "Pugilist",
+            "classSource": "SterlingVermin",
+            "subclassShortName": "Salt & Ceremony",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 6,
+            "entries": [
+                "Starting at 6th level, you use the bulk that you have built during your training to your advantage. You are treated as one size larger than normal for the purposes of grappling, and creatures of a size smaller than this modified size have disadvantage on checks made to escape your grapples.",
+                {
+                    "type": "entries",
+                    "name": "Crushing Weight",
+                    "entries": [
+                        "As a bonus action, you can spend 1 moxie point to crush a creature you are grappling, dealing your Fisticuffs die + your Strength modifier in bludgeoning damage."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Strike Rebound",
+                    "entries": [
+                        "When a creature strikes you with a melee attack, you can use your reaction to spend 1 moxie point and force the target to make a Strength Saving throw. On a failure, they are pushed 10 feet away from you after the attack, and take Bludgeoning damage equal to your Constitution modifier."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Hold Ground",
+                    "entries": [
+                        "When an effect would attempt to forcibly move you, you can use your reaction to spend 1 moxie point to gain advantage on any rolls made to resist the effect."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Iron Stomach",
+            "source": "StorymakerExpanDnD",
+            "className": "Pugilist",
+            "classSource": "SterlingVermin",
+            "subclassShortName": "Salt & Ceremony",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 11,
+            "entries": [
+                "Starting at 11th level, you have hardened body and soul into a perfect machine. You have resistance to poison damage and advantage on saving throws against poison, you have advantage on Constitution(Eating) checks and your full capacity for eating is doubled, and the DC of your Salt and Ceremony abilities increases by 2."
+            ]
+        },
+        {
+            "name": "Ring Toss",
+            "source": "StorymakerExpanDnD",
+            "className": "Pugilist",
+            "classSource": "SterlingVermin",
+            "subclassShortName": "Salt & Ceremony",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 17,
+            "entries": [
+                "At 17th level, you can hurl even the heaviest of targets with your sheer strength and determination. When you make an attack against a creature you are grappling or who is grappling you, you can expend 3 moxie points to make it a Ring Toss. If the attack hits, the grapple ends as the creature is thrown a number of feet in a direction of your choice equal to the result of a roll of your Fisticuffs die plus your Strength modifier, is knocked prone, and must make a Constitution saving throw or be stunned until the end of their next turn."
+            ]
         }
     ],
     "optionalfeature": [
@@ -6462,7 +6556,7 @@
         {
             "name": "Oath of Plenty",
             "source": "StorymakerExpanDnD",
-            "page": 55,
+            "page": 56,
             "shortName": "Plenty",
             "className": "Paladin",
             "classSource": "PHB",
@@ -6513,6 +6607,20 @@
                     "name": "Fist of the Feeding Star",
                     "source": "StorymakerExpanDnD"
                 }
+            ]
+        },
+        {
+            "name": "Salt and Ceremony",
+            "source": "StorymakerExpanDnD",
+            "page": 57,
+            "shortName": "Salt & Ceremony",
+            "className": "Pugilist",
+            "classSource": "SterlingVermin",
+            "subclassFeatures": [
+                "Salt and Ceremony|Pugilist|SterlingVermin|Salt & Ceremony|StorymakerExpanDnD|3",
+                "Weight Advantage|Pugilist|SterlingVermin|Salt & Ceremony|StorymakerExpanDnD|6",
+                "Iron Stomach|Pugilist|SterlingVermin|Salt & Ceremony|StorymakerExpanDnD|11",
+                "Ring Toss|Pugilist|SterlingVermin|Salt & Ceremony|StorymakerExpanDnD|17"
             ]
         }
     ]
