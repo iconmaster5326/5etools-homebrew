@@ -2423,6 +2423,189 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Path of Crushing Flesh",
+            "source": "StorymakerExpanDnD",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Crushing Flesh",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Also known the path of the Blubbernaut by those who are less fearful of these massive barbarians than they should be, the path of Crushing Flesh is a path of barbarians who use their excessive weight to form a pillowy bulwark between the enemy and their allies, and to crush those who would stand against them beneath their titanic weight.",
+                "Some of the Path of Crushing Flesh abilities call for a saving throw. The saving throw DC for these abilities is:",
+                {
+                    "type": "abilityDc",
+                    "name": "Crushing Flesh",
+                    "attributes": [
+                        "con"
+                    ]
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Fleshy Bulwark|Barbarian||Crushing Flesh|StorymakerExpanDnD|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Flesh Boulder|Barbarian||Crushing Flesh|StorymakerExpanDnD|3"
+                }
+            ]
+        },
+        {
+            "name": "Fleshy Bulwark",
+            "source": "StorymakerExpanDnD",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Crushing Flesh",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "At 3rd level, when you take this path, your rage is augmented by a surge of supernatural flesh. While raging, your body swells outward with fat that, while visually impressive, does not actually affect your body weight. You are treated as being one size category larger than normal while raging. Your weapons and armor increase in size to match your new size."
+            ]
+        },
+        {
+            "name": "Flesh Boulder",
+            "source": "StorymakerExpanDnD",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Crushing Flesh",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Additionally at 3rd level, while raging you can charge across the battlefield and plow down creatures in your path. While raging, as an action, you can attempt to move up to your movement speed in a straight line through your enemies. Each enemy whose space you attempt to move through must make a Strength saving throw. On a failure, they are knocked prone and take bludgeoning damage equal to your Rage Damage. Hostile creatures’ space counts as difficult terrain when you use this feature. If this movement would end in a hostile creature’s space and that creature failed its save against this feature, it is moved to the nearest unoccupied space. If it succeeded, it can choose whether to move to the nearest unoccupied space or force you to move to the nearest unoccupied space.",
+                "After you use this feature, you can’t use it again until you finish a short or long rest."
+            ]
+        },
+        {
+            "name": "Flesh Juggernaut",
+            "source": "StorymakerExpanDnD",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Crushing Flesh",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 6,
+            "entries": [
+                "At 6th level, your unstoppable momentum makes you difficult to slow when you are on the warpath. While raging, you cannot be restrained or have your movement reduced by nonmagical means, including difficult terrain or hindrances of your own bulk."
+            ]
+        },
+        {
+            "name": "Earth Shatter",
+            "source": "StorymakerExpanDnD",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Crushing Flesh",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 10,
+            "entries": [
+                "At 10th level, you have gained the ability to concentrate your weight into one point powerfully enough to shake the earth. As an action while raging, or as a bonus action if used immediately after using Flesh Boulder, you can choose to fall prone and force all creatures of your choice within 10 feet of you to make a Strength saving throw or fall prone, taking bludgeoning damage equal to your Rage Damage.",
+                "Creatures that are already prone must also make a Constitution saving throw or have their movement speed reduced to 0 until the end of your next turn.",
+                "After you use this feature, you can’t use it again until you finish a short or long rest."
+            ]
+        },
+        {
+            "name": "Fatty Titan",
+            "source": "StorymakerExpanDnD",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Crushing Flesh",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 14,
+            "entries": [
+                "At 14th level, you are an unstoppable force of weight, and all of your abilities are improved. You gain all of the following changes to your other primal path abilities:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Your weapon attacks deal an additional 1d4 damage while your size is increased by Fleshy Bulwark.",
+                        "Creatures who fail a save against Flesh Boulder take an additional amount of damage equal to your Strength modifier.",
+                        "Flesh Juggernaut negates any and all effects of being over your bulk limit.",
+                        "Earth Shatter has its range increased to 30 feet."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Path of the Predator",
+            "source": "StorymakerExpanDnD",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Predator",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Barbarians of the path of the predator nurture a voracious hunger that drives them to incredible feats of gluttony. They have built their muscles, stomachs, and predatory senses all for the purpose of devouring whole enemies roughly their own size.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Feral Jaws|Barbarian||Predator|StorymakerExpanDnD|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Swallow Whole|Barbarian||Predator|StorymakerExpanDnD|3"
+                }
+            ]
+        },
+        {
+            "name": "Feral Jaws",
+            "source": "StorymakerExpanDnD",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Predator",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "When you choose this path at 3rd level, your maw becomes a natural weapon which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.",
+                "Additionally, you can use a bonus action to make a bite attack against any creature you are grappling."
+            ]
+        },
+        {
+            "name": "Swallow Whole",
+            "source": "StorymakerExpanDnD",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Predator",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Also at 3rd level, when you deal damage to a creature with your bite attack while raging, if their current number of Hit Points is less than or equal to than 10 + two times your Barbarian level, you can use your reaction to swallow them whole.",
+                "A creature you swallow in this way begins suffocating and is blinded, restrained, and incapacitated while in your stomach, and the creature contributes 1/10th of its weight for the purpose of determining your fullness. If you fall to 0 hit points while you have a creature in your stomach, it is neither restrained nor incapacitated and can exit your body using 5 feet of movement, ending the blindness. If a creature falls to 0 hit points in your stomach, they turn into into an amount of Fatty food equal to 1/10th their total weight. Any edible items are immediately consumed with the creature, and activate their effects on you. Any inedible items are coughed up on your next long or short rest."
+            ]
+        },
+        {
+            "name": "Indomitable Bulk",
+            "source": "StorymakerExpanDnD",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Predator",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 6,
+            "entries": [
+                "At 6th level, your sheer power allows you to move even when others would be completely immobilized. Your Eating Capacity, Bulk Capacity and Carrying Capacity are doubled, and you never lose movement speed from being Encumbered or Impeded by your Bulk."
+            ]
+        },
+        {
+            "name": "Ravenous Constitution",
+            "source": "StorymakerExpanDnD",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Predator",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 10,
+            "entries": [
+                "At 10th level while raging you have advantage on Constitution checks and saves, and digest pounds of food equal to your Constitution modifier at the beginning of each of your turns."
+            ]
+        },
+        {
+            "name": "Gluttonous Frenzy",
+            "source": "StorymakerExpanDnD",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Predator",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 14,
+            "entries": [
+                "Starting 14th level, while raging you now gain Hit Points equal to the pounds of food you digest from your Ravenous Constitution feature, and you do not need to use a reaction when you use Swallow Whole.",
+                "When you swallow an enemy, any hostile creature within 30 feet of you must make a Wisdom save versus a save DC of 8 + your Strength modifier + your Proficiency bonus. On a failure they become frightened for 1 minute. A frightened target can repeat this saving throw at the end of each of its turns, ending the frightened condition on itself on a success. If a target’s saving throw is successful, or the effect ends for it, the target is immune to this feature for the next 24 hours."
+            ]
         }
     ],
     "subclass": [
@@ -2479,6 +2662,34 @@
                     "name": "Rampant Vitality",
                     "source": "StorymakerExpanDnD"
                 }
+            ]
+        },
+        {
+            "name": "Path of Crushing Flesh",
+            "source": "StorymakerExpanDnD",
+            "page": 27,
+            "shortName": "Crushing Flesh",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Path of Crushing Flesh|Barbarian||Crushing Flesh|StorymakerExpanDnD|3",
+                "Flesh Juggernaut|Barbarian||Crushing Flesh|StorymakerExpanDnD|6",
+                "Earth Shatter|Barbarian||Crushing Flesh|StorymakerExpanDnD|10",
+                "Fatty Titan|Barbarian||Crushing Flesh|StorymakerExpanDnD|14"
+            ]
+        },
+        {
+            "name": "Path of the Predator",
+            "source": "StorymakerExpanDnD",
+            "page": 28,
+            "shortName": "Predator",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Path of the Predator|Barbarian||Predator|StorymakerExpanDnD|3",
+                "Indomitable Bulk|Barbarian||Predator|StorymakerExpanDnD|6",
+                "Ravenous Constitution|Barbarian||Predator|StorymakerExpanDnD|10",
+                "Gluttonous Frenzy|Barbarian||Predator|StorymakerExpanDnD|14"
             ]
         }
     ]
