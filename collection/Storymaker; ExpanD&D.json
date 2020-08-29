@@ -4447,6 +4447,281 @@
                 "At 15th level, your gluttonous influence twists your host and those nearby into superhuman feats of voracity. You have complete control over the metabolism of your host and any creatures affected by your Ravenous Plague feature. You choose whether any food they consume enters their stomach, or is immediately converted into a number of pounds of fat equal to twice the number of pounds of food consumed. Additionally, whenever you use your Action or Bonus action to force a creature to take the Eating action, they can eat twice the amount of food they normally could when they take that action.",
                 "Beyond this, whenever your host or a creature affected by your Ravenous Plague feature is targeted by an attack, spell or ability that would force them to eat food, you can use your reaction to attempt to force them to eat it. If they are unaware of your possession, such as by the Unseen Passenger feature, the attack roll automatically succeeds or they automatically fail the ability check or saving throw, and can then make a Wisdom (Insight) check against your Lingering Soul DC, becoming aware of the possession on a success. Otherwise, the attack roll against them gains advantage, or they gain disadvantage on the ability check or saving throw."
             ]
+        },
+        {
+            "name": "Way of the Full Circle",
+            "source": "StorymakerExpanDnD",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Full Circle",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "The Way of the Full Circle incorporates ancient techniques and strategies originally meant for sport, but have since found new purpose in more martial pursuits. Monks of the Way of the Full Circle are often just as round as the ring their forebears competed in, and know how to use their weight to their advantage, especially when grappling and defending. They have also inherited the specialized techniques to cultivate and maintain the prodigious figures that best suit their path.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Grappling Style|Monk||Full Circle|StorymakerExpanDnD|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Full Circle Technique|Monk||Full Circle|StorymakerExpanDnD|3"
+                }
+            ]
+        },
+        {
+            "name": "Grappling Style",
+            "source": "StorymakerExpanDnD",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Full Circle",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "At 3rd level your training and diet has honed your body for your Path. You gain Proficiency in the Strength (Athletics) and Constitution (Eating) skills if you don’t have them already. When you attempt to grapple or shove a creature, you add a bonus to the Strength(Athletics) check to do so equal to half your Wisdom modifier, rounded down (minimum 1). If you are Burdened or greater by your bulk or Clumsy or greater by your Flex, you instead add your full Wisdom modifier (minimum 1) as a bonus to the check.",
+                "Additionally, if you are Burdened or greater by your bulk or Clumsy or greater from your Flex, enemies one size larger than you do not automatically succeed on attempts to break your grapples."
+            ]
+        },
+        {
+            "name": "Full Circle Technique",
+            "source": "StorymakerExpanDnD",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Full Circle",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Also at 3rd level, you learn the ritual styles and maneuvers of your Path. When you use your Flurry of Blows, you may replace one of the unarmed strikes from that feature with a grapple or shove attempt. You also learn the following ki features, which can be used in place of a grapple or shove attempt:",
+                {
+                    "type": "entries",
+                    "name": "Demon Crushing Hold (1 Ki point)",
+                    "entries": [
+                        "Make a Strength (Athletics) check, contested by your opponent’s Strength (Athletics) or Dexterity (Acrobatics), as if grappling, against a creature currently grappled by you. If you succeed, your target is restrained while they are grappled by you, and you may move freely through your target’s space. At the start of each of your target’s turns while they are grappled by you, they take bludgeoning damage equal to your Wisdom modifier (minimum of 1)."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Dragon’s Breath Throw (1 Ki point)",
+                    "entries": [
+                        "You throw a creature grappled by you 5 feet horizontally, in any direction, ending the grapple. This increases to 10 feet if you are Burdened or Clumsy, 15 feet if you are Impeded or Lumbering, and 20 feet if you are Immobilized or Musclebound. Your target must make a Strength saving throw against your Ki save DC. They have disadvantage on this save if they cannot move the full throw distance due to an obstacle or another creature. On a failure they fall prone and take bludgeoning damage equal to your martial arts die. If your target would be pushed into another creature’s space, that creature must also make the save for this maneuver.",
+                        "If the impacted creature is one or more sizes smaller than the thrown one, it makes the save with disadvantage, and it does not stop the movement of the thrown creature, moving into available nearby spaces if necessary. On a failure, it takes bludgeoning damage equal to your martial arts die and is knocked prone."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Warrior’s Catch",
+            "source": "StorymakerExpanDnD",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Full Circle",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 6,
+            "entries": [
+                "Starting at 6th level, you can deflect or even catch melee attacks. When you are hit by a melee weapon attack, you can spend 1 Ki point to use your reaction to reduce the damage by 1d10 + your Dexterity modifier + your Monk level. If you reduce the damage to 0, and you would be able to make a grapple attempt against the creature that triggered this effect, you may automatically apply the grappled condition to that creature. Attack rolls with the weapon or attack that triggered this feature have disadvantage until the grapple ends."
+            ]
+        },
+        {
+            "name": "Mountain Stance",
+            "source": "StorymakerExpanDnD",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Full Circle",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 11,
+            "entries": [
+                "At 11th level you are as durable and immovable as a mountain. While you are grappling a hostile creature, you gain resistance to bludgeoning, piercing and slashing damage. If you are Burdened or greater by your bulk or Clumsy or greater by your flex, you cannot be moved while you are grappling a hostile creature.",
+                "Additionally, if you begin your turn grappling a hostile creature, you gain temporary Hit Points equal to your Wisdom modifier."
+            ]
+        },
+        {
+            "name": "Spirited Embrace",
+            "source": "StorymakerExpanDnD",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Full Circle",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 17,
+            "entries": [
+                "At 17th level, once per turn, you may spend 2 Ki points to make your next grapple or shove attempt deal damage equal to martial arts die + your Wisdom modifier. If you are Burdened or greater by your bulk or Clumsy or greater by your flex, you instead deal damage equal to two of your martial arts dice + your Wisdom modifier. The damage from this feature is in addition to any damage dealt by the maneuver.",
+                "Additionally, you can now grapple creatures up to 2 sizes larger than yourself, and they do not automatically succeed when they attempt to break your grapple."
+            ]
+        },
+        {
+            "name": "Way of the Sated Fist",
+            "source": "StorymakerExpanDnD",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Sated Fist",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Monks of the way of the sated fist place the idea of satisfaction and fullness as one of the highest states of being a mortal can achieve. To this end, they often glut themselves on whatever food and drink they can get their hands on, growing wide and heavy, often with a mixture of fat and muscle, as a result. They devised this martial style to help combat the inhibiting nature of such a figure.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Hungering Fists|Monk||Sated Fist|StorymakerExpanDnD|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Fullness of Body|Monk||Sated Fist|StorymakerExpanDnD|3"
+                }
+            ]
+        },
+        {
+            "name": "Hungering Fists",
+            "source": "StorymakerExpanDnD",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Sated Fist",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Beginning when you choose this path at 3rd level, you can draw energy from your opponent to fuel your weight and vitality. Whenever you critically hit an opponent with an unarmed strike, you regain a number of Hit Points equal to your Martial Arts die + your Wisdom modifier, and gain an equal number of pounds of fat on your body. Your target loses an equal amount of weight."
+            ]
+        },
+        {
+            "name": "Fullness of Body",
+            "source": "StorymakerExpanDnD",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Sated Fist",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Also at 3rd level, you can use your Ki to enhance the growth of your body. By spending 1 Ki point as an action you can instantly convert any food in your stomach into fat, adding the combined weight of all food in your stomach to your body weight and rendering your stomach empty.",
+                "In addition, you may add your Wisdom score to your Strength and Constitution scores for determining your Bulk Threshold."
+            ]
+        },
+        {
+            "name": "Iron Flesh",
+            "source": "StorymakerExpanDnD",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Sated Fist",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 6,
+            "entries": [
+                "At 6th level, as a reaction to taking damage, you may spend 2 Ki to gain resistance to all damage, including the triggering attack, until the beginning of your next turn. After using this ability, you must complete a long rest before you can use it again.",
+                "Additionally, you may ignore penalties to your movement speed from being Burdened or Impeded. If you are Immobile, you may make attacks without disadvantage from being Restrained by your own body."
+            ]
+        },
+        {
+            "name": "Sated Fists",
+            "source": "StorymakerExpanDnD",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Sated Fist",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 11,
+            "entries": [
+                "At 11th level, whenever you use your martial arts die to deal damage to a hostile creature, you gain bonus damage to that attack based on your current bulk. The bonus damage increases with your bulk: +2 if you are Burdened, +4 if you are Impeded or +6 if you are Immobilized."
+            ]
+        },
+        {
+            "name": "Mind over Body",
+            "source": "StorymakerExpanDnD",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Sated Fist",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 17,
+            "entries": [
+                "At 17th level, you can spend 4 Ki points as an action to gain the effects of the spell Freedom of Movement on yourself for 1 hour."
+            ]
+        },
+        {
+            "name": "Way of the Myo-Oni",
+            "source": "StorymakerExpanDnD",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Myo-Oni",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Some care not for elegance or grace in the monastic arts. Some hone their bodies not for speed, but for power. Some would see their enemies crushed beneath them and stand tall as an unbreakable bastion of iron flesh and dominant strength. Those monks who favor the direct approach may take up the Way of the Myo-Oni, a stance that emphasizes strength and raw power and durability over the dexterity and elegance of more traditional monastic arts.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Stance of the Demon|Monk||Myo-Oni|StorymakerExpanDnD|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Oni's Physique|Monk||Myo-Oni|StorymakerExpanDnD|3"
+                }
+            ]
+        },
+        {
+            "name": "Stance of the Demon",
+            "source": "StorymakerExpanDnD",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Myo-Oni",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Beginning when you choose this tradition at 3rd level, you learn to become a bastion of durability, taking blows with the sheer hardness of your body instead of evading them. You may use your Constitution score instead of your Dexterity score when determining your AC with your Unarmored Defense Monk ability.",
+                "Additionally, when you are hit with a melee attack, you can use your Reaction to harden yourself to the damage. When you do so, the damage you take from the Attack is reduced by 1d10 + your Constitution modifier + your monk level. You may use this ability a number of times equal to your Constitution modifier (Minimum 1.) You regain all expended uses upon finishing a short or long rest."
+            ]
+        },
+        {
+            "name": "Oni's Physique",
+            "source": "StorymakerExpanDnD",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Myo-Oni",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Also at 3rd level, you may add your Wisdom modifier in addition to all other calculations when determining Flex Limit, Bulk Limit, Carrying Capacity, Push, drag, and lift Limit, and amount of Muscle Mass to gain when gaining weight.",
+                "You can also generate a number of exercise points at the end of each long rest up to your Wisdom modifier (minimum 1)."
+            ]
+        },
+        {
+            "name": "Bone Breaking Strength",
+            "source": "StorymakerExpanDnD",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Myo-Oni",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 6,
+            "entries": [
+                "At 6th level, your overwhelming strength is leveled to crush your foes. Whenever you successfully grapple or force-feed a creature, you may deal damage to the creature equal to your Martial Arts damage die plus your Strength modifier.",
+                "Additionally, while you are grappling a creature, you can choose to make additional grapple attempts to deal damage rather than making attacks."
+            ]
+        },
+        {
+            "name": "Crushing Counter",
+            "source": "StorymakerExpanDnD",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Myo-Oni",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 11,
+            "entries": [
+                "At 11th level, you punish those who dare to attack you in melee. Whenever you are struck by a melee attack and not knocked unconscious, you may immediately spend 1 ki point to make a single melee attack against the creature that struck you, adding your Proficiency bonus to the damage roll of a successful hit. You may not use any other monk abilities, such as Stunning Strike, to affect this attack. You may use this ability a number of times per round equal to your Wisdom Modifier (minimum 1)."
+            ]
+        },
+        {
+            "name": "Oni's Appetite",
+            "source": "StorymakerExpanDnD",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Myo-Oni",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 11,
+            "entries": [
+                "At 11th level, you are considered one size larger than normal when determining stomach capacity and how much food you can eat in a single eating check."
+            ]
+        },
+        {
+            "name": "Demon's Rampage",
+            "source": "StorymakerExpanDnD",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Myo-Oni",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 17,
+            "entries": [
+                "At 17th level, you may unleash your brutal wrath on those around you by channeling your rage to become a tempest of destruction. As an action, you may spend 3 ki points to make a single unarmed attack against each enemy within 20 feet of you. Each attack that successfully hits is a critical hit that also adds your Proficiency bonus to the damage roll."
+            ]
         }
     ],
     "optionalfeature": [
@@ -5317,6 +5592,49 @@
                 "Spectral Teeth|Lingering Soul|Lingering Soul|Hungry Shade|StorymakerExpanDnD|6",
                 "Ravenous Plague|Lingering Soul|Lingering Soul|Hungry Shade|StorymakerExpanDnD|11",
                 "Ascendant Gluttony|Lingering Soul|Lingering Soul|Hungry Shade|StorymakerExpanDnD|15"
+            ]
+        },
+        {
+            "name": "Way of the Full Circle",
+            "source": "StorymakerExpanDnD",
+            "page": 49,
+            "shortName": "Full Circle",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Way of the Full Circle|Monk||Full Circle|StorymakerExpanDnD|3",
+                "Warrior’s Catch|Monk||Full Circle|StorymakerExpanDnD|6",
+                "Mountain Stance|Monk||Full Circle|StorymakerExpanDnD|11",
+                "Spirited Embrace|Monk||Full Circle|StorymakerExpanDnD|17"
+            ]
+        },
+        {
+            "name": "Way of the Sated Fist",
+            "source": "StorymakerExpanDnD",
+            "page": 50,
+            "shortName": "Sated Fist",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Way of the Sated Fist|Monk||Sated Fist|StorymakerExpanDnD|3",
+                "Iron Flesh|Monk||Sated Fist|StorymakerExpanDnD|6",
+                "Sated Fists|Monk||Sated Fist|StorymakerExpanDnD|11",
+                "Mind over Body|Monk||Sated Fist|StorymakerExpanDnD|17"
+            ]
+        },
+        {
+            "name": "Way of the Myo-Oni",
+            "source": "StorymakerExpanDnD",
+            "page": 51,
+            "shortName": "Myo-Oni",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Way of the Myo-Oni|Monk||Myo-Oni|StorymakerExpanDnD|3",
+                "Bone Breaking Strength|Monk||Myo-Oni|StorymakerExpanDnD|6",
+                "Crushing Counter|Monk||Myo-Oni|StorymakerExpanDnD|11",
+                "Oni's Appetite|Monk||Myo-Oni|StorymakerExpanDnD|11",
+                "Demon's Rampage|Monk||Myo-Oni|StorymakerExpanDnD|17"
             ]
         }
     ]
