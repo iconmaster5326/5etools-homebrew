@@ -1,0 +1,2485 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "StorymakerExpanDnD",
+                "abbreviation": "ExDnD",
+                "full": "ExpanD&D",
+                "version": "1.0.0",
+                "url": "https://www.gmbinder.com/share/-Lfv0g4Ne6syYWaLHkbx",
+                "authors": [
+                    "storymaker"
+                ],
+                "convertedBy": [
+                    "iconmaster"
+                ]
+            }
+        ],
+        "skill": {
+            "Eating": "The Constitution (Eating) skill can be used to stomach bad tasting, dangerous, or otherwise difficult to eat food and drink, as well as potentially identify unknown consumable substances by taste, though that might rely on a different ability score than Constitution."
+        }
+    },
+    "variantrule": [
+        {
+            "name": "Bulk and Bulk Thresholds",
+            "source": "StorymakerExpanDnD",
+            "page": 5,
+            "type": "entries",
+            "entries": [
+                "Bulk is a mechanic designed to simulate the effect of a creature's increased weight becoming a hindrance to their mobility and flexibility, whether it be from muscle, fat, food stuffing, or liquid bloat. When a character's personal weight surpasses their bulk threshold, they begin to experience negative effects.",
+                {
+                    "type": "entries",
+                    "name": "Bulk Threshold",
+                    "entries": [
+                        "A character's bulk threshold is calculated similarly to their Carrying capacity, or more specifically, their Push, lift, and drag capacity. Multiply the sum of the character's Strength and Constitution scores by 15 to determine their Bulk limit. This is the maximum weight a character's body can reach before their sheer size begins to impede them. Higher Bulk penalties include the penalties from the lower levels as well.",
+                        {
+                            "type": "entries",
+                            "name": "Burdened",
+                            "entries": [
+                                "If a character has exceeded their Bulk limit, they are considered Burdened. The character has disadvantage on checks made to resist gaining levels of Exhaustion."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Impeded",
+                            "entries": [
+                                "If a character has reached a weight of 1.5 times their Bulk limit, they are considered impeded. Their natural movement speed is cut in half and they have disadvantage on Athletics and Acrobatics checks, and on Dexterity Saving Throws. The speed reduction does not affect magical movement speeds, such as that granted by the fly spell."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Immobilized",
+                            "entries": [
+                                "If a character has reached a weight of 2 times their Bulk limit, they are considered immobilized. The character is considered Restrained by their own body."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Size and Mobility",
+                            "entries": [
+                                "Similarly to carrying capacity, a creature's size affects their Bulk limit. Larger creatures can weigh more without being impeded, while Tiny ones can weigh less before they reach their limit. For each size category above Medium, multiply the creature's bulk limit by 4. For each size category below small, divide the creature's bulk limit by 2."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Powerful Build",
+                            "entries": [
+                                "The Powerful Build racial feature, and feats and abilities such as brawny that cause a character to be considered 'a size larger' for the purposes of carrying capacity increase the creature's bulk limit by half."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "OPTION: Gritty Realism",
+                            "entries": [
+                                "For a more realistic approach to weight hindrance, instead of adding STR and CON to determine Bulk limit, take the average of the two stats and multiply by 25 instead of 15."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Clothing and Equipment Tearing",
+            "source": "StorymakerExpanDnD",
+            "page": 5,
+            "ruleType": "O",
+            "type": "entries",
+            "entries": [
+                "Often times, someone increasing drastically in weight will suffer some problems maintaining their wardrobe. This can be problematic when someone suddenly and drastically increases in weight in the middle of a fight and finds that their armor suddenly no longer functions as such. While magical armor grows or shrinks to fit the wearer no matter the size, Non-magical armor is sized to the individual it is intended for at time of purchase typically, and has a limited elasticity.",
+                {
+                    "type": "entries",
+                    "name": "Clothing",
+                    "entries": [
+                        "Clothing is often the most flexible of outfits, as it does not need the rigidity of armor. While it may become more and more revealing, it will typically at least retain structural integrity with up to 200 pounds of excess weight."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Light Armor",
+                    "entries": [
+                        "The stretchiest of the armor classes, can withstand strain of someone up to 150 pounds heavier than the person it was measured for before bursting."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Medium Armor",
+                    "entries": [
+                        "While it offers more protection than Light Armor, Medium Armor is less flexible, and can only take up to 100 pounds of excess weight before tearing."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Heavy Armor",
+                    "entries": [
+                        "Heavy armor is the most durable and defensive armor available, but also the least stretchy. Heavy Armor can only take 50 pounds of extra weight before splitting at the seams."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Resizing and Elasticity",
+                    "entries": [
+                        "The rules for having equipment refitted are on Page 144 of the Player's Handbook, but the character may also wish to have some additional elasticity added to the armor.",
+                        {
+                            "type": "entries",
+                            "name": "Elasticity",
+                            "entries": [
+                                "Making a suit of armor more elastic can cost anywhere between 10 and 40% of the armor's price, similar to resizing. Once a suit of Armor or Clothing has been given Improved Elasticity, it can handle double the amount of extra weight before becoming unwearable as a normal suit of armor of its type."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Emaciation",
+            "source": "StorymakerExpanDnD",
+            "page": 5,
+            "ruleType": "O",
+            "type": "entries",
+            "entries": [
+                "In a setting where a character's weight is regularly tampered with, becoming too large is not the only issue. Emaciation is an optional mechanic to deal with the situation of a character losing an inordinate amount of weight.",
+                {
+                    "type": "entries",
+                    "name": "Emaciation Threshold",
+                    "entries": [
+                        "A character's Emaciation threshold is the base weight of their race, as seen in the Player's Handbook on page 121. As a character drops below their minimum weight, they can experience a number of problems as listed below. The higher levels of Emaciation penalty include the penalties from the lower levels as well.",
+                        {
+                            "type": "entries",
+                            "name": "Malnourished",
+                            "entries": [
+                                "If a character is below their Emaciation Threshold, they are considered Malnourished. The character has disadvantage on checks made to resist gaining levels of Exhaustion."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Scrawny",
+                            "entries": [
+                                "If a character is below three quarters of their Emaciation Treshold, they are considered Scrawny. They have disadvantage on Strength and Constituion checks and saving throws."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Emaciated",
+                            "entries": [
+                                "If a character is below one half of their Emaciation Threshold, they are considered Emaciated. Their maximum Hit Points are reduced by half. A character's weight cannot drop below this point without loss of vital body mass, as most of what remains is bone and organ tissue."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Gaining and Losing Weight Naturally",
+            "source": "StorymakerExpanDnD",
+            "page": 6,
+            "type": "entries",
+            "entries": [
+                "Included later in this document are a number of subclasses, spells, and magic items that can supernaturally or magically alter a character's weight, but these are all special abilities that not every character will have access to. The oldest and most typical method of gaining weight is simple gustatory excess. Included below are optional rules governing the natural process of an adventurer putting on and taking off weight. These rules are optional, and those who would rather not do the extra bookkeeping they impose are welcome to determine their own narratively appropriate method of determining natural weight gain or loss.",
+                {
+                    "type": "entries",
+                    "name": "Diet and Exercise",
+                    "entries": [
+                        "In this simplified system, the two things that matter most in determining if a character loses or gains weight are Diet, the quality and quantity of the food the character intakes, and Exercise, the level of activity with which the character burns that intake. According to the Player's Handbook page 150, 1 day's worth of rations weighs roughly 2 lb., and Page 185 states that any character needs one pound per day to stave off starvation, implying that on an average day of adventuring, an Adventurer will maintain their body weight fairly evenly on 2 lb. of average-quality food."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Diet Points",
+                    "entries": [
+                        "Diet Points are a numeric measure of the 'weight' of food in a character's system: How much energy and fat they contain to contribute toward an Adventurer's day. For simplicity, we will divide food into three categories.",
+                        {
+                            "type": "entries",
+                            "name": "Slimming",
+                            "entries": [
+                                "This food is either of low quality or simply does not provide much energy or fat content. Slimming food counts for half the Diet points that Average food does."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Average",
+                            "entries": [
+                                "Most standard fare; breads, lean meats, etc. are Average. They provide 1 diet point per 1 lb. of food consumed."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Fatty",
+                            "entries": [
+                                "Dessert foods, highly fatty meats, cheeses, and other decadent food is considered Fatty, and provides double the Diet points that Average food does."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Exercise",
+                    "entries": [
+                        "Exercise is a determination of activities that burn through diet points, expending the energy they provide throughout the day. The below list of activities that burn diet points is not necessarily all-inclusive, and the DM may rule that a particular activity was vigorous enough to burn a diet point if they wish.",
+                        {
+                            "type": "entries",
+                            "name": "Battle",
+                            "entries": [
+                                "A single battle typically burns 1 diet point. Especially quick and easy battles might burn less, especially long and taxing ones might burn more."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "March",
+                            "entries": [
+                                "Four hours of marching on a road typically burns 1 diet point. Marching through difficult terrain burns diet points at double the rate."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Workout",
+                            "entries": [
+                                "One hour of vigorous, straining workout burns 1 diet point."
+                            ]
+                        },
+                        "This system assumes that an average day of adventuring usually includes a good amount of horseback or carriage riding, which is not as strenuous, with a few hours of walking or marching and usually one average fight in a day, meaning it would burn around 2 diet points on average, worth 2 lb. of Average food. Conversely, a slow day of mostly walking around might only burn 1 Diet Point, meaning they only require 1 pound of Average food to maintain their weight."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Daily Upkeep",
+                    "entries": [
+                        "A creature needs food just to survive. You burn 1 diet point at the beginning of each day as your body demands energy to sustain itself."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Weight Gain and Loss",
+                    "entries": [
+                        "When the body sets down to rest is when it goes about repairing itself and distributing any spare energy left over, so in this system, the day's points are tallied up when the party takes a Long Rest. The pool that keeps track of the character's Diet and Exercise points over the day will from this point forward be referred to as the character's 'Metabolism'. If the Diet Points added via food in the character's metabolism and subtracted via Exercise in their metabolism total up 0, then they maintain roughly the same weight they had previously. If the total Diet Points remaining is more than 0, the character gains 1 lb. of fat per leftover Diet Point. Conversely, if the character has burned more points via Exercise than they have taken in via food and their Metabolism's total is less than 0, they lose 1 lb. per Diet Point they are missing."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Size Categories and Exercise",
+                    "entries": [
+                        "Divide the number of diet points a creature burns through exercise by 2 for each size category it is below Small, or multiply the number by 4 for each size category it is above Medium. It takes less effort to maintain a tiny size and more to maintain extreme proportions. Your average size over the course of the day determines the number of diet points you burn passively through daily upkeep."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Inorganic Creatures and Weight",
+                    "entries": [
+                        "Talk with your GM on the stance of whether or not inorganic creatrures can be affected by spells and abilities that increase or decrease weight."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Gluttony and Gorging",
+            "source": "StorymakerExpanDnD",
+            "page": 7,
+            "type": "entries",
+            "entries": [
+                "This page details rules for eating, overeating, and digestion.",
+                {
+                    "type": "entries",
+                    "name": "Eating your fill",
+                    "entries": [
+                        "There is a certain amount that a character can always eat without pushing the limits of their stomach. A character can passively eat a number of pounds of food in one meal equal to 2 + their Constitution saving throw modifier (minimum 2). One cup of drink is worth half of a pound of food in this regard. If a character is proficient in the {@skill Eating} skill, they may use their {@skill Eating} modifier or their Constitution saving throw modifier (whichever is higher) to determine their fullness limit."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "The Eating Skill",
+                    "entries": [
+                        "All characters have the Constitution ({@skill Eating}) skill added to their list of possible skill proficiencies, and it is added to every class's list of possible starting skills. The {@skill Eating} skill can be used to stomach bad tasting, dangerous, or otherwise difficult to eat food and drink, as well as potentially identify unknown consumable substances by taste, though that might rely on a different ability score than Constitution."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Stuffing yourself",
+                    "entries": [
+                        "When a character is driven, by sexual arousal, magical persuasion, or competitive spirit, to eat beyond the point of fullness, they can make a Constitution ({@skill Eating}) check. The number of additional pounds of food the character can eat past the point of fullness is equal to the resulting check minus 15 (minimum 0). If the result is 0, the character cannot eat or drink another bite."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Overindulging",
+                    "entries": [
+                        "If a character is forced to eat or drink more than their fullness capacity and Stuffing check will allow, they take 1d4 points of Bludgeoning damage for each pound of food they consume past their stuffing limit. Any creature rendered unconscious by this damage is stable and not subject to death saving throws unless attacked, as normal for a stabilized creature."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Digestion",
+                    "entries": [
+                        "A character frees up a number of pounds of food from their stomach each hour equal to their Constitution modifier (minimum 1.)"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Size Categories and Stomach Capacity",
+                    "entries": [
+                        "After determining a creature's stomach capacity, divide the creature's stomach capacity in half for each size category the creature is below small, and multiply by 4 for each size category above medium. The same is true for stuffing yourself."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Size Categories and Digestion",
+                    "entries": [
+                        "After determining a creature's digestion rate, divide the creature's digestion rate in half for each size category the creature is below small, and multiply by 4 for each size category above medium."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "The Eating Action",
+                    "entries": [
+                        "Eating in combat is done via the Eating Action, which can be done as either an Action or Bonus Action, and which allows the character in question to consume a number of pounds of food within their reach equal to half their {@skill Eating} Skill modifier (minimum 1). Do note that unique food items, such as magical food items, typically require one to use the Use an Object action rather than the Eating action, unless otherwise specified. The amount of food a creature can consume with the Eating action follows the same rules regarding size capacity increases and decreases as stomach capacity. Also, certain spells, abilities, or effects will dictate how much someone eats in a given round regardless, in which case refer to those features rather than the eating action. This calculation is only for how much food a creature can eat when it takes the eating action on its turn."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Optional Rule: Effects of Size",
+                    "entries": [
+                        "As written, the mechanical differences between Medium and Small creatures in ExpanD&D range from inconsistent to insignificant. If you want Small characters to feel a bit more distinct, use this simple rule: Anywhere a rule says, “for each size below Small,” replace that phrase with, “for each size below Medium.”"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Fatten, Slim, Swell, Shrink",
+            "source": "StorymakerExpanDnD",
+            "page": 8,
+            "type": "entries",
+            "entries": [
+                "A simple set of mechanical terms used as a stand in for a longer mechanical sentence.",
+                {
+                    "type": "entries",
+                    "name": "Fatten",
+                    "entries": [
+                        "Gain a number of pounds of fat. I.E. A character Fattens for twice the damage dealt= A character gains a number of pounds of fat equal to twice the amount of damage dealt."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Slim",
+                    "entries": [
+                        "Lose a number of pounds of fat. I.E. A character Slims by half their current fat= A character loses a number of pounds of fat equal to half their current pounds of fat."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Swell",
+                    "entries": [
+                        "Gain a number of pounds of Muscle. I.E. A character Swells by 10 pounds= A character gains 10 pounds of muscle."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Shrink",
+                    "entries": [
+                        "Lose a number of pounds of Muscle. I.E. A character Shrinks by 2 pounds at the start of each turn= A character loses 2 pounds of muscle at the start of each turn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Muscle Bulk",
+            "source": "StorymakerExpanDnD",
+            "page": 9,
+            "type": "entries",
+            "ruleType": "O",
+            "entries": [
+                "Sometimes size doesn't always come in the form of fatty, jiggling mass. Sometimes it comes in the form of insurmountable muscle and bulk. The current bulk system rules make no differentiation between pounds of muscle and fat; gaining one or the other is equally capable of putting you over your bulk limit, and this works well, as often mass an efficiency are not one and the same, and too much muscle is just as capable of restricting a character as too much fat. Below is an optional system for differentiating pounds of muscle from pounds of fat, as well as for putting on muscle weight by itself. Feel free to use as much or as little of this system as you like in conjunction with the rest of this document.",
+                {
+                    "type": "entries",
+                    "name": "Base Weight",
+                    "entries": [
+                        "The base weight of a race (the base weight listed in the Player's Handbook on page 121) is considered to be one half vital body mass such as bone and organ matter, one quarter muscle mass and one quarter body fat. This total counts toward both your Bulk limit and your Flex limit."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Gaining and Losing Muscle",
+                    "entries": [
+                        "Coinciding with the diet and exercise rules, building muscle requires fuel and work to accomplish. A day of little work is more likely to build fat than muscle, and a day of hard work but no food will only serve to lose weight. To that end, a character can choose to gain muscle instead of fat when their diet and exercise calculations at the end of the day would result in them gaining weight, but only up to a number of pounds equal to the number of points of exercise they achieved, plus their Strength Modifier. For instance, a character with 20 Strength who undergoes 8 hours of vigorous workout, coupled with 21 or more diet points of food may choose to gain up to 13 pounds of muscle rather than fat. Any excess beyond the maximum amount of muscle gained will still gain the remainder as fat. Mark fat and muscle as separate trackers, both in the character's initial weight and any weight they gain after character creation. Using these rules, only fat plus the character's base weight for their race counts toward your bulk limit and only muscle plus the character's base weight for their race counts toward your flex limit as listed below.",
+                        "Muscle is significantly harder to lose than fat is. Only 1/4th of any weight lost in one long rest or effect that causes a creature to lose weight can be muscle mass, unless the creature has no more fat to lose, at which point all of the lost weight is muscle."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Effects of Muscle",
+                    "entries": [
+                        "Every 10 pounds of muscle a character has above their base weight increases their carrying capacity and bulk limit by 1 pound. This is applied after any modifiers to bulk limits such as the Brawny feat, but before any Size modifiers."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Flex Limit",
+                    "entries": [
+                        "Similar to Bulk limits, the flex limit is the point at which your sheer amount of muscle mass begins to hamper your ability to move freely. Multiply the combination of the character's Strength and Dexterity scores by 15 to determine their Flex limit.",
+                        {
+                            "type": "entries",
+                            "name": "Clumsy",
+                            "entries": [
+                                "If a character has exceeded their Flex limit, they are considered clumsy. The character has disadvantage on Dexterity(Sleight of Hand) checks."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Lumbering",
+                            "entries": [
+                                "If a character has reached a muscle mass of 1.5 times their Flex limit, they are considered lumbering. They have disadvantage on Stealth and Acrobatics checks, as well as Dexterity Saving Throws"
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Musclebound",
+                            "entries": [
+                                "If a character has reached a muscle mass of 2 times their flex limit, they are considered musclebound. The character has disadvantage on initiative rolls, automatically fails any Dexterity based ability checks or attack rolls, and has their movement speed reduced to 5 feet."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Muscle and Size Categories",
+                    "entries": [
+                        "Muscle rules, as they are derived from the fat rules, follow the same general guidelines for increasing and decreasing in size as the base rules do."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Increasing Size Category",
+            "source": "StorymakerExpanDnD",
+            "page": 10,
+            "type": "entries",
+            "ruleType": "O",
+            "entries": [
+                "Contained below are optional rules pertaining to the situation of a character becoming so large with sheer mass that they begin to take up the space of a creature larger than they originally are. Depending on your Dungeon Master, creatures may or may not gain any of the other benefits of size increases for taking up more space by being exceptionally fat.",
+                {
+                    "type": "entries",
+                    "name": "Small Creatures",
+                    "entries": [
+                        "Small creatures begin to take up the space of a Medium creature when their total weight breaches 300 lbs., and then proceed to follow normal size increases with other creatures from then on."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Medium to Large",
+                    "entries": [
+                        "Small and medium creatures that reach a total weight of over 1300 lbs. begin to take up the space of a Large creature."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Large to Huge",
+                    "entries": [
+                        "Small, Medium, and Large creatures that reach a total weight of over 10,400 lbs. begin to take up the space of a Huge creature."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "To Infinity and Beyond",
+                    "entries": [
+                        "For each size category above huge a creature might possibly reach from sheer fat, multiply the threshold of the previous size category by 8."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Simple Inflation",
+            "source": "StorymakerExpanDnD",
+            "page": 10,
+            "type": "entries",
+            "ruleType": "O",
+            "entries": [
+                "Sometimes, magic enlarges its subjects with substances besides fat. Water, air, and other fluids can help or hinder creatures inflated by them.",
+                "When a character is inflated by water or other liquids of similar density, you can count it toward their effective fat when determining whether they have reached their bulk limit, with 1 pound of liquid equivalent to 1 pound of fat.",
+                "Likewise, inflation via lighter fluids such as air can be simulated as a contribution to their effective muscle when determining whether they have reached their flex limit. Magical, lighter-than-air inflation can also be counted as a temporary reduction to a character’s effective weight as fat. In either case, the inflation is referred to as an increase in pounds of muscle for simplicity’s sake. ",
+                "Inflation often is applied to the creature's entire body, making the expansion roughly spherical unless otherwise specified."
+            ]
+        }
+    ],
+    "action": [
+        {
+            "name": "Eat",
+            "source": "StorymakerExpanDnD",
+            "page": 7,
+            "time": [
+                {
+                    "unit": "action",
+                    "number": 1
+                },
+                {
+                    "unit": "bonus",
+                    "number": 1
+                }
+            ],
+            "entries": [
+                "Eating in combat is done via the Eating Action, which can be done as either an Action or Bonus Action, and which allows the character in question to consume a number of pounds of food within their reach equal to half their {@skill Eating} Skill modifier (minimum 1). Do note that unique food items, such as magical food items, typically require one to use the Use an Object action rather than the Eating action, unless otherwise specified. The amount of food a creature can consume with the Eating action follows the same rules regarding size capacity increases and decreases as stomach capacity. Also, certain spells, abilities, or effects will dictate how much someone eats in a given round regardless, in which case refer to those features rather than the eating action. This calculation is only for how much food a creature can eat when it takes the eating action on its turn."
+            ]
+        },
+        {
+            "name": "Force-Feed",
+            "source": "StorymakerExpanDnD",
+            "page": 7,
+            "time": [
+                {
+                    "unit": "action",
+                    "number": 1
+                }
+            ],
+            "entries": [
+                "Force-feeding a creature is a subset of the grappling mechanics, and is considered a type of grappling check, meaning it is affected by any abilities or features that affect grapple checks. A character can make a force-feeding check (which, as per grappling rules, will typically be a Strength ({@skill Athletics}) check) to try and force a target within melee range who is currently restrained or who is grappled by the character or one of their allies to eat. A success causes the victim to consume one of the following:",
+                {
+                    "type": "list",
+                    "items": [
+                        "pounds of mundane food up to half the attacker's {@skill Athletics} skill modifier (minimum 1)",
+                        "A single special food item, such as a piece of magical food."
+                    ]
+                }
+            ]
+        }
+    ],
+    "condition": [
+        {
+            "name": "Ravenous",
+            "source": "StorymakerExpanDnD",
+            "page": 8,
+            "entries": [
+                "Overwhelmed by maddening hunger, the creature is no longer able to control its appetite.",
+                {
+                    "type": "list",
+                    "items": [
+                        "A ravenous creature does not roll to stuff itself, and instead treats their extended stomach capacity for stuffing themselves as if they had rolled a Natural 20 on their eating check.",
+                        "A ravenous creature can only willingly move toward a potential source of food. If there is no food within range of any of their senses, the creature cannot move as they are racked with hunger.",
+                        "A ravenous creature must use its Action and/or Bonus action if possible to eat any food within their reach after moving.",
+                        "A ravenous creature automatically fails any saving throws made to resist eating food.",
+                        "Attack rolls that would force a ravenous creature to eat food are made with advantage."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bloated",
+            "source": "StorymakerExpanDnD",
+            "page": 8,
+            "entries": [
+                "Filled to the brim with noxious gases, the constant release of these fumes makes it difficult to function in some ways.",
+                {
+                    "type": "list",
+                    "items": [
+                        "A bloated creature can speak only falteringly, and cannot form verbal components for spells without first spending a Bonus Action to make a DC 15 Concentration check.",
+                        "A bloated creature is Poisoned.",
+                        "A bloated creature has disadvantage on Charisma checks and Dexterity ({@skill Acrobatics}) and ({@skill Stealth}) checks, even if they are immune to the poisoned condition.",
+                        "A bloated creature's movement speed is reduced by 5 ft, to a minimum of 5 ft."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Inflated",
+            "source": "StorymakerExpanDnD",
+            "page": 8,
+            "entries": [
+                "Overflowing with lighter-than-air gases, this creature has achieved lift.",
+                {
+                    "type": "list",
+                    "items": [
+                        "An Inflated creature's walking speed becomes 0.",
+                        "An inflated creature gains a flying speed of 10 (hover), but cannot descend more than 5 feet in a round, and cannot move closer than 10 feet from any ground under their own power.",
+                        "An inflated creature submerged in water rises to the surface at a speed of 40 feet per round.",
+                        "An inflated creature cannot wear armor that is non-magical and not elastic. They drop any such armor they were wearing when they become inflated.",
+                        "An inflated creature has vulnerability to piercing damage."
+                    ]
+                }
+            ]
+        }
+    ],
+    "race": [
+        {
+            "name": "Fatspawn",
+            "source": "StorymakerExpanDnD",
+            "page": 12,
+            "size": "M",
+            "speed": {
+                "walk": 30
+            },
+            "ability": [
+                {
+                    "con": 2,
+                    "cha": 1
+                }
+            ],
+            "darkvision": 60,
+            "traitTags": [
+                "Skill Proficiency",
+                "Spellcasting",
+                "Darkvision"
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "choose": {
+                        "from": [
+                            "infernal",
+                            "abyssal",
+                            "sylvan"
+                        ],
+                        "count": 1
+                    }
+                }
+            ],
+            "skillProficiencies": [
+                "Eating"
+            ],
+            "entries": [
+                "Fatspawn share a number of racial traits owing to their heritage.",
+                {
+                    "type": "entries",
+                    "name": "Ability Score Increase",
+                    "entries": [
+                        "Your Constitution score increases by 2, and your Charisma score increases by 1."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Age",
+                    "entries": [
+                        "Fatspawn mature at the same rate as humans but live a few years longer."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Alignment",
+                    "entries": [
+                        "Fatspawn tend toward extremes of law or chaos. Whether they accept their nature or attempt to control it, the decision often leans them toward Lawful or Chaotic alignments."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "Fatspawn are about the same size as humans, but tend to be much heavier in weight. Your size is Medium."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Speed",
+                    "entries": [
+                        "Your base walking speed is 30 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries": [
+                        "Thanks to your otherworldly lineage, you have excellent vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Enduring Stomach",
+                    "entries": [
+                        "You have resistance to damage caused by ingested substances, such as poisoned food or drinks, or caused by overeating."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Natural Glutton",
+                    "entries": [
+                        "You have proficiency in the {@skill Eating} skill."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Heritage of Hunger",
+                    "entries": [
+                        "Your nature is one influenced by supernatural gluttony. You have disadvantage on checks and saves made to resist food or drink when it is offered, even when eating would push you past your natural full limit, but in return you have some of the abilities of your otherworldly kin. You know the Sex Appeal cantrip. Once you reach 3rd level, you can cast Stretch Stomach once per day as a 2nd level spell. Once you reach 5th level, you can also cast the Abyssal Stomach spell once per day. Charisma is your spellcasting ability for these spells."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, read, and write Common and your choice of Infernal, Abyssal, or Sylvan."
+                    ]
+                }
+            ],
+            "fluff": {
+                "entries": [
+                    "Food, banquet halls, feasts, tricks and indulgence. A life of excess, gluttony, gorging, or constantly battling an unnatural hunger. These are the hallmarks of the fatspawn. The gluttonous folk know well their parentage; somewhere in their lineage is the energy or essence of a powerful outsider, a creature of gluttony-- A Fatling or Fatcubus, more likely than not--, woven by magic or more carnal methods into their bloodline. Their natural hunger and propensity for enormity are not in their control, but are constants that they will have to either embrace or battle for the entirety of their lives.",
+                    {
+                        "type": "entries",
+                        "name": "Gluttonous Nature",
+                        "entries": [
+                            "Fatspawn are often from human bloodlines, and they often share a good number of human traits. However, in their past there is the imprint of a powerful creature of gluttony-- Usually a fiend--, and that mark shows clear upon their bodies. Many fatspawn share several traits with their otherworldly ancestors; curling horns, faintly glowing eyes, or unnatural skin tones are just as common as not, leading many fatspawn to be mistaken for tieflings until the other impact of their heritage is revealed. All Fatspawn have an impressively large appetite, and a propensity for putting on body fat. Their features can run the gamut from fey to fiend, depending on their heritage, but the strangely thin and elegant look to their face, despite the body fat most accumulate gives to them creates a distinct look that helps one tell a Fatspawn from a regular fey-touched or Tiefling. While cursed with hunger and a nack for getting fat, they also seem to be blessed with the trait of the mass they build being spread to 'all the right places', as many humans would put it."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Natural Thrillseekers",
+                        "entries": [
+                            "Many Fatspawn, especially those whose appearances could pass for more human, have a natural habit of ending up at the center of attention, as those who give in to their gluttonous nature have a propensity for becoming partyers or entertainers. Those whose features are less natural in appearance often satisfy that urge by adventuring or wandering, seeking the thrill of foreign lands where their looks mean little to those they only see for a brief time.",
+                            "Nonetheless, underneath the typically exhuberant exterior is often a lonely soul. With no real homeland and a constant urge to dive deep into gluttony, Fatspawn, especially those who would rather fight their nature than succumb to it, often must make their own way in the world and must be strong to keep themselves afloat. Even those who would embrace their hedonism must be able to support the expenses of such a lifestyle."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Fatspawn Names",
+                        "entries": [
+                            "Like their less gluttonous cousins, the Tieflings, Fatspawn names are often a reflection of culture, otherworldly heritage, or a taken virtue name. As such, the list of Tiefling names are also valid as a list of Fatspawn names, with these notable additions to the list of \"Virtue\" Names:",
+                            {
+                                "type": "list",
+                                "items": [
+                                    "Embon, Excess, Fast, Feast, Glutton, Hedon, Moderation, Ravenous, Restraint, Thrill, Weight."
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://www.gmbinder.com/images/1vjIJmn.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Fatling",
+            "source": "StorymakerExpanDnD",
+            "page": 13,
+            "size": "V",
+            "ability": [
+                {
+                    "cha": 2,
+                    "con": 1
+                }
+            ],
+            "darkvision": 60,
+            "traitTags": [
+                "Spellcasting",
+                "Darkvision"
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "choose": {
+                        "from": [
+                            "infernal",
+                            "abyssal"
+                        ],
+                        "count": 1
+                    },
+                    "other": true
+                }
+            ],
+            "entries": [
+                "Born directly of Fiendish blood Fatlings have traits akin to both of their parents.",
+                {
+                    "type": "entries",
+                    "name": "Ability Score Increase",
+                    "entries": [
+                        "Your Charisma score increases by 2 and your Constitution score increases by 1."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Age",
+                    "entries": [
+                        "Fatlings mature at the same rate as their mortal parent but usually live two or three times as long."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Alignment",
+                    "entries": [
+                        "About half of Fatlings become infected by the evil desires of their fiendish parent, but just as many are Chaotic Neutral and want little more than to watch themselves and their neighbors grow as fat as possible."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "Fatlings have extreme variations in size, from the few who try to keep themselves slim to focus their efforts on others, to ones who try to grow as fat as possible. Your size is Medium or Small, matching the size of your mortal parent."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Speed",
+                    "entries": [
+                        "If your mortal parent is Medium sized, you have a base walking speed of 30 feet. If it is Small, it is 25 feet. This may be different than the normal speed of the mortal parent’s race."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries": [
+                        "Thanks to your fiendish heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in Darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, read, and write Common and your choice of Infernal or Abyssal. If your mortal parent speaks another language, you know that one too."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Dual Nature",
+                    "entries": [
+                        "You have two creature types: humanoid and fiend. You can be affected by a game effect if it works on either of your creature types, or on the specific race of your humanoid parent."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Wings",
+                    "entries": [
+                        "As an action, you can summon or dismiss a pair of wings on your back that give you a flying speed equal to your walking speed. If you choose to fly using your wings, you must stay within 5 feet of the surface below your feet. Your wings might be accompanied by short horns, a narrow tail, or other features usually associated with Succubi. You can’t manifest your wings while wearing armor unless the armor is made to accommodate them, and clothing not made to accommodate your wings might be destroyed when you manifest them."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Fiendish Legacy",
+                    "entries": [
+                        "Three times each day, you can cast Create Fattening Food and Drink, limited to 2 pounds of food and 2 cups of drink each cast and it does not restore hit points. When you reach level 3, you can cast Stretch Stomach at its lowest level once per day, and when you reach level 7 you can cast Hypnotic Hunger at its lowest level once per day. Your spellcasting ability is Charisma for these spells."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Gluttonous Suggestion",
+                    "entries": [
+                        "As an action, one creature that you can see within 30 feet of you must succeed on a Charisma saving throw against a DC of (8+ your Charisma modifier + your Proficiency bonus) or be affected by this trait for one minute. Creatures immune to being charmed or that do not need to eat automatically succeed. A creature can also choose to voluntarily fail this saving throw. An affected creature is under all of the following effects while the Fatling is not incapacitated:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "Any saving throws made to resist eating food or drinking nourishing drinks, or effects that otherwise put food into the target’s stomach (such as the Overabundance spell) are made with disadvantage.",
+                                "Attack rolls and ability checks made by other creatures to feed the targeted creature are made with advantage.",
+                                "The target has advantage on {@skill Eating} checks."
+                            ]
+                        },
+                        "You can have only one creature affected by this ability at a time. If a creature you target succeeds on the saving throw, you must finish a long rest before using it again."
+                    ]
+                }
+            ],
+            "fluff": {
+                "entries": [
+                    "Being born and having lived your life on the Material Plane, you may or may not have known that one of your parents was in fact, a Fatcubus or other fiend, and that by being their child made you a type of Cambion. From a young age, you've felt the urge to fatten up friends, enemies, strangers, and yourself alike, but the power to either submit or to deny those urges was always in your hands."
+                ]
+            }
+        },
+        {
+            "name": "Gelatinfolk",
+            "source": "StorymakerExpanDnD",
+            "page": 14,
+            "size": "V",
+            "speed": {
+                "walk": 30
+            },
+            "traitTags": [],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "primordial": true
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Age",
+                    "entries": [
+                        "Gelatinfolk don’t follow normal patterns of age or maturity, though most are not sentient when they are born. The time that they awaken this way is usually considered their “birthday.” Some know that they will “expire” one day, while others do not, and gelatinfolk as old as a thousand years have been recorded."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Alignment",
+                    "entries": [
+                        "Because they were created to be servants or even tools, sentience is rarely a trait designed by the creator. Thus, Gelatinfolk choose their own paths in life after awakening to it, and don’t tend towards any particular alignment. The exception are those for whom sentience was indeed desired by the creator, where they are generally Lawful."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "Gelatinfolk come in a variety of shapes and sizes, from small ones once treated as pets to great ones using their bodies as a food hoard. With proper care a small one could become medium and a medium one large. Your size is Medium, but if you weigh less than 60 pounds, you take up the same space as a Small creature. Except for this, you follow the normal rules for taking up the space of larger creatures as a result of high body weight."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Speed",
+                    "entries": [
+                        "Your base walking speed is 30ft."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries": [
+                        "Gelatinfolk speak Common and Primordial."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Food Composition",
+                    "entries": [
+                        "Any creature that hits you with a bite attack eats 1d4 pounds of fatty food, doubled on a critical hit, and you lose an equivalent amount of mass. Additionally, gaining and losing weight through diet and exercise is harder for you. Halve the number of pounds of fat you gain or lose at the end of a long rest from an excess or deficit of diet points."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Homogenous",
+                    "entries": [
+                        "Without a solid frame or definite organs, variations in weight affect you differently.",
+                        {
+                            "type": "list",
+                            "items": [
+                                "You do not have a base weight. Instead, if your weight falls below 25 pounds, you fall unconcsious until your weight is restored above 25 pounds.",
+                                "When you are burdened, your walking speed is reduced by 10 feet in addition to normal effects.",
+                                "When you are impeded, you do not suffer disadvantage on Athletics checks.",
+                                "When you are immobilized, you are not restrained, but your walking speed is reduced to 5 feet and you cannot dash."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Slime Capacity",
+                    "entries": [
+                        "Due to the Gelatinfolk having stretchy, adaptive bodies, their eating capacity is equal to their Constitution score, but they can't make stuffing rolls and take overindulging damage as normal."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Amorphous Body",
+                    "entries": [
+                        "Gelatinfolk are made of a gelatinous substance, and can cast Alter Self, only choosing the change appearance option but not limited to the body structure you have, once per short rest. You cannot change your size, weight, color, or texture to anything other than what it normally is. When you Squeeze to fit into a smaller space, you fit through a gap as small as 6 inches in both directions, regardless of your size. At the DM’s discretion, it may take several turns to squeeze through it."
+                    ]
+                }
+            ],
+            "fluff": {
+                "entries": [
+                    "First born of the hedonistic desires of an ancient weight lich, many artificers throughout the ages delving into weight magic have copied those methods to create their own. These creatures are edible slimelike beings that have since grown an intelligent mind of their own.. They are extremely diverse in form and mind, with each one being created by different masters for different functions.These functions are often unknown to them, as gelatinfolk often gain sentience and memory only after their creator’s death."
+                ]
+            },
+            "subraces": [
+                {
+                    "name": "Viscogelatin",
+                    "source": "StorymakerExpanDnD",
+                    "page": 14,
+                    "ability": [
+                        {
+                            "con": 2,
+                            "dex": 1
+                        }
+                    ],
+                    "traitTags": [
+                        "Spellcasting",
+                        "Unarmored Defense"
+                    ],
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Ability Score Increase",
+                            "entries": [
+                                "Your Constitution score increases by 2 and your Dexterity score increases by 1."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Viscous Body",
+                            "entries": [
+                                "ViscoGelatin are not particularly fast or slow. Given that they are quite sticky, however, they are able to scale even sheer walls with ease, albeit slowly. You gain a climbing speed of 10ft and can climb vertical surfaces as smooth as glass without making an {@skill Athletics} check."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Ooze Resilience",
+                            "entries": [
+                                "ViscoGelatin are notoriously hard to kill. You have advantage on death saving throws. In addition, strikes against you while you are unconscious do not critically hit, though they do still have advantage."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Ooze Resilience",
+                            "entries": [
+                                "Your lack of a solid body makes it difficult to wear normal armor (armor has to be special tailored to you with a 25% cost increase) but allows you instead to absorb some attacks. Your unarmored AC is 10+Dexterity Modifier+Constitution Modifier.If a class ability or spell offers a new way to calculate your AC, such as offered by the Barbarian, Monk, or Sorcerer classes, or the Mage Armor spell, you must choose which one you want to use."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Body Blaster",
+                            "entries": [
+                                "Using the edible slime from your own body, you are able to cast the Feed once with this trait using as a 1st-level spell, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Vivagelatin",
+                    "source": "StorymakerExpanDnD",
+                    "page": 15,
+                    "ability": [
+                        {
+                            "str": 2,
+                            "cha": 1
+                        }
+                    ],
+                    "traitTags": [
+                        "Unarmored Defense"
+                    ],
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Ability Score Increase",
+                            "entries": [
+                                "Your Strength score increases by 2 and your Charisma increases by 1."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Unarmored Defense",
+                            "entries": [
+                                "Your lack of a solid body makes it difficult to wear normal armor (armor has to be special tailored to you with a 25% cost increase) but allows you instead to absorb some attacks. Your unarmored AC is 10 + your Constitution Modifier + your Strength modifier. If a class ability or spell offers a new way to calculate your AC, such as offered by the Barbarian, Monk, Sorcerer classes, or the Mage Armor spell, you must choose which one you want to use."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Sweet (Savory) Snare",
+                            "entries": [
+                                "As an action, you can attempt to restrain a creature you can touch. The target must make a Strength saving throw. On a failure, the target is restrained, takes 1d4 bludgeoning damage, and is forced to consume a number of pounds of fatty food equal to the damage dealt, and you lose an equal amount of weight. The damage increases to 1d6 at level 6, 1d8 at level 11, and 1d10 at level 16. While restraining a creature this way, you can use your action to make it repeat the saving throw or suffer the same effect, you are unable to grapple another target, and your movement speed is reduced to 0. The target is no longer restrained if a creature that can touch it succeeds on a Strength check, if the target succeeds on an Athletics or Acrobatics check, or if you use your action to do anything but stuff the target. The DC for this feature is 8 + your proficiency bonus + your Strength modifier. After you successfully restrain someone on the initial save once, you must finish a short or long rest before using this feature again."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Pudding Power",
+                            "entries": [
+                                "Vivagelatin are as hard to down for good as any Gelatinfolk. If you are reduced to 0 hp you can instead drop to 1 hp. Once you use this ability you must take a long rest before you can use it again."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Warforged (Kitchenforged)",
+            "source": "StorymakerExpanDnD",
+            "page": 16,
+            "otherSources": [
+                {
+                    "source": "ERLW",
+                    "page": 35
+                },
+                {
+                    "source": "UAWGE",
+                    "page": 67
+                }
+            ],
+            "size": "M",
+            "speed": 30,
+            "ability": [
+                {
+                    "con": 2,
+                    "choose": {
+                        "from": [
+                            "str",
+                            "dex",
+                            "int",
+                            "wis",
+                            "cha"
+                        ],
+                        "count": 1
+                    }
+                }
+            ],
+            "traitTags": [
+                "Natural Armor",
+                "Improved Resting",
+                "Damage Resistance",
+                "Skill Proficiency"
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "anyStandard": 1
+                }
+            ],
+            "skillProficiencies": [
+                "Eating",
+                {
+                    "choose": {
+                        "from": [
+                            "athletics",
+                            "acrobatics",
+                            "sleight of hand",
+                            "stealth",
+                            "arcana",
+                            "history",
+                            "investigation",
+                            "nature",
+                            "religion",
+                            "animal handling",
+                            "insight",
+                            "medicine",
+                            "perception",
+                            "survival",
+                            "deception",
+                            "intimidation",
+                            "performance",
+                            "persuasion",
+                            {
+                                "tool": true
+                            }
+                        ],
+                        "count": 2
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Abillity Score Increase",
+                    "entries": [
+                        "Your Constitution score and one other ability score of your choice increase by 1."
+                    ]
+                },
+                {
+                    "name": "Age",
+                    "entries": [
+                        "A typical warforged is between two and thirty years old. The maximum warforged lifespan remains a mystery; so far, warforged have shown no signs of deterioration due to age. You are immune to magical aging effects."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "type": "entries",
+                    "name": "Alignment",
+                    "entries": [
+                        "Most warforged take comfort in order and discipline, tending toward law and neutrality. But some have absorbed the morality, or lack thereof, of the beings with which they served."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "Crafted in the likeness of common mortal races, your size is Medium. Kitchenforged have a base weight 2 times that of the race they are crafted in the likeness of.",
+                        "Additionally, Kitchenforged use double their Strength score when calculating their Bulk thresholds."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Constructed Resilience",
+                    "entries": [
+                        "You were created to have remarkable fortitude, represented by the following benefits:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "You have advantage on saving throws against being {@condition poisoned}, and you have resistance to poison damage.",
+                                "You don't need to eat, drink, or breathe.",
+                                "You are immune to disease.",
+                                "You don't need to sleep, and magic can't put you to sleep."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Sentry's Rest",
+                    "entries": [
+                        "When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn't render you {@condition unconscious}, and you can see and hear as normal."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Integrated Protection",
+                    "entries": [
+                        "Your body has built-in defensive layers, which can be enhanced with armor:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "You gain a +1 bonus to Armor Class.",
+                                "You can don only armor with which you have proficiency. To don armor, you must incorporate it into your body over the course of 1 hour, during which you remain in contact with the armor. To doff armor, you must spend 1 hour removing it. You can rest while donning or doffing armor in this way.",
+                                "While you live, your armor can't be removed from your body against your will."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Specialized Design",
+                    "entries": [
+                        "You gain one skill proficiency and one tool proficiency of your choice."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, read, and write Common and one other language of your choice."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Toughness",
+                    "entries": [
+                        "Crafted of animate stone, metal and other such materials, your ability to absorb blows far exceeds that of your mortal counterparts, and even your Warforged cousins. Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Culinary Creation",
+                    "entries": [
+                        "You have proficiency in the eating skill and with Chef's utensils."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Masterwork",
+                    "entries": [
+                        "Kitchenforged are individualized works of art, and each incorporates a feature unique to their creation. Choose one of the following:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "{@b Iron Chef.} The namesake of your kind, you are outfitted with a masterworked array of utensils, cutlery and dishware for working in any kitchen. You have a built-in set of Cook’s Utensils and can raise your voice up to three times it’s normal volume.",
+                                "{@b Porter.} You are refreshingly cool to the touch at all times, and have spaces in your figure to accommodate up to 20 pounds of food. As a free action, once per turn, you can cause spaces you occupy or are adjacent to to be lightly obscured by fog, or end the effect if it’s active. Non-magical food stored on your person takes quadruple the normal amount of time to spoil.",
+                                "{@b Stonehearth.} You are comfortably warm to the touch at all times, and glow with an inner hearthfire, magical heat or similar effect. You can be used in place of a campfire to prepare meals, and give off light equivalent to a torch. You can quench this light, focus it as though from a bullseye lantern, or return it to normal as a free action."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Variant: Foodforged",
+                    "entries": [
+                        "Warforged are traditionally created out of animate stone, rope, metal, and wood. However, you should feel free to reflavor any warforged to be made of food instead.",
+                        "If you decide to do so, Any creature that hits you with a bite attack eats 1d4 pounds of average food, doubled on a critical hit, and you lose an equivalent amount of mass."
+                    ]
+                }
+            ],
+            "fluff": {
+                "entries": [
+                    "Unique to the continent of Sybaris, the Kitchenforged, as they have been mockingly called, are a distinct variation of Warforged construct-peoples found in ancient ruins the world over. When, or how such creations came to be is unknown, but the few surviving the plundering of ancient ruins, natural calamity and wild magics have slowly begun to surface.",
+                    {
+                        "type": "entries",
+                        "name": "Servant Statuary",
+                        "entries": [
+                            "Formed of various woods, stones and precious metals, these construct-people most resemble animate, articulate statuary - sculpted in idealized mimicry of mortal races. Artfully constructed, and skillfully wrought, these living masterpieces are both pleasing of form, and deliberate in function. Most are wrought of enchanted, decorative stone, trimmed in burnished metal, providing a mien of flesh, despite their marbled complexions, or glittering veins of gold and other precious metals wrought throughout their animate stone ‘flesh’. Despite being lost to the ages, their forms and functions endure, but their creators are long since vanished, leaving these eternal servants to master their own fates."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Engraven Girth",
+                        "entries": [
+                            "Just like the mortals their fashioning mimics, these constructs know smell, taste, cravings, fondnesses and preferences. While they have no need for such things, such is the animation of their being that their excesses manifest on their sculpted forms, much as it would a mortals figure."
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "class": [
+        {
+            "name": "Fleshbound",
+            "source": "StorymakerExpanDnD",
+            "page": 19,
+            "hd": {
+                "number": 1,
+                "faces": 8
+            },
+            "proficiency": [
+                "str",
+                "con"
+            ],
+            "startingProficiencies": {
+                "armor": [],
+                "weapons": [
+                    "simple"
+                ],
+                "tools": [
+                    "Choose one type of artisan’s tools or one musical instrument"
+                ],
+                "skills": [
+                    "Eating",
+                    {
+                        "choose": {
+                            "from": [
+                                "athletics",
+                                "acrobatics",
+                                "arcana",
+                                "history",
+                                "insight",
+                                "religion"
+                            ],
+                            "count": 2
+                        }
+                    }
+                ]
+            },
+            "startingEquipment": {
+                "additionalFromBackground": true,
+                "default": [
+                    "any simple weapon",
+                    "(a) a dungeoneer’s pack or (b) an explorer’s pack",
+                    "(a) four handaxes or (b) four javelins",
+                    "a week's worth of fatty food rations"
+                ]
+            },
+            "classFeatures": [
+                "Living Weapon|Fleshbound|StorymakerExpanDnD|1",
+                "Unarmored Defense|Fleshbound|StorymakerExpanDnD|1",
+                "Flesh Shaper|Fleshbound|StorymakerExpanDnD|2",
+                "Mastery of Form|Fleshbound|StorymakerExpanDnD|2",
+                {
+                    "classFeature": "Fleshbound Tradition|Fleshbound|StorymakerExpanDnD|3",
+                    "gainSubclassFeature": true
+                },
+                "Absorb Lipomancy|Fleshbound|StorymakerExpanDnD|3",
+                "Ability Score Improvement|Fleshbound|StorymakerExpanDnD|4",
+                "Extra Attack|Fleshbound|StorymakerExpanDnD|5",
+                "Flux Strike|Fleshbound|StorymakerExpanDnD|5",
+                "Mystic Weapon|Fleshbound|StorymakerExpanDnD|6",
+                {
+                    "classFeature": "Fleshbound Tradition feature|Fleshbound|StorymakerExpanDnD|6",
+                    "gainSubclassFeature": true
+                },
+                "Body Hardening|Fleshbound|StorymakerExpanDnD|7",
+                "Ability Score Improvement|Fleshbound|StorymakerExpanDnD|8",
+                "Flesh Shaper Improvement|Fleshbound|StorymakerExpanDnD|9",
+                "Mastery of Form Improvement|Fleshbound|StorymakerExpanDnD|10",
+                {
+                    "classFeature": "Fleshbound Tradition feature|Fleshbound|StorymakerExpanDnD|11",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Fleshbound|StorymakerExpanDnD|12",
+                "Eyes of the Glutton's Temperence|Fleshbound|StorymakerExpanDnD|13",
+                {
+                    "classFeature": "Fleshbound Tradition feature|Fleshbound|StorymakerExpanDnD|14",
+                    "gainSubclassFeature": true
+                },
+                "Enduring Flesh Shape|Fleshbound|StorymakerExpanDnD|15",
+                "Ability Score Improvement|Fleshbound|StorymakerExpanDnD|16",
+                {
+                    "classFeature": "Fleshbound Tradition feature|Fleshbound|StorymakerExpanDnD|17",
+                    "gainSubclassFeature": true
+                },
+                "Pliant Escape|Fleshbound|StorymakerExpanDnD|18",
+                "Ability Score Improvement|Fleshbound|StorymakerExpanDnD|19",
+                "Perfect Control|Fleshbound|StorymakerExpanDnD|20"
+            ],
+            "classTableGroups": [
+                {
+                    "colLabels": [
+                        "Living Weapon",
+                        "Flesh Shapes"
+                    ],
+                    "rows": [
+                        [
+                            {
+                                "type": "dice",
+                                "toRoll": [
+                                    {
+                                        "number": 1,
+                                        "faces": 4
+                                    }
+                                ]
+                            },
+                            "—"
+                        ],
+                        [
+                            {
+                                "type": "dice",
+                                "toRoll": [
+                                    {
+                                        "number": 1,
+                                        "faces": 4
+                                    }
+                                ]
+                            },
+                            2
+                        ],
+                        [
+                            {
+                                "type": "dice",
+                                "toRoll": [
+                                    {
+                                        "number": 1,
+                                        "faces": 4
+                                    }
+                                ]
+                            },
+                            3
+                        ],
+                        [
+                            {
+                                "type": "dice",
+                                "toRoll": [
+                                    {
+                                        "number": 1,
+                                        "faces": 4
+                                    }
+                                ]
+                            },
+                            3
+                        ],
+                        [
+                            {
+                                "type": "dice",
+                                "toRoll": [
+                                    {
+                                        "number": 1,
+                                        "faces": 6
+                                    }
+                                ]
+                            },
+                            3
+                        ],
+                        [
+                            {
+                                "type": "dice",
+                                "toRoll": [
+                                    {
+                                        "number": 1,
+                                        "faces": 6
+                                    }
+                                ]
+                            },
+                            4
+                        ],
+                        [
+                            {
+                                "type": "dice",
+                                "toRoll": [
+                                    {
+                                        "number": 1,
+                                        "faces": 6
+                                    }
+                                ]
+                            },
+                            4
+                        ],
+                        [
+                            {
+                                "type": "dice",
+                                "toRoll": [
+                                    {
+                                        "number": 1,
+                                        "faces": 6
+                                    }
+                                ]
+                            },
+                            4
+                        ],
+                        [
+                            {
+                                "type": "dice",
+                                "toRoll": [
+                                    {
+                                        "number": 1,
+                                        "faces": 6
+                                    }
+                                ]
+                            },
+                            4
+                        ],
+                        [
+                            {
+                                "type": "dice",
+                                "toRoll": [
+                                    {
+                                        "number": 1,
+                                        "faces": 6
+                                    }
+                                ]
+                            },
+                            4
+                        ],
+                        [
+                            {
+                                "type": "dice",
+                                "toRoll": [
+                                    {
+                                        "number": 1,
+                                        "faces": 8
+                                    }
+                                ]
+                            },
+                            4
+                        ],
+                        [
+                            {
+                                "type": "dice",
+                                "toRoll": [
+                                    {
+                                        "number": 1,
+                                        "faces": 8
+                                    }
+                                ]
+                            },
+                            5
+                        ],
+                        [
+                            {
+                                "type": "dice",
+                                "toRoll": [
+                                    {
+                                        "number": 1,
+                                        "faces": 8
+                                    }
+                                ]
+                            },
+                            5
+                        ],
+                        [
+                            {
+                                "type": "dice",
+                                "toRoll": [
+                                    {
+                                        "number": 1,
+                                        "faces": 8
+                                    }
+                                ]
+                            },
+                            5
+                        ],
+                        [
+                            {
+                                "type": "dice",
+                                "toRoll": [
+                                    {
+                                        "number": 1,
+                                        "faces": 8
+                                    }
+                                ]
+                            },
+                            5
+                        ],
+                        [
+                            {
+                                "type": "dice",
+                                "toRoll": [
+                                    {
+                                        "number": 1,
+                                        "faces": 8
+                                    }
+                                ]
+                            },
+                            5
+                        ],
+                        [
+                            {
+                                "type": "dice",
+                                "toRoll": [
+                                    {
+                                        "number": 1,
+                                        "faces": 10
+                                    }
+                                ]
+                            },
+                            6
+                        ],
+                        [
+                            {
+                                "type": "dice",
+                                "toRoll": [
+                                    {
+                                        "number": 1,
+                                        "faces": 10
+                                    }
+                                ]
+                            },
+                            6
+                        ],
+                        [
+                            {
+                                "type": "dice",
+                                "toRoll": [
+                                    {
+                                        "number": 1,
+                                        "faces": 10
+                                    }
+                                ]
+                            },
+                            6
+                        ],
+                        [
+                            {
+                                "type": "dice",
+                                "toRoll": [
+                                    {
+                                        "number": 1,
+                                        "faces": 10
+                                    }
+                                ]
+                            },
+                            "unlimited"
+                        ]
+                    ]
+                }
+            ],
+            "subclassTitle": "Fleshbound Tradition",
+            "subclasses": [
+                {
+                    "name": "Way of the Guardian",
+                    "source": "StorymakerExpanDnD",
+                    "subclassFeatures": [
+                        "Way of the Guardian|Fleshbound|StorymakerExpanDnD|Guardian|StorymakerExpanDnD|3",
+                        "Living Shield|Fleshbound|StorymakerExpanDnD|Guardian|StorymakerExpanDnD|6",
+                        "Guardian's Stamina|Fleshbound|StorymakerExpanDnD|Guardian|StorymakerExpanDnD|11",
+                        "Unyielding Bulwark|Fleshbound|StorymakerExpanDnD|Guardian|StorymakerExpanDnD|14",
+                        "Wall of Flesh|Fleshbound|StorymakerExpanDnD|Guardian|StorymakerExpanDnD|17"
+                    ],
+                    "shortName": "Guardian"
+                },
+                {
+                    "name": "Way of the Enforcer",
+                    "source": "StorymakerExpanDnD",
+                    "subclassFeatures": [
+                        "Way of the Enforcer|Fleshbound|StorymakerExpanDnD|Enforcer|StorymakerExpanDnD|3",
+                        "Flesh Warrior|Fleshbound|StorymakerExpanDnD|Enforcer|StorymakerExpanDnD|6",
+                        "Flux Capacity|Fleshbound|StorymakerExpanDnD|Enforcer|StorymakerExpanDnD|11",
+                        "Devastating Critical|Fleshbound|StorymakerExpanDnD|Enforcer|StorymakerExpanDnD|14",
+                        "Flux Crush|Fleshbound|StorymakerExpanDnD|Enforcer|StorymakerExpanDnD|17"
+                    ],
+                    "shortName": "Enforcer"
+                },
+                {
+                    "name": "Way of the Tender",
+                    "source": "StorymakerExpanDnD",
+                    "subclassFeatures": [
+                        "Way of the Tender|Fleshbound|StorymakerExpanDnD|Tender|StorymakerExpanDnD|3",
+                        "Soothing Ministration|Fleshbound|StorymakerExpanDnD|Tender|StorymakerExpanDnD|6",
+                        "Mobility Assistance|Fleshbound|StorymakerExpanDnD|Tender|StorymakerExpanDnD|11",
+                        "Cleansing Touch|Fleshbound|StorymakerExpanDnD|Tender|StorymakerExpanDnD|14",
+                        "Lipomantic Revival|Fleshbound|StorymakerExpanDnD|Tender|StorymakerExpanDnD|17"
+                    ],
+                    "shortName": "Tender"
+                }
+            ],
+            "fluff": [
+                {
+                    "name": "The Fleshbound",
+                    "type": "section",
+                    "page": 19,
+                    "entries": [
+                        {
+                            "type": "quote",
+                            "entries": [
+                                "In the beginning of the days of our order, we were little more than slaves to the one who created us. Our power over our forms and the forms of others was given unto us that we might be an instrument of mastery and control. No more. Now we perfect our art not to better our masters, but to better ourselves. And those who stand in our way will face the full weight of our wrath."
+                            ],
+                            "by": "Anonymous",
+                            "from": "Tenets of the Fleshbound"
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Slaves No More",
+                            "entries": [
+                                "Lipomancers have long sought to create the perfect servants and reflections of their power. Even Narce herself went to dark places at times to advance her studies and abilities. But there is little debate that what was done by the ancient council of the first Lipomantic empire was an atrocity, but it gave birth to what is perhaps one of the shining orders that marks the new age of this realm. A symbol of the world's shifting views and understanding of the importance of the body and the embracing of its alteration, the Fleshbound are a mystic order that focuses on the manipulation of the flesh in combination with a martial art.",
+                                "Originally the first Fleshbound were created to serve as bodyguards and symbols of the Lipomantic Empire's power; martial warriors who needed no weapons but their own, mystically pliable flesh to do battle, and were outfitted and trained to wield their bodies in unique ways that few others could match. They were treated as slave warriors, and inevitably, when their masters' power waned, they rebelled and formed their own order."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "The Flesh Is Meant To Change",
+                            "entries": [
+                                "The arts of the fleshbound are strange and sometimes terrifying to those who are unfamiliar. They ply their bodies and the bodies of others like a sculptor might ply clay, using their mastery of flesh in a deadly dance of combat. Their bodies, and the bodies of their enemies, are but tools in their arsenal, and the different schools that have emerged from the years since the Fleshbound were freed have each honed their own unique approach to this art, from elastic warriors who constrict their foes to those who immobilize their enemies under their own weight."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Fleshbound Traditions",
+                            "entries": [
+                                "The Fleshbound are each born from lipomantic energy, whether they were created to be a servant, or granted the power by one of the free monasteries. But each Fleshbound, whether trained or created, hones its talents related to the task they had been created for. Some monasteries teach only one of the ways, but some are home to members of each of the original ways of the fleshbound, and teach each student in the path that best suits them."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Creating a Fleshbound",
+                            "entries": [
+                                "When creating a fleshbound, consider how they came to be a member of one of the mystic orders. The Fleshbound are something akin to monks, but their order is not one devoted to the traditional monastic teachings. Rather, it is a school for those who have been afflicted by Lipomancers and others with unnaturally malleable bodies, and a place where others may come to learn the arts.",
+                                "Is your character someone who was experimented on by a Lipomancer or some strange creature, who then sought a monastery of the fleshbound to learn how to handle their changed self? Or did they seek the Fleshbound directly, hearing of their prowess and seeking to learn how to do what they do? Are they someone who takes to the spiritual aspects of the Fleshbound, or do they only desire to control themselves and their powers?"
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Quick Build",
+                            "entries": [
+                                "You can make a Fleshbound quickly by following these suggestions. First, put your highest ability score in Constitution, followed by either Wisdom or Strength. Then, choose the Recovering Immobile background."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "classFeature": [
+        {
+            "name": "Unarmored Defense",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "The Fleshbound practice a unique technique focused on absorbing blows rather than avoiding them. Beginning at 1st level, while you are wearing no armor and not wielding a Shield, your AC equals 10 + your Constitution modifier + your Wisdom modifier."
+            ]
+        },
+        {
+            "name": "Living Weapon",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "At 1st level, your training has taught you to use Combat styles that use your malleable body to your advantage, allowing you to perform unique feats of martial prowess that take advantage of your unique physiology, striking with suddenly inflating body parts or twisting your form to attack from unique angles.",
+                "You gain the following benefits while you are unarmed and you aren’t wearing armor or wielding a shield:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Your unarmed strikes can inflict your choice of bludgeoning, piercing, or slashing damage.",
+                        "You can roll a d4 in place of the normal damage of your Unarmed Strike. This die changes as you gain fleshbound levels, as shown in the Living Weapon column of the Fleshbound table.",
+                        "When you use the Attack action with an Unarmed Strike on Your Turn, you can make one Unarmed Strike as a Bonus Action."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Flesh Shaper",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "level": 2,
+            "entries": [
+                "At 2nd level, you have gained the ability to use your malleable form to enhance your combat prowess, allowing you to temporarily transform yourself, granting special traits and abilities for a duration. On your turn, you can shape your flesh as a bonus action. Choose one of the following transformations and gain their effects for the duration.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Elastic.} You gain resistance to piercing damage, and whenever you successfully grapple a creature, you can choose to deal damage to them equal to your Living Weapon die + your Strength modifier, as you constrict their bodies. Additionally, your melee reach extends by 10 feet. Your Stomach capacity is doubled for the duration.",
+                        "{@b Inflated.} You gain resistance to bludgeoning damage, and your movement speed increases by 10 feet for the duration. While transformed, you can cross empty horizontal spaces without falling, allowing you to float between buildings without having to jump, though you still fall when you end your movement. You fall only at a rate of 60 feet per round, however, and do not take any falling damage when you land. Your weight is halved for the duration.",
+                        "{@b Bloated.} You gain resistance to slashing damage, and you may add your Constitution modifier to the damage rolls of your unarmed attacks. Your weight doubles for the duration."
+                    ]
+                },
+                "Your transformation lasts for 1 minute. It ends early if you are knocked unconscious. You can also end your transformation on your turn as a bonus action."
+            ]
+        },
+        {
+            "name": "Mastery of Form",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "level": 2,
+            "entries": [
+                "Also at 2nd level, the Fleshbound gain a certain degree of control over their own bodies, allowing them to shape or build them however they desire. Over the course of a long rest, the Flesh shaper can gain or lose a number of pounds of fat or muscle, distributed across their body as they desire, up to the result of a roll of their Living Weapon dice, plus their proficiency bonus and their Wisdom modifier. This change is done after calculating any weight gained or lost as a regular result of digesting over a long rest."
+            ]
+        },
+        {
+            "name": "Fleshbound Tradition",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Beginning at 3rd level, you join one of the Fleshbound traditions. Choose from the way of the Guardian, the way of the Enforcer, or the way of the Tender.",
+                "Your tradition grants you features at 3rd level, and again at 6th, 11th, 14th, and 17th levels."
+            ]
+        },
+        {
+            "name": "Fleshbound Tradition feature",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "level": 6,
+            "entries": [
+                "Your tradition grants you features at 3rd level, and again at 6th, 11th, 14th, and 17th levels."
+            ]
+        },
+        {
+            "name": "Fleshbound Tradition feature",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "level": 11,
+            "entries": [
+                "Your tradition grants you features at 3rd level, and again at 6th, 11th, 14th, and 17th levels."
+            ]
+        },
+        {
+            "name": "Fleshbound Tradition feature",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "level": 14,
+            "entries": [
+                "Your tradition grants you features at 3rd level, and again at 6th, 11th, 14th, and 17th levels."
+            ]
+        },
+        {
+            "name": "Fleshbound Tradition feature",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "level": 17,
+            "entries": [
+                "Your tradition grants you features at 3rd level, and again at 6th, 11th, 14th, and 17th levels."
+            ]
+        },
+        {
+            "name": "Absorb Lipomancy",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Also at 3rd level, you learn to manipulate your biology to help you deal with massive surges of lipomantic power, a welcome quality when dealing with the lipomantic assaults common in this world. Whenever you are struck or affected by an attack or spell that would cause you to gain or lose weight or consume food, you can use your reaction to reduce the weight changed or food consumed.",
+                "As a reaction, reduce the effect by 1d10 + your Constitution Modifier + your Fleshbound level.",
+                "If you reduce the effect to 0, you absorb the energy into your body, gaining temporary hit points equal to half your Fleshbound level."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "level": 4,
+            "entries": [
+                "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+                "Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "level": 8,
+            "entries": [
+                "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+                "Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "level": 12,
+            "entries": [
+                "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+                "Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "level": 16,
+            "entries": [
+                "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+                "Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "level": 19,
+            "entries": [
+                "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+                "Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead."
+            ]
+        },
+        {
+            "name": "Extra Attack",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "level": 5,
+            "entries": [
+                "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+            ]
+        },
+        {
+            "name": "Flux Strike",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "level": 5,
+            "entries": [
+                "At 5th level, your ability to manipulate physiology extends to your enemies. Whenever you hit a creature with an Unarmed Attack, you can add or remove a number of pounds of fat from their frame equal to twice the amount of damage you dealt with the attack. You can also choose to focus the attack on altering their body as well, forgoing the damage you rolled and instead increasing or decreasing their weight by ten times the amount of damage you would have dealt. You may make this decision after you find out if you hit, but before you roll for damage."
+            ]
+        },
+        {
+            "name": "Mystic Weapon",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "level": 6,
+            "entries": [
+                "Starting at 6th level, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+            ]
+        },
+        {
+            "name": "Body Hardening",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "level": 7,
+            "entries": [
+                "At 7th level, you have learned to use your bulk to absorb the impact of drastic effects, because often you will be too heavy to properly avoid them. When you are subjected to an effect that allows you to make a Dexterity saving throw, you may add your Constitution modifier to the saving throw result instead of your Dexterity. You still do not get to add your proficiency bonus unless you are proficient in Dexterity Saving Throws, however.",
+                "Additionally, this potency is far more drastic on things that naturally focus on your physiology. When you are subjected to an effect that allows you to make a Constitution saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+            ]
+        },
+        {
+            "name": "Flesh Shaper Improvement",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "level": 9,
+            "entries": [
+                "At 9th level, you have improved your ability to shape your form. Your Flesh Shaped forms gain the following additional abilities:",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Elastic.} While in this form, creatures you grapple are considered restrained by you.",
+                        "{@b Inflated.} While in this form, your long jump and high jump distances are doubled, and you can walk across and stand on liquids and the thinnest of surfaces, such as a sheet of ribbon, without falling or tearing through.",
+                        "{@b Bloated.} While in this form, you gain advantage on saving throws to resist being pushed or moved, and can use your reaction to make an unarmed strike against a creature that misses you with a melee attack."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Mastery of Form Improvement",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "level": 10,
+            "entries": [
+                "At 10th level, you improve your subtle control of your body. You can choose at any point, without needing an action, to either double or halve your normal bulk limit, before any magical effects on it, allowing you to either carry more body weight than normal or feign being more hindered than you are.",
+                "Beyond that, you can further control your digestive systems, allowing you to increase or decrease the number of exercise points or diet points that affect you over the course of any long rest by an amount up to a roll of your Living Weapon Dice plus your Wisdom modifier."
+            ]
+        },
+        {
+            "name": "Eyes of the Glutton's Temperence",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "level": 13,
+            "entries": [
+                "At 13th level, your mastery of the lipomantic energy of your creation and your control over your body grants you insight into the creatures you encounter. You can immediately tell the following traits about any creature you can see within 30 feet:",
+                {
+                    "type": "list",
+                    "items": [
+                        "What their bulk or flex limits are",
+                        "What their current weight is",
+                        "What their stomach capacity is",
+                        "How much food is currently in their stomach",
+                        "What their currently accumulated diet points and exercise points are",
+                        "What their eating skill is"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Enduring Flesh Shape",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "level": 15,
+            "entries": [
+                "At 15th level, your flesh shape has become ease itself for you to maintain. It no longer has a maximum duration, allowing you to maintain any flesh shape until you fall unconscious or end it yourself. You must still expend another use to change flesh shapes, however."
+            ]
+        },
+        {
+            "name": "Pliant Escape",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "level": 18,
+            "entries": [
+                "At 18th level, your ability to control your body allows you to escape from the most difficult situations. You can expend half of your movement speed to escape any restraints, magical or otherwise, and to escape any grapple, including being swallowed by a creature. This does not allow you to escape being immobilized by your weight however."
+            ]
+        },
+        {
+            "name": "Perfect Control",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "level": 20,
+            "entries": [
+                "At 20th level, you have absolute control over your body. You can fake any condition effect, suffering its effects on you until you choose to end them, neither of which requires an action or reaction. A creature observing you cannot tell the difference between your faked conditions and the true condition without the ability to magically read your thoughts or detect lies.",
+                "Additionally, this control extends to your body mass. You can double the limits of your Mastery of Form ability, including its effects on your body over a long rest and its ability to affect your bulk limit, and your stomach capacity is considered limitless while in the {@b Elastic} form of your Flesh Shaper ability."
+            ]
+        }
+    ],
+    "subclassFeature": [
+        {
+            "name": "Way of the Guardian",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "subclassShortName": "Guardian",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "The Guardians were the bodyguards of the ancient lipomancers, the personal protectors and the aegis to keep their masters from harm. The modern free fleshbound have honed this talent, making them uncrackable bulwarks to protect their allies. Now, however, it is those they -choose- to protect who gain this potent aid.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Guardian Shape|Fleshbound|StorymakerExpanDnD|Guardian|StorymakerExpanDnD|3"
+                }
+            ]
+        },
+        {
+            "name": "Way of the Enforcer",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "subclassShortName": "Enforcer",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "The Enforcers were the iron fist of the lipomancers, using their abilities to control the flesh of others as well as themselves, to batter their foes into submission using their own bodies. Now the Fleshbound practice this art as a message to those who would look down on them: We are the masters of not only our bodies, but also yours. Beware.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Weaponmaster|Fleshbound|StorymakerExpanDnD|Enforcer|StorymakerExpanDnD|3"
+                }
+            ]
+        },
+        {
+            "name": "Way of the Tender",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "subclassShortName": "Tender",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "The Tenders were the personal maids and servants of the ancient lipomantic empires, seeing to the daily needs and personal comforts, as well as the health, of their masters. The Free Fleshbound carry this art on as a method of healing and aiding others, keeping them strong and able to act even when their bodies fail them.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Tender's Touch|Fleshbound|StorymakerExpanDnD|Tender|StorymakerExpanDnD|3"
+                }
+            ]
+        },
+        {
+            "name": "Guardian Shape",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "subclassShortName": "Guardian",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Beginning when they take this tradition at 3rd level, the Fleshbound learns a new form to make use of with their Flesh Shaper ability:",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Hardened.} You gain resistance to bludgeoning, piercing, and slashing damage, and can use your reaction to interpose yourself between your allies and danger. Whenever an ally within 5 feet of you is hit by an attack roll, you can use your reaction to take the hit instead, becoming the target of the attack and using your Armor Class to determine if it hits."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Living Shield",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "subclassShortName": "Guardian",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 6,
+            "entries": [
+                "At 6th level, you learn to completely cover your companions from the damaging effects around you. Whenever an ally within 5 feet of you is forced to make a saving throw, you can use your reaction to take the effect for them instead, shielding them from its effects, whether it be the Dexterity Saving throw caused by dragon's breath, or the Wisdom Saving Throw of a fatcubus's charm. You then make the saving throw as normal."
+            ]
+        },
+        {
+            "name": "Guardian's Stamina",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "subclassShortName": "Guardian",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 11,
+            "entries": [
+                "At 11th level, your sheer stamina allows you to take hardy blows for your allies. Whenever you are in your {@b Hardened} flesh shape and use its reaction ability or your Living Shield feature, you gain temporary hit points equal to your Constitution modifier."
+            ]
+        },
+        {
+            "name": "Unyielding Bulwark",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "subclassShortName": "Guardian",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 14,
+            "entries": [
+                "At 14th level, your ability to cover your allies extends to everyone you can reach. Whenever you use your reaction to use your Living Shield feature or your {@b Hardened} Flesh shape's ability, you can choose to cover each ally of your choice within 5 feet of you until your next turn. This can mean you will be taking several attacks or harmful saving throws, however, so use this ability sparingly."
+            ]
+        },
+        {
+            "name": "Wall of Flesh",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "subclassShortName": "Guardian",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 17,
+            "entries": [
+                "At 17th level, the Guardian gains the ability to become a literal wall to separate their allies from their enemies. As an action, the Guardian can become a wall that occupies any combination of 20 interconnected five-foot squares. While in this state, the Guardian is immobilized by their weight and blocks passage of any creatures through their space. When the Guardian uses this ability, they gain a number of temporary hit points equal to ten times their Fleshbound level. When these temporary hit points are expended. This form lasts until these temporary hit points are expended, or until 10 minutes have passed, at which point the Guardian loses any remaining temporary hit points and returns to their normal form."
+            ]
+        },
+        {
+            "name": "Weaponmaster",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "subclassShortName": "Enforcer",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Beginning when you take this tradition at 3rd level, you learn to apply your abilities to the weapons your master teaches you to wield. You gain proficiency in two additional weapons of your choice. Additionally, you may use your Fleshbound abilities with these two weapons and any Simple weapon, rather than just with your unarmed strikes."
+            ]
+        },
+        {
+            "name": "Flesh Warrior",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "subclassShortName": "Enforcer",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 6,
+            "entries": [
+                "At 6th level, your martial prowess improves. You gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Mystic Weaponmaster.} Any weapons you wield that benefit from your Weaponmaster ability are considered magic weapons.",
+                        "{@b Flesh Parry.} Whenever you are hit with a melee attack, you can use your reaction to increase your Armor Class by 2 against that specific attack. If that would make the attack miss, the target gains or loses an amount of fat up to twice your Fleshbound level."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Flux Capacity",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "subclassShortName": "Enforcer",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 11,
+            "entries": [
+                "At 11th level, the foes you strike feel their body weigh heavier upon them. Whenever an enemy gains weight from your Flux Strike ability, their bulk limit is halved until the start of your next turn."
+            ]
+        },
+        {
+            "name": "Devastating Critical",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "subclassShortName": "Enforcer",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 14,
+            "entries": [
+                "Starting at 14th level, when you score a critical hit with a weapon attack, you gain a bonus to that weapon’s damage roll equal to your level in this class."
+            ]
+        },
+        {
+            "name": "Flux Crush",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "subclassShortName": "Enforcer",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 17,
+            "entries": [
+                "At 17th level, your blows rapidly hammer your opponents into immobility or emaciation. Once per round, Whenever you use your Flux Strike ability to forgo dealing damage, you may immediately make another attack at the same target. This second attack, if it hits, must also use your Flux Strike ability to forgo dealing damage."
+            ]
+        },
+        {
+            "name": "Tender's Touch",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "subclassShortName": "Tender",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "At 3rd level, you gain the ability to channel lipomantic energy to heal wounds. You have a pool of dice that you spend to fuel this healing. The number of dice in the pool equals 1 + your Fleshbound level. The dice in this pool use your Living Weapon damage die.",
+                "As an action, you can heal one creature you can see within 5 feet of you, spending dice from the pool. The maximum number of dice you can spend at once equals your Wisdom modifier (minimum of one die). Roll the dice you spend, add them together, then add your Wisdom modifier, and restore a number of hit points equal to the total. The target also gains or loses (your choice) a number of pounds of fat equal to the result of the roll.",
+                "This ability uses a bonus action if you are using it on yourself. Your pool regains all expended dice when you finish a long rest."
+            ]
+        },
+        {
+            "name": "Soothing Ministration",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "subclassShortName": "Tender",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 6,
+            "entries": [
+                "At 6th level, your tending to your allies allows them, and yourself, to recover faster when they need it, although your assistance is perhaps a bit fattening. Whenever you and your allies take a short rest together, each of you may spend an additional hit die to regain hit points without reducing their current pool of hit dice. This increases to two bonus dice at 14th level, and three at 17th level. Creatures that expend these bonus hit dice fatten for the amount of hit points they restored."
+            ]
+        },
+        {
+            "name": "Mobility Assistance",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "subclassShortName": "Tender",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 11,
+            "entries": [
+                "At 11th level, your ministrations help those suffering from their weight manage it. Any creatures that benefit from your Soothing Ministration feature also have their bulk limit doubled until their next short or long rest."
+            ]
+        },
+        {
+            "name": "Cleansing Touch",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "subclassShortName": "Tender",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 14,
+            "entries": [
+                "At 14th level, your healing touch can cleanse your allies of maladies. Whenever a creature is healed by your Tender's Touch feature, you can choose to end either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned.",
+                "You can use this ability a number of times equal to your Wisdom modifier, and regain expended uses at the end of a long rest."
+            ]
+        },
+        {
+            "name": "Lipomantic Revival",
+            "source": "StorymakerExpanDnD",
+            "className": "Fleshbound",
+            "classSource": "StorymakerExpanDnD",
+            "subclassShortName": "Tender",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 17,
+            "entries": [
+                "At 17th level, your abilities tap into the bridge between life and death, and can drag an ally back from beyond, though such a return is taxing on their bodies. Once per long rest, you may cast the Raise Dead spell, expending material components as necessary. A creature that is successfully revived this way, however, burns most of their body fat in the return, and is left at their scrawny emaciation threshold."
+            ]
+        },
+        {
+            "name": "Culinarian Specialist",
+            "source": "StorymakerExpanDnD",
+            "className": "Artificer",
+            "classSource": "ERLW",
+            "subclassShortName": "Culinarian",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "The culinarian works within the realm of mysterious artifice that is consumable items and items designed around improving the efficacy of hedonism and gluttony, and the practice thereof.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Tools of the Trade|Artificer|ERLW|Culinarian|StorymakerExpanDnD|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Culinarian Spells|Artificer|ERLW|Culinarian|StorymakerExpanDnD|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Auto-feeder|Artificer|ERLW|Culinarian|StorymakerExpanDnD|3"
+                }
+            ]
+        },
+        {
+            "name": "Tools of the Trade",
+            "source": "StorymakerExpanDnD",
+            "className": "Artificer",
+            "classSource": "ERLW",
+            "subclassShortName": "Culinarian",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "By the time you adopt this specialty at 3rd level, you're deeply familiar with employing its tools.",
+                {
+                    "type": "entries",
+                    "name": "Proficiencies",
+                    "entries": [
+                        "You gain proficiency with tinker's tools and cook's utensils, assuming you don't already have them. You also gain tinker's tools and cook's utensils for free - the result of tinkering you've done as you've prepared for this specialization."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Crafting",
+                    "entries": [
+                        "If you craft a magic item in the food category, it takes you a quarter of the normal time, and it costs you half as much of the usual gold."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Culinarian Spells",
+            "source": "StorymakerExpanDnD",
+            "className": "Artificer",
+            "classSource": "ERLW",
+            "subclassShortName": "Culinarian",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Culinarian Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+                {
+                    "type": "table",
+                    "caption": "Culinarian Spells",
+                    "colLabels": [
+                        "Artificer Level",
+                        "Spells"
+                    ],
+                    "rows": [
+                        [
+                            "3rd",
+                            "Hearty Tonic, Syrup Trap"
+                        ],
+                        [
+                            "5th",
+                            "Stretch Stomach, Emburden"
+                        ],
+                        [
+                            "9th",
+                            "Healing Salve, Redirect Repast"
+                        ],
+                        [
+                            "13th",
+                            "Create Fattening Food and Drink, Fatball"
+                        ],
+                        [
+                            "17th",
+                            "Immobilize Monster, Rampant Vitality"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Auto-feeder",
+            "source": "StorymakerExpanDnD",
+            "className": "Artificer",
+            "classSource": "ERLW",
+            "subclassShortName": "Culinarian",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "At 3rd level, you have managed to piece together the designs for a device meant to automatically deliver food to yourself and others.",
+                "Whenever you finish a long rest and your tinker's tools are with you, you can create an auto-feeder, which a small device that can be carried on your person. If you already have an auto-feeder from this feature, the first one breaks down.",
+                "An Auto-feeder can be used in two distinct ways: Feeding yourself and feeding others.",
+                "On your turn, a number of times per turn equal to your Intelligence Modifier, the auto-feeder can feed you a pound of food, or a food item of your choice without requiring an action or reaction.",
+                "As a bonus action on your turn, you may attempt to have the auto-feeder feed a target you can see within 30 feet of you a pound of food or piece of food of your choice. An unwilling creature can attempt a Dexterity Saving Throw against your spell save DC to avoid this, and on a success the food is lost splattered across the ground after being launched with significant force, but the target is not forced to eat it.",
+                "Additionally, the Auto-feeder possesses enough basic magic to supply you with mundane, basic quality food, up to a number of pounds per day equal to 5 times your Intelligence modifier.",
+                "The auto-feeder also serves as a tester for any ingredients or food put through it, allowing you to determine if any ingredient or food has been poisoned or in some manner unsafe to consume, magically or otherwise.",
+                "The Auto-feeder also functions as a weapon to augment your spells and attacks. Any time you hit a creature with an attack roll or spell attack roll, you can choose to force them to consume 1d4 pounds of food. The force of this blast also deals 1d4 points of force damage as the magical overcharge blasts the food into the creature. This feature of this ability can be used a number of times equal to your Intelligence modifier, with expended uses being regained when you finish a long rest."
+            ]
+        },
+        {
+            "name": "Hearty Cuisine",
+            "source": "StorymakerExpanDnD",
+            "className": "Artificer",
+            "classSource": "ERLW",
+            "subclassShortName": "Culinarian",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 6,
+            "entries": [
+                "At 6th level, your culinary skills have improved and you have also made improvements to your auto-feeder.",
+                "Your auto-feeder is now able to attempt to feed each creature of your choice within 30 feet as a bonus action rather than a single creature, and may feed you any amount of food on your turn by magically teleporting the food into your stomach rather than feeding it to you directly. The attacking ability of your auto-feeder also improves, allowing it to feed 2d4 pounds of food and inflict 2d4 points of force damage on a successful attack or spell attack roll.",
+                "Additionally, any food made by you or your auto-feeder has faint magical or supernatural qualities. Every time a creature consumes food of your or your auto-feeder's creation, you can choose one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "the creature immediately gains 1 pound.",
+                        "the creature immediately loses 1 pound.",
+                        "the creature has advantage on saving throws against exhaustion for the next hour.",
+                        "the creature gains darkvision to a distance of 30 feet for the next hour.",
+                        "the creature gains disadvantage on Dexterity(stealth) checks for the next hour",
+                        "the creature gains advantage on Constitution(eating) checks for the next minute."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Culinary Savant",
+            "source": "StorymakerExpanDnD",
+            "className": "Artificer",
+            "classSource": "ERLW",
+            "subclassShortName": "Culinarian",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 14,
+            "entries": [
+                "At 14th level, your culinary experience is so extensive that you have inured yourself to most of the dangers of overindulgence. You have resistance to damage caused by overeating or ingesting harmful food, and are unaffected by the Burdened and Impeded Bulk statuses.",
+                "In addition, your auto-feeder improves in the following ways:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Its range of feeding increases to 120 feet",
+                        "The food and force damage inflicted by its attack augmentation ability both increase to 4d4."
+                    ]
+                },
+                "Beyond that, your food also gains the following additional possible effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The creature immediately digests 1d4 pounds of food",
+                        "the creature's movement speed is reduced by 10 feet until the end of their next turn. (this effect does ",
+                        "not stack with itself)",
+                        "The creature gains an additional exercise point when they take their next long rest.",
+                        "The creature loses an exercise point when they take their next long rest. (to a minimum of 0)"
+                    ]
+                }
+            ]
+        }
+    ],
+    "subclass": [
+        {
+            "name": "Culinarian Specialist",
+            "source": "StorymakerExpanDnD",
+            "page": 25,
+            "shortName": "Culinarian",
+            "className": "Artificer",
+            "classSource": "ERLW",
+            "subclassFeatures": [
+                "Culinarian Specialist|Artificer|ERLW|Culinarian|StorymakerExpanDnD|3",
+                "Hearty Cuisine|Artificer|ERLW|Culinarian|StorymakerExpanDnD|6",
+                "Culinary Savant|Artificer|ERLW|Culinarian|StorymakerExpanDnD|14"
+            ],
+            "subclassSpells": [
+                {
+                    "name": "Hearty Tonic",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Syrup Trap",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Stretch Stomach",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Emburden",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Healing Salve",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Redirect Repast",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Create Fattening Food and Drink",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Fatball",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Immobilize Monster",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Rampant Vitality",
+                    "source": "StorymakerExpanDnD"
+                }
+            ]
+        }
+    ]
+}
