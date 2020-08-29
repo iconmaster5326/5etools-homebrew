@@ -19,8 +19,8 @@
             "Eating": "The Constitution (Eating) skill can be used to stomach bad tasting, dangerous, or otherwise difficult to eat food and drink, as well as potentially identify unknown consumable substances by taste, though that might rely on a different ability score than Constitution."
         },
         "optionalFeatureTypes": {
-			"CotSD": "Circle of the Spread Disease"
-		}
+            "CotSD": "Circle of the Spread Disease"
+        }
     },
     "variantrule": [
         {
@@ -3963,6 +3963,395 @@
             "entries": [
                 "At 14th level, you become an incubator for disease and malignancies. You are immune to poison and unaffected by diseases, but can still contract them. Any disease you are afflicted with does not apply any effects to you unless you allow it (whether one can allow only part of a disease to affect themselves or must take it all is up to the GM), but you can spread them to others. As an action, you can force a creature within 10 feet of you to make a Constitution Saving Throw against your Spell Save DC, contracting one of the diseases you currently have on a failure. The target can make another saving throw at the end of each of their turns. If they succeed on three of these saving throws, the disease ends. If they fail three of them, the disease lasts until removed, or until the instance of the disease that afflicts you ends or is removed."
             ]
+        },
+        {
+            "name": "Battle Chef",
+            "source": "StorymakerExpanDnD",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Battle Chef",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "The Battle Chef intends to master both food and combat in equal measure, brewing dishes to help prepare one for battle and mastering a martial regiment that balances fat and muscle into one well-oiled machine.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Master Chef|Fighter|PHB|Battle Chef|StorymakerExpanDnD|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Guts|Fighter|PHB|Battle Chef|StorymakerExpanDnD|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Chef's Specialty|Fighter|PHB|Battle Chef|StorymakerExpanDnD|3"
+                }
+            ]
+        },
+        {
+            "name": "Master Chef",
+            "source": "StorymakerExpanDnD",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Battle Chef",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Starting when you choose this archetype at 3rd level, you gain proficiency with Cook's Utensils and Brewer's supplies, and may add double your proficiency bonus to checks made to create food or drink with them. You also are proficient with improvised weapons that are kitchenware, such as pans, chef’s knives, ladles."
+            ]
+        },
+        {
+            "name": "Guts",
+            "source": "StorymakerExpanDnD",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Battle Chef",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Also starting at 3rd level, when you finish a short or long rest, you gain a number of guts points equal to half your Fighter level (rounded down). You lose any guts points over this number when you finish a long rest. You can use guts points to perform various Battle Chef features. An attack can only be affected by a single Battle Chef feature that modifies an attack. You can gain guts points in the following ways:",
+                {
+                    "type": "entries",
+                    "name": "Critical Hit",
+                    "entries": [
+                        "When you make a weapon attack and roll a 20 on the die, you regain 1 spent guts point."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Killing Blow",
+                    "entries": [
+                        "When you reduce a hostile creature to 0 Hit Points, you regain 1 spent guts point."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Chef's Specialty",
+            "source": "StorymakerExpanDnD",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Battle Chef",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "By 3rd level, you have established a healthy knowledge of ingredients and their special magical properties. You can expend 1 guts points whenever you use a Specialty. If the target cannot eat, any specialties that require the target to eat something have no additional effect.",
+                {
+                    "type": "abilityDc",
+                    "name": "Specialty",
+                    "attributes": [
+                        "wis"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Bloating Bean",
+                    "entries": [
+                        "When you hit an enemy with a melee weapon attack, you may spend 1 guts point to force it to eat a bloating bean. It must make a Constitution saving throw or suffer disadvantage on attacks until the end of its next turn due to the uncomfortable bloating, gassy sensation."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Slippery Grease",
+                    "entries": [
+                        "You coat your weapon in slippery grease that splashes onto the opponent's hands. When you hit an enemy with a melee weapon attack, you may spend 1 guts point to attempt to disarm it. It must make a Dexterity saving throw or drop 1 held item of your choice. On a failed save, it drops the object you choose. The object lands at its feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Zephyrleaf",
+                    "entries": [
+                        "Eating this lightly magical leaf fills your body with excess wind that is very quickly released, but allows you to move forward and retreat after an attack too swiftly to be tracked. When you make an attack, you may spend 1 guts point to increase your melee reach by 5 feet for this attack."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Frost Oil",
+                    "entries": [
+                        "Coat your weapon with this frigid oily substance. When you hit an enemy with a melee weapon attack, you may spend 1 guts point to force it to make a Constitution saving throw or have its movement speed reduced by half on its next turn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Belly Bump",
+            "source": "StorymakerExpanDnD",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Battle Chef",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 7,
+            "entries": [
+                "Starting at 7th level, you can spend 1 or more guts points after a melee attack hits to follow it up with a blow from your body. If the attack hits, the target must succeed on a Strength saving throw against your Specialty DC or be thrust directly away from you 10 feet per point of guts spent on the attack."
+            ]
+        },
+        {
+            "name": "Burning Oil",
+            "source": "StorymakerExpanDnD",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Battle Chef",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 7,
+            "entries": [
+                "Starting at 7th level, you've learned to quickly coat your weapon in burning oil between attacks. When you hit an enemy with a melee weapon attack, you can spend 1 or more guts points to ignite the oil on your weapon, causing the attack to deal an extra 1d6 fire damage per guts point spent."
+            ]
+        },
+        {
+            "name": "Quick Snack",
+            "source": "StorymakerExpanDnD",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Battle Chef",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 7,
+            "entries": [
+                "Starting at 7th level, you can eat one piece of food or drink one drink or potion without spending an action or bonus action. You may use this ability only once per turn."
+            ]
+        },
+        {
+            "name": "Culinary Teamwork",
+            "source": "StorymakerExpanDnD",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Battle Chef",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 10,
+            "entries": [
+                "Starting at 10th level, you can use Belly Bump, Burning Oil, or Chef's Specialty to augment the melee attacks of an ally within 5 feet of you, if you are also adjacent to the enemy they are attacking."
+            ]
+        },
+        {
+            "name": "Third Wind",
+            "source": "StorymakerExpanDnD",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Battle Chef",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 15,
+            "entries": [
+                "By 15th level, you've learned of a variety of energy and stamina restoring herbs and spices. You can spend 1 guts point as a bonus action to regain hit points equal to 1d10 + your Fighter level. Once you use this feature, you must finish a short or long rest before you can use it again."
+            ]
+        },
+        {
+            "name": "Leadberry",
+            "source": "StorymakerExpanDnD",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Battle Chef",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 18,
+            "entries": [
+                "Starting at 18th level, you can use the leadberry. The leadberry is a dangerous creation of a variety of magical and very fattening ingredients that can lend temporarily incredible momentum to your attacks, but also leaves a hefty aftermath. As a bonus action, you can eat the leadberry, causing your attacks to score a critical hit on a roll of 18-20 for the next minute. After the minute is over, you gain 1d100 pounds of fat. Once you have used this ability, you can't do so again until you finish a long rest. If any creature besides you eats the leadberry, they do not receive its benefits, but still gain 1d100 pounds of fat after 1 minute."
+            ]
+        },
+        {
+            "name": "Thunderous Critical",
+            "source": "StorymakerExpanDnD",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Battle Chef",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 18,
+            "entries": [
+                "Also starting at 18th level, whenever you score a critical hit on a Melee weapon attack, the force of your weight radiates out from the point of impact, causing enemies within 5 feet of the target to take half the resulting damage of the Critical hit."
+            ]
+        },
+        {
+            "name": "Knights of the Steel Harvest",
+            "source": "StorymakerExpanDnD",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "KotSH",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "The Knights of the order of the Steel Harvest are renowned for their roundness, but also for their unstoppable nature on the field of battle. The order itself owns a number of keeps throughout the land that it uses to train new members of the order in their particular fighting style. Knights of the order hold true to the idea that one does not need a shield to protect from impact if their body can serve as an additional layer of protection, and so cultivate a heavy, rotund body, along with the strength and skill underneath to wield it, to augment their heavy armor while wielding two-handed weapons of great heft to their utmost effect.",
+                "Knights of the Steel Harvest are tied to a specific order of knights. {@b Superheavy Knight} serves as the generic name for the archetype for use in campaigns that do not feature this particular order.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Protective Padding|Fighter|PHB|KotSH|StorymakerExpanDnD|3"
+                }
+            ]
+        },
+        {
+            "name": "Protective Padding",
+            "source": "StorymakerExpanDnD",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "KotSH",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "The Knights of the Steel harvest pride themselves on their defensive layer of fat underneath their heavy armor, though those less committed to this style might attempt to substitute this with heavy cloth or thick leather instead.",
+                "Beginning when you take this archetype at 3rd level, while wearing heavy armor and not wielding a shield, you may add half your Constitution modifier (minimum 1) to your armor class.",
+                "At 15th level this bonus increases to add your entire Constitution modifier to your armor class."
+            ]
+        },
+        {
+            "name": "Fat Tactics",
+            "source": "StorymakerExpanDnD",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "KotSH",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 7,
+            "entries": [
+                "At 7th level, you have learned the secrets the knights employ to not only maintain their physique, but also employ it on the battlefield.",
+                "You gain proficiency in the Eating skill.",
+                "Whether you already had proficiency in the Eating skill or not, you gain expertise in it as well.",
+                "Additionally, while wearing heavy armor and not using a shield, you may attempt to shove or knock an enemy prone as a bonus action."
+            ]
+        },
+        {
+            "name": "Tireless",
+            "source": "StorymakerExpanDnD",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "KotSH",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 10,
+            "entries": [
+                "At 10th level, your body has been honed to be a bottomless well of stamina to call on in times of need.",
+                "You are no longer negatively affected by being burdened or impeded by your bulk limit, and whenever you roll initiative and do not have the use of your second wind ability remaining, you regain the use of it."
+            ]
+        },
+        {
+            "name": "Heavy Strikes",
+            "source": "StorymakerExpanDnD",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "KotSH",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 15,
+            "entries": [
+                "At 15th level, you have learned to put your weight behind each of your blows. While wearing heavy armor and not using a shield, you can add your Constitution modifier to the damage roll of one of your weapon attacks. You may use this ability once on each of your turns."
+            ]
+        },
+        {
+            "name": "Iron Fortitude",
+            "source": "StorymakerExpanDnD",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "KotSH",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 18,
+            "entries": [
+                "At 18th level you have become a true bastion of durability. While wearing heavy armor and not using a shield, you have resistance to nonmagical bludgeoning, piercing, and slashing damage. Additionally, being Immobilized by your bulk limit no longer restrains you, but rather only reduces your movement speed by 10 feet, to a minimum of 5 feet a round."
+            ]
+        },
+        {
+            "name": "Lipomantic Rune-Knight",
+            "source": "StorymakerExpanDnD",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Lipo. Knight",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Lipomancy is a powerful school of magic, and its energies can be turned to a variety of purposes. The more martial minded have formed the techniques of the Lipomantic Rune-knight, who use the lipomantic energies of their own body fat to power magical runes etched into their weapons and armor, making them heavyset rune knights of terrifying capacity.",
+                {
+                    "type": "abilityDc",
+                    "name": "runic skill",
+                    "attributes": [
+                        "int"
+                    ]
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Rune-Carving|Fighter|PHB|Lipo. Knight|StorymakerExpanDnD|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Feasting Strike|Fighter|PHB|Lipo. Knight|StorymakerExpanDnD|3"
+                }
+            ]
+        },
+        {
+            "name": "Rune-Carving",
+            "source": "StorymakerExpanDnD",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Lipo. Knight",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Beginning when you take this archetype at 3rd level, you may carve a set of runes into a suit of armor and a single weapon of your choice over the course of a long rest. Once inscribed, the runes flare to life with lipomantic power, enabling the abilities of your archetype to be used with them so long as you are wielding them.",
+                "Additionally, your weapon is considered magical for the purposes of overcoming damage resistance, and your armor is considered magical for the purposes of resizing to fit you or effects that would ignore or damage nonmagical armor.",
+                "You may only have one set of armor and one weapon inscribed with runes at a time. When you choose a new set of armor or new weapon, the runes on the previous item go inert."
+            ]
+        },
+        {
+            "name": "Feasting Strike",
+            "source": "StorymakerExpanDnD",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Lipo. Knight",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Also at 3rd level, you can use your rune-carved weapon to draw mass into yourself to fuel your other abilities. When you hit an enemy with a weapon attack using your rune-carved weapon, you deal an extra amount of Necrotic damage equal to your Intelligence modifier (minimum 1), and you gain an equivalent number of pounds of fat."
+            ]
+        },
+        {
+            "name": "Lipomantic Burst",
+            "source": "StorymakerExpanDnD",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Lipo. Knight",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 7,
+            "entries": [
+                "At 7th level, the runes on your armor can be used to thrust attackers away from you. When you are hit by a melee attack, you can use your reaction to deal 1d10 + your Intelligence modifier in force damage to your attacker, and force your attacker to make a Strength Saving throw or be pushed 20 feet directly away from you and knocked prone. Using this feature drains 1d10 pounds of fat from your body, and once used cannot be used again until your 4th turn after you use this. The number of rounds that must pass reduces by 1 at 10th, 15th, and 18th level; at 18th level, you can use this feature once every round."
+            ]
+        },
+        {
+            "name": "Rune-blast",
+            "source": "StorymakerExpanDnD",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Lipo. Knight",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 10,
+            "entries": [
+                "At 10th level the runes on your weapon allow you to blast targets with raw power drained from your body. You can replace any of your weapon attacks using your rune-carved weapon with a rune-blast attack.",
+                "A rune-blast attack is a ranged spell attack which uses your Intelligence modifier, and has a range of 60 feet. On a successful hit, the target takes damage equal to the damage die of your weapon plus your Intelligence modifier in force damage, and you lose an equivalent number of pounds of fat."
+            ]
+        },
+        {
+            "name": "Runic Shift",
+            "source": "StorymakerExpanDnD",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Lipo. Knight",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 15,
+            "entries": [
+                "At 15th level, as a bonus action, you can activate the runes on your armor to enhance your mobility on the battlefield. Until the end of your turn, your walking speed increases by 10 feet, you do not provoke opportunity attacks from creatures you have attacked this turn, and you can move through solid objects and the spaces of other creatures without expending additional movement. Ending your turn inside an object causes you to take 2d10 points of force damage and immediately move to the nearest unoccupied space.",
+                "Using this feature drains 1d10 pounds of fat from your body, and once used cannot be used again until your 2nd turn after you use this. The number of rounds that must pass reduces by 1 at 18th level; at 18th level, you can use this feature once every round."
+            ]
+        },
+        {
+            "name": "Lipomantic Conduit",
+            "source": "StorymakerExpanDnD",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Lipo. Knight",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 18,
+            "entries": [
+                "At 18th level, you improved the potency of your Lipomantic runes, granting the following additional effects to your rune-carved equipment.",
+                {
+                    "type": "list",
+                    "items": [
+                        "When you kill an enemy with your rune-carved weapon, you automatically gain 1d10 pounds of fat and regain as many hit points.",
+                        "Your rune-carved armor grants you resistance to your choice of acid, cold, electricity, or fire damage. ",
+                        "You can change the resistance of your armor over the course of a long rest.",
+                        "You can use a bonus action to cause your rune-carved weapon and/or your rune-carved armor to appear on your person, equipped and ready for battle.",
+                        "While wearing your rune-carved armor, you suffer no ill effects of being over your bulk limit."
+                    ]
+                }
+            ]
         }
     ],
     "optionalfeature": [
@@ -4770,6 +5159,54 @@
                     "name": "Slovenly Plague",
                     "source": "StorymakerExpanDnD"
                 }
+            ]
+        },
+        {
+            "name": "Battle Chef",
+            "source": "StorymakerExpanDnD",
+            "page": 45,
+            "shortName": "Battle Chef",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Battle Chef|Fighter||Battle Chef|StorymakerExpanDnD|3",
+                "Belly Bump|Fighter||Battle Chef|StorymakerExpanDnD|7",
+                "Burning Oil|Fighter||Battle Chef|StorymakerExpanDnD|7",
+                "Quick Snack|Fighter||Battle Chef|StorymakerExpanDnD|7",
+                "Culinary Teamwork|Fighter||Battle Chef|StorymakerExpanDnD|10",
+                "Third Wind|Fighter||Battle Chef|StorymakerExpanDnD|15",
+                "Leadberry|Fighter||Battle Chef|StorymakerExpanDnD|18",
+                "Thunderous Critical|Fighter||Battle Chef|StorymakerExpanDnD|18"
+            ]
+        },
+        {
+            "name": "Knights of the Steel Harvest",
+            "source": "StorymakerExpanDnD",
+            "page": 46,
+            "shortName": "KotSH",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Knights of the Steel Harvest|Fighter||KotSH|StorymakerExpanDnD|3",
+                "Fat Tactics|Fighter||KotSH|StorymakerExpanDnD|7",
+                "Tireless|Fighter||KotSH|StorymakerExpanDnD|10",
+                "Heavy Strikes|Fighter||KotSH|StorymakerExpanDnD|15",
+                "Iron Fortitude|Fighter||KotSH|StorymakerExpanDnD|18"
+            ]
+        },
+        {
+            "name": "Lipomantic Rune-Knight",
+            "source": "StorymakerExpanDnD",
+            "page": 47,
+            "shortName": "Lipo. Knight",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Lipomantic Rune-Knight|Fighter||Lipo. Knight|StorymakerExpanDnD|3",
+                "Lipomantic Burst|Fighter||Lipo. Knight|StorymakerExpanDnD|7",
+                "Rune-blast|Fighter||Lipo. Knight|StorymakerExpanDnD|10",
+                "Runic Shift|Fighter||Lipo. Knight|StorymakerExpanDnD|15",
+                "Lipomantic Conduit|Fighter||Lipo. Knight|StorymakerExpanDnD|18"
             ]
         }
     ]
