@@ -4352,6 +4352,101 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Calling of the Hungry Shade",
+            "source": "StorymakerExpanDnD",
+            "className": "Lingering Soul",
+            "classSource": "Lingering Soul",
+            "subclassShortName": "Hungry Shade",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "The Hungry Shade is the specter of one who dedicated themselves entirely to indulgence in life, who died during a particularly spectacular act of hedonism, or who is ravished by a cursed hunger that they cannot sate. They hunger for sustenance they can no longer have, feeling the dread hunger of one who wants to gorge, but no longer is flesh. The Hungry Shade takes this hunger out on others, using the bodies of those they possess to attempt to sate their neverending hunger.",
+                "Upon becoming a Hungry Shade, choose either your Strength, your Constitution, or your Charisma to become your Aspect. Your Aspect Modifier is equal to that of the chosen ability score. You gain proficiency in Charisma Saving Throws.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Possessing Hunger|Lingering Soul|Lingering Soul|Hungry Shade|StorymakerExpanDnD|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Supernal Metabolism|Lingering Soul|Lingering Soul|Hungry Shade|StorymakerExpanDnD|1"
+                }
+            ]
+        },
+        {
+            "name": "Possessing Hunger",
+            "source": "StorymakerExpanDnD",
+            "className": "Lingering Soul",
+            "classSource": "Lingering Soul",
+            "subclassShortName": "Hungry Shade",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "Upon following this calling at 1st level, your unending hunger infects anyone you possess. Any Host you possess is unendingly hungry, as if their stomach was empty, and you can use your Action or Bonus Action to force your host to take the Eating Action, or to take the Use an Object action to eat a Food Item. You do not suffer any of the bludgeoning damage your host takes from overeating past their fullness limit.",
+                "Additionally, at the end of each of your turns, if your host's stomach is empty, they take an amount of psychic damage equal to your Lingering Soul level, as the unnatural hunger gnaws at their mind. You do not suffer any of this damage. You may choose not to inflict this damage if you so desire, but doing so requires your reaction to stave off the hunger you feel."
+            ]
+        },
+        {
+            "name": "Supernal Metabolism",
+            "source": "StorymakerExpanDnD",
+            "className": "Lingering Soul",
+            "classSource": "Lingering Soul",
+            "subclassShortName": "Hungry Shade",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "Also at 1st level, you can speed your host's metabolism with the remnants of your own. As an Action, you can cause your host to instantly digest a number of pounds of food in their stomach equal to your Aspect Modifier, removing that food from their system and causing them to instantly gain 1d4 pounds of fat for each pound of food digested this way."
+            ]
+        },
+        {
+            "name": "Shade's Influence",
+            "source": "StorymakerExpanDnD",
+            "className": "Lingering Soul",
+            "classSource": "Lingering Soul",
+            "subclassShortName": "Hungry Shade",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 6,
+            "entries": [
+                "At 6th level, your touch can help or hinder your host with dealing with their weight. While you are possessing a creature, their bulk limit is either doubled or halved, your choice. You can change this decision from one to the other using your reaction at any time."
+            ]
+        },
+        {
+            "name": "Spectral Teeth",
+            "source": "StorymakerExpanDnD",
+            "className": "Lingering Soul",
+            "classSource": "Lingering Soul",
+            "subclassShortName": "Hungry Shade",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 6,
+            "entries": [
+                "Also at 6th level, you can incite your host to bite down on anything they could eat, including other creatures. When you use your action to force a creature to make a weapon attack, you can have them make a bite attack against a creature within their melee range. This bite attack is considered magical, and deals 1d6 piercing damage, plus either your host's Strength or Dexterity modifier (your choice). The bitten target Slims equal to half the damage dealt, and your host consumes an equivalent number of pounds of fatty food as the lipomantic energy stolen condenses in their stomach."
+            ]
+        },
+        {
+            "name": "Ravenous Plague",
+            "source": "StorymakerExpanDnD",
+            "className": "Lingering Soul",
+            "classSource": "Lingering Soul",
+            "subclassShortName": "Hungry Shade",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 11,
+            "entries": [
+                "At 11th level, your hunger oozes out from your corporeal vessel, infecting others nearby. Any creature friendly to your host within 30 feet of them is also affected by your Possessing Hunger feature, as is any creature your host has bitten with your Spectral Teeth feature since the beginning of your last turn."
+            ]
+        },
+        {
+            "name": "Ascendant Gluttony",
+            "source": "StorymakerExpanDnD",
+            "className": "Lingering Soul",
+            "classSource": "Lingering Soul",
+            "subclassShortName": "Hungry Shade",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 15,
+            "entries": [
+                "At 15th level, your gluttonous influence twists your host and those nearby into superhuman feats of voracity. You have complete control over the metabolism of your host and any creatures affected by your Ravenous Plague feature. You choose whether any food they consume enters their stomach, or is immediately converted into a number of pounds of fat equal to twice the number of pounds of food consumed. Additionally, whenever you use your Action or Bonus action to force a creature to take the Eating action, they can eat twice the amount of food they normally could when they take that action.",
+                "Beyond this, whenever your host or a creature affected by your Ravenous Plague feature is targeted by an attack, spell or ability that would force them to eat food, you can use your reaction to attempt to force them to eat it. If they are unaware of your possession, such as by the Unseen Passenger feature, the attack roll automatically succeeds or they automatically fail the ability check or saving throw, and can then make a Wisdom (Insight) check against your Lingering Soul DC, becoming aware of the possession on a success. Otherwise, the attack roll against them gains advantage, or they gain disadvantage on the ability check or saving throw."
+            ]
         }
     ],
     "optionalfeature": [
@@ -5207,6 +5302,21 @@
                 "Rune-blast|Fighter||Lipo. Knight|StorymakerExpanDnD|10",
                 "Runic Shift|Fighter||Lipo. Knight|StorymakerExpanDnD|15",
                 "Lipomantic Conduit|Fighter||Lipo. Knight|StorymakerExpanDnD|18"
+            ]
+        },
+        {
+            "name": "Calling of the Hungry Shade",
+            "source": "StorymakerExpanDnD",
+            "page": 48,
+            "shortName": "Hungry Shade",
+            "className": "Lingering Soul",
+            "classSource": "Lingering Soul",
+            "subclassFeatures": [
+                "Calling of the Hungry Shade|Lingering Soul|Lingering Soul|Hungry Shade|StorymakerExpanDnD|1",
+                "Shade's Influence|Lingering Soul|Lingering Soul|Hungry Shade|StorymakerExpanDnD|6",
+                "Spectral Teeth|Lingering Soul|Lingering Soul|Hungry Shade|StorymakerExpanDnD|6",
+                "Ravenous Plague|Lingering Soul|Lingering Soul|Hungry Shade|StorymakerExpanDnD|11",
+                "Ascendant Gluttony|Lingering Soul|Lingering Soul|Hungry Shade|StorymakerExpanDnD|15"
             ]
         }
     ]
