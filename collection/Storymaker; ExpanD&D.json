@@ -3023,6 +3023,418 @@
                 "At level 14, you have perfected your battle dance, and can inspire allies to even greater heights in the midst of combat. By spending an additional use of your Bardic Inspiration as part of your Battle Dance, you may grant the targeted creature an additional Turn, which they must take immediately after your turn. If this bonus turn is not used, it is wasted.",
                 "Once you use this feature, you must finish a long rest before using it again."
             ]
+        },
+        {
+            "name": "Order of Excess",
+            "source": "StorymakerExpanDnD",
+            "className": "Blood Hunter",
+            "classSource": "BH2020",
+            "subclassShortName": "Excess",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Lipomantic creatures are a threat all their own, and the orders of the Blood Hunters have taken note of their particular threat, outside of the typical realms of the creatures that they tend to hunt. The Order of Excess does as all great Orders do, studying their opponent and learning to use their powers to their advantage, when and wherever they can. The Lipomantic energy they channel allows them to better wield not only their own flesh, but the flesh of others as a weapon to bring low their enemies.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Hunter of Flesh|Blood Hunter|BH2020|Excess|StorymakerExpanDnD|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Weaver of Fat|Blood Hunter|BH2020|Excess|StorymakerExpanDnD|3"
+                }
+            ]
+        },
+        {
+            "name": "Hunter of Flesh",
+            "source": "StorymakerExpanDnD",
+            "className": "Blood Hunter",
+            "classSource": "BH2020",
+            "subclassShortName": "Excess",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Beginning at 3rd level, the essence of your hunt and study of the lipomantic creatures of the realm changes the very essence of your Blood Hunter abilities, changing the way your Blood Maledicts function and providing you with an additional crimson rite. When you choose this archetype you gain the following abilities:",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b Flesh Maledict.} Whenever you amplify a Blood Maledict, you may choose to fatten for four times the roll of the hemocraft die rather than taking damage.",
+                        "{@b Rite of the Glutton.} You learn the esoteric rite of the Glutton. Your rite damage is Force damage. This rite is dangerous, providing keen power but also a drawback. Successful attacks also Fatten the target for twice the damage dealt by the rite. Missed attacks, however, cause you to fatten for a roll of your hemocraft die."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Weaver of Fat",
+            "source": "StorymakerExpanDnD",
+            "className": "Blood Hunter",
+            "classSource": "BH2020",
+            "subclassShortName": "Excess",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Also at 3rd level, you gain a pool of additional lipomantic energy to apply to your strikes at the end of each long rest. This pool is equal to your Blood Hunter level plus your Intelligence modifier (minimum 1.)",
+                "Each time you strike a creature with a weapon attack that has your crimson rite applied to it, you may add an additional amount of rite damage to the attack by spending points from the pool, up to a maximum of your proficiency bonus on each attack. Each point spent this way Slims you for two pounds and Fattens the target for two pounds. (This is in addition to any other effects of the rite, such as the fattening effects of the Rite of the Glutton)."
+            ]
+        },
+        {
+            "name": "Blood Curse of the Burdened",
+            "source": "StorymakerExpanDnD",
+            "className": "Blood Hunter",
+            "classSource": "BH2020",
+            "subclassShortName": "Excess",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 7,
+            "entries": [
+                "At 7th level, you've learned to hold your enemy in place with the threat of a heavy fate should they attempt to escape you. You gain the {@optfeature Blood Curse of the Burdened|StorymakerExpanDnD} for your Blood Maledict feature. This does not count against your number of blood curses known."
+            ]
+        },
+        {
+            "name": "Lipomantic Backlash",
+            "source": "StorymakerExpanDnD",
+            "className": "Blood Hunter",
+            "classSource": "BH2020",
+            "subclassShortName": "Excess",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 11,
+            "entries": [
+                "At 11th level, you have learned to exploit the openings your opponents leave you with brutal efficiency, taking every advantage to swell your foe into submission.",
+                "Whenever a creature misses you with an attack roll while they are within your melee reach, you may use your Reaction to make a weapon attack against them. This attack also comes with a lipomantic backlash, causing the target to fatten for twice the damage dealt.",
+                "You may use this feature a number of times equal to your Intelligence modifier (minimum 1), regaining expended uses on a short or long rest."
+            ]
+        },
+        {
+            "name": "Leptophobia",
+            "source": "StorymakerExpanDnD",
+            "className": "Blood Hunter",
+            "classSource": "BH2020",
+            "subclassShortName": "Excess",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 15,
+            "entries": [
+                "At 15th level, you can augment your Blood Maledicts to plant a seed of Lipomantic essence within a target's mind which blossoms and spreads to those nearby, twisting them and afflicting the victims with a severe fear of being thin, as well as the irrational sensation that they are rapidly losing weight.",
+                "Whenever a target is affected by one of your Blood Maledicts, you can use this feature to force the target and any creatures of your choice within 20 feet of them to make a Wisdom Saving Throw against your Hemocraft DC (This is in addition to any saving throws caused by your maledict). On a failure, the target immediately takes the Eating action, consuming as much food as possible that is within reach, and must spend their next turn seeking out and eating as much food as they possibly can. Whenever the target takes damage from overeating, and at the end of each of their turns, they can make the saving throw again, ending the effect on a success. Otherwise, the effect continues for up to one minute, requiring concentration as if concentrating on a spell.",
+                "On a successful save, the target immediately takes the Eating action, consuming as much food as possible that is within reach, and the effect ends.",
+                "All food consumed by a target while under this ability's effects is considered Fattening, and the target immediately Fattens by one pound per pound of food consumed.",
+                "This ability may be used once, regaining expended uses on a short or long rest."
+            ]
+        },
+        {
+            "name": "Feedback Loop",
+            "source": "StorymakerExpanDnD",
+            "className": "Blood Hunter",
+            "classSource": "BH2020",
+            "subclassShortName": "Excess",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 18,
+            "entries": [
+                "At 18th level, your understanding of Lipomancy grants you intrinsic knowledge of how to manipulate such energies in the bodies of others to create a sustained cycle of effects. As an Action, you may touch a creature and affect them with a Feedback Loop for the next 10 minutes, choosing either Constructive or Destructive from the options listed below. Once used, you may not use this feature again until you finish a long rest.",
+                {
+                    "type": "entries",
+                    "name": "Constructive",
+                    "entries": [
+                        "The affected creature has resistance to damage caused by overeating, as well as one damage type of your choice, but whenever they take damage of those types, they fatten for the total damage taken after damage reduction."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Destructive",
+                    "entries": [
+                        "Whenever the affected creature casts a spell, they must make a Constituion Saving throw against your Hemocraft DC or fatten for twice the spell's level, taking an equivalent amount of Force damage as well."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Order of the Liposanguinor",
+            "source": "StorymakerExpanDnD",
+            "className": "Blood Hunter",
+            "classSource": "BH2020",
+            "subclassShortName": "Liposanguinor",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Vampirism is a deadly threat, and the Liposanguinor, a Vampire that not only drains blood, but body mass as well, is a rare but potent threat. An order has arisen from the blood hunters who, like their cousins in the Order of the Lycan, seek to tame this deadly curse to aid in their battle against darkness, even at the cost of both their humanity and their waistline. The arcane rituals of the Order of the Liposanguinor afflict the blood hunter with a more tame version of the curse, giving them less of the powers of a Liposanguinor, but also less of the banes. members of this order also are unable to raise other Liposanguinors outside of a ritual known as the Rites of Blooding, where a neophyte Blood Hunter is inducted into the order.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Dark Adaptation|Blood Hunter|BH2020|Liposanguinor|StorymakerExpanDnD|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Rites of Blooding|Blood Hunter|BH2020|Liposanguinor|StorymakerExpanDnD|3"
+                }
+            ]
+        },
+        {
+            "name": "Dark Adaptation",
+            "source": "StorymakerExpanDnD",
+            "className": "Blood Hunter",
+            "classSource": "BH2020",
+            "subclassShortName": "Liposanguinor",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "While you are not hindered by sunlight, your true powers awaken in the dark. Starting when you choose this archetype at 3rd level, you gain Darkvision out to 120 feet, and have advantage on any Wisdom (Perception) checks made while you are in dim light or darkness.",
+                "You do, however, have vulnerability to Radiant damage, and qualify as Undead for effects that deal additional damage to the Undead, such as Holy Water or a Paladin's Divine Smite.",
+                "Additionally, any Blood Hunter powers with variable effects or DCs based on your Intelligence modifier now use your Charisma modifier, as your vampiric nature has merged with your Blood Hunter abilities."
+            ]
+        },
+        {
+            "name": "Rites of Blooding",
+            "source": "StorymakerExpanDnD",
+            "className": "Blood Hunter",
+            "classSource": "BH2020",
+            "subclassShortName": "Liposanguinor",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Also at 3rd level, your vampiric transformation has melded with your rituals as a Blood Hunter. You gain a claw attack and a bite attack, each of which are unarmed attacks that deal 1d4 Slashing or Piercing damage, respectively. Your unarmed strikes are considered a single weapon in regards to your crimson rite feature. You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes. Additionally, when you use your Attack action to grapple and successfully grapple your opponent, you may attempt to bite them as a bonus action.",
+                "Bite attacks against a willing creature, a creature that is grappled by you, or a creature that is incapacitated or restrained, deal an amount of additional Necrotic damage equal to your Rite Damage Die. You regain hit points equal to the necrotic damage dealt this way, and the target loses an equal number of pounds of mass, and you gain the same number of pounds of fat.",
+                "Also, you can transfer fat to your bite targets. As an Action, you can bite a willing target and, instead of dealing damage, transfer any amount of pounds of fat from your body to the target's.",
+                "Your Unarmed strike damage increases to 1d6 at 6th level, 1d8 at 11th, and 1d10 at 16th level."
+            ]
+        },
+        {
+            "name": "Deathly Grace",
+            "source": "StorymakerExpanDnD",
+            "className": "Blood Hunter",
+            "classSource": "BH2020",
+            "subclassShortName": "Liposanguinor",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 7,
+            "entries": [
+                "At 7th level, you have awakened more of your Vampiric abilities. You can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check, and while you have an active rite on your unarmed strikes, they are considered magical for the purposes of overcoming resistance and immunity to nonmagical attacks and damage.",
+                "Additionally, you gain proficiency in one of the following skills of your choice: Deception, Intimidation, or Persuasion."
+            ]
+        },
+        {
+            "name": "Vampiric Fortitude",
+            "source": "StorymakerExpanDnD",
+            "className": "Blood Hunter",
+            "classSource": "BH2020",
+            "subclassShortName": "Liposanguinor",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 11,
+            "entries": [
+                "Starting at 11th level, your Otherworldly toughness has fully set in. You gain resistance to necrotic damage, and while in dim light or darkness you have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons."
+            ]
+        },
+        {
+            "name": "Vampiric Charm",
+            "source": "StorymakerExpanDnD",
+            "className": "Blood Hunter",
+            "classSource": "BH2020",
+            "subclassShortName": "Liposanguinor",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 15,
+            "entries": [
+                "At 15th level, you have awakened the Vampire's latent ability to charm with a glance. Target one humanoid you can see within 30 feet. If the target can see you, it must make a Wisdom saving throw (DC 8 + your proficiency + your Charisma modifier) or be charmed by you. The charmed target regards you as a trusted friend to be heeded and protected. Although the target isn't under your control, it takes your requests or actions in the most favorable way it can, and is a willing target for your bite attack.",
+                "Each time you or your companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Once a creature succeeds the saving throw, they cannot be charmed again by this feature for 24 hours. Otherwise, the effect lasts 24 hours or until you are killed, are on a different plane of existence than the target, or you take a bonus action to end the effect.",
+                "Once you use this ability, you must complete a short or long rest before doing so again."
+            ]
+        },
+        {
+            "name": "Unholy Regeneration",
+            "source": "StorymakerExpanDnD",
+            "className": "Blood Hunter",
+            "classSource": "BH2020",
+            "subclassShortName": "Liposanguinor",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 18,
+            "entries": [
+                "At 18th level, you have reached the pinnacle of your melding of Liposanguinor and Blood Hunter. At the start of your turn, if you have at least 1 hit point and aren't in sunlight or running water, you regain hit points equal to your Constitution modifier. If you take radiant damage or damage from holy water, this trait doesn't function at the start of your next turn.",
+                "Additionally, any necrotic damage you deal, not just with your bite's natural necrotic damage, heals you for the amount of damage dealt and causes you to gain an equivalent number of pounds of fat."
+            ]
+        },
+        {
+            "name": "Liposanguinor's Gift",
+            "source": "StorymakerExpanDnD",
+            "className": "Blood Hunter",
+            "classSource": "BH2020",
+            "subclassShortName": "Liposanguinor",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 18,
+            "entries": [
+                "Also at 18th level, you are no longer negatively impacted by being above your Bulk Threshold."
+            ]
+        },
+        {
+            "name": "Order of the Sin Eater",
+            "source": "StorymakerExpanDnD",
+            "className": "Blood Hunter",
+            "classSource": "BH2020",
+            "subclassShortName": "Sin Eater",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "In a world where lipomantic creatures run wild, and the magic of flesh is a danger to the innocent, the order of the Sin Eater embraces this power as yet another tool to wield against the darkness. They empower themselves to literally consume curses and lipomantic energy, housing it in themselves in order to be repurposed into power to unleash upon their enemies. Sin Eaters act in a more supportive role in the world than most Blood Hunters. Where others would seek first to slay a monster plaguing a village, the Sin Eater first seeks to consume any curses that have been laid upon the inhabitants, not only to ease their suffering, but to empower themselves for the eventual battle with the creature that placed them.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Rite of the Flesh|Blood Hunter|BH2020|Sin Eater|StorymakerExpanDnD|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Consume Sin|Blood Hunter|BH2020|Sin Eater|StorymakerExpanDnD|3"
+                }
+            ]
+        },
+        {
+            "name": "Rite of the Flesh",
+            "source": "StorymakerExpanDnD",
+            "className": "Blood Hunter",
+            "classSource": "BH2020",
+            "subclassShortName": "Sin Eater",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "When you join this order at 3rd level, you learn the esoteric rite Rite of the Flesh (detailed below).",
+                {
+                    "type": "entries",
+                    "name": "Rite of the Flesh",
+                    "entries": [
+                        "Your rite damage is force. The damage you take activating this rite adds an equivalent number of pounds of fat to your body.",
+                        "If you hit a creature that has body fat with your Rite of the Flesh, they gain a number of pounds of fat equal to the rite damage dealt to them. You may choose to lose an equivalent amount of weight.",
+                        "Upon reaching 11th level, the pounds of fat gained equal twice the rite damage dealt."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Consume Sin",
+            "source": "StorymakerExpanDnD",
+            "className": "Blood Hunter",
+            "classSource": "BH2020",
+            "subclassShortName": "Sin Eater",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Also at 3rd level, you learn the ancient technique of sin eating. You are able to cast the Remove Curse or Greater Restoration spells without material components, though your renditions of them has the following alterations:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The casting time is one minute, during which you perform an elaborate ritual that involves drawing the curse from the target, forming into a mass of energy which you then consume.",
+                        "Consuming Sin has a hefty effect on your waistline. Every time you use this ability, you gain 10d6 pounds of fat immediately, and your stomach is filled to bursting with dark energy, filling your stomach to maximum capacity, including an eating check for overeating, with the equivalent of fatty food. If you are already at this limit when you attempt to use this ability, you overtax yourself, consuming a number of pounds of fatty food over your limit equal to your Character level plus a roll of your rite damage die. (If you have no maximum stomach capacity for any particular reason when you use this ability, consume pounds of fatty food equal to 2d20 plus your Character level.)",
+                        "Consuming Sin also energizes your body for a time as well, however. Until your next long rest, you take only half of the damage you normally would when activating your crimson rites or empowering blood curses, you may roll one additional crimson rite damage die when determining damage for attacks empowered with your rite, and have advantage on Saving Throws made to resist being cursed (any affect that could be removed by the Remove Curse spell.)",
+                        "Any Creature whose sin you consume finds their body drained of mass. They lose 10d6 pounds of fat (if possible)."
+                    ]
+                },
+                "You are able to use this feature a number of times equal to your Intelligence modifier. You regain expended uses after a long rest."
+            ]
+        },
+        {
+            "name": "Blood Curse of Penance",
+            "source": "StorymakerExpanDnD",
+            "className": "Blood Hunter",
+            "classSource": "BH2020",
+            "subclassShortName": "Sin Eater",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 7,
+            "entries": [
+                "At 7th level, you learn to draw a target's sins from their body and use them as a weapon against them, gaining the new blood curse, {@optfeature Blood Curse of Penance|StorymakerExpanDnD}. This does not count against your blood curses known."
+            ]
+        },
+        {
+            "name": "Sin Siphon",
+            "source": "StorymakerExpanDnD",
+            "className": "Blood Hunter",
+            "classSource": "BH2020",
+            "subclassShortName": "Sin Eater",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 11,
+            "entries": [
+                "At 11th level, you gain an amount of additional benefit from your Sin Eating. When you use your Consume Sin ability, you also regain one of your expended uses of your Blood Maledict ability, and gain a number of Temporary Hit Points equal your Blood Hunter level."
+            ]
+        },
+        {
+            "name": "Unleash Sin",
+            "source": "StorymakerExpanDnD",
+            "className": "Blood Hunter",
+            "classSource": "BH2020",
+            "subclassShortName": "Sin Eater",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 15,
+            "entries": [
+                "At 15th level, you learn to unleash the sins you have consumed upon your foes. As an action that you may only use while you are under the lingering effects of your Consume Sin ability, you can unleash sin. Your stomach empties of all of its contents without digesting them, and you unleash a burst of dark energy in a 30 foot cone originating from your position. Each creature caught within this area of effect must make a Constitution Saving Throw against your hemocraft DC.",
+                "Each creature that fails this saving throw consumes fatty food up to their maximum stomach capacity, including an eating roll for overindulging (creatures without a maximum stomach capacity consume a number of pounds of fatty food equal to your Blood Hunter level.). Affected creatures also take an amount of force damage equal to three rolls of your Rite Damage die, plus your Constitution modifier, or half as much if they succeeded on the saving throw, and gain an amount of pounds of fat equal to four times the damage they took.",
+                "Once you have used this ability, you cannot do so again until you complete a long rest."
+            ]
+        },
+        {
+            "name": "Sin Magnet",
+            "source": "StorymakerExpanDnD",
+            "className": "Blood Hunter",
+            "classSource": "BH2020",
+            "subclassShortName": "Sin Eater",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 18,
+            "entries": [
+                "At 18th level, you can siphon curses in the act of being cast into yourself, sparing your allies from suffering their effects. As a reaction to a creature you can see within 30 feet of you being cursed, you may expend one of your uses of your Consume Sin ability to immediately consume the curse, preventing it from taking effect. Consuming Sin in such a rapid, reactionary fashion is dangerous, however, and has a number of side-effects.",
+                                {
+                    "type": "list",
+                    "items": [
+                        "While the target creature does not lose any mass, as the curse did not manage to take hold on them, your body balloons as it tries to contain the rapid surge of dark energy. You gain double the amount of fat you normally would, and your stomach fills beyond capacity as if you had consumed sin on a full stomach, even if it was empty when you used this ability.",
+                        "Your movement speed is halved until the end of your next turn, as you struggle to acclimate to such a sudden rush of dark energy.",
+                        "You inadvertently Unleash Sin in a random direction. This release does not expend your use of the ability, but you have no control over its aim and targets, and it does not empty your stomach of food as it normally would. Roll 1d8 to determine the direction you unleash the cone in."
+                    ]
+                }
+            ]
+        }
+    ],
+    "optionalfeature": [
+        {
+            "name": "Blood Curse of the Burdened",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 7,
+                        "class": {
+                            "name": "Blood Hunter"
+                        },
+                        "subclass": {
+                            "name": "Order of Excess",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "As a bonus action you can mark a target within 30 feet with a Lipomantic curse that will cause them to grow fatter the more they move. Until the end of your next turn, every foot the target moves, voluntarily or otherwise, will fatten the creature for twice the distance traveled. Additionally, every 5 feet traveled causes the target to take 1d4 points of Force damage.",
+                {
+                    "name": "Amplify",
+                    "entries": [
+                        "You can amplify this curse to give the target a push immediately after the curse takes effect. The target must make a Constitution Saving Throw against your Hemocraft DC or be pushed a number of feet in a direction of your choice equal to five times your Intelligence Modifier (minimum 5 feet)."
+                    ]
+                }
+            ],
+            "featureType": "Blood Curse"
+        },
+        {
+            "name": "Blood Curse of Penance",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 7,
+                        "class": {
+                            "name": "Blood Hunter"
+                        },
+                        "subclass": {
+                            "name": "Order of the Sin Eater",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "As a bonus action, you force a creature within 60 feet of you to consume their sins all over again, causing them to make a Wisdom Saving Throw taking psychic damage equal to your Blood Hunter level plus your Intelligence modifier on a failure, or half as much on a success, gaining a number of pounds of fat equal to twice the damage dealt. A creature that fails this Saving Throw is also stunned until the end of your next turn. Creatures with an Evil alignment (or, at the DM's discretion, creatures not of an Evil Alignment that have a particularly sinful past) have disadvantage on the Saving Throw.",
+                {
+                    "name": "Amplify",
+                    "entries": [
+                        "The blood curse affects any number of creatures of your choice within 10 feet of the initial target."
+                    ]
+                }
+            ],
+            "featureType": "Blood Curse"
         }
     ],
     "subclass": [
@@ -3159,6 +3571,52 @@
                 "College of the Battle Dancer|Bard||Battle Dancer|StorymakerExpanDnD|3",
                 "Heavy Hips|Bard||Battle Dancer|StorymakerExpanDnD|6",
                 "Inspiring Dance|Bard||Battle Dancer|StorymakerExpanDnD|14"
+            ]
+        },
+        {
+            "name": "Order of Excess",
+            "source": "StorymakerExpanDnD",
+            "page": 34,
+            "shortName": "Excess",
+            "className": "Blood Hunter",
+            "classSource": "BH2020",
+            "subclassFeatures": [
+                "Order of Excess|Blood Hunter|BH2020|Excess|StorymakerExpanDnD|3",
+                "Blood Curse of the Burdened|Blood Hunter|BH2020|Excess|StorymakerExpanDnD|7",
+                "Lipomantic Backlash|Blood Hunter|BH2020|Excess|StorymakerExpanDnD|11",
+                "Leptophobia|Blood Hunter|BH2020|Excess|StorymakerExpanDnD|15",
+                "Feedback Loop|Blood Hunter|BH2020|Excess|StorymakerExpanDnD|18"
+            ]
+        },
+        {
+            "name": "Order of the Liposanguinor",
+            "source": "StorymakerExpanDnD",
+            "page": 36,
+            "shortName": "Liposanguinor",
+            "className": "Blood Hunter",
+            "classSource": "BH2020",
+            "subclassFeatures": [
+                "Order of the Liposanguinor|Blood Hunter|BH2020|Liposanguinor|StorymakerExpanDnD|3",
+                "Deathly Grace|Blood Hunter|BH2020|Liposanguinor|StorymakerExpanDnD|7",
+                "Vampiric Fortitude|Blood Hunter|BH2020|Liposanguinor|StorymakerExpanDnD|11",
+                "Vampiric Charm|Blood Hunter|BH2020|Liposanguinor|StorymakerExpanDnD|15",
+                "Unholy Regeneration|Blood Hunter|BH2020|Liposanguinor|StorymakerExpanDnD|18",
+                "Liposanguinor's Gift|Blood Hunter|BH2020|Liposanguinor|StorymakerExpanDnD|18"
+            ]
+        },
+        {
+            "name": "Order of the Sin Eater",
+            "source": "StorymakerExpanDnD",
+            "page": 37,
+            "shortName": "Sin Eater",
+            "className": "Blood Hunter",
+            "classSource": "BH2020",
+            "subclassFeatures": [
+                "Order of the Sin Eater|Blood Hunter|BH2020|Sin Eater|StorymakerExpanDnD|3",
+                "Blood Curse of Penance|Blood Hunter|BH2020|Sin Eater|StorymakerExpanDnD|7",
+                "Sin Siphon|Blood Hunter|BH2020|Sin Eater|StorymakerExpanDnD|11",
+                "Unleash Sin|Blood Hunter|BH2020|Sin Eater|StorymakerExpanDnD|15",
+                "Sin Magnet|Blood Hunter|BH2020|Sin Eater|StorymakerExpanDnD|18"
             ]
         }
     ]
