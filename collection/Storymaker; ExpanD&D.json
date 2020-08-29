@@ -3368,7 +3368,7 @@
             "level": 18,
             "entries": [
                 "At 18th level, you can siphon curses in the act of being cast into yourself, sparing your allies from suffering their effects. As a reaction to a creature you can see within 30 feet of you being cursed, you may expend one of your uses of your Consume Sin ability to immediately consume the curse, preventing it from taking effect. Consuming Sin in such a rapid, reactionary fashion is dangerous, however, and has a number of side-effects.",
-                                {
+                {
                     "type": "list",
                     "items": [
                         "While the target creature does not lose any mass, as the curse did not manage to take hold on them, your body balloons as it tries to contain the rapid surge of dark energy. You gain double the amount of fat you normally would, and your stomach fills beyond capacity as if you had consumed sin on a full stomach, even if it was empty when you used this ability.",
@@ -3376,6 +3376,384 @@
                         "You inadvertently Unleash Sin in a random direction. This release does not expend your use of the ability, but you have no control over its aim and targets, and it does not empty your stomach of food as it normally would. Roll 1d8 to determine the direction you unleash the cone in."
                     ]
                 }
+            ]
+        },
+        {
+            "name": "Hedonism Domain",
+            "source": "StorymakerExpanDnD",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Hedonism",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "Gods of pleasure and Hedonism - Sune, Sharess, Hedone, Dionysus, and others- value the satisfaction of desires and the pursuit and spread of pleasure and beauty to all as one of the most divine pursuits. Clerics are of a god of hedonism seek to spread pleasure and fulfillment to those around them, and are a beacon of joy, happiness, and gratification. Sometimes they need to force someone to enjoy themselves or stop hindering the enjoyment of others, however.",
+                {
+                    "type": "table",
+                    "caption": "Hedonism Domain Spells",
+                    "colLabels": [
+                        "Cleric level",
+                        "Spells"
+                    ],
+                    "rows": [
+                        [
+                            "1st",
+                            "Burn Fat, Charm Person"
+                        ],
+                        [
+                            "3rd",
+                            "Stretch Stomach, Weighing Ward"
+                        ],
+                        [
+                            "5th",
+                            "Abyssal Stomach, Overabundance"
+                        ],
+                        [
+                            "7th",
+                            "Sexual Hypnotism, Create Fattening Food and Drink"
+                        ],
+                        [
+                            "9th",
+                            "Amazonian Figure, Fat Surge"
+                        ]
+                    ]
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Pleasurebringer|Cleric|PHB|Hedonism|StorymakerExpanDnD|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Touch of Pleasance|Cleric|PHB|Hedonism|StorymakerExpanDnD|1"
+                }
+            ]
+        },
+        {
+            "name": "Pleasurebringer",
+            "source": "StorymakerExpanDnD",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Hedonism",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "When you choose this domain at 1st level, you gain the Sex Appeal cantrip if you don't already know it. You also gain proficiency with Cooking Utensils."
+            ]
+        },
+        {
+            "name": "Touch of Pleasance",
+            "source": "StorymakerExpanDnD",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Hedonism",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "Also at 1st level, you can use your touch to soothe the pain and unpleasantness in others. As an action, you can touch a creature you can see to remove one of the following conditions: Blinded, Stunned, Frightened, or Deafened.",
+                "You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest."
+            ]
+        },
+        {
+            "name": "Channel Divinity: Divine Feast",
+            "source": "StorymakerExpanDnD",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Hedonism",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 2,
+            "entries": [
+                "Starting at 2nd level, as an action you can use your Channel Divinity to create a feast composed of pounds of food and non-alcoholic drink equal to double your Wisdom modifier + your levels in Cleric. The food created is of any quality you choose, and any creature who partakes gains one temporary Hit Point per pound of food consumed. Temporary Hit Points gained from this feast stack with themselves, but not from other sources of temporary Hit Points. Those partaking also gain one of the following benefits, regardless of the amount of food they consume:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Resistance to Poison damage",
+                        "Advantage on Constitution saves against Disease",
+                        "+1 AC"
+                    ]
+                },
+                "These bonuses last for 1 hour. A creature must finish a long or short rest before they can benefit from these bonuses again. An hour after creating the feast, any uneaten food vanishes."
+            ]
+        },
+        {
+            "name": "Enchanted Treats",
+            "source": "StorymakerExpanDnD",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Hedonism",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 6,
+            "entries": [
+                "At 6th level, when you complete a long rest but before you prepare spells for the day, you may imbue food or drink with spells and remaining spell slots you had prepared the previous day. The spell slots can have a combined level that is equal to or less than half your cleric level (rounded up), and none of the slots can be 6th level or higher. The spell must have a range of touch or greater and target only one creature. When the imbued food is consumed, the spell is triggered targeting the consumer. You still cast the spell, and must concentrate on it if the spell requires concentration. If the spell involves an attack roll, you must make it when a creature eats it. One piece of food can have only a single spell placed on it at a time with this feature. Any food imbued using this feature expires at the end of your next long rest."
+            ]
+        },
+        {
+            "name": "Potent Spellcasting",
+            "source": "StorymakerExpanDnD",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Hedonism",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 8,
+            "entries": [
+                "Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip. In addition, enemies damaged by your cleric cantrips gain a number of pounds of fat equal to the damage dealt."
+            ]
+        },
+        {
+            "name": "Icon of Excess",
+            "source": "StorymakerExpanDnD",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Hedonism",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 17,
+            "entries": [
+                "At 17th level, you have become the icon of your deity's hedonism. You are immune to being Charmed, you cannot gain levels of Exhaustion, you no longer have a Bulk Threshold or a Fullness capacity, and you no longer need to breathe. Instead of sleeping, you can spend the time during a Long Rest that you would be sleeping enjoying delicious food and achieve the same benefits."
+            ]
+        },
+        {
+            "name": "Fitness Domain",
+            "source": "StorymakerExpanDnD",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Fitness",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "In times of mass shifts in waistlines there are some who instead choose to pursue their own physical health and wellness. Those of heavier devotion will commit themselves to a god under fitness, strength or vitality.",
+                {
+                    "type": "table",
+                    "caption": "Fitness Domain Spells",
+                    "colLabels": [
+                        "Cleric level",
+                        "Spells"
+                    ],
+                    "rows": [
+                        [
+                            "1st",
+                            "Burn Fat, Modify Metabolism"
+                        ],
+                        [
+                            "3rd",
+                            "Enhance Ability, Moonbeam"
+                        ],
+                        [
+                            "5th",
+                            "Aura of Lightness, Melf's Minute Meteors"
+                        ],
+                        [
+                            "7th",
+                            "Aura of life, Fire Shield (warm shield only)"
+                        ],
+                        [
+                            "9th",
+                            "Amazonian Figure, Flame Strike"
+                        ]
+                    ]
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Burning Metabolism|Cleric|PHB|Fitness|StorymakerExpanDnD|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Waistline Warrior|Cleric|PHB|Fitness|StorymakerExpanDnD|1"
+                }
+            ]
+        },
+        {
+            "name": "Burning Metabolism",
+            "source": "StorymakerExpanDnD",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Fitness",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "From 1st level, Anytime you deal fire or radiant damage with a cleric spell,feature or subclass feature each target of the effect loses a number of pounds of mass equal to the damage dealt, and when you restore a creature's hit points with a cleric spell, you can cause the creature to gain or lose a number of pounds of mass up to the number of hit points it regains."
+            ]
+        },
+        {
+            "name": "Waistline Warrior",
+            "source": "StorymakerExpanDnD",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Fitness",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "Also at 1st level, you learn the Trim cantrip if you don't already know it. For you, it is a cleric cantrip. You also gain proficiency in one of the following skills of your choice: Acrobatics or Athletics."
+            ]
+        },
+        {
+            "name": "Channel Divinity: Burning Vigor",
+            "source": "StorymakerExpanDnD",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Fitness",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 2,
+            "entries": [
+                "Starting at 2nd level, when you roll fire or radiant damage, you can use your Channel Divinity to deal maximum damage instead of rolling."
+            ]
+        },
+        {
+            "name": "Channel Divinity: Fit Sprint",
+            "source": "StorymakerExpanDnD",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Fitness",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 6,
+            "entries": [
+                "Starting at 6th level, as an action, you can grant a burst of speed to a willing creature you can see within 30 feet of you. Until the end of your next turn, the target’s speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.",
+                "When the effect ends, if the target is Emaciated or Burdened by its bulk, the target can’t move or take actions until after its next turn as a wave of lethargy sweeps over it."
+            ]
+        },
+        {
+            "name": "Divine Strike",
+            "source": "StorymakerExpanDnD",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Fitness",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 8,
+            "entries": [
+                "At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 fire damage to the target. When you reach 14th level, the extra damage increases to 2d8. This damage applies double the usual effects of your Burning Metabolism feature."
+            ]
+        },
+        {
+            "name": "Peak Health",
+            "source": "StorymakerExpanDnD",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Fitness",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 17,
+            "entries": [
+                "Starting at 17th level, for every 2 years that pass, your body ages only 1 year.",
+                "Additionally, you can use your action to maintain peak physical condition. You gain or lose weight such that you are neither Burdened nor Emaciated. If you are neither Burdened nor Emaciated, you can choose any amount of weight to gain or lose short of becoming Burdened or Emaciated by the change in weight. Each creature of your choice within 30 feet of you must succeed on a Constitution saving throw. On a failure, it takes damage equal to your cleric level. This damage is radiant if you gained weight or fire if you lost weight. You can use this feature as a reaction in response to becoming Burdened or Emaciated. After you use this feature, you can't use it again until you finish a short or long rest."
+            ]
+        },
+        {
+            "name": "Slob Domain",
+            "source": "StorymakerExpanDnD",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Slob",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "Worship isn't always pretty. Certain gods value their servants dedication far more than their restraint or energy. Those who deeply devote themselves to gods of Gluttony, Sloth, or decadence may end up walking the path of the slob domain. While not always, this is often a dark path, and this archetype is intended as a villainous archetype.",
+                {
+                    "type": "table",
+                    "caption": "Slob Domain Spells",
+                    "colLabels": [
+                        "Cleric level",
+                        "Spells"
+                    ],
+                    "rows": [
+                        [
+                            "1st",
+                            "Feed, Gaseous Rupture"
+                        ],
+                        [
+                            "3rd",
+                            "Dietary Curse, Emburden"
+                        ],
+                        [
+                            "5th",
+                            "Noxious Wave, Slow"
+                        ],
+                        [
+                            "7th",
+                            "Alluring Feast, Fatball"
+                        ],
+                        [
+                            "9th",
+                            "Fat Surge, Slovenly Plague"
+                        ]
+                    ]
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Gluttony's Agent|Cleric|PHB|Slob|StorymakerExpanDnD|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Blessing of Sloth|Cleric|PHB|Slob|StorymakerExpanDnD|1"
+                }
+            ]
+        },
+        {
+            "name": "Gluttony's Agent",
+            "source": "StorymakerExpanDnD",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Slob",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "Beginning when you choose this domain at 1st level, you gain the flabshock cantrip. It is considered a cleric spell for you. You also gain proficiency in the Eating skill."
+            ]
+        },
+        {
+            "name": "Blessing of Sloth",
+            "source": "StorymakerExpanDnD",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Slob",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "Also at 1st level, you can imbue a creature with a lazy disregard for discomfort, allowing them to ignore certain hindrances. As an action, you bless a creature you touch, granting them resistance to damage caused by overeating, and allowing them to use their reaction when they would take bludgeoning, piercing, or slashing damage from a nonmagical source to reduce that damage by your Wisdom modifier. Only one creature can benefit from your blessing at a time, and a creature that is blessed loses the blessing if you use this feature again."
+            ]
+        },
+        {
+            "name": "Channel Divinity: Tainted Surge",
+            "source": "StorymakerExpanDnD",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Slob",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 2,
+            "entries": [
+                "At 2nd level, you can channel your divine power to debilitate those around you. You release a cloud of tainted energy around you, affecting all creatures of your choice within 20 feet. Each creature takes an amount of Poison damage equal to 5 + your cleric level, and must make a Constitution saving throw against your Spell Save DC. Those that fail are poisoned and rendered unable to speak until the end of your next turn as their bodies swell with tainted gases that continuously release themselves. Creatures that are immune to poison automatically succeed on this saving throw."
+            ]
+        },
+        {
+            "name": "Gaze of Indolence",
+            "source": "StorymakerExpanDnD",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Slob",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 6,
+            "entries": [
+                "At 6th level, creatures that meet your eyes find themselves drained of the will to act, sliding into sloth and indulgence. When a creature you can see and that can see you targets you with an attack, you can lock eyes with them using your reaction. They must make a Wisdom saving throw against your spell save DC. If they fail the saving throw, they make the attack with disadvantage, and they suffer from the effects of the slow spell until the end of their next turn. You can use this feature a number of times equal to your Wisdom modifier (minimum once.) You regain expended uses whenever you finish a long rest."
+            ]
+        },
+        {
+            "name": "Potent Spellcasting",
+            "source": "StorymakerExpanDnD",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Slob",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 8,
+            "entries": [
+                "Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip. In addition, enemies damaged by your cleric cantrips gain a number of pounds of fat equal to the damage dealt."
+            ]
+        },
+        {
+            "name": "Improved Gaze of Indolence",
+            "source": "StorymakerExpanDnD",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassShortName": "Slob",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 17,
+            "entries": [
+                "At 17th level, your gaze not only drains foes of the will to act, but fills them with rapture at their own slovenliness. A creature affected by your Gaze of Indolence is also charmed by you for the duration (the triggering attack still happens), and emits noises of pleasure and noxious expulsions that unsettle those around them. Any of the affected creature's allies have disadvantage on attack rolls and ability checks so long as they remain within 20 feet of the affected creature."
             ]
         }
     ],
@@ -3617,6 +3995,189 @@
                 "Sin Siphon|Blood Hunter|BH2020|Sin Eater|StorymakerExpanDnD|11",
                 "Unleash Sin|Blood Hunter|BH2020|Sin Eater|StorymakerExpanDnD|15",
                 "Sin Magnet|Blood Hunter|BH2020|Sin Eater|StorymakerExpanDnD|18"
+            ]
+        },
+        {
+            "name": "Hedonism Domain",
+            "source": "StorymakerExpanDnD",
+            "page": 39,
+            "shortName": "Hedonism",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Hedonism Domain|Cleric||Hedonism|StorymakerExpanDnD|1",
+                "Channel Divinity: Divine Feast|Cleric||Hedonism|StorymakerExpanDnD|2",
+                "Enchanted Treats|Cleric||Hedonism|StorymakerExpanDnD|6",
+                "Potent Spellcasting|Cleric||Hedonism|StorymakerExpanDnD|8",
+                "Icon of Excess|Cleric||Hedonism|StorymakerExpanDnD|17"
+            ],
+            "subclassSpells": [
+                {
+                    "name": "Sex Appeal",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Burn Fat",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Charm Person",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Stretch Stomach",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Weighing Ward",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Abyssal Stomach",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Overabundance",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Sexual Hypnotism",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Create Fattening Food and Drink",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Amazonian Figure",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Fat Surge",
+                    "source": "StorymakerExpanDnD"
+                }
+            ]
+        },
+        {
+            "name": "Fitness Domain",
+            "source": "StorymakerExpanDnD",
+            "page": 40,
+            "shortName": "Fitness",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Fitness Domain|Cleric||Fitness|StorymakerExpanDnD|1",
+                "Channel Divinity: Burning Vigor|Cleric||Fitness|StorymakerExpanDnD|2",
+                "Channel Divinity: Fit Sprint|Cleric||Fitness|StorymakerExpanDnD|6",
+                "Divine Strike|Cleric||Fitness|StorymakerExpanDnD|8",
+                "Peak Health|Cleric||Fitness|StorymakerExpanDnD|17"
+            ],
+            "subclassSpells": [
+                {
+                    "name": "Trim",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Burn Fat",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Modify Metabolism",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Enhance Ability",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Moonbeam",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Aura of Lightness",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Melf's Minute Meteors",
+                    "source": "XGE"
+                },
+                {
+                    "name": "Aura of Life",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Fire Shield",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Amazonian Figure",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Flame Strike",
+                    "source": "PHB"
+                }
+            ]
+        },
+        {
+            "name": "Slob Domain",
+            "source": "StorymakerExpanDnD",
+            "page": 41,
+            "shortName": "Slob",
+            "className": "Cleric",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Slob Domain|Cleric||Slob|StorymakerExpanDnD|1",
+                "Channel Divinity: Tainted Surge|Cleric||Slob|StorymakerExpanDnD|2",
+                "Gaze of Indolence|Cleric||Slob|StorymakerExpanDnD|6",
+                "Potent Spellcasting|Cleric||Slob|StorymakerExpanDnD|8",
+                "Improved Gaze of Indolence|Cleric||Slob|StorymakerExpanDnD|17"
+            ],
+            "subclassSpells": [
+                {
+                    "name": "Flabshock",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Feed",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Gaseous Rupture",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Dietary Curse",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Emburden",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Noxious Wave",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Slow",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Alluring Feast",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Fatball",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Fat Surge",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Slovenly Plague",
+                    "source": "StorymakerExpanDnD"
+                }
             ]
         }
     ]
