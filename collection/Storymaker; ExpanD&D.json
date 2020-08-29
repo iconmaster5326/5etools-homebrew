@@ -2606,6 +2606,423 @@
                 "Starting 14th level, while raging you now gain Hit Points equal to the pounds of food you digest from your Ravenous Constitution feature, and you do not need to use a reaction when you use Swallow Whole.",
                 "When you swallow an enemy, any hostile creature within 30 feet of you must make a Wisdom save versus a save DC of 8 + your Strength modifier + your Proficiency bonus. On a failure they become frightened for 1 minute. A frightened target can repeat this saving throw at the end of each of its turns, ending the frightened condition on itself on a success. If a target’s saving throw is successful, or the effect ends for it, the target is immune to this feature for the next 24 hours."
             ]
+        },
+        {
+            "name": "College of Seduction",
+            "source": "StorymakerExpanDnD",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Seduction",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Bards of the college of Seduction make perfect use of their bodies and their magic to manipulate others to doing just what they want. Expanding bosoms and bottoms, giving just the right amount of curve or just the right kind of wink, and using their natural force of personality to overpower the wills of others is standard practice for these cunning individuals.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Bodyshaper|Bard||Seduction|StorymakerExpanDnD|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Mark of Seduction|Bard||Seduction|StorymakerExpanDnD|3"
+                }
+            ]
+        },
+        {
+            "name": "Bodyshaper",
+            "source": "StorymakerExpanDnD",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Seduction",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "When you join the College of Seduction at 3rd level, you learn to shape your body to your needs. You can expend one of your uses of Bardic Inspiration as a bonus action, transforming your appearance and rolling a Bardic Inspiration die, adding the result to your next Deception, Performance, or Persuasion check. You decide what you look like, including your height, weight, facial features, the sound of your voice, coloration, hair length, sex, and any other distinguishing characteristics. You can make yourself appear as a member of another race, though none of your game statistics change. You also can't appear as a creature of a different size than you, and your basic shape stays the same; if you're bipedal, you can't use this trait to become quadrupedal, for instance. Your clothing and other equipment don't change in appearance, size, or shape to match your new form, requiring you to keep a few extra outfits on hand to make the most compelling disguise possible. These changes last until you are killed or choose to revert the changes as a bonus action."
+            ]
+        },
+        {
+            "name": "Mark of Seduction",
+            "source": "StorymakerExpanDnD",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Seduction",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Also starting at 3rd level, you can mark an individual, rendering them more susceptible to your seductive wiles. As an Action, you can touch a creature you can see within 5 feet of you. That target must succeed a Wisdom saving throw against your spell save DC. If it fails, you automatically assume an appearance considered attractive by your target, following Bodyshaper’s restrictions, and the target is charmed by you while you maintain that appearance, until you do anything harmful to it, or until the end of your next long rest. Once you use this feature, you cannot do so again until you finish a long rest."
+            ]
+        },
+        {
+            "name": "Kiss of the Mind's Eye",
+            "source": "StorymakerExpanDnD",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Seduction",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 6,
+            "entries": [
+                "At 6th level, you gain the ability to glean information from a creature by intimate contact, such as a kiss. As an action, you can kiss or otherwise intimately make contact with another creature, which must make a Charisma saving throw against your spell save DC. If it fails, You can learn the answer to one question of your choice from the target by skimming his mind for those thoughts or memories. If a creature succeeds the saving throw, they cannot be affected by this feature again until you finish a long rest. Creatures immune to being charmed are unaffected."
+            ]
+        },
+        {
+            "name": "Discordant Adoration",
+            "source": "StorymakerExpanDnD",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Seduction",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 14,
+            "entries": [
+                "Starting at 14th level, you can turn your admirers against each other as they vie for your favor. As an action, designate a creature within 120 feet of you that is charmed by you. While it is charmed by you, it regards other creatures charmed by you as its enemies. Whenever the creature chooses a target, it must choose at random from among the creatures it can see that are charmed by you or whom it already regarded as enemies. If an enemy provokes an opportunity attack, the creature must make that attack if it’s able to. You can use this feature a number of times equal to your Charisma modifier. You regain all expended uses of this feature when you finish a long rest."
+            ]
+        },
+        {
+            "name": "College of Decadence",
+            "source": "StorymakerExpanDnD",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Decadence",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Culinary Training|Bard||Decadence|StorymakerExpanDnD|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Inspired Hunger|Bard||Decadence|StorymakerExpanDnD|3"
+                }
+            ]
+        },
+        {
+            "name": "Culinary Training",
+            "source": "StorymakerExpanDnD",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Decadence",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "The College of Decadence not only teaches song and entertainment to best accompany feasting, but also has its students practice culinary arts. When you join the College of Decadence at 3rd level, you gain proficiency with Brewer's Supplies, Cook's utensils, and the Eating skill."
+            ]
+        },
+        {
+            "name": "Inspired Hunger",
+            "source": "StorymakerExpanDnD",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Decadence",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "At 3rd level, you are a master of the feast whose words and art may inspire gluttony and satedness as desired. Those upon whom you use an inspiration die may at their expend it to expand their stomach capacity by the result of the inspiration die. Additionally, the result of the die is added to the target's next Eating check. Unlike most uses of inspiration, you may use this on yourself.",
+                "Alternatively, you may as a bonus action expend one use of your inspiration, rolling a bardic inspiration die and subtracting the number rolled from the stomach capacity of a creature you can see within 60 feet. This effect persists until the end of your next turn."
+            ]
+        },
+        {
+            "name": "Encourage Digestion",
+            "source": "StorymakerExpanDnD",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Decadence",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 6,
+            "entries": [
+                "At 6th level, your performances speak not only to the minds of your audience, but also quite literally to their stomachs. As a reaction, you may cast Abyssal Stomach without expending a spell slot. Your taget must be able to hear you. You may also use this ability to cast Hypnotic Hunger without expending a spell slot. You have two uses of this ability, and you regain all expended uses of it when you finish a short or long rest."
+            ]
+        },
+        {
+            "name": "Song of Mobility",
+            "source": "StorymakerExpanDnD",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Decadence",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 14,
+            "entries": [
+                "At 14th level, immobility remains a distant fear to those in your company. Once per long rest, you may spend an hour performing for a group of creatures. For twenty-four hours or until their next long rest, a number of your audience equal to your Charisma modifier (minimum 1) may double all their bulk thresholds."
+            ]
+        },
+        {
+            "name": "College of Fattening Fate",
+            "source": "StorymakerExpanDnD",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Fattening Fate",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Gambling and gluttony. Greed and excess. The thrill of leaving your fate to the luck of the draw is addicting to some, especially when stakes are high. And what higher stakes are there than your own body? A bard of the College of Fattening Fate puts their own figure on the line even as they manipulate the weights and fates of their allies.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Heavy Stakes|Bard||Fattening Fate|StorymakerExpanDnD|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "The Deck of Many Fates|Bard||Fattening Fate|StorymakerExpanDnD|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Fortune’s Hand|Bard||Fattening Fate|StorymakerExpanDnD|3"
+                }
+            ]
+        },
+        {
+            "name": "Heavy Stakes",
+            "source": "StorymakerExpanDnD",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Fattening Fate",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Starting at 3rd level, when you cast a spell or expend a use of your Bardic Inspiration, roll two 1d12. If one result is even and the other is odd, you gain weight equal to the sum of the results. Otherwise, you lose weight equal to the sum of the results."
+            ]
+        },
+        {
+            "name": "The Deck of Many Fates",
+            "source": "StorymakerExpanDnD",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Fattening Fate",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "At 3rd level, you obtain a Tarot deck, which is a gaming set you are proficient in and which you can use as a spellcasting focus for your Bard Spells. If you lose your deck or if it is destroyed, you will find it in your hand at the end of your next long rest."
+            ]
+        },
+        {
+            "name": "Fortune’s Hand",
+            "source": "StorymakerExpanDnD",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Fattening Fate",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Starting at 3rd level, when you regain Bardic Inspiration, roll once on the Fortune Table for each use of Bardic Inspiration you regain (rerolling repeats until all results are unique) and add each resulting Fortune to your Fortune's Hand. If you had any Fortunes in your Fortune's Hand when you regain uses of Bardic Inspiration, you lose those Fortunes and must roll for new ones.",
+                "You can use a bonus action and expend one use of Bardic Inspiration to grant one creature you can see within 60 feet other than yourself the benefits of a Fortune in your Fortune’s Hand. After you grant a creature a Fortune, remove that Fortune from your Fortune's Hand.",
+                {
+                    "type": "table",
+                    "caption": "Fortune Table",
+                    "colLabels": [
+                        "d20",
+                        "Fortune"
+                    ],
+                    "rows": [
+                        [
+                            1,
+                            "{@b Magician.} Gain advantage on your next ability check."
+                        ],
+                        [
+                            2,
+                            "{@b High Priestess.} Gain advantage on your next Wisdom save or Wisdom check."
+                        ],
+                        [
+                            3,
+                            "{@b Empress.} Regain 1d8 hit points if you have food in your stomach. Otherwise, regain 1d4 hit points, and gain 1d4 pounds of average food in your stomach."
+                        ],
+                        [
+                            4,
+                            "{@b Emperor.} Deal an extra 1d8 damage on your next damage roll if you have food in your stomach. Otherwise, deal an extra 1d4 damage and gain 1d4 pounds of average food in your stomach."
+                        ],
+                        [
+                            5,
+                            "{@b Hierophant.} The next saving throw a creature makes against one of your spells is made with disadvantage."
+                        ],
+                        [
+                            6,
+                            "{@b Lovers.} Regain 1d8 hit points and creature you can see within 30 feet of you regains the same number of hit points."
+                        ],
+                        [
+                            7,
+                            "{@b Chariot.} Gain advantage on your next Constitution save, Constitution check, or Death Saving Throw."
+                        ],
+                        [
+                            8,
+                            "{@b Strength.} Gain advantage on your next Strength save or Strength check."
+                        ],
+                        [
+                            9,
+                            "{@b Hermit.} Gain advantage on your next Intelligence save or Intelligence check."
+                        ],
+                        [
+                            10,
+                            "{@b Wheel of Fortune.} Gain advantage on your next saving throw."
+                        ],
+                        [
+                            11,
+                            "{@b Justice.} The next time a creature deals damage to you, it takes 1d8 psychic damage."
+                        ],
+                        [
+                            12,
+                            "{@b Hanged Man.} Gain advantage on your next Dexterity save or Dexterity check."
+                        ],
+                        [
+                            13,
+                            "{@b Death.} Regain an 1d8 hit points after you damage a creature."
+                        ],
+                        [
+                            14,
+                            "{@b Temperance.} Gain 2d8 temporary hit points."
+                        ],
+                        [
+                            15,
+                            "{@b Devil.} The next attack made against you has disadvantage."
+                        ],
+                        [
+                            16,
+                            "{@b Tower.} Gain advantage on your next attack roll."
+                        ],
+                        [
+                            17,
+                            "{@b Star.} Either one disease or one condition afflicting you ends. The condition can be blinded, deafened, paralyzed, or poisoned."
+                        ],
+                        [
+                            18,
+                            "{@b Moon.} The next enemy you hit has its speed reduced to 0 until the end of its next turn."
+                        ],
+                        [
+                            19,
+                            "{@b Sun.} Gain advantage on next Charisma save or Charisma check."
+                        ],
+                        [
+                            20,
+                            "{@b Judgement.} The next time you fall to 0 hit points but not killed outright, you drop to 1 hit point instead."
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Self-fulfilling Prophecy",
+            "source": "StorymakerExpanDnD",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Fattening Fate",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 6,
+            "entries": [
+                "Starting at level 6, you can expend a use of your Bardic Inspiration to grant yourself the benefits of one of the Fortunes in your Fortune’s Hand. A Fortune used in this way is removed from your Fortune’s Hand."
+            ]
+        },
+        {
+            "name": "Destined Draw",
+            "source": "StorymakerExpanDnD",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Fattening Fate",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 14,
+            "entries": [
+                "Starting at level 14, your time looking into the future has awoken you to the beginning and end of a journey. Roll 1d4 and take the result from the Destiny Table. You can replace one of the Fortunes in your Fortune’s Hand with the result from this roll. Once you replace a Fortune in this way, you must finish a long rest before you do so again. If you expend a use of Bardic Inspiration to grant a creature the benefits of one of these Fortunes, the weight you gain or lose when you from the use of Bardic Inspiration is doubled.",
+                {
+                    "type": "table",
+                    "caption": "Destiny Table",
+                    "colLabels": [
+                        "d4",
+                        "Destiny"
+                    ],
+                    "rows": [
+                        [
+                            "1,2",
+                            "{@b The Fool.} All allies you can see within 120 feet of you regain 2d10 hit points and gain +1 AC for 1 minute. This healing is doubled for dying allies."
+                        ],
+                        [
+                            "3,4",
+                            "{@b The World.} All enemies you can see within 120 feet must make a Wisdom Saving Throw. A creature takes 4d10 psychic damage on a failed save, or half as much damage on a successful one."
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "College of the Battle Dancer",
+            "source": "StorymakerExpanDnD",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Battle Dancer",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "A rather esoteric, but far flung college dedicated to entrancing performances through evocative, sometimes provocative dances - said to energize and rejuvenate in the midst of heated battle. Battle Dancers are daring performers, not shy about wading into battle, where they might encourage and inspire the warriors of the day.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Bonus Proficiency|Bard||Battle Dancer|StorymakerExpanDnD|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Battle Dance|Bard||Battle Dancer|StorymakerExpanDnD|3"
+                }
+            ]
+        },
+        {
+            "name": "Bonus Proficiency",
+            "source": "StorymakerExpanDnD",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Battle Dancer",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "At 3rd Level you gain Proficiency in Dexterity (Acrobatics) and Charisma (Performance) skills. If you are already proficient with either of these, choose another skill proficiency for each proficiency you already have."
+            ]
+        },
+        {
+            "name": "Battle Dance",
+            "source": "StorymakerExpanDnD",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Battle Dancer",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "At 3rd level, you can inspire nearby allies, invigorating them with a burst of energy. As an action, you may spend 2 uses of your Bardic Inspiration to grant a willing creature other than you that can see you an additional action on its next turn. This action is wasted if not used on the creature’s next turn. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.",
+                "A creature targeted by this ability must finish a long rest before being able to be targeted again, and cannot benefit from this if it is under the effects of the Haste spell or similar magic that gives it extra actions."
+            ]
+        },
+        {
+            "name": "Heavy Hips",
+            "source": "StorymakerExpanDnD",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Battle Dancer",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 6,
+            "entries": [
+                "At 6th level you have learned to use a combination of your weight, dancing maneuvers, and impressive hips to wrong-foot and batter your foes. As an action, select one target no more than one size larger than you, within your reach. Your target must make a Strength or Dexterity saving throw (their choice).",
+                {
+                    "type": "abilityDc",
+                    "name": "Heavy Hips",
+                    "attributes": [
+                        "str",
+                        "dex"
+                    ]
+                },
+                "On a failure the enemy takes 2d6 bludgeoning damage and suffers one of the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The target is pushed 10 feet away from you.",
+                        "The target is immediately knocked Prone."
+                    ]
+                },
+                "You can use this feature a number of times equal to your Strength or Dexterity modifier, whichever is higher (a minimum of once). You regain any expended uses when you finish a Long rest.",
+                "At higher levels, the damage done and distance you are able to push enemies with this feature increases, provided your Bulk is over a certain threshold. At 11th level, if you are at least Burdened by your Bulk, the damage done increases by 1d6, and distance you can push an enemy increases by 5 feet. At 17th level, if you are at least Impeded by your Bulk, the damage done increases by an additional 1d6, and the distance you can push an enemy increases by an additional 5 feet."
+            ]
+        },
+        {
+            "name": "Inspiring Dance",
+            "source": "StorymakerExpanDnD",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Battle Dancer",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 14,
+            "entries": [
+                "At level 14, you have perfected your battle dance, and can inspire allies to even greater heights in the midst of combat. By spending an additional use of your Bardic Inspiration as part of your Battle Dance, you may grant the targeted creature an additional Turn, which they must take immediately after your turn. If this bonus turn is not used, it is wasted.",
+                "Once you use this feature, you must finish a long rest before using it again."
+            ]
         }
     ],
     "subclass": [
@@ -2690,6 +3107,58 @@
                 "Indomitable Bulk|Barbarian||Predator|StorymakerExpanDnD|6",
                 "Ravenous Constitution|Barbarian||Predator|StorymakerExpanDnD|10",
                 "Gluttonous Frenzy|Barbarian||Predator|StorymakerExpanDnD|14"
+            ]
+        },
+        {
+            "name": "College of Seduction",
+            "source": "StorymakerExpanDnD",
+            "page": 29,
+            "shortName": "Seduction",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "College of Seduction|Bard||Seduction|StorymakerExpanDnD|3",
+                "Kiss of the Mind's Eye|Bard||Seduction|StorymakerExpanDnD|6",
+                "Discordant Adoration|Bard||Seduction|StorymakerExpanDnD|14"
+            ]
+        },
+        {
+            "name": "College of Decadence",
+            "source": "StorymakerExpanDnD",
+            "page": 30,
+            "shortName": "Decadence",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "College of Decadence|Bard||Decadence|StorymakerExpanDnD|3",
+                "Encourage Digestion|Bard||Decadence|StorymakerExpanDnD|6",
+                "Song of Mobility|Bard||Decadence|StorymakerExpanDnD|14"
+            ]
+        },
+        {
+            "name": "College of Fattening Fate",
+            "source": "StorymakerExpanDnD",
+            "page": 31,
+            "shortName": "Fattening Fate",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "College of Fattening Fate|Bard||Fattening Fate|StorymakerExpanDnD|3",
+                "Self-fulfilling Prophecy|Bard||Fattening Fate|StorymakerExpanDnD|6",
+                "Destined Draw|Bard||Fattening Fate|StorymakerExpanDnD|14"
+            ]
+        },
+        {
+            "name": "College of the Battle Dancer",
+            "source": "StorymakerExpanDnD",
+            "page": 33,
+            "shortName": "Battle Dancer",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "College of the Battle Dancer|Bard||Battle Dancer|StorymakerExpanDnD|3",
+                "Heavy Hips|Bard||Battle Dancer|StorymakerExpanDnD|6",
+                "Inspiring Dance|Bard||Battle Dancer|StorymakerExpanDnD|14"
             ]
         }
     ]
