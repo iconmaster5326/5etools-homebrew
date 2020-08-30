@@ -6650,6 +6650,376 @@
             "entries": [
                 "Beginning at 18th level, the bottomless void within can devour any matter that passes your lips. As an action, you can expose the void within, drawing any objects and creatures in a 15 foot cone in front of you into the void to be consumed. Any creatures and objects up to Large size or smaller that are fully, or partially within the cone are affected. Nonmagical objects are consumed immediately. Magical objects or creatures must make a Constitution saving throw. On a failure, the target takes 1d4 points of Force damage for each of your levels in Sorcerer, or half as much damage on a success. Objects destroyed or creatures reduced to 0 hit points by this damage are consumed. Anything consumed by this ability is both stretched and compressed, grown and shrunk rapidly by the force of the void, and ends up becoming 10d10 pounds of normal food in the sorcerer's stomach. Once you use this feature, you must complete a long rest or spend 13 sorcery points as a bonus action before you can do so again."
             ]
+        },
+        {
+            "name": "Spirit of Indulgence",
+            "source": "StorymakerExpanDnD",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Indulgence",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "Hunger is a powerful metaphysical force, and many beings embody its drive to consume and take. Your patron is one of these beings. Fiends of gluttony, ancient beings of unknowable hunger, and decadent trickster Archfey are all things a Warlock may decide to form a pact with, granting them powers over hunger and desire.",
+                {
+                    "type": "entries",
+                    "name": "Expanded Spell List",
+                    "entries": [
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "Spell level",
+                                "Spells"
+                            ],
+                            "rows": [
+                                [
+                                    "1st",
+                                    "Goodberry, Fattening Jest"
+                                ],
+                                [
+                                    "2nd",
+                                    "Narce's Sympathy Gain, Stretch Stomach"
+                                ],
+                                [
+                                    "3rd",
+                                    "Hypnotic Hunger, Overabundance"
+                                ],
+                                [
+                                    "4th",
+                                    "Create Fattening Food and Drink, Sexual Hypnotism"
+                                ],
+                                [
+                                    "5th",
+                                    "Dominate Person, Blueberrify"
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Hunger Sense|Warlock||Indulgence|StorymakerExpanDnD|1"
+                }
+            ]
+        },
+        {
+            "name": "Hunger Sense",
+            "source": "StorymakerExpanDnD",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Indulgence",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "Starting at 1st level, you have an innate sense of what a creature desires most and when they are feeling physically hungry. As an Action, you can make a Wisdom (Insight) check against a creature that you can see, opposed by that creature's Charisma (Deception) check. On a success, you learn the thing the creature desires most at the moment, as well as its stomach capacity and how much food is currently in their stomach. If the check fails against a creature, that creature cannot be targeted by this ability again until you finish a short or long rest."
+            ]
+        },
+        {
+            "name": "Charmed Offering",
+            "source": "StorymakerExpanDnD",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Indulgence",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 6,
+            "entries": [
+                "Starting at 6th level, you can conjure a piece of enchanted food or drink. Food enchanted this way disappears within 24 hours of creating it. You may also enchant a piece of food you have conjured magically, such as through the feed spell. A creature that eats a piece of food enchanted in this way must make a Charisma saving throw with Disadvantage or be charmed by you for 24 hours. This charm ends if you or your companions do anything harmful to it. Once you have used this ability, you cannot do so again until you finish a long rest."
+            ]
+        },
+        {
+            "name": "Mutual Satisfaction",
+            "source": "StorymakerExpanDnD",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Indulgence",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 10,
+            "entries": [
+                "Starting at 10th level, your Patron allows you to share in the positive effects of your ministrations on others. Whenever you cast a spell that only targets a creature charmed by your Charmed Offering or feed them a consumable magic item, you can choose to also be affected by that spell or item. You can also make any spell you cast that targets only you also target a creature charmed by your Charmed Offering.",
+                "Additionally, a target charmed by your Charmed Offering now, in addition to being charmed, regards you as a trusted friend to be heeded and protected. Although the target isn't under your control, it takes your requests or actions in the most favorable way it can. Asking the creature to stab itself, throw itself onto a spear, immolate itself, or do some other obviously harmful act ends the charm."
+            ]
+        },
+        {
+            "name": "Hungering Presence",
+            "source": "StorymakerExpanDnD",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Indulgence",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 14,
+            "entries": [
+                "At 14th level, you emit an aura of hunger and desire that you may turn to affect any creature you choose within its radius. Creatures of your choice that start their turn within 30 feet of you must make a Constitution saving throw against your Spell DC or be racked with crippling hunger. They have disadvantage on all attack rolls and ability checks made while affected by this hunger, and you have advantage on Charisma checks made to influence them. They may repeat this saving throw at the start of each of their turns, ending this effect on themselves on a success. Being stuffed past their full limit gives a creature advantage on this saving throw, but having no food in their stomach gives them disadvantage. Once a creature has successfully saved against this feature, they are immune to its effects for 24 hours."
+            ]
+        },
+        {
+            "name": "The Great Hungerer",
+            "source": "StorymakerExpanDnD",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Hungerer",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "You have encountered something in your travels. A curse? An affliction? No this is something else altogether. It has made you stronger, tougher, more in tune with the arcane - but you cannot help but crave. An ancient, unfathomable hunger wells up in you, just below the surface of your thoughts, waiting to taste of the world and everything within.",
+                {
+                    "type": "entries",
+                    "name": "Expanded Spell List",
+                    "entries": [
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "Spell level",
+                                "Spells"
+                            ],
+                            "rows": [
+                                [
+                                    "1st",
+                                    "Absorb Elements, Purify Food and Drink"
+                                ],
+                                [
+                                    "2nd",
+                                    "Alter Self, Stretch Stomach"
+                                ],
+                                [
+                                    "3rd",
+                                    "Redirect Repast, Siphoning Smite"
+                                ],
+                                [
+                                    "4th",
+                                    "Softskin, Stoneskin"
+                                ],
+                                [
+                                    "5th",
+                                    "Amazonian Figure, Rampant Vitality"
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Tireless Hunger|Warlock||Hungerer|StorymakerExpanDnD|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Eldritch Vitality|Warlock||Hungerer|StorymakerExpanDnD|1"
+                }
+            ]
+        },
+        {
+            "name": "Tireless Hunger",
+            "source": "StorymakerExpanDnD",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Hungerer",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "At 1st level, your patron has infected you with its ravenous appetite and granted you the means to feed it. Your maw becomes a natural weapon, which you can use to make unarmed strikes, and you can use Charisma instead of Strength for the attacks and damage rolls of unarmed strikes made with this weapon. You roll 1d6 piercing damage when you hit with it, instead of the bludgeoning damage normal for an unarmed strike.",
+                "If you later gain the Pact of the Flesh feature your maw counts as one of that boon’s natural weapons and your unarmed strikes from that feature can use your Charisma modifier for attack and damage rolls. You must use the same modifier for both rolls."
+            ]
+        },
+        {
+            "name": "Eldritch Vitality",
+            "source": "StorymakerExpanDnD",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Hungerer",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "Also at 1st level, you gain Proficiency in the Constitution (Eating) skill. You gain a number of temporary Hit Points equal to half your Charisma modifier (rounded down) at the end of each of your turns. This number increases to your full Charisma modifier when you reach 6th level in this class."
+            ]
+        },
+        {
+            "name": "Ravenous Strikes",
+            "source": "StorymakerExpanDnD",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Hungerer",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 6,
+            "entries": [
+                "Beginning at 6th level, when you gain temporary hit points at the end of your turn from the Eldritch Vitality feature, the number of temporary hit points you gain is equal to your full Charisma modifier, or you can instead gain temporary hit points equal to half the total damage you have dealt with your unarmed strikes over the course of your turn."
+            ]
+        },
+        {
+            "name": "Eternal Hunger",
+            "source": "StorymakerExpanDnD",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Hungerer",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 10,
+            "entries": [
+                "Starting at 10th level, you add your Charisma modifier to your stomach capacity and stuffing rolls.",
+                "Additionally, you emanate an aura of hunger in a 10-foot radius. The first time any enemy creature enters the aura or starts its turn there during a battle, the creature takes necrotic damage equal to your Charisma modifier. When you damage an enemy with this feature and you are not full (including the result of an Eating check), your stomach fills with pounds of Fatty food equal to half the damage done to that creature."
+            ]
+        },
+        {
+            "name": "The Shape of Hunger",
+            "source": "StorymakerExpanDnD",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Hungerer",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 14,
+            "entries": [
+                "Starting at 14th level, you may use an action to transform into the Shape of Hunger. You immediately digest all food in your stomach, gaining two pounds of fat or muscle for each pound of food you digest in this way (your choice) and regaining a number of Hit Points equal to the number of pounds of food digested. The Shape of Hunger lasts 1 minute, and while transformed you receive the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Your size increases by one category, doubling in all dimensions and multiplying your weight by eight. If there isn’t enough room to double your size, you attain the maximum possible size in the space available.",
+                        "You have advantage on Strength checks and Strength saving throws.",
+                        "Your unarmed strikes deal an additional 1d4 damage.",
+                        "The range of your Eternal Hunger becomes 30 feet, and the amount of food you gain from it is equal to the full damage it deals.",
+                        "Immediately after you hit an enemy in range of your Eternal Hunger with an unarmed strike, you can use your reaction to instantly digest all of the food in your stomach. You regain Hit Points equal to the number of pounds of food digested. You also gain two pounds of fat or muscle for each pound of food digested this way. Food digested in this way does not give you diet points."
+                    ]
+                },
+                "Once you use this feature, you can’t use it again until you finish a long rest."
+            ]
+        },
+        {
+            "name": "The Great Ooze",
+            "source": "StorymakerExpanDnD",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Ooze",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "There is something strange about the minds of the great oozes. They are as unknowable as any great being, and yet also simpler than a beast in some regards. Their power is undeniable, but their form is perhaps unusual, even among demons, devils and other outsiders. Beings such as Juiblex and other great oozes occasionally will offer a mote of their power to a warlock, however, and then things get truly strange.",
+                {
+                    "type": "entries",
+                    "name": "Expanded Spell List",
+                    "entries": [
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "Spell level",
+                                "Spells"
+                            ],
+                            "rows": [
+                                [
+                                    "1st",
+                                    "Acid Stream, Syrup Trap"
+                                ],
+                                [
+                                    "2nd",
+                                    "Stretch Stomach, Web"
+                                ],
+                                [
+                                    "3rd",
+                                    "Bestow Curse, Overabundance"
+                                ],
+                                [
+                                    "4th",
+                                    "Evard's Black Tentacles, Softskin"
+                                ],
+                                [
+                                    "5th",
+                                    "Contagion, Fist of the Feeding Star"
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Protean form|Warlock||Ooze|StorymakerExpanDnD|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Slime Invasion|Warlock||Ooze|StorymakerExpanDnD|1"
+                }
+            ]
+        },
+        {
+            "name": "Protean form",
+            "source": "StorymakerExpanDnD",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Ooze",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "Beginning when you take this archetype at 1st level, the ooze has provided you with the power to temporarily melt your form into a mass of slime to travel through obstacles. You have resistance to acid damage. Additionally, over the course of your movement, you may travel through gaps as narrow as 1 inch wide, including through spaces occupied by enemies. Difficult terrain also does not slow your movement speed.",
+                "Also, you can perform grapple checks using your Constitution modifier rather than your Strength modifier, and targets you are grappling have disadvantage on attacks against you."
+            ]
+        },
+        {
+            "name": "Slime Invasion",
+            "source": "StorymakerExpanDnD",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Ooze",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "Also at 1st level, you can ride inside targets to shield yourself from harm. As a bonus action, you can ride inside an allied creature adjacent to you or attempt to force yourself inside of an enemy you are grappling. An enemy must make a Strength saving throw against your spell save DC to avoid swallowing you. While swallowed in this way, the following effects are active, affecting both you and the creature:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You fill the creature's stomach capacity, including an Eating check for overindulging. Creatures with no maximum stomach capacity treat your size in their stomach as double your normal weight. You cannot be digested or affected by spells like Abyssal Stomach",
+                        "You have total cover from any effects not originating inside your target. You do however also take any falling or thunder damage the target suffers.",
+                        "You can use your bonus action to overfill your target, increasing your volume in their stomach by a number of pounds equal to your Proficiency bonus.",
+                        "You can use your reaction whenever your target would be forced to eat food to consume any food they ingest until the start of your next turn, adding it to your stomach capacity instead of theirs.",
+                        "Your target can use their Action to attempt to expel you, making a Strength Saving throw against your spell save DC. On a failure, they cannot repeat the action again until after their next turn. On a success, you leave their body and the effects of this feature end.",
+                        "An allied creature can allow you to use them as a focus for spellcasting, allowing you to cast spells originating from them and using their line of sight for determining effects.",
+                        "You can use your Action to force an enemy creature to make a weapon attack against another creature within range."
+                    ]
+                },
+                "These effects last until the creature dies, at which point you are ejected from them and emerge in an unoccupied space within 5 feet, or until you choose to leave them as a bonus action on your turn."
+            ]
+        },
+        {
+            "name": "Splattering Escape",
+            "source": "StorymakerExpanDnD",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Ooze",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 6,
+            "entries": [
+                "Beginning at 6th level, whenever you take a hit, you can splatter yourself across the area in response, spraying creatures with acid before reforming yourself somewhere safer. When you take damage, you can use your reaction to splatter yourself, turning into a spray of ooze that causes each creature within 10 feet of you to take 3d6 Acid damage. You are no longer a creature for this duration, and you reform in a location within 30 feet at the start of your next turn, the ooze seeping into that location to reshape into your form.",
+                "Once you use this feature, you can’t use it again until you finish a short or long rest."
+            ]
+        },
+        {
+            "name": "Improved Protean Form",
+            "source": "StorymakerExpanDnD",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Ooze",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 10,
+            "entries": [
+                "At 10th level, the malleability of your form improves, granting you greater control. You can Disengage as a bonus action. When you do, you can attempt to use your Slime Invasion on an enemy creature within your movement range by moving into their space. When you do this, you force them to make a Dexterity Saving throw rather than a Strength saving throw, but they then suffer the effects as normal on a failure.",
+                "Additionally, your resistance to acid damage becomes immunity."
+            ]
+        },
+        {
+            "name": "Slime Mastery",
+            "source": "StorymakerExpanDnD",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Ooze",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 14,
+            "entries": [
+                "At 14th level, your Slime Invasion improves, allowing you to add any or all of the following effects of your choice while using it:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The target is immobilized. If they have no bulk threshold, increase their weight by 4 times their current weight.",
+                        "The target is affected by the Enlarge portion of Enlarge/Reduce",
+                        "The target cannot speak, simply dribbling slime whenever they attempt to.",
+                        "You can use your bonus action to force the target to move up to their movement speed in a direction of your choice, ignoring any movement speed penalties from their weight.",
+                        "You can use your bonus action to force an enemy target to let you use them as a focus as if they were an allied creature until the end of your turn. They must make a Charisma saving throw against your Spell Save DC, preventing you from doing this on a success.",
+                        "You can grant an Allied target any damage resistances or immunities you also possess."
+                    ]
+                }
+            ]
         }
     ],
     "optionalfeature": [
@@ -7272,6 +7642,209 @@
                 "This slice of cake looks like it came from heaven itself. Upon consumption, the imbiber is gains the benefit of the spell Adipose Armor."
             ],
             "featureType": "GLR"
+        },
+        {
+            "name": "Pact of the Feast",
+            "source": "StorymakerExpanDnD",
+            "entries": [
+                "This pact grants a warlock magical command over conjured food, allowing them to produce it in endless amounts, providing yet another tool to their reprtoire to attack their foes. After all, the best way to one's heart is through their stomach.",
+                "You gain the ability to generate food from your body at will. In narrative play this means you always have a supply of mundane food, of the quality of your choice, to eat or share as you please. Aside from being generated magically, this food is inherently mundane.",
+                "In combat, this means that you have an unlimited supply of food to use with things like the Force-Feeding and Eating actions as well, but more than that, you also gain a unique ability to use in combat.",
+                {
+                    "type": "entries",
+                    "name": "Fattening Blast",
+                    "entries": [
+                        "As an Action, a stream of food streaks toward a creature within 120 ft. Make a ranged spell attack against the target. On a hit, the target eats 1d4 pounds of food.",
+                        "The spell creates more than one beam when you reach higher levels of the Warlock class: two beams at 5th level, three beams at 11th level, and four beams at 17th level. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam.",
+                        "This ability is affected by all of the Eldritch Invocations that would affect your Eldritch Blast cantrip, and qualifies for any prerequisites that would require the Eldritch Blast cantrip even if you don't have it. However, any effects that would affect the 'damage' the attack deals instead affect the amount of food the target is forced to eat."
+                    ]
+                }
+            ],
+            "featureType": "PB"
+        },
+        {
+            "name": "Pact of the Flesh",
+            "source": "StorymakerExpanDnD",
+            "entries": [
+                "This pact is for those who would absorb power into themselves rather than wield it in the form of tools. A gift from the patron that imbues some of their power directly into the warlock, the pact of the flesh is a potent tool for both defensive and offensive purposes.",
+                "When you take this gift at 3rd level, you are infused with the otherworldly weapons and durability of your patron.",
+                "You gain a +1 bonus to AC at all times. You also gain claws, hooves, horns or any other natural melee weapon of your choosing which deals 1d6 bludgeoning or slashing damage (your choice). You can use your Dexterity ability score instead of Strength when rolling for attack and damage rolls with your natural weapon. You must use the same ability score for both rolls.",
+                "Additionally, attacks with your natural weapon are considered magical for the purpose of overcoming damage resistance and immunity to nonmagical attacks.",
+                {
+                    "type": "inset",
+                    "name": "Pact of the Flesh and the Hexblade Patron",
+                    "entries": [
+                        "It is up to the Dungeon Master to determine whether or not the natural weapons provided by the Pact of the Flesh qualify for the Hexblade Patron's Hex Warrior feature similarly to the Pact of the Blade."
+                    ]
+                }
+            ],
+            "featureType": "PB"
+        },
+        {
+            "name": "Fattening Blast",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "spell": [
+                        "eldritch blast#c"
+                    ]
+                }
+            ],
+            "entries": [
+                "When you hit a creature with eldritch blast, you can cause them to Fatten equal to twice the amount of damage dealt."
+            ],
+            "featureType": "EI"
+        },
+        {
+            "name": "Twin Blades of the Pactbearer",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": 12,
+                    "pact": "Tome"
+                }
+            ],
+            "entries": [
+                "When you summon your pact weapon, you can choose to summon a second weapon in your off-hand. This second weapon cannot be a magic weapon bound to you by a ritual, but otherwise acts in the same manner as your Pact Weapon, and is able to benefit from invocations that affect your Pact Weapon."
+            ],
+            "featureType": "EI"
+        },
+        {
+            "name": "Unnatural Physique",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": 12
+                }
+            ],
+            "entries": [
+                "You can cast Amazonian Figure on yourself at will, without expending a spell slot or material components."
+            ],
+            "featureType": "EI"
+        },
+        {
+            "name": "The Warrior's Touch",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "pact": "Blade"
+                },
+                {
+                    "pact": "Pact of the Flesh"
+                }
+            ],
+            "entries": [
+                "Whenever you reduce a creature to 0 hit points with your pact boon feature, you may immediately use your bonus action to regain hit points equal to your Charisma modifier (minimum 1). If you do so, you gain a number of pounds of fat or muscle (your choice) equal to twice the health regained this way."
+            ],
+            "featureType": "EI"
+        },
+        {
+            "name": "Swift Summoning",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "pact": "Blade"
+                }
+            ],
+            "entries": [
+                "You may conjure your pact weapon as a bonus action rather than as an action."
+            ],
+            "featureType": "EI"
+        },
+        {
+            "name": "Malleable Form",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "pact": "Tome"
+                },
+                {
+                    "pact": "Pact of the Flesh"
+                }
+            ],
+            "entries": [
+                "Over the course of a long rest, you are able to alter the facets of your physical being. You may increase or decrease your height by 1d4 inches, gain or lose an amount of fat or muscle equal to 1d10 lbs, and alter your physical sex to the opposite one, assuming your race has two sexes. Your change in height cannot reach the point at which it would change your size category."
+            ],
+            "featureType": "EI"
+        },
+        {
+            "name": "Gift of Wings",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": 15,
+                    "pact": "Pact of the Flesh"
+                }
+            ],
+            "entries": [
+                "You gain the ability to sprout a pair of wings from your back, themed appropriately to your patron. These wings grant you a flying speed equal to your current speed. You can create these wings as a bonus action on your turn. They last until you dismiss them as a bonus action on your turn.",
+                "You can't manifest your wings while wearing armor unless the armor is made to accommodate them, and clothing not made to accommodate your wings might be destroyed when you manifest them."
+            ],
+            "featureType": "EI"
+        },
+        {
+            "name": "Hardened Flesh",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": 15,
+                    "pact": "Pact of the Flesh"
+                }
+            ],
+            "entries": [
+                "You can cast Stoneskin on yourself at will, without expending material components."
+            ],
+            "featureType": "EI"
+        },
+        {
+            "name": "Flurry of Claws",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": 5,
+                    "pact": "Pact of the Flesh"
+                }
+            ],
+            "entries": [
+                "When you make an attack action on your turn with a natural weapon, you can use your bonus action to make two more natural weapon attacks immediately afterward."
+            ],
+            "featureType": "EI"
+        },
+        {
+            "name": "Aspect of Terror",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": 10,
+                    "pact": "Pact of the Flesh"
+                }
+            ],
+            "entries": [
+                "As an action, you can exhude an aura of terror by performing some action, whether it be roaring, stomping the ground, or some other gesture of intimidation, which causes enemies to react in fear. Each creature of your choice within 30 feet of you must make a Wisdom saving throw (DC 8 + your proficiency bonus + your Charisma modifier). A target automatically succeeds on the save if it can't hear or see you. On a failed save, a target becomes frightened of you for 1 minute. If the frightened target takes any damage, it can repeat the saving throw, ending the effect on itself on a success."
+            ],
+            "featureType": "EI"
+        },
+        {
+            "name": "Eldritch Capacity",
+            "source": "StorymakerExpanDnD",
+            "entries": [
+                "Increase your Stomach Capacity by an amount equal to your Charisma modifier."
+            ],
+            "featureType": "EI"
+        },
+        {
+            "name": "Eldritch Pie",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": 11,
+                    "pact": "Pact of the Feast"
+                }
+            ],
+            "entries": [
+                "You may conjure a goodberry pie as an Action. Once you use this feature, you cannot do so again for 1d4 days."
+            ],
+            "featureType": "EI"
         }
     ],
     "subclass": [
@@ -8210,6 +8783,174 @@
                 "Devour Missile|Sorcerer||Voidborn|StorymakerExpanDnD|6",
                 "Redirect Missile|Sorcerer||Voidborn|StorymakerExpanDnD|14",
                 "All-Consuming|Sorcerer||Voidborn|StorymakerExpanDnD|18"
+            ]
+        },
+        {
+            "name": "Spirit of Indulgence",
+            "source": "StorymakerExpanDnD",
+            "page": 72,
+            "shortName": "Indulgence",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Spirit of Indulgence|Warlock||Indulgence|StorymakerExpanDnD|1",
+                "Charmed Offering|Warlock||Indulgence|StorymakerExpanDnD|6",
+                "Mutual Satisfaction|Warlock||Indulgence|StorymakerExpanDnD|10",
+                "Hungering Presence|Warlock||Indulgence|StorymakerExpanDnD|14"
+            ],
+            "subclassSpells": [
+                {
+                    "name": "Goodberry",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Fattening Jest",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Narce's Sympathy Gain",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Stretch Stomach",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Hypnotic Hunger",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Overabundance",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Create Fattening Food and Drink",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Sexual Hypnotism",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Dominate Person",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Blueberrify",
+                    "source": "StorymakerExpanDnD"
+                }
+            ]
+        },
+        {
+            "name": "The Great Hungerer",
+            "source": "StorymakerExpanDnD",
+            "page": 73,
+            "shortName": "Hungerer",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "The Great Hungerer|Warlock||Hungerer|StorymakerExpanDnD|1",
+                "Ravenous Strikes|Warlock||Hungerer|StorymakerExpanDnD|6",
+                "Eternal Hunger|Warlock||Hungerer|StorymakerExpanDnD|10",
+                "The Shape of Hunger|Warlock||Hungerer|StorymakerExpanDnD|14"
+            ],
+            "subclassSpells": [
+                {
+                    "name": "Absorb Elements",
+                    "source": "XGE"
+                },
+                {
+                    "name": "Purify Food and Drink",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Alter Self",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Stretch Stomach",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Redirect Repast",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Siphoning Smite",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Softskin",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Stoneskin",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Amazonian Figure",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Rampant Vitality",
+                    "source": "StorymakerExpanDnD"
+                }
+            ]
+        },
+        {
+            "name": "The Great Ooze",
+            "source": "StorymakerExpanDnD",
+            "page": 74,
+            "shortName": "Ooze",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "The Great Ooze|Warlock||Ooze|StorymakerExpanDnD|1",
+                "Splattering Escape|Warlock||Ooze|StorymakerExpanDnD|6",
+                "Improved Protean Form|Warlock||Ooze|StorymakerExpanDnD|10",
+                "Slime Mastery|Warlock||Ooze|StorymakerExpanDnD|14"
+            ],
+            "subclassSpells": [
+                {
+                    "name": "Acid Stream",
+                    "source": "ua2020spellsandmagictattoos"
+                },
+                {
+                    "name": "Syrup Trap",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Stretch Stomach",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Web",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Bestow Curse",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Overabundance",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Softskin",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Evard's Black Tentacles",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Contagion",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Fist of the Feeding Star",
+                    "source": "StorymakerExpanDnD"
+                }
             ]
         }
     ]
