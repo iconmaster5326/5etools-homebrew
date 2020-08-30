@@ -6935,7 +6935,7 @@
             ]
         },
         {
-            "name": "Protean form",
+            "name": "Protean Form",
             "source": "StorymakerExpanDnD",
             "className": "Warlock",
             "classSource": "PHB",
@@ -7017,6 +7017,203 @@
                         "You can use your bonus action to force the target to move up to their movement speed in a direction of your choice, ignoring any movement speed penalties from their weight.",
                         "You can use your bonus action to force an enemy target to let you use them as a focus as if they were an allied creature until the end of your turn. They must make a Charisma saving throw against your Spell Save DC, preventing you from doing this on a success.",
                         "You can grant an Allied target any damage resistances or immunities you also possess."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Lipomancy",
+            "source": "StorymakerExpanDnD",
+            "className": "Wizard",
+            "classSource": "PHB",
+            "subclassShortName": "Lipomancy",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 2,
+            "entries": [
+                "The art of using body mass to augment spellcasting is an ancient one, used to both show status as an individual of both knowledge and plenty, and for its practical impact on the nature of spellcasting. Fat is an energy source, and using it as fuel for arcane rituals that bolster stamina and power allows Lipomancers to last longer on the field of battle than a typical Wizard.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Lipomancy Transfer|Wizard||Lipomancy|StorymakerExpanDnD|2"
+                }
+            ]
+        },
+        {
+            "name": "Lipomancy Transfer",
+            "source": "StorymakerExpanDnD",
+            "className": "Wizard",
+            "classSource": "PHB",
+            "subclassShortName": "Lipomancy",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 2,
+            "entries": [
+                "Starting at 2nd level, you have learned to weave body mass into your arcane rituals. You have gained the ability to convert magic into mass and vitality, as well as the opposite. The trade, however, is not equally efficient in both directions.",
+                "As an Action, you can choose to Burn or Build Mass.",
+                {
+                    "type": "entries",
+                    "name": "Burn",
+                    "entries": [
+                        "Regain a number of spell slot levels up to your Intelligence modifier. You take 1d10 points of Necrotic damage for each spell level regained this way and lose an equivalent amount of mass. This damage ignores temporary Hit Points."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Build",
+                    "entries": [
+                        "Sacrifice a number of spell slot levels up to your Intelligence modifier. You regain 1d6 Hit Points for each spell level sacrificed this way and gain an equivalent amount of fat."
+                    ]
+                },
+                "After you use this feature, you can’t use it again until you finish a short or long rest."
+            ]
+        },
+        {
+            "name": "Siphoning touch",
+            "source": "StorymakerExpanDnD",
+            "className": "Wizard",
+            "classSource": "PHB",
+            "subclassShortName": "Lipomancy",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 6,
+            "entries": [
+                "At 6th level, you learn to leech mass from your targets to heal yourself, or flood their systems with your own mass to damage and hinder them. As an action, you can expend one Spell slot of any level and make a Melee spell attack against a target within reach. On a successful hit, you can choose to either Drain or Inflate your target.",
+                {
+                    "type": "entries",
+                    "name": "Drain",
+                    "entries": [
+                        "Your target takes 1d6 points of Necrotic damage per level of spell slot sacrificed. You gain that many pounds of fat while your target loses an equivalent amount of mass, and you regain Hit points equal to half the damage dealt."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Inflate",
+                    "entries": [
+                        "Your target takes 1d10 points of Bludgeoning damage per level of spell slot sacrificed. They gain that many pounds of fat while you lose an equivalent amount of mass, and the target cannot use its reaction until the start of your next turn as it is thrown off balance by the sudden change in mass. The Bludgeoning damage is considered magical for the purpose of overcoming damage resistance."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Fat Spells",
+            "source": "StorymakerExpanDnD",
+            "className": "Wizard",
+            "classSource": "PHB",
+            "subclassShortName": "Lipomancy",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 10,
+            "entries": [
+                "At 10th level, you have learned to alter your spells to include an effect on body weight and vitality.",
+                "When you cast a spell with a spell slot and the spell deals damage, you can also cause the spell to add fat or remove mass from the target equal to half the damage dealt. You can also Sacrifice an additional spell slot and lose an additional 10 pounds of mass per level of the spell slot sacrificed to add an additional amount of damage of a type that the spell deals equal to 1d6 per level of the sacrificed spell slot."
+            ]
+        },
+        {
+            "name": "Fat Mastery",
+            "source": "StorymakerExpanDnD",
+            "className": "Wizard",
+            "classSource": "PHB",
+            "subclassShortName": "Lipomancy",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 14,
+            "entries": [
+                "By natural levitation, augmentation of weight, or sheer stubbornness, at 14th level you have mastered your weight to the point that nothing can hinder your movement, even magically. As long as you are conscious, you are permanently under the effects of a Freedom of Movement spell."
+            ]
+        },
+        {
+            "name": "Myomancy",
+            "source": "StorymakerExpanDnD",
+            "className": "Wizard",
+            "classSource": "PHB",
+            "subclassShortName": "Myomancy",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 2,
+            "entries": [
+                "Although initially, Myomancy was first crafted as a more specialized subset of Lipomancy, in time the noted differences between the two arts lead to an increasing Epistemological drift that, in the modern day, sees the two as nigh-on diametrically opposed schools of magic. The Myomancers of today are also, perhaps, a bit enraptured in their art; something about the physical perfection that myomancy bestows creates an impressive level of arrogance in many of its practitioners, even among Wizards, a profession famously frought with such egos.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Magic Muscles|Wizard||Myomancy|StorymakerExpanDnD|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Cantrip Fist|Wizard||Myomancy|StorymakerExpanDnD|2"
+                }
+            ]
+        },
+        {
+            "name": "Magic Muscles",
+            "source": "StorymakerExpanDnD",
+            "className": "Wizard",
+            "classSource": "PHB",
+            "subclassShortName": "Myomancy",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 2,
+            "entries": [
+                "Beginning when you take this tradition at 2nd level, your arcane mastery over muscularity allows you to use your Intelligence score rather than your Strength score for the purposes of determining your Bulk limit, Flex limit, and Carrying Capacity, as well as for determining how much muscle you gain over the course of a rest. Additionally, you may use Intelligence in place of Strength for any Strength (Athletics) ability checks."
+            ]
+        },
+        {
+            "name": "Cantrip Fist",
+            "source": "StorymakerExpanDnD",
+            "className": "Wizard",
+            "classSource": "PHB",
+            "subclassShortName": "Myomancy",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 2,
+            "entries": [
+                "Also at 2nd level, you have learned to infuse the magic of simple cantrips into your own body to enhance your unarmed strikes. Your unarmed strike gains the following properties:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Your unarmed attacks are considered magical.",
+                        "You may make unarmed attacks with either your Strength or Intelligence, whichever is higher.",
+                        "Your unarmed attacks deal 1d6 damage plus your Strength or Intelligence modifier, whichever is higher. This damage increases as you gain levels in this class. This attack's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).",
+                        "Whenever you Critically Strike a creature with your unarmed strike, or when you use your reaction after striking a creature normally with it, you may Swell yourself and Shrink your opponent by the damage dealt."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Extra Attack",
+            "source": "StorymakerExpanDnD",
+            "className": "Wizard",
+            "classSource": "PHB",
+            "subclassShortName": "Myomancy",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 6,
+            "entries": [
+                "Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+            ]
+        },
+        {
+            "name": "Swelling Spells",
+            "source": "StorymakerExpanDnD",
+            "className": "Wizard",
+            "classSource": "PHB",
+            "subclassShortName": "Myomancy",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 10,
+            "entries": [
+                "At 10th level, your body-enhancing spells can include an effect that swells muscles and provides temporary enhancement even beyond that.",
+                "Any time you cast a spell with a target of Self, or cast a beneficial spell on yourself or an ally, they Swell for five times the spell's level.",
+                "Additionally, whenever you do this, you can expend an additional spell slot to grant them even more muscles and a bonus to their armor class that lasts until the end of your next turn as their body is magically hardneed by this increased bulk. The bonus to AC is equal to the additional spell slot's level (maximum of +5), and the target Swells further for ten times the additional spell slot's level."
+            ]
+        },
+        {
+            "name": "Atha's Alterations",
+            "source": "StorymakerExpanDnD",
+            "className": "Wizard",
+            "classSource": "PHB",
+            "subclassShortName": "Myomancy",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 14,
+            "entries": [
+                "Atha, often credited as the first great pioneer of the school of Myomancy, is said to have developed this magical perfection of form to provide a more long-lasting, less debilitating rendition of the abilities provided by the famed spell Tenser's Transformation. Regardless of its provenance, the results are undeniable. Beginning at 14th level, you permanently gain the following qualities:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Your maximum hit points increase by 3 times your Wizard level, and increase by an additional 3 each time you gain a level in this class.",
+                        "You gain proficiency with all armor, and simple and martial melee weapons.",
+                        "You have proficiency in Strength and Constitution saving throws.",
+                        "Any melee weapon you wield can use your Cantrip Fist dice instead of its normal damage dice, and gains all other benefits of your Cantrip Fist ability as well.",
+                        "You are no longer affected by being over your Flex Limit.",
+                        "At the end of each long rest, you may Swell by up to your wizard level."
                     ]
                 }
             ]
@@ -7858,14 +8055,16 @@
             "name": "Malleable Measure",
             "source": "StorymakerExpanDnD",
             "prerequisite": [
-                {"level": 5}
+                {
+                    "level": 5
+                }
             ],
             "entries": [
                 "You can cast Enlarge/Reduce once without expending a spell slot. You regain the ability to do so when you finish a short or long rest."
             ],
             "featureType": "EI"
         },
-                {
+        {
             "name": "The Hand that Feeds",
             "source": "StorymakerExpanDnD",
             "prerequisite": [
@@ -9018,6 +9217,34 @@
                     "name": "Fist of the Feeding Star",
                     "source": "StorymakerExpanDnD"
                 }
+            ]
+        },
+        {
+            "name": "Lipomancy",
+            "source": "StorymakerExpanDnD",
+            "page": 79,
+            "shortName": "Lipomancy",
+            "className": "Wizard",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Lipomancy|Wizard||Lipomancy|StorymakerExpanDnD|2",
+                "Siphoning Touch|Wizard||Lipomancy|StorymakerExpanDnD|6",
+                "Fat Spells|Wizard||Lipomancy|StorymakerExpanDnD|10",
+                "Fat Mastery|Wizard||Lipomancy|StorymakerExpanDnD|14"
+            ]
+        },
+        {
+            "name": "Myomancy",
+            "source": "StorymakerExpanDnD",
+            "page": 80,
+            "shortName": "Myomancy",
+            "className": "Wizard",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Myomancy|Wizard||Myomancy|StorymakerExpanDnD|2",
+                "Extra Attack|Wizard||Myomancy|StorymakerExpanDnD|6",
+                "Swelling Spells|Wizard||Myomancy|StorymakerExpanDnD|10",
+                "Atha's Alterations|Wizard||Myomancy|StorymakerExpanDnD|14"
             ]
         }
     ]
