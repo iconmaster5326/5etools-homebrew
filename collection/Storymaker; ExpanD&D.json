@@ -13325,6 +13325,799 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Collapse",
+            "source": "StorymakerExpanDnD",
+            "page": 102,
+            "level": 6,
+            "school": "V",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "damageInflict": [
+                "force"
+            ],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [
+                "ST"
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "A creature you choose within range must make a Constitution saving throw. On a success, the target takes 6d6 force damage. On a failure, the target takes 12d6 force damage, or twice as much damage if the target is immobilized by its bulk, and its weight is reduced to its base weight, ending any spell that caused it to gain weight (such as Immobilize Monster)."
+            ]
+        },
+        {
+            "name": "Fatnap",
+            "source": "StorymakerExpanDnD",
+            "page": 102,
+            "level": 6,
+            "school": "E",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "components": {
+                "s": true,
+                "m": "a downy feather"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    }
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [
+                "MT"
+            ],
+            "savingThrow": [],
+            "opposedCheck": [],
+            "miscTags": [
+                "HL"
+            ],
+            "entries": [
+                "You make a soothing gesture, and up to three willing creatures of your choice that you can see within range fall unconscious for the spell's duration. A creature with 0 hit points is unaffected. The spell ends on a target early if it takes damage or someone uses an action to shake or slap it awake. A target gains 1 pound of fat every minute (60 in one hour). If a target remains unconscious for the full duration, that target gains the benefit of a long rest, even if it has benefited from a long rest within the past 24 hours, and it can't be affected by this spell again until it finishes a long rest not given by this spell."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 7th level or higher, you can target one additional willing creature for each slot level above 6th."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Investiture of Fat",
+            "source": "StorymakerExpanDnD",
+            "page": 102,
+            "level": 6,
+            "school": "T",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10
+                    },
+                    "concentration": true
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [],
+            "savingThrow": [],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "Your body suddenly swells with additional fat, granting you toughness and extraordinary inertia. You are swathed in thick layers of adipose, and you gain the following benefits for the duration of the spell:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You have resistance to bludgeoning, piercing, and slashing damage from non-magical attacks",
+                        "Your weight quadruples. You cannot be moved against your will, and are immune to effects that would reduce your movement speed. You ignore any penalties imposed by being over your bulk limit.",
+                        "You increase in size by one size category, growing to the extent that your surroundings allow. You gain advantage on Strength ability checks and saving throws, and the extra force behind your blows means all melee weapon attacks deal an additional 1d4 damage."
+                    ]
+                },
+                "Your clothing and equipment grow with you, and are not harmed by this spell."
+            ]
+        },
+        {
+            "name": "Narce's Hypnotic Trance",
+            "source": "StorymakerExpanDnD",
+            "page": 102,
+            "level": 6,
+            "school": "E",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    }
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [
+                "ST"
+            ],
+            "savingThrow": [
+                "wisdom"
+            ],
+            "opposedCheck": [],
+            "miscTags": [
+                "HL"
+            ],
+            "entries": [
+                "You touch a creature and send them into a hypnotic, hungering trance of healing. An unwilling creature may make a Wisdom saving throw to negate this effect, but otherwise, the creature enters a trance for the duration of the spell. The target is unresponsive to creatures that attempt to interact with it, but will seek out any food within their sight range and attempt to consume it. Any food consumed is immediately digested and converted into fat, at a rate of 2 lbs. of fat per 1 lb. of food. For each pound of fat gained this way, the target regains 1 hit point. If the target takes damage while under the effects of the spell, the spell ends."
+            ]
+        },
+        {
+            "name": "Amplify Gravity",
+            "source": "StorymakerExpanDnD",
+            "page": 103,
+            "level": 7,
+            "school": "T",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 100
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a lodestone and iron filings"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [
+                "Y"
+            ],
+            "savingThrow": [
+                "strength"
+            ],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "This spell amplifies gravity in a 50-foot-radius, 100-foot high cylinder centered on a point within range. All creatures have their bulk limits quartered, any objects have their weights quadrupled, and any ground in the area counts as difficult terrain. Creatures in the area suffer disadvantage on Dexterity checks and Dexterity saving throws. A flying creature that isn't on the ground at the end of each of its turns must succeed on a Strength saving throw or fall. Creatures in this area take twice as much damage from falling."
+            ]
+        },
+        {
+            "name": "Raze Restraint",
+            "source": "StorymakerExpanDnD",
+            "page": 103,
+            "level": 7,
+            "school": "E",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 120
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a snapped chain link"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "damageInflict": [
+                "psychic"
+            ],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [
+                "MT"
+            ],
+            "savingThrow": [
+                "intelligence"
+            ],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "Up to 10 creatures you can see within range must make an Intelligence saving throw. On a success, a creature takes 3d10 psychic damage and the spell ends. On a failure, a creature takes 6d10 psychic damage, Fattens equal to the damage it took, and for the duration of the spell, attacks that cause the target to eat food (such as the feed spell) are made with advantage, and the target makes saving throws on similar spells (such as the Overabundance spell) with disadvantage."
+            ]
+        },
+        {
+            "name": "Adipose Armor",
+            "source": "StorymakerExpanDnD",
+            "page": 103,
+            "level": 8,
+            "school": "A",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 8
+                    }
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [],
+            "savingThrow": [],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "Your fat surges and billows to deflect and absorb damage. For the duration of the spell, you have resistance against bludgeoning, piercing, and slashing damage, as well as against one of acid, cold, fire, lightning, poison, or thunder damage (your choice), and whenever you take damage of one of the types this spell grants you resistance to, you gain a number of pounds of fat equal to the damage you took."
+            ]
+        },
+        {
+            "name": "Cornucopia",
+            "source": "StorymakerExpanDnD",
+            "page": 103,
+            "level": 8,
+            "school": "T",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "minute"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": {
+                    "text": "a food vessel worth at least 100 GP, which is consumed",
+                    "cost": 10000,
+                    "consume": true
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 24
+                    }
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [],
+            "savingThrow": [],
+            "opposedCheck": [],
+            "miscTags": [
+                "HL"
+            ],
+            "entries": [
+                "You transform a food vessel into a cornucopia which never stays empty for long. For the duration of the spell, the cornucopia fills up with fatty food whenever a creature holding it speaks the name of the food it desires as a bonus action. The cornucopia can hold 1 pound of any liquid or solid food, cleaning itself between uses, and it cannot spill; a creature must use its action to take and consume food from the cornucopia. Food generated by the cornucopia preserves for a number of days equal to your spellcasting modifier, and drink lasts twice as long before becoming stagnant. A creature gains 1d6 pounds of fat and heals as many hit points after eating 1 pound of food from the cornucopia. Casting this spell on the same vessel every day for a year makes the transformation permanent."
+            ]
+        },
+        {
+            "name": "Summon Fatcubus",
+            "source": "StorymakerExpanDnD",
+            "page": 103,
+            "level": 8,
+            "school": "C",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a vial of blood from a pig killed within the last 24 hours"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [],
+            "savingThrow": [
+                "charisma"
+            ],
+            "opposedCheck": [],
+            "miscTags": [
+                "SMN"
+            ],
+            "entries": [
+                "You profess insatiable hunger, summoning a fatcubus. The fatcubus appears in an unoccupied space you can see within range, and the fatcubus disappears when it drops to 0 hit points or when the spell ends. Roll initiative for the fatcubus, which has its own turns. When you summon it and on each of your turns thereafter, you can issue a verbal command to it (requiring no action on your part), telling it what it must do on its next turn. If you issue no command, it spends its turn attacking any creature within reach that has attacked it.",
+                "At the end of each of the fatcubus' turns, it makes a Charisma saving throw. The fatcubus has disadvantage on this saving throw if you say its true name. On a failed save, the fatcubus continues to obey you. On a successful save, your control of the fatcubus ends for the rest of the duration. If you stop concentrating on the spell before it reaches its full duration, an uncontrolled fatcubus doesn't disappear for 1d6 rounds if it still has hit points.",
+                "As part of casting the spell, you can form a circle on the ground with the blood used as a material component. The circle is large enough to encompass your space. While the spell lasts, the summoned fatcubus can't cross the circle or harm it, and it can't target anyone within it. Using the material component in this manner consumes it when the spell ends."
+            ]
+        },
+        {
+            "name": "Dessert Storm",
+            "source": "StorymakerExpanDnD",
+            "page": 104,
+            "level": 9,
+            "school": "C",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "sight"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "damageInflict": [
+                "piercing",
+                "lightning",
+                "bludgeoning",
+                "fire"
+            ],
+            "conditionInflict": [
+                "blinded"
+            ],
+            "spellAttack": [],
+            "areaTags": [
+                "Y"
+            ],
+            "savingThrow": [
+                "dexterity"
+            ],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "A sugary maelstrom forms in a cylinder with a radius of 360 feet and up to 5,000 feet tall, centered on a point you can see, and the area becomes lightly obscured for the duration of the spell. Howling winds kick up biting grains of sugar. Each creature in the area of the maelstrom when it appears must make a Dexterity saving throw. On a failed save, a creature takes 2d4 piercing damage, is force-fed a number of pounds of fatty food equal to the damage taken, and is blinded until the end of their next turn. Each round you maintain concentration on this spell, the storm produces additional effects on your turn.",
+                {
+                    "type": "entries",
+                    "name": "Round 2",
+                    "entries": [
+                        "A wave of magic causes food in the area to multiply. Uncovered food is carried into the storm as it grows, while food in containers expand to fill their vessels to the brim. Creatures with food in their stomachs feel the effects of this as well, and are effectively forcefed enough food to make their stomachs full, if they were not already, including the result of an Eating check."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Round 3",
+                    "entries": [
+                        "A crackle of greased lightning kicks up through the maelstrom. Six creatures of your choice within the maelstrom's area are struck by bolts of lightning. A given creature can't be struck by more than one bolt. A struck creature must make a Dexterity saving throw. The creature takes 6d10 lightning damage on a failed save, or half as much damage on a successful one, and Fattens equal to the damage taken."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Round 4",
+                    "entries": [
+                        "Coagulated sweets fly dangerously through the whirlwind. Each creature in the maelstrom's takes 2d4 bludgeoning damage and is forcefed a number of pounds of food equal to the damage taken."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Round 5-10",
+                    "entries": [
+                        "Hot chocolate rain spirals on heavy winds from the center of the of the malestrom. The maelstrom's area becomes difficult terrain and is heavily obscured. Each creature there takes 1d4 fire damage and is forcefed a number of pounds of fatty food equal to the damage taken. The searing chocolate and buffeting wind counts as a severe distraction for the purposes of maintaining concentration on spells. Finally, gusts of strong wind (ranging from 20 to 50 miles per hour) automatically disperse fog, mists, and similar phenomena in the area, whether mundane or magical."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Knights of the Round",
+            "source": "StorymakerExpanDnD",
+            "page": 104,
+            "level": 9,
+            "school": "C",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Cleric",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "miles",
+                    "amount": 1
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": {
+                    "text": "a figurine of a knight worth 100 gp",
+                    "cost": 10000
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [
+                "S"
+            ],
+            "savingThrow": [
+                "dexterity"
+            ],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "You call upon legendary knights of bounty. You choose up to 13 points that you can see within range. At each point a summoned knight appears and feeds all creatures it can reach an overwhelming amount of food. Each creature in a 20' radius centered on each point you choose must make a Dexterity saving throw. The sphere spreads around corners. A creature is stuffed with 20d8 lbs of fatty food on a failed save, or half as much damage on a successful one. A creature in the area of more than one summoned knight is affected only once."
+            ]
+        },
+        {
+            "name": "Sculpt Flesh",
+            "source": "StorymakerExpanDnD",
+            "page": 104,
+            "level": 9,
+            "school": "T",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a pound of lard, a handful of bonemeal, and a drop of your own blood"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [
+                "ST"
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "Touch a creature that you can see within reach. That creature must make a Constitution saving throw. If it fails, you can reshape their body as you see fit. You can increase or decrease the creature's size by up to two categories, increase or decrease its weight up to ten times its original weight, add or remove up to four limbs, redistribute weight, change the creature's sex, change hair, skin, and eye color, increase or decrease any one Physical attribute by up to 6 points, which can be in excess of 20, and cause any number of minor physical changes that are up to the DM's discretion. None of these changes may result in the creature being unable to sustain its own life (If the creature needs a head to breathe, for instance, you could not remove its head). If you hold concentration for the full duration of this spell, these changes last until dispelled. A creature can only be affected by one instance of Sculpt Flesh at a time, and casting a second instance on a creature dispels the first."
+            ]
         }
     ]
 }
