@@ -7726,6 +7726,20 @@
             ]
         },
         {
+            "name": "Inflator",
+            "source": "StorymakerExpanDnD",
+            "page": 64,
+            "shortName": "Inflator",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Inflator|Rogue||Inflator|StorymakerExpanDnD|3",
+                "Tactical Deflation|Rogue||Inflator|StorymakerExpanDnD|9",
+                "Major Inflation|Rogue||Inflator|StorymakerExpanDnD|13",
+                "Master Inflator|Rogue||Inflator|StorymakerExpanDnD|17"
+            ]
+        },
+        {
             "name": "Shadowblade",
             "source": "StorymakerExpanDnD",
             "page": 65,
