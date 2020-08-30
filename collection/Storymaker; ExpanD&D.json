@@ -12289,6 +12289,450 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Alluring Feast",
+            "source": "StorymakerExpanDnD",
+            "page": 97,
+            "level": 4,
+            "school": "E",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": {
+                    "text": "non-slimming food worth at least 1 GP, which the spell consumes",
+                    "cost": 100,
+                    "consume": true
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [
+                "charmed"
+            ],
+            "spellAttack": [],
+            "areaTags": [
+                "C"
+            ],
+            "savingThrow": [
+                "wisdom"
+            ],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "You create a feast in an unoccupied space within range. The feast occupies a 5 foot cube and consists of a number of pounds of fatty food equal to your spellcasting ability modifier. Any creature that can see or smell the feast that moves or ends its turn within 10 feet of it for the first time in a round must succeed on a Wisdom saving throw or be charmed by you. A creature which eats the food made by this spell automatically fails this save, and creatures with no food in its stomach has disadvantage on the save. The feast produces a number of pounds of fatty food equal to your spellcasting ability modifier per creature charmed by you in this way at the start of each of your turns. While charmed in this way, a creature must spend its movement, action, and bonus action to move towards the feast and eat the food provided by it. The creature doesn't move into obviously dangerous ground. A creature charmed by the Feast can repeat the saving throw against its effects on the end of each of its turns, but suffers disadvantage on these saves until they are full, including the result of an overstuffing check. On a success, it is no longer charmed by you and cannot be charmed in this way until after its stomach next becomes empty."
+            ]
+        },
+        {
+            "name": "Create Fattening Food and Drink",
+            "source": "StorymakerExpanDnD",
+            "page": 97,
+            "level": 4,
+            "school": "C",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Cleric",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Paladin",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [],
+            "savingThrow": [],
+            "opposedCheck": [],
+            "miscTags": [
+                "HL"
+            ],
+            "entries": [
+                "You create 90 pounds of fattening food and 60 gallons of mead, ale, wine, and similarly heavy drinks, either in containers already present or in summoned platters and casks. Anyone partaking in the food or drink gains 1d6 pounds of fat and heals 1 Hit Point per pound of food or glass of drink. The food preserves for a number of days equal to your spellcasting modifier before spoiling, and the drink lasts twice as long before becoming stagnant."
+            ]
+        },
+        {
+            "name": "Embulking Smite",
+            "source": "StorymakerExpanDnD",
+            "page": 97,
+            "level": 4,
+            "school": "V",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Paladin",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "v": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "damageInflict": [
+                "force"
+            ],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [],
+            "savingThrow": [
+                "constitution"
+            ],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "The next time you hit a creature with a weapon attack before this spell ends, the attack deals an extra 4d6 force damage to the target, and the target must make a Constitution saving throw. On a failure, the target gains enough weight to push it past its immobility threshold and an additional 1d100 pounds until the end of its next turn. A creature without bulk limits instead gains 100d100 pounds until the end of its next turn."
+            ]
+        },
+        {
+            "name": "Fatball",
+            "source": "StorymakerExpanDnD",
+            "page": 98,
+            "level": 4,
+            "school": "V",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 150
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a tiny ball of butter and sulfur"
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "damageInflict": [
+                "bludgeoning"
+            ],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [
+                "S"
+            ],
+            "savingThrow": [
+                "dexterity"
+            ],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "A warbling, translucent ball of energy streaks from your pointing finger to a point you choose within range. There is a low boom of energy, and nearby creatures are buffeted with fattening force. Each creature in a 20-foot radius Sphere centered on that point must make a Dexterity saving throw. A target takes 9d6 bludgeoning damage on a failed save, or half as much damage on a successful one, and damage targets take from this spell adds an equivalent amount of fat to their bodies.",
+                "The blast spreads around corners, and turns any nonmagical food caught in the radius into magically fattening food that adds 1d10 pounds of fat to any creature that consumes it."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d6 for each slot level above 4th."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Nature's Bounty",
+            "source": "StorymakerExpanDnD",
+            "page": 98,
+            "level": 4,
+            "school": "C",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Ranger",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 90
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a sappy plant stem"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [
+                "Q"
+            ],
+            "savingThrow": [
+                "dexterity"
+            ],
+            "opposedCheck": [
+                "strength",
+                "dexterity"
+            ],
+            "miscTags": [],
+            "entries": [
+                "Writhing, sappy vines fill a 20-foot square on the ground that you can see within range. For the duration, these vines turn the ground in the area into difficult terrain. When a creature enters the affected area for the first time on a turn or starts its turn there, the creature must succeed on a Dexterity saving throw or be forced to consume a number of pounds of fatty food equal to their stomach capacity (including the result of an Eating check) plus 2d6 and be restrained by the vines until the spell ends. A creature that starts its turn in the area and is already restrained by the vines is forced to consume an additional 2d6 pounds of fatty food. A creature restrained by the vines can use its action to make a Strength or Dexterity check (its choice) against your spell save DC. On a success, it frees itself."
+            ]
+        },
+        {
+            "name": "Sexual Hypnotism",
+            "source": "StorymakerExpanDnD",
+            "page": 98,
+            "level": 4,
+            "school": "E",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [
+                "charmed"
+            ],
+            "spellAttack": [],
+            "areaTags": [],
+            "savingThrow": [
+                "wisdom"
+            ],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "You augment your physicality with an enchantment that elicits raw attraction from those who gaze upon you, coupling it with a visual showcase for added effect. One sexual characteristic of your choice expands drastically and becomes the most prominent feature on your body, and anyone who looks at you for the duration of the spell must make a Wisdom saving throw or be charmed by you. Anyone who would not normally be sexually attracted to your sex or the body parts on display has advantage on the saving throw."
+            ]
+        },
+        {
+            "name": "Softskin",
+            "source": "StorymakerExpanDnD",
+            "page": 98,
+            "level": 4,
+            "school": "E",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Ranger",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [
+                "ST"
+            ],
+            "savingThrow": [
+                "dexterity"
+            ],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "With a touch, the target's skin becomes pliant and springy, bending and rebounding against assault. Until the spell ends, the target can use their reaction to force a creature that hits them with an attack to make a Dexterity saving throw. On a failure, the attack hits that creature instead. On a success, the attack hits as normal."
+            ]
         }
     ]
 }
