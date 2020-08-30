@@ -19,7 +19,8 @@
             "Eating": "The Constitution (Eating) skill can be used to stomach bad tasting, dangerous, or otherwise difficult to eat food and drink, as well as potentially identify unknown consumable substances by taste, though that might rely on a different ability score than Constitution."
         },
         "optionalFeatureTypes": {
-            "CotSD": "Circle of the Spread Disease"
+            "CotSD": "Circle of the Spread Disease",
+            "GLR": "Gourmand Lipomantic Recipe"
         }
     },
     "variantrule": [
@@ -5647,7 +5648,7 @@
                         "Your walking speed increases by 10 feet."
                     ]
                 },
-                                {
+                {
                     "type": "entries",
                     "name": "Survivor’s Grit",
                     "entries": [
@@ -5682,7 +5683,7 @@
                         "Once on on your turn when you make a weapon attack, you can move up to 10 feet closer to your target through any movement means available to you before making the attack. This movement is in addition to your normal movement speeds, but can't be used if your speed is reduced to 0."
                     ]
                 },
-                                {
+                {
                     "type": "entries",
                     "name": "Survivor’s Durability",
                     "entries": [
@@ -5727,7 +5728,7 @@
                         "You gain a bonus equal to half your Wisdom modifier (minimum of 1) to attack rolls made against your all your favored enemies and against any creature without all its hit points."
                     ]
                 },
-                                {
+                {
                     "type": "entries",
                     "name": "Survivor’s Endurance",
                     "entries": [
@@ -5834,6 +5835,441 @@
                         "This natural weapon deals bludgeoning damage. If you hit a creature with this weapon, the target is grappled with an escape DC equal to your spell save DC. Until this grapple ends, the target is restrained, you can attack that creature with this natural weapon as a bonus action, and you can’t use this natural weapon on another target."
                     ]
                 }
+            ]
+        },
+        {
+            "name": "Essence Thief",
+            "source": "StorymakerExpanDnD",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassShortName": "Essence Thief",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "The Essence thief believes that even if they aren't the best, they can just take the traits that make someone else the best instead. They drain some of the essence of individuals they touch with their magic, taking on their physical traits as they glide across the battlefield, accumulating power.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Essence Theft|Rogue||Essence Thief|StorymakerExpanDnD|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Essence Devour|Rogue||Essence Thief|StorymakerExpanDnD|3"
+                }
+            ]
+        },
+        {
+            "name": "Essence Theft",
+            "source": "StorymakerExpanDnD",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassShortName": "Essence Thief",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Beginning at 3rd level, you gain the ability to steal some of your victims' essence with but a touch. You can steal essence from a hostile creature using a Dexterity (Sleight of Hand) check opposed by their Strength (Athletics) check or Dexterity (Acrobatics) check, or as a result of dealing sneak attack damage to them. You can also steal essence from a non-hostile creature using a Dexterity (Sleight of Hand) check opposed by their Wisdom (Perception) check.",
+                "On a success, choose two Attributes. For the next minute, ability checks using those attributes have advantage, and the target has disadvantage on ability checks using those same attributes. These stolen attributes might manifest on your body as simple glowing marks, or they might manifest as suddenly appearing muscle, sexual characteristic mass, body fat, height, or other traits which do not count against your character's total weight or other characteristics. After the minute is over, these attributes recede as they are expended.",
+                "This ability's duration increases to an hour at 17th level.",
+                "This ability can be used a number of times equal to your Charisma modifier (minimum 1.) You regain all expended uses of this ability after a long rest."
+            ]
+        },
+        {
+            "name": "Essence Devour",
+            "source": "StorymakerExpanDnD",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassShortName": "Essence Thief",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Also at 3rd level, the rogue can choose to drain some of the essence from a creature they kill and make it their own. Unlike Essence Theft, this drain is permanent. Whenever the rogue kills a creature, they can choose to gain weight (fat or muscle) or height (Which cannot increase their size category) in any combination from the creature, up to a number of pounds of fat or inches of height equal to 1d10 + your Charisma bonus + your Rogue level, distributing across their body as they like, with every one point being worth a pound of mass and every 5 points being worth an inch of height. This essence does not have as much flashy potential, but has a practical application: The rogue can expend body mass or height to fuel temporary proficiency with the skills and tools they are not currently proficient with.",
+                "At the cost of 10 pounds of mass or 2 inches of height in any combination, the rogue can use this ability before making a roll to gain proficiency in any skill they do not currently have proficiency with for one skill check, or with a tool, vehicle, weapon, or armor they do not currently have proficiency with for up to an hour.",
+                "You may use this portion of this ability a number of times equal to your Charisma modifier (minimum 1.) You regain all expended uses of this ability after a long rest."
+            ]
+        },
+        {
+            "name": "Improved Devour",
+            "source": "StorymakerExpanDnD",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassShortName": "Essence Thief",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 9,
+            "entries": [
+                "At 9th level, you have improved your ability to convert essence into skill on a temporary basis. You can expend one use of your Essence Devour ability to gain expertise on a skill you already have proficiency in for a single check, or with a tool you already have proficiency in for up to an hour.",
+                "In addition, you can expend two uses of Essence Devour to do the same for a skill or tool you don't currently have proficiency in."
+            ]
+        },
+        {
+            "name": "Thief of Faces",
+            "source": "StorymakerExpanDnD",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassShortName": "Essence Thief",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 13,
+            "entries": [
+                "At 13th level, when you use your Essence Theft ability on a humanoid, you can choose to take on the appearance of that humanoid as well, turning yourself into perfect visual copy of your victim. You retain your physical and mental stats, but take on their appearance, height, and weight for the duration.",
+                "Additionally, while you've stolen someone's essence, you can attempt to extract information from them by using your action or bonus action to force them to make an Intelligence Saving throw. The DC is 8 + Proficiency bonus + your Charisma modifier, and on a failure you learn the truthful answer to one question of your choice. Once they succeed on the saving throw, this portion of this ability cannot be used on them again for the remainder of the duration of Essence Theft."
+            ]
+        },
+        {
+            "name": "Essence Assassin",
+            "source": "StorymakerExpanDnD",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassShortName": "Essence Thief",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 17,
+            "entries": [
+                "At 17th level, your ability to steal essence has improved, and the drain has become so potent that it leaves enemies winded. A creature who you successfully use Essence Theft on gains the Poisoned condition until the ability's duration ends. Additionally, they are always a viable target for your Sneak Attack ability, even if you have disadvantage on your attack rolls against them.",
+                "If you kill a target under the effects of Essence Theft and use Essence Devour on them, the effect of Essence Theft remains until the end of your next long rest."
+            ]
+        },
+        {
+            "name": "Gourmand",
+            "source": "StorymakerExpanDnD",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassShortName": "Gourmand",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Rogues are the masters of precise operations. Especially so when it comes to the application of magic to a trade such as cooking and brewing. The Arcane Gourmand is a master chef who applies their roguish expertise to their pursuit of lipomancy. Maybe you found an ancient tome on the subject penned by the Lich Queen herself, or discovered them on your own through experimentation. The Arcane Gourmand's meals are almost divine to their friends, but those who earn their ire will quickly find themselves stuffed beyond recovery.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Gourmand's Training|Rogue||Gourmand|StorymakerExpanDnD|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Lipomantic Cuisine|Rogue||Gourmand|StorymakerExpanDnD|3"
+                }
+            ]
+        },
+        {
+            "name": "Gourmand's Training",
+            "source": "StorymakerExpanDnD",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassShortName": "Gourmand",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "When you choose this archetype at 3rd level, you gain proficiency with poisoner's kits and cooks utensil's. Your proficiency bonus is doubled for any ability check you make that uses either of those proficiencies.",
+                "When you force-feed a creature, you may replace the Strength (Athletics) check required with a Dexterity (Sleight of Hand) check, if you are proficient with the skill."
+            ]
+        },
+        {
+            "name": "Lipomantic Cuisine",
+            "source": "StorymakerExpanDnD",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassShortName": "Gourmand",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Also at 3rd level, whenever you finish a long rest, you prepare two lipomantic recipes of your choice from the {@filter Lipomantic Recipes list|optionalfeatures|Feature Type=GLR}. The resulting products are of fatty quality that weigh 2 lbs each. These infused foods remain potent until the end of your next long rest. You can prepare one additional recipe at 9th, 13th, and 17th level. When you get to those levels, the table expands to include new options to choose from.",
+                "When subjected to an effect of a recipe that requires a saving throw to resist, the DC is equal to 8 + your proficiency bonus + your Wisdom modifier or suffer the recipe's effects. For any recipes that cast a spell when consumed, if the spell normally requires concentration, it lasts for half of the listed duration.",
+                "Additionally, whenever you cause a creature to take bludgeoning damage as a result of overeating, you may add your Sneak Attack dice to the damage. This additional damage may only be dealt once per turn, if you haven't used your Sneak Attack feature this turn."
+            ]
+        },
+        {
+            "name": "Swift Stuffing",
+            "source": "StorymakerExpanDnD",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassShortName": "Gourmand",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 9,
+            "entries": [
+                "At 9th level, your ability to feed friends and foes alike has improved. You can use your Cunning Action to consume or force-feed a creature a piece of food.",
+                "In addition, you no longer need to be grappling a hostile creature to force-feed them as long as you have an ally within 5 feet of the creature."
+            ]
+        },
+        {
+            "name": "Master Chef",
+            "source": "StorymakerExpanDnD",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassShortName": "Gourmand",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 13,
+            "entries": [
+                "At 13th level, your mastery of cooking with lipomancy has reached a new peak. You have discovered how to make powerful foods infused with arcane energy. Once per week, you can spend 8 hours working with your cook's utensils and 100 gp worth of materials to create one of the following magical food items: The Battle Burrito, the Mystic Meringue, or the Swollen Sweetroll. Each of these items weighs 5 lbs, and is worth a whopping 20 Diet Points."
+            ]
+        },
+        {
+            "name": "Self-Rising Dough",
+            "source": "StorymakerExpanDnD",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassShortName": "Gourmand",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 17,
+            "entries": [
+                "At 17th level, you have mastered the ultimate recipe; the Self-Rising Dough. This small, innocuous looking ball of pink dough fits in the palm of your hand, and weighs five pounds. When fed to a creature, they must make a Constitution saving throw. On a failed save, roll 2d6. The weight of the Dough multiplies by this amount, potentially resulting in a Constitution (Eating) check. On a successful save, the final weight of the Self-Rising Dough is halved. The creature has disadvantage on this saving throw if they are not hostile to you, as they are taken by surprise."
+            ]
+        },
+        {
+            "name": "Inflator",
+            "source": "StorymakerExpanDnD",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassShortName": "Inflator",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "This subclass uses the Simple Inflation rules. Whenever you make use of one of your inflation abilities against an enemy, they must beat out your inflation DC:",
+                {
+                    "type": "abilityDc",
+                    "name": "inflation",
+                    "attributes": [
+                        "int"
+                    ]
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Minor Inflation|Rogue||Inflator|StorymakerExpanDnD|3"
+                }
+            ]
+        },
+        {
+            "name": "Minor inflation",
+            "source": "StorymakerExpanDnD",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassShortName": "Inflator",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "When you pick this archetype at level 3, you begin to learn how to utilize both liquids and gases to inflate yourself and your enemy. As an action, choose either yourself or a creature within 30 feet and apply one of the following effects, depending on whether you target yourself or another creature and whether you use a gas or a liquid to inflate them. If you inflate yourself, the effect ends if your concentration ends (as if you were concentrating on a spell) or if you deflate yourself as a bonus action. You may only have one enemy inflated at a time. In any case, until the effect ends, the target inflates with a number of pounds of the chosen medium equal to 4d4 times 10. For each size a creature is below Medium, halve this number, and for each creature it is above Medium, multiply this number by 8.",
+                {
+                    "type": "entries",
+                    "name": "Gas",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Self",
+                            "entries": [
+                                "Your movement speed increases by 10 feet and climbing no longer costs you extra movement."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Enemy",
+                            "entries": [
+                                "The target makes a Constitution save against your inflation DC and on failure floats upward at a speed of 15 feet per round at the beginning of its turn. If they do not have a fly speed, they cannot descend, but can move by pushing or pulling on a fixed object or surface within reach, which allows it to move as if it were climbing. The target may repeat the saving throw at the end of each of its turns, deflating and proceeding to fall when it succeeds."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Liquid",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Self",
+                            "entries": [
+                                "You gain resistance to bludgeoning damage."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Enemy",
+                            "entries": [
+                                "The target must make a Dexterity saving throw against your Inflation DC or have their movement speed halved and Dexterity saves be made with disadvantage. The target may repeat the saving throw at the end of each of its turns, deflating when it succeeds."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tactical Deflation",
+            "source": "StorymakerExpanDnD",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassShortName": "Inflator",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 9,
+            "entries": [
+                "At level 9, you have learned to harness your powers of inflation in reverse and use your own deflation process to your advantage. You may use the following abilities depending on the type of inflation you are under whenever your deflate yourself as a bonus action, or as a reaction if you deflate yourself by dropping concentration.",
+                {
+                    "type": "entries",
+                    "name": "Gas",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Burst",
+                            "entries": [
+                                "The force of your deflation forces creatures within 5 feet of you to succeed against a Strength saving throw against your inflation DC or be knocked prone and deafened."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Liquid",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Jet",
+                            "entries": [
+                                "The force of your deflation propels you with surprising speed, allowing you to fly up to 20 feet without provoking opportunity attacks."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Major Inflation",
+            "source": "StorymakerExpanDnD",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassShortName": "Inflator",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 13,
+            "entries": [
+                "Starting at level 13, your mastery of your inflationary skills has improved allowing you to harness more potent versions of your various inflations. Alongside their original benefits, whenever you use one of your inflation powers you also gain the following abilities",
+                {
+                    "type": "entries",
+                    "name": "Gas",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Self",
+                            "entries": [
+                                "You can give yourself advantage on Dexterity(Stealth) checks by filling yourself with just enough air to dampen the sound of your movement."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Enemy",
+                            "entries": [
+                                "You can control the buoyancy of a creature you have inflated with gas, allowing you to change the target’s altitude by up to 20 feet in either direction on your turn."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Liquid",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Self",
+                            "entries": [
+                                "In response to being struck by a Melee attack, you can use your reaction to cause the attack to bounce back after dealing damage, causing the attacker to make a Dexterity Saving Throw against your Inflation DC or take half of the damage of their own attack."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Enemy",
+                            "entries": [
+                                "A creature you have inflated with liquid is restrained, and when it is hit by an attack or forced to move by an effect besides this one it must make a Dexterity saving throw against your Inflation DC or be rolled and forced to move 10 feet away from the attacker or in the direction of the forced movement."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Master Inflator",
+            "source": "StorymakerExpanDnD",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassShortName": "Inflator",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 17,
+            "entries": [
+                "Starting at 17th level, you can inflate a number of additional creatures beyond your first at a time equal to your Intelligence modifier (minimum 1)."
+            ]
+        },
+        {
+            "name": "Bonus Proficiencies",
+            "source": "StorymakerExpanDnD",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassShortName": "Shadowblade",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Starting at 3rd level you gain Proficiency in Constitution (Eating) and Dexterity (Sleight of Hand) skills. If you are already proficient with either of these, choose another skill proficiency for each proficiency you already have.",
+                "If you have Proficiency (or Expertise) in the Constitution (Eating) skill, you may use your Cunning Action to drink a potion or eat a piece of food."
+            ]
+        },
+        {
+            "name": "Folded Blades",
+            "source": "StorymakerExpanDnD",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassShortName": "Shadowblade",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "At 3rd level you can compress and fold your flesh, disguising your weight from inspection and creating spaces to hide small weapons and items about your person. Over the course of a short or long rest, you may reduce your apparent weight to any weight that is not below your base weight, and within one Bulk threshold of your actual weight. During this process, you may hide a number of weapons with the Light property equal to your Constitution modifier (minimum 1) about your person. You may also hide a number of items about your person equal to your Constitution modifier (minimum 1), provided each weighs no more than 2 pounds. You may retrieve these weapons and items on your turn as if drawing them from a sheath, even if you would normally be prevented from doing so.",
+                "While your weight is disguised you can fool personal inspection, physical measure, or any other mundane effect which would otherwise reveal your weight or the weapons and items hidden on your person. You do not suffer Bulk penalties to Dexterity checks or Dexterity saving throws if your apparent weight is below your Impeded Threshold, otherwise you suffer Bulk penalties as normal.",
+                "If you die or are knocked unconscious your actual weight is revealed, and any weapons and items hidden on your person from this feature are dropped on the ground within 5 feet of your current position. If you would occupy more space than normal as a result of your weight, any creatures in spaces now occupied by you are displaced to the nearest available space of their choosing."
+            ]
+        },
+        {
+            "name": "Blade Burst",
+            "source": "StorymakerExpanDnD",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassShortName": "Shadowblade",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Also at 3rd level you can launch blades hidden on your person with surprising and deadly force. As an action you can target a creature you can see within 20 feet of you. That creature must make a Dexterity saving throw against your Blade Burst save DC. On a failure the target takes piercing damage equal to 1d4 + your Sneak attack damage, or half as much on a successful save. You may only use this feature if you have weapons hidden on your person from your Folded Blades feature.",
+                {
+                    "type": "abilityDc",
+                    "name": "Blade Burst",
+                    "attributes": [
+                        "con"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Unfolding Blast",
+            "source": "StorymakerExpanDnD",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassShortName": "Shadowblade",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 9,
+            "entries": [
+                "At 9th level, you can expel all your folded blades in a burst of blubber and steel. As an action select a number of creatures you can see within 20 feet, up to the number of weapons hidden on your person from your Folded Blades feature. Each target must make a Dexterity saving throw against your Blade Burst save DC. On a failure the target takes piercing damage equal to 1d4 + your Sneak attack damage, or half as much on a successful save. Any blades in excess of your targets are expelled with no effect.",
+                "After taking this action, your actual weight is revealed, and any items hidden on your person from your Folded Blades feature are dropped on the ground within 5 feet of your current position. If you would occupy more space than normal as a result of your weight, any creatures in spaces now occupied by you are displaced to the nearest available space of their choosing."
+            ]
+        },
+        {
+            "name": "Combined Barrage",
+            "source": "StorymakerExpanDnD",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassShortName": "Shadowblade",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 13,
+            "entries": [
+                "At 13th level your flesh can channel the magic, poison and other harmful effects imbued within or applied to your folded blades. If a target fails their saving throw against your Blade Burst or Unfolding Blast features, they suffer the effects of any poisons, additional damage or other harmful effects of the weapons stowed on your person as part of your Folded Blades feature.",
+                "You can now use an action to disguise your weight with your Folded Blades feature, and may store and use Darts with your Blade Burst. You can also use your Cunning Action to store up to two weapons or items on your person per turn, as part of your Folded Blades feature."
+            ]
+        },
+        {
+            "name": "Folded Mastery",
+            "source": "StorymakerExpanDnD",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassShortName": "Shadowblade",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 17,
+            "entries": [
+                "At 17th level you have mastered the ability to compress and fold your flesh. You can now reduce your weight to any weight that is not below your Base weight, and within two Bulk Thresholds of your actual weight.",
+                "Your Blade Burst and Unfolding Blast now deal piercing damage equal to 1d6 + your Dexterity modifier + your Sneak Attack damage, or half for targets who pass the saving throw.",
+                "You can now use your Unfolding Blast to launch all of your Folded Blades at a single target. When you use your Unfolding Blast, you may instead select a single eligible target. That target must make a Dexterity saving throw against your Blade Burst save DC. On a failure, the target takes piercing damage equal to 1d6 per blade expelled + your Dexterity modifier + your Sneak Attack damage, or half as much on a successful save."
             ]
         }
     ],
@@ -6215,6 +6651,248 @@
                 "The creature has vulnerability to all damage. It can make another Constitution saving throw at the end of each of its turns. If it succeeds on three of them, the disease ends. If it fails three of them, it suffers for the full duration unless removed."
             ],
             "featureType": "CotSD"
+        },
+        {
+            "name": "Fattenium Oil",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 3,
+                        "class": {
+                            "name": "Rogue"
+                        },
+                        "subclass": {
+                            "name": "Gourmand",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "This small bottle of pink liquid is filled with liquid Fattenium, a substance left behind in areas of heavy lipomantic corruption. As a bonus action on your turn, you may coat a slashing or piercing weapon in the oil, causing any creatures damaged by your Sneak Attacks with that weapon to Fatten equal to the result of your Sneak Attack dice. This effect lasts for one minute, or until you clean the poison from the blade as an action."
+            ],
+            "featureType": "GLR"
+        },
+        {
+            "name": "Cleansing Creampuff",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 3,
+                        "class": {
+                            "name": "Rogue"
+                        },
+                        "subclass": {
+                            "name": "Gourmand",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "This small, decadent looking creampuff is both tasty and a great boon. Upon consumption, the imbiber may end one of the following conditions afflicting them: blinded, deafened, frightened, or poisoned."
+            ],
+            "featureType": "GLR"
+        },
+        {
+            "name": "Lethargic Licorice",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 3,
+                        "class": {
+                            "name": "Rogue"
+                        },
+                        "subclass": {
+                            "name": "Gourmand",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "This dark colored bundle of licorice smells of blackberries. Upon consumption, the imbiber must make a Constitution saving throw. On a failed save, the creature gains the poisoned condition and their speed is halved for one minute as the poison within the licorice takes hold. On a success, the creature is unaffected."
+            ],
+            "featureType": "GLR"
+        },
+        {
+            "name": "Appetizing Apple",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 3,
+                        "class": {
+                            "name": "Rogue"
+                        },
+                        "subclass": {
+                            "name": "Gourmand",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                " This cherry red apple contains a powerful hex. Upon consumption, the imbiber must make a Charisma saving throw or be subject to the spell Charm Person, as if it were cast by the Arcane Gourmand."
+            ],
+            "featureType": "GLR"
+        },
+        {
+            "name": "Bulging Burger",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 3,
+                        "class": {
+                            "name": "Rogue"
+                        },
+                        "subclass": {
+                            "name": "Gourmand",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "This large, greasy burger is stacked high with all manner of meats and condiments. Upon consumption, the imbiber must make a Constituion saving throw or be subjected to the effects of the spell Immobilize Person."
+            ],
+            "featureType": "GLR"
+        },
+        {
+            "name": "Glutton's Gravy",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 9,
+                        "class": {
+                            "name": "Rogue"
+                        },
+                        "subclass": {
+                            "name": "Gourmand",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "This is a large tub of... gravy. Upon consumption, the imbiber must make a Wisdom saving throw or become Ravenous for one minute."
+            ],
+            "featureType": "GLR"
+        },
+        {
+            "name": "Fizzy Fountain",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 9,
+                        "class": {
+                            "name": "Rogue"
+                        },
+                        "subclass": {
+                            "name": "Gourmand",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "Upon consumption of this fizzy beverage, a willing creature gains the benefit of the Fly spell. For an unwilling creature, they must make a Dexterity saving throw or begin to slowly drift away from the ground. They move upwards at a rate of 15 feet per round minus 5 for every exceded bulk limit, and after 6 rounds they plummet to the ground."
+            ],
+            "featureType": "GLR"
+        },
+        {
+            "name": "Cautious Crepe",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 13,
+                        "class": {
+                            "name": "Rogue"
+                        },
+                        "subclass": {
+                            "name": "Gourmand",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "This delicious looking crepe looks to be coated in pink dust. Upon consumption, the imbiber must make a Constitution saving throw. On a failed save, the creature becomes unable to speak, use breath weapons if it has any, or produce the verbal components of spells for a number of rounds equal to your Wisdom modifier."
+            ],
+            "featureType": "GLR"
+        },
+        {
+            "name": "Empowered Eclair",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 13,
+                        "class": {
+                            "name": "Rogue"
+                        },
+                        "subclass": {
+                            "name": "Gourmand",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "This oversized eclair is dripping with white cream. Upon consumption, the imbiber is empowered with a wellspring of lipomantic power as per the spell Rampant Vitality."
+            ],
+            "featureType": "GLR"
+        },
+        {
+            "name": "Taco of Torpor",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 17,
+                        "class": {
+                            "name": "Rogue"
+                        },
+                        "subclass": {
+                            "name": "Gourmand",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "This taco is overflowing with meat and cheese, and is drenched in a mysterious pink sauce. Upon consumption, the imbiber must make a Wisdom saving throw. On a failed save, the creature falls asleep for one hour or until it takes damage."
+            ],
+            "featureType": "GLR"
+        },
+        {
+            "name": "Caloric Cake",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 17,
+                        "class": {
+                            "name": "Rogue"
+                        },
+                        "subclass": {
+                            "name": "Gourmand",
+                            "visible": true
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "This slice of cake looks like it came from heaven itself. Upon consumption, the imbiber is gains the benefit of the spell Adipose Armor."
+            ],
+            "featureType": "GLR"
         }
     ],
     "subclass": [
@@ -7017,6 +7695,50 @@
                 "Feral Mobility|Ranger (Revised)|uatherangerrevised|Wild Walker|StorymakerExpanDnD|11",
                 "Apex Predator|Ranger (Revised)|uatherangerrevised|Wild Walker|StorymakerExpanDnD|15",
                 "Feral Weapon|Ranger (Revised)|uatherangerrevised|Wild Walker|StorymakerExpanDnD|15"
+            ]
+        },
+        {
+            "name": "Essence Thief",
+            "source": "StorymakerExpanDnD",
+            "page": 61,
+            "shortName": "Essence Thief",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Essence Thief|Rogue||Essence Thief|StorymakerExpanDnD|3",
+                "Improved Devour|Rogue||Essence Thief|StorymakerExpanDnD|9",
+                "Thief of Faces|Rogue||Essence Thief|StorymakerExpanDnD|13",
+                "Essence Assassin|Rogue||Essence Thief|StorymakerExpanDnD|17"
+            ]
+        },
+        {
+            "name": "Gourmand",
+            "source": "StorymakerExpanDnD",
+            "page": 62,
+            "shortName": "Gourmand",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Gourmand|Rogue||Gourmand|StorymakerExpanDnD|3",
+                "Swift Stuffing|Rogue||Gourmand|StorymakerExpanDnD|9",
+                "Master Chef|Rogue||Gourmand|StorymakerExpanDnD|13",
+                "Self-Rising Dough|Rogue||Gourmand|StorymakerExpanDnD|17"
+            ]
+        },
+        {
+            "name": "Shadowblade",
+            "source": "StorymakerExpanDnD",
+            "page": 65,
+            "shortName": "Shadowblade",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Bonus Proficiencies|Rogue||Shadowblade|StorymakerExpanDnD|3",
+                "Folded Blades|Rogue||Shadowblade|StorymakerExpanDnD|3",
+                "Blade Burst|Rogue||Shadowblade|StorymakerExpanDnD|3",
+                "Unfolding Blast|Rogue||Shadowblade|StorymakerExpanDnD|9",
+                "Combined Barrage|Rogue||Shadowblade|StorymakerExpanDnD|13",
+                "Folded Mastery|Rogue||Shadowblade|StorymakerExpanDnD|17"
             ]
         }
     ]
