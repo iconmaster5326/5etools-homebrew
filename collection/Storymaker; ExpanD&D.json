@@ -499,6 +499,23 @@
                 "Likewise, inflation via lighter fluids such as air can be simulated as a contribution to their effective muscle when determining whether they have reached their flex limit. Magical, lighter-than-air inflation can also be counted as a temporary reduction to a character’s effective weight as fat. In either case, the inflation is referred to as an increase in pounds of muscle for simplicity’s sake. ",
                 "Inflation often is applied to the creature's entire body, making the expansion roughly spherical unless otherwise specified."
             ]
+        },
+        {
+            "name": "Goodberry Gorging",
+            "source": "StorymakerExpanDnD",
+            "page": 89,
+            "type": "entries",
+            "ruleType": "O",
+            "entries": [
+                "The following is a fun potential side-effect of Goodberries and similar spells that create food that provides sustenance without mass.",
+                {
+                    "type": "entries",
+                    "name": "Goodberry Surge",
+                    "entries": [
+                        "Each time a character consumes a goodberry after their 5th goodberry within an hour, there is a 25% chance that each of the goodberries in the character's stomach will instantly digest, emptying the character's stomach of them and causing the character to gain 1d10 pounds for each goodberry digested."
+                    ]
+                }
+            ]
         }
     ],
     "action": [
@@ -9245,6 +9262,339 @@
                 "Extra Attack|Wizard||Myomancy|StorymakerExpanDnD|6",
                 "Swelling Spells|Wizard||Myomancy|StorymakerExpanDnD|10",
                 "Atha's Alterations|Wizard||Myomancy|StorymakerExpanDnD|14"
+            ]
+        }
+    ],
+    "spell": [
+        {
+            "name": "Flabshock",
+            "source": "StorymakerExpanDnD",
+            "page": 89,
+            "level": 0,
+            "school": "V",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Artificer",
+                        "source": "ERLW"
+                    },
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 120
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "scalingLevelDice": {
+                "label": "lightning damage",
+                "scaling": {
+                    "1": "1d8",
+                    "5": "2d8",
+                    "11": "3d8",
+                    "17": "4d8"
+                }
+            },
+            "damageInflict": [
+                "lightning"
+            ],
+            "spellAttack": [
+                "R"
+            ],
+            "areaTags": [
+                "ST"
+            ],
+            "miscTags": [],
+            "entries": [
+                "A jolt of fattening electricity leaps from your fingers toward your target. Make a ranged spell attack against the target. On a hit, the target takes 1d8 lightning damage, gaining a number of pounds of fat equal to the damage dealt.",
+                "This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
+            ]
+        },
+        {
+            "name": "Sex Appeal",
+            "source": "StorymakerExpanDnD",
+            "page": 89,
+            "level": 0,
+            "school": "V",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "s": true,
+                "m": "a small amount of makeup applied to the face as the spell is cast"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "damageInflict": [],
+            "spellAttack": [],
+            "areaTags": [],
+            "miscTags": [],
+            "entries": [
+                "You accentuate your sexual characteristics with a little extra oomph--a broader bust with deeper cleavage, a more shapely and prominent butt, more soft and appealing features-- and gain Advantage on Charisma (Persuasion) checks made against targets who could be sexually attracted to your race and sex for the duration of the spell. "
+            ]
+        },
+        {
+            "name": "Trim",
+            "source": "StorymakerExpanDnD",
+            "page": 89,
+            "level": 0,
+            "school": "T",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 120
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "scalingLevelDice": {
+                "label": "slashing damage",
+                "scaling": {
+                    "1": "1d8",
+                    "5": "2d8",
+                    "11": "3d8",
+                    "17": "4d8"
+                }
+            },
+            "damageInflict": [
+                "slashing"
+            ],
+            "spellAttack": [],
+            "areaTags": [
+                "ST"
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "miscTags": [],
+            "entries": [
+                "One creature you can see within range must succeed on a Constitution saving throw. On a failure, it takes 1d8 slashing damage and loses an equal number of pounds of fat.",
+                "The spell's damage increases by one die when you reach 5th, 11th, and 17th level."
+            ]
+        },
+        {
+            "name": "Word of Famine",
+            "source": "StorymakerExpanDnD",
+            "page": 89,
+            "level": 0,
+            "school": "V",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Cleric",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "scalingLevelDice": {
+                "label": "necrotic damage",
+                "scaling": {
+                    "1": "1d8/1d12",
+                    "5": "2d8/2d12",
+                    "11": "3d8/3d12",
+                    "17": "4d8/4d12"
+                }
+            },
+            "damageInflict": [
+                "necrotic"
+            ],
+            "spellAttack": [],
+            "areaTags": [
+                "ST"
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "miscTags": [],
+            "entries": [
+                "One creature within range who can hear you choose must succeed on a Constitution saving throw. On a failure, if it has any food in its stomach, it takes 1d8 necrotic damage; otherwise, it takes 1d12 necrotic damage. The target also loses a number of pounds of weight equal to the damage dealt.",
+                "The spell's damage increases by one die when you reach 5th, 11th, and 17th level."
+            ]
+        },
+        {
+            "name": "Word of Feasting",
+            "source": "StorymakerExpanDnD",
+            "page": 89,
+            "level": 0,
+            "school": "C",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Cleric",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "scalingLevelDice": {
+                "label": "force damage",
+                "scaling": {
+                    "1": "1d8/1d12",
+                    "5": "2d8/2d12",
+                    "11": "3d8/3d12",
+                    "17": "4d8/4d12"
+                }
+            },
+            "damageInflict": [
+                "force"
+            ],
+            "spellAttack": [],
+            "areaTags": [
+                "ST"
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "miscTags": [],
+            "entries": [
+                "One creature within range who can hear you choose must succeed on a Constitution saving throw. On a failure, if it has any food in its stomach, it takes 1d12 force damage, otherwise, it takes 1d8. The target Fattens equal to the damage taken in this way.",
+                "The spell's damage increases by one die when you reach 5th, 11th, and 17th level."
             ]
         }
     ]
