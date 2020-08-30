@@ -5470,6 +5470,371 @@
             "entries": [
                 "At 17th level, you can hurl even the heaviest of targets with your sheer strength and determination. When you make an attack against a creature you are grappling or who is grappling you, you can expend 3 moxie points to make it a Ring Toss. If the attack hits, the grapple ends as the creature is thrown a number of feet in a direction of your choice equal to the result of a roll of your Fisticuffs die plus your Strength modifier, is knocked prone, and must make a Constitution saving throw or be stunned until the end of their next turn."
             ]
+        },
+        {
+            "name": "Siege Master",
+            "source": "StorymakerExpanDnD",
+            "className": "Ranger (Revised)",
+            "classSource": "uatherangerrevised",
+            "subclassShortName": "Siege Master",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "In a world of widening waistlines, sometimes the mobility of the Ranger's Path becomes threatened. But the defenders of the world will not halt for a mere impedence of the flesh. Instead they adapt, honing their style to fit their new nature. To that end come the siege masters. Warriors of the longest range, the Siege Masters need not rush across the battlefield to chase down their target. Instead, they need only find the highest vantage with the best view, and rain death down upon their enemies with their specially constructed weapons.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Siege Warfare|Ranger (Revised)|uatherangerrevised|Siege Master|StorymakerExpanDnD|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Steady Stance|Ranger (Revised)|uatherangerrevised|Siege Master|StorymakerExpanDnD|3"
+                }
+            ]
+        },
+        {
+            "name": "Siege Warfare",
+            "source": "StorymakerExpanDnD",
+            "className": "Ranger (Revised)",
+            "classSource": "uatherangerrevised",
+            "subclassShortName": "Siege Master",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "When you take this archetype at 3rd level, you become proficient in the use and construction of specialist ‘Siege Weapons’. You gain your own siege weapon, which you have been designing and constructing during your spare time. It is a loading, two-handed ranged weapon that deals 2d6 piercing damage and has the siege property, allowing it to deal double damage to objects and structures. Its normal range is 300 feet, and its maximum range is 1200 feet. If you lose your siege weapon, you can create a new one over the course of three days of work (eight hours each day) by expending 100 gp worth of metal and other raw materials. Siege Weapons are neither martial nor simple weapons. A creature that is not proficient in Siege Weapons has disadvantage on attack rolls made with them.",
+                "At the end of each short or long rest, you can produce 15 rounds of ammunition for your siege weapon. Each round weighs a quarter of a pound and unspent rounds degrade over time, becoming uselessly inert 24 hours after they are created."
+            ]
+        },
+        {
+            "name": "Steady Stance",
+            "source": "StorymakerExpanDnD",
+            "className": "Ranger (Revised)",
+            "classSource": "uatherangerrevised",
+            "subclassShortName": "Siege Master",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Also at 3rd level, you can take a steady stance to improve your aim. As a bonus action on your turn, you may add half your Wisdom modifier (rounded down) to your ranged attack rolls until the end of your turn. If you are Impeded by your bulk, this bonus increases to your full Wisdom modifier. You may only use this ability if you have not moved during your turn, and you may not move during your turn after using this ability. If you are forced to move, such as by a Thunderwave spell or by a mount you are riding, you lose the effects of taking a Steady Stance. You must be proficient with a kind of vehicle to be able to adopt a Steady Stance while on that kind of vehicle."
+            ]
+        },
+        {
+            "name": "Take Aim",
+            "source": "StorymakerExpanDnD",
+            "className": "Ranger (Revised)",
+            "classSource": "uatherangerrevised",
+            "subclassShortName": "Siege Master",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 5,
+            "entries": [
+                "Starting at 5th level, after using Steady Stance, you gain advantage on the first ranged weapon attack you make on your turn."
+            ]
+        },
+        {
+            "name": "Vital Shot",
+            "source": "StorymakerExpanDnD",
+            "className": "Ranger (Revised)",
+            "classSource": "uatherangerrevised",
+            "subclassShortName": "Siege Master",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 7,
+            "entries": [
+                "At 7th level, when you use Steady Stance before a ranged attack and land a critical hit, you deal additional damage equal to half your Wisdom modifier (rounded down). If you are Impeded by your bulk, this damage increases to your full Wisdom modifier. In addition, the target suffers one of the following effects of your choice.",
+                {
+                    "type": "entries",
+                    "name": "Sapping Shot",
+                    "entries": [
+                        "The target suffers a 1d4 penalty on all of its attack rolls and ability checks until the end of its next turn. If you are Impeded by your bulk, this penalty increases to 1d8."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Staggering Shot",
+                    "entries": [
+                        "The target cannot take reactions until the end of its next turn. If you are Impeded by your bulk, the target is instead incapacitated until the end of its next turn."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Slaying Shot",
+                    "entries": [
+                        "The target takes additional damage equal to half your Wisdom modifier. If you are Impeded by your bulk, this damage increases to your full Wisdom modifier."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Heavy Ammunition",
+            "source": "StorymakerExpanDnD",
+            "className": "Ranger (Revised)",
+            "classSource": "uatherangerrevised",
+            "subclassShortName": "Siege Master",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 11,
+            "entries": [
+                "At 11th level, you have refined your siege weapon and ammunition to be even more effective, able to pierce the most durable of armors. The base damage of your siege weapon is increased by 1d6, and any damage dealt by your siege weapon ignores damage resistance to piercing damage."
+            ]
+        },
+        {
+            "name": "Piercing Shot",
+            "source": "StorymakerExpanDnD",
+            "className": "Ranger (Revised)",
+            "classSource": "uatherangerrevised",
+            "subclassShortName": "Siege Master",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 15,
+            "entries": [
+                "At 15th level, your shots lose almost no momentum when punching through thick materials. When wielding a Siege weapon, you ignore half and three quarters cover, and may make attacks against targets behind full cover as if they had three quarters cover (which you do not ignore) if the cover is provided by no more than 1 foot of material.",
+                "Additionally, after entering a Steady Stance, you can use your action to make a piercing shot with your siege weapon, expending 1 piece of ammunition. Make a ranged weapon attack with your siege weapon against each creature in a straight line between you and a point within your siege weapon’s maximum range, ignoring cover. For each size a target is above Medium, you make an additional ranged weapon attack against that creature. Attacks made in this way may are affected by all effects that normally affect your siege weapon. After you use this feature, you cannot use it again until you finish a short or long rest."
+            ]
+        },
+        {
+            "name": "Wild Walker",
+            "source": "StorymakerExpanDnD",
+            "className": "Ranger (Revised)",
+            "classSource": "uatherangerrevised",
+            "subclassShortName": "Wild Walker",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Some rangers become more in tune with their aspects of the wild, eventually opening their bodies to protean energies of raw nature. These energies infuse the Wild Walker, giving them a bestial form possessed of the traits, instincts and raw hunger of the wild. As their connection to the wild deepens, their hunger intensifies and their form grow in strength.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Ravenous Hunter|Ranger (Revised)|uatherangerrevised|Wild Walker|StorymakerExpanDnD|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Wild Nature|Ranger (Revised)|uatherangerrevised|Wild Walker|StorymakerExpanDnD|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Feral Form|Ranger (Revised)|uatherangerrevised|Wild Walker|StorymakerExpanDnD|3"
+                }
+            ]
+        },
+        {
+            "name": "Ravenous Hunter",
+            "source": "StorymakerExpanDnD",
+            "className": "Ranger (Revised)",
+            "classSource": "uatherangerrevised",
+            "subclassShortName": "Wild Walker",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Beginning at 3rd level, the number of diet points you burn, your stomach capacity, your stuffing limits, and your digestion rate are all doubled.",
+                "Also at 3rd level, your hunting prowess has been amplified to feed the beast within you. When you roll a Wisdom (Survival) check to forage and succeed, you find 4 times as much food as you normally would. On a failure, you find 2 times as much food as you normally would on a success. This replaces the benefit to foraging from Natural Explorer."
+            ]
+        },
+        {
+            "name": "Wild Nature",
+            "source": "StorymakerExpanDnD",
+            "className": "Ranger (Revised)",
+            "classSource": "uatherangerrevised",
+            "subclassShortName": "Wild Walker",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "At 3rd level, when you join this conclave, choose a wild nature and gain its feature. At your option, you also gain minor physical attributes that are reminiscent of your wild nature.",
+                {
+                    "type": "entries",
+                    "name": "Prowler’s Instincts",
+                    "entries": [
+                        "You gain darkvision out to 60 feet, and you do not have disadvantage on Wisdom (Perception) checks that rely on sight in a lightly obscured area. Additionally, if you spend 1 minute observing or interacting with another creature outside of combat, you can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal, superior, or inferior in regard to one of the following characteristics of your choice: AC, current hit points, movement speed, or one of your ability scores."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Charger’s Gait",
+                    "entries": [
+                        "Your walking speed increases by 10 feet."
+                    ]
+                },
+                                {
+                    "type": "entries",
+                    "name": "Survivor’s Grit",
+                    "entries": [
+                        "When you roll a Hit Die to regain hit points, you regain an additional amount of hit points equal to your Constitution modifier."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Feral Form",
+            "source": "StorymakerExpanDnD",
+            "className": "Ranger (Revised)",
+            "classSource": "uatherangerrevised",
+            "subclassShortName": "Wild Walker",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 3,
+            "entries": [
+                "Also at 3rd level, when you join this conclave, you choose a feral form adaptation from the list below. When you reach 11th level in this conclave, you gain a feral mobility adaptation, and when you reach 15th level, you gain a feral weapon adaptation.",
+                "As a bonus action, you can expend a use of this feature and adopt your feral form, manifesting your chosen adaptations. The exact nature and appearance of your adaptations are up to you, but should be appropriate to the effects of the feature. Each round you maintain your feral form counts as 1 hour of workout. This increases to 2 hours of workout per round at 11th level and 3 hours of workout per round at 15th level. Your feral form lasts until you dismiss it as a bonus action or for 1 minute. Before your feral form ends, you can expend another use of this feature to extend its duration by 1 minute (no action required).",
+                "You can use this feature a number of times equal to half your Ranger level (rounded up), and you regain all expended uses when you finish a long rest.",
+                {
+                    "type": "entries",
+                    "name": "Prowler’s Stealth",
+                    "entries": [
+                        "You have advantage on Dexterity (Stealth) checks to hide in natural environments, and can hide even when only lightly obscured by the shadows of trees, foliage, morning mist, or similar natural phenomena. In addition, any hit you score against a creature that is suprised is a critical hit."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Charger’s Aggression",
+                    "entries": [
+                        "Once on on your turn when you make a weapon attack, you can move up to 10 feet closer to your target through any movement means available to you before making the attack. This movement is in addition to your normal movement speeds, but can't be used if your speed is reduced to 0."
+                    ]
+                },
+                                {
+                    "type": "entries",
+                    "name": "Survivor’s Durability",
+                    "entries": [
+                        "While you are not wearing any armor, your Armor Class equals 11 + your Dexterity modifier. You can use a shield and still gain this benefit. Additionally, when you are hit by an attack, you can use your reaction to gain resistance to non-magical bludgeoning, piercing, or slashing damage for that attack."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Extra Attack",
+            "source": "StorymakerExpanDnD",
+            "className": "Ranger (Revised)",
+            "classSource": "uatherangerrevised",
+            "subclassShortName": "Wild Walker",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 5,
+            "entries": [
+                "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+            ]
+        },
+        {
+            "name": "Natural Predator",
+            "source": "StorymakerExpanDnD",
+            "className": "Ranger (Revised)",
+            "classSource": "uatherangerrevised",
+            "subclassShortName": "Wild Walker",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 7,
+            "entries": [
+                "At 7th level your wild nature deepens, and you gain one of the following features of your choice. At your option, you also gain minor physical attributes that are reminiscent of your wild nature.",
+                {
+                    "type": "entries",
+                    "name": "Prowler’s Senses",
+                    "entries": [
+                        "You gain Tremorsense out to 30 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Charger’s Bloodlust",
+                    "entries": [
+                        "You gain a bonus equal to half your Wisdom modifier (minimum of 1) to attack rolls made against your all your favored enemies and against any creature without all its hit points."
+                    ]
+                },
+                                {
+                    "type": "entries",
+                    "name": "Survivor’s Endurance",
+                    "entries": [
+                        "You gain a number of temporary hit points equal to your Constitution modifier at the end of each of your turns."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Feral Mobility",
+            "source": "StorymakerExpanDnD",
+            "className": "Ranger (Revised)",
+            "classSource": "uatherangerrevised",
+            "subclassShortName": "Wild Walker",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 11,
+            "entries": [
+                "At 11th level, you choose a feral mobility adaptation from the list below.",
+                {
+                    "type": "entries",
+                    "name": "Prowler’s Path",
+                    "entries": [
+                        "You have a swimming speed of 30 feet and a burrowing speed of 15 feet. You can hold your breath for a number of minutes equal to your Constitution score. When you swim, burrow, or walk across loose earth, you can make the space you pass through difficult terrain until the end of your next turn as you disturb the water or ground."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Charger’s Wings",
+                    "entries": [
+                        "You have a flying speed of 50 feet. To use this speed, you can’t be wearing medium or heavy armor. Once per round, if you fly at least 30 feet straight toward a creature, and if your next melee weapon attack against it hits, the attack deals an extra 1d6 damage to the target."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Survivor’s Thorns",
+                    "entries": [
+                        "You have a climbing speed equal to your walking speed. Any creature that strikes you in melee or begins their turn grappling you or grappled by you takes piercing damage equal to your Constitution modifier."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Apex Predator",
+            "source": "StorymakerExpanDnD",
+            "className": "Ranger (Revised)",
+            "classSource": "uatherangerrevised",
+            "subclassShortName": "Wild Walker",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 15,
+            "entries": [
+                "At 15th level your wild nature peaks, and you gain one of the following features of your choice. At your option, you also gain minor physical attributes that are reminiscent of your wild nature.",
+                {
+                    "type": "entries",
+                    "name": "Prowler’s Escape",
+                    "entries": [
+                        "You can use the Disengage action as a bonus action on your turn. Additionally, you have advantage on ability checks and saving throws made to escape a grapple or to end any effect that applies the restrained condition on you."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Charger’s Takedown",
+                    "entries": [
+                        "Once per round, if you move at least 20 feet in a straight line towards a creature, and if your next melee weapon attack against it hits, it must succeed on a Strength saving throw against your spell save DC or be knocked prone."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Survivor’s Resilience",
+                    "entries": [
+                        "You gain advantage on all Strength, Constitution, and Dexterity saving throws against spells and other magical effects."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Feral Weapon",
+            "source": "StorymakerExpanDnD",
+            "className": "Ranger (Revised)",
+            "classSource": "uatherangerrevised",
+            "subclassShortName": "Wild Walker",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 15,
+            "entries": [
+                "Also at 15th level, you choose a feral weapon adaptation from the list below.",
+                "Your feral weapon is a natural weapon appropriate to your choice which you can use to make unarmed strikes. When making unarmed strikes with this natural weapon, you can use Dexterity instead of Strength for the attack and damage rolls, you can roll 2d4 in place of the normal damage, they deal the damage type noted in the feature, and they count as magical for the purpose of overcoming resistance and immunity to non-magical attacks and damage.",
+                {
+                    "type": "entries",
+                    "name": "Prowler’s Venom",
+                    "entries": [
+                        "This natural weapon deals piercing damage. If you hit a creature with this weapon, it must pass a Constitution save against your spell save DC or be poisoned and take 2d4 poison damage at the start of each of its turns for 1 minute. An affected creature can repeat the save at the end of each of its turns, ending the effect on a success."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Charger’s Savagery",
+                    "entries": [
+                        "This natural weapon deals slashing damage. If you hit a creature with this weapon, it and any creatures of your choice that can see you or the target within 10 feet of you must make a Wisdom saving throw against your spell save DC or be frightened by you until the end of its next turn. Creatures besides the target you hit have advantage on this save."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Survivor’s Embrace",
+                    "entries": [
+                        "This natural weapon deals bludgeoning damage. If you hit a creature with this weapon, the target is grappled with an escape DC equal to your spell save DC. Until this grapple ends, the target is restrained, you can attack that creature with this natural weapon as a bonus action, and you can’t use this natural weapon on another target."
+                    ]
+                }
+            ]
         }
     ],
     "optionalfeature": [
@@ -6621,6 +6986,37 @@
                 "Weight Advantage|Pugilist|SterlingVermin|Salt & Ceremony|StorymakerExpanDnD|6",
                 "Iron Stomach|Pugilist|SterlingVermin|Salt & Ceremony|StorymakerExpanDnD|11",
                 "Ring Toss|Pugilist|SterlingVermin|Salt & Ceremony|StorymakerExpanDnD|17"
+            ]
+        },
+        {
+            "name": "Siege Master",
+            "source": "StorymakerExpanDnD",
+            "page": 58,
+            "shortName": "Siege Master",
+            "className": "Ranger (Revised)",
+            "classSource": "uatherangerrevised",
+            "subclassFeatures": [
+                "Siege Master|Ranger (Revised)|uatherangerrevised|Siege Master|StorymakerExpanDnD|3",
+                "Take Aim|Ranger (Revised)|uatherangerrevised|Siege Master|StorymakerExpanDnD|5",
+                "Vital Shot|Ranger (Revised)|uatherangerrevised|Siege Master|StorymakerExpanDnD|7",
+                "Heavy Ammunition|Ranger (Revised)|uatherangerrevised|Siege Master|StorymakerExpanDnD|11",
+                "Piercing Shot|Ranger (Revised)|uatherangerrevised|Siege Master|StorymakerExpanDnD|15"
+            ]
+        },
+        {
+            "name": "Wild Walker",
+            "source": "StorymakerExpanDnD",
+            "page": 59,
+            "shortName": "Wild Walker",
+            "className": "Ranger (Revised)",
+            "classSource": "uatherangerrevised",
+            "subclassFeatures": [
+                "Wild Walker|Ranger (Revised)|uatherangerrevised|Wild Walker|StorymakerExpanDnD|3",
+                "Extra Attack|Ranger (Revised)|uatherangerrevised|Wild Walker|StorymakerExpanDnD|5",
+                "Natural Predator|Ranger (Revised)|uatherangerrevised|Wild Walker|StorymakerExpanDnD|7",
+                "Feral Mobility|Ranger (Revised)|uatherangerrevised|Wild Walker|StorymakerExpanDnD|11",
+                "Apex Predator|Ranger (Revised)|uatherangerrevised|Wild Walker|StorymakerExpanDnD|15",
+                "Feral Weapon|Ranger (Revised)|uatherangerrevised|Wild Walker|StorymakerExpanDnD|15"
             ]
         }
     ]
