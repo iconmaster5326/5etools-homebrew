@@ -10837,7 +10837,7 @@
             "opposedCheck": [],
             "miscTags": [],
             "entries": [
-                "You touch a creature. The creature can use it’s Dexterity score in place of its Strength score for determining its Bulk limit until the spell ends."
+                "You touch a creature. The creature can use it's Dexterity score in place of its Strength score for determining its Bulk limit until the spell ends."
             ],
             "entriesHigherLevel": [
                 {
@@ -11196,7 +11196,7 @@
             "opposedCheck": [],
             "miscTags": [],
             "entries": [
-                "You increase the elasticity of a creature’s stomach, allowing them to consume far more food than normal. The target is able to eat an additional 1d4+casting modifier pounds of food over their normal food limit before rolling a save against stuffing."
+                "You increase the elasticity of a creature's stomach, allowing them to consume far more food than normal. The target is able to eat an additional 1d4+casting modifier pounds of food over their normal food limit before rolling a save against stuffing."
             ],
             "entriesHigherLevel": [
                 {
@@ -11274,6 +11274,1020 @@
             "entries": [
                 "You create an invisible ward on one creature within range. Until the spell ends, any creature that targets the warded creature with an attack or a harmful effect must first make a Constitution saving throw. On a failure, the warded creature gains resistance to the attack, while the attacking creature immediately gains fat equal to four times the damage dealt.",
                 "If the warded creature makes an attack or casts a spell that affects an enemy creature, this spell ends."
+            ]
+        },
+        {
+            "name": "Abyssal Stomach",
+            "source": "StorymakerExpanDnD",
+            "page": 94,
+            "level": 3,
+            "school": "T",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "reaction",
+                    "condition": "taken immediately before a creature would take damage from overeating"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [
+                "ST"
+            ],
+            "savingThrow": [],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "In reaction to a creature overeating, you may cause them to instantaneously digest all food in their stomach, instantly converting it to fat. A creature gains 1d4 pounds of fat for each pound of food digested this way. Food digested this way does not count toward diet points at your next long rest."
+            ]
+        },
+        {
+            "name": "Aura of Lightness",
+            "source": "StorymakerExpanDnD",
+            "page": 94,
+            "level": 3,
+            "school": "T",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Paladin",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "radius",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "components": {
+                "v": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [
+                "S"
+            ],
+            "savingThrow": [],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "Uplifting energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) can't become burdened, impeded, or immobilized by their own bulk and has advantage on Dexterity saving throws and Acrobatics checks."
+            ]
+        },
+        {
+            "name": "Bloat",
+            "source": "StorymakerExpanDnD",
+            "page": 94,
+            "level": 3,
+            "school": "T",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a small piece of string soaked in fat"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [
+                "ST"
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "You pile fat onto someone else, using your own body as the source. When you first cast the spell, the target must make a Constitution save. On a success, 4d6 lbs of fat are added to the target, and the spell ends. On a failure, 8d6 pounds of fat are added to the target, and until the spell ends, you may use your action every turn to automatically fatten the target for 8d6 pounds . You lose weight equal to that gained by the target.",
+                "The spell ends if you use your action to do anything else, if the target is ever outside the spell's range, or if the target has total cover from you."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 4th or higher, the bloat increases by 1d6 for each slot level above 3rd."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Drain",
+            "source": "StorymakerExpanDnD",
+            "page": 94,
+            "level": 3,
+            "school": "T",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a small piece of string soaked in fat"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [
+                "ST"
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "You begin leeching away the fat on the target's body and adding it to your own. When you first cast the spell, the target must make a Constitution save. On a success, 3d6 lbs of fat are drained from the target, and the spell ends. On a failure, 6d6 pounds of fat are drained, and until the spell ends, you may use your action every turn to automatically drain the target of 6d6 pounds of fat. You gain weight equal to that lost by the target.",
+                "The spell ends if you use your action to do anything else, if the target is ever outside the spell's range, or if the target has total cover from you."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 4th or higher, the drain increases by 1d6 for each slot level above 3rd."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Drink Strength",
+            "source": "StorymakerExpanDnD",
+            "page": 94,
+            "level": 3,
+            "school": "T",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "an iron band worn around the caster's neck"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "damageInflict": [
+                "necrotic"
+            ],
+            "conditionInflict": [],
+            "spellAttack": [
+                "M"
+            ],
+            "areaTags": [
+                "ST"
+            ],
+            "savingThrow": [],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "You siphon away a creature's physical prowess into a stream of liquid strength, which you drink down, growing in power as you do. Make a melee spell attack. On a hit, the target is tethered to you by a magical stream of its own strength which flows into your mouth, which you must maintain each turn using your bonus action or let the spell end early. The tether has a length of 30 feet. If the creature ends its turn outside that radius, the spell ends.",
+                "At the end of each of your turns while the spell is active, the target takes 1d10 Necrotic damage and Shrinks for twice the damage it takes. You Swell for an equal amount as you drink in the target's sapped strength. While tethered to you, the target deals only half damage with weapon attacks that use Strength until the spell ends."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 4th level or higher, the damage the spell does increases by 1d10 for each slot level above 3rd."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Expanding Edict",
+            "source": "StorymakerExpanDnD",
+            "page": 95,
+            "level": 3,
+            "school": "T",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Paladin",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "minute"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "components": {
+                "v": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "week",
+                        "amount": 1
+                    }
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [
+                "charmed"
+            ],
+            "spellAttack": [],
+            "areaTags": [
+                "ST"
+            ],
+            "savingThrow": [
+                "wisdom"
+            ],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "You place a magical command on a creature that you can see within range, forcing it to carry out some service or refrain from some action or course of activity as you decide. If the creature can understand you, it must succeed on a Wisdom saving throw or become charmed by you for the duration. While the creature is charmed by you, it Fattens equal to half its bulk limit each time it acts in a manner directly counter to your instructions, but no more than once each day. Weight gained in this way is lost when the creature finishes a long rest. A creature that can't understand you is unaffected by the spell. You can issue any command you choose, short of an activity that would result in certain death. Should you issue a suicidal command, the spell ends. You can end the spell early by using an action to dismiss it. A remove curse, greater restoration, or wish spell also ends it."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 5th or 6th level, the duration is 30 days. When you cast this spell using a spell slot of 7th or 8th level, the Duration is 1 year. When you cast this spell using a spell slot of 9th level, the spell lasts until it is ended by one of the spells mentioned above."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Fat Feedback",
+            "source": "StorymakerExpanDnD",
+            "page": 95,
+            "level": 3,
+            "school": "A",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [
+                "ST"
+            ],
+            "savingThrow": [
+                "wisdom"
+            ],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "You create a discordant blast of energy, attempting to disrupt a creature's spellcasting. The target must make a Wisdom saving throw; on a failure, they lose the highest remaining spell slot they have, up to third level. The target gains 1d12 lbs of fat for every level of the lost spell slot."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        " When cast from a 4th level or higher slot, the target loses the highest remaining spell slot they have, up to the level of the spell slot used in casting Fat Feedback."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Healing Salve",
+            "source": "StorymakerExpanDnD",
+            "page": 95,
+            "level": 3,
+            "school": "V",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Ranger",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a herbalism kit"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    }
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [
+                "ST"
+            ],
+            "savingThrow": [],
+            "opposedCheck": [],
+            "miscTags": [
+                "HL"
+            ],
+            "entries": [
+                "You touch a creature and apply a magic healing ointment. For the duration of the spell, the target regains a number of hit points equal to 3d4 + your spellcasting ability modifier at the end of each of its turns and Fattens equal to half the number of hit points it regained. If the target loses any hit points, the spell ends."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell with a spell slot of 3rd level or higher, the healing increases by 2 for each level above 2nd."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Heavy Transport",
+            "source": "StorymakerExpanDnD",
+            "page": 95,
+            "level": 3,
+            "school": "T",
+            "meta": {
+                "ritual": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "minute"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 120
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    }
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [],
+            "savingThrow": [],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "A chair, wheelbarrow, cart, or other inanimate object of similar size and function comes to life at your command, accommodating its form to allow creatures to mount it and reinforcing its durability. For the duration of the spell, you or a creature you choose can ride the transport and the object becomes Large if it was Medium. The transport uses the statistics of an Animated Table, except that it cannot attack, its False Appearance matches the appearance of the object it was originally, its walking speed is 10 feet, and it can travel 1 mile in an hour or 2 miles at a fast pace. If you or the creature you chose to ride the transport use an action to touch the transport, the transport can use its reaction to enter the space of the creature that touched it and allow that creature to mount it without using any of the rider's movement and regardless of the rider's weight or the space it occupies. When the spell ends, the transport gradually returns to its original form, giving the rider 1 minute to dismount. The spell ends if you use an action to dismiss it or if the transport takes any damage."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell with a spell slot of 3rd level or higher, the transport's walking speed increases by 10 feet and its travel speed increases by 1 mile for each level above 2nd."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Hypnotic Hunger",
+            "source": "StorymakerExpanDnD",
+            "page": 96,
+            "level": 3,
+            "school": "E",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": {
+                    "text": "a piece of food worth at least 5 gp, which the spell consumes",
+                    "cost": 500,
+                    "consume": true
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [
+                "charmed",
+                "stunned"
+            ],
+            "spellAttack": [],
+            "areaTags": [
+                "ST",
+                "MT"
+            ],
+            "savingThrow": [
+                "wisdom"
+            ],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "Holding up a piece of food, you create a small feast for one person and force a target you can see within range to make a Wisdom saving throw. On a failure, the target is charmed, and racked with irresistable hunger. On their turn, they must spend their movement, action, and bonus action moving to the nearest source of food, starting with the feast created by the spell, and eating as much as possible. The feast created by the spell can last the creature three rounds of ravenous eating and will fill the target to their maximum capacity, including an overeating check, after which they will seek out any other food in the area to consume. If there is no food to be found in the area, the target spends their turn clutching their stomach as they are racked with hunger pains. The target can make another Wisdom saving throw at the end of each of its turns. On a success, the spell ends. If the spell ends and the target has been eating for three rounds or more, they are stunned until the end of their next turn as they are struck by a feeling of immense fullness."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd. The creatures must be within 30 feet of each other when you target them."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Noxious Wave",
+            "source": "StorymakerExpanDnD",
+            "page": 96,
+            "level": 3,
+            "school": "C",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "cone",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a piece of garlic"
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "damageInflict": [
+                "poison"
+            ],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [
+                "N"
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "Your body swells with a sudden surge of unnatural poisonous gases before you release them in a burst of toxic potency. Each creature in a 60 foot cone originating from you must make a Constitution saving throw or suffer 8d6 poison damage and be poisoned for 1d6 rounds. Creatures that succeed on the saving throw take half as much damage and are not poisoned."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a slot of 4th level or higher, the poison damage increases by 1d6 for each spell level above 3rd."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Overabundance",
+            "source": "StorymakerExpanDnD",
+            "page": 96,
+            "level": 3,
+            "school": "E",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Ranger",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [
+                "ST"
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "You cause food to spontaneously multiply in a targeted creature's stomach. When you cast this spell on a creature you can see, the target must make a Constitution saving throw. On a success, they gain 2d4 lbs of fatty food in the stomach, and the spell ends. On a failure, they are forced to consume 4d4 pounds of fatty food, and until the spell ends, you may use your action to cause the creature to consume another 3d4 pounds of fatty food. You may use a bonus action to switch the target to another creature, forcing the new target to repeat the initial saving throw. The spell ends if you use your action to do anything else, if your current target is ever outside the spell's range, if the target has total cover from you, or if the target succeeds on a saving throw against this spell."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a slot of 4th level or higher, the amount of food created on both the initial casting and on subsequent actions increases by 1d4 for each slot level above 3rd."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Redirect Repast",
+            "source": "StorymakerExpanDnD",
+            "page": 97,
+            "level": 3,
+            "school": "C",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "minute"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10
+                    },
+                    "concentration": true
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [
+                "ST"
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "Choose a creature within range. An unwilling creature can make a Constitution save, and if it succeeds, it isn't affected. An unwilling creature can repeat the save at the end of each of its turns, ending the spell on a success. For the duration of the spell, all food you swallow is instantly transported to the stomach of the target creature. Alternatively, when you cast this spell, you can choose for the spell to work in reverse, transporting food eaten by the target creature to your stomach instead. The spell ends early if you cast this spell again."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 4th level, the duration is concentration, up to 1 hour. When you cast this spell using a spell slot of 5th level, the duration is 8 hours. When you cast this spell using a spell slot of 6th level, the duration is 24 hours. When you cast this spell using a spell slot of 7th level, the duration is 1 week. When you cast this spell using a spell slot of 8th level, the duration is 1 month. When you cast this spell using a spell slot of 9th level, the spell lasts until it is dispelled. Using a spell slot of 5th level or higher grants a duration that doesn't require concentration."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Stretch/Compress",
+            "source": "StorymakerExpanDnD",
+            "page": 97,
+            "level": 3,
+            "school": "T",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a few chips of lead"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [
+                "ST"
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "You cause a humanoid you can see within range to grow larger or smaller for the duration. If the target is unwilling, it can make a Constitution saving throw. On a success, the spell has no effect. Everything a target is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once. This transformation may cause the target's burdened or emaciated state to change. Choose one of the following effects:",
+                {
+                    "type": "entries",
+                    "name": "Stretch",
+                    "entries": [
+                        "The target's height and base weight double, though its current weight stays the same. This growth increases its size by one category—from Medium to Large, for example. If there isn't enough room for the target to double its size, the creature or object attains the maximum possible size in the space available."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Compress",
+                    "entries": [
+                        "The target's height and base weight are halved, though its current weight stays the same. This reduction decreases its size by one category—from Medium to Small, for example."
+                    ]
+                }
             ]
         }
     ]
