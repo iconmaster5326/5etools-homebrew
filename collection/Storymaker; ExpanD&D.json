@@ -14119,5 +14119,127 @@
                 "Touch a creature that you can see within reach. That creature must make a Constitution saving throw. If it fails, you can reshape their body as you see fit. You can increase or decrease the creature's size by up to two categories, increase or decrease its weight up to ten times its original weight, add or remove up to four limbs, redistribute weight, change the creature's sex, change hair, skin, and eye color, increase or decrease any one Physical attribute by up to 6 points, which can be in excess of 20, and cause any number of minor physical changes that are up to the DM's discretion. None of these changes may result in the creature being unable to sustain its own life (If the creature needs a head to breathe, for instance, you could not remove its head). If you hold concentration for the full duration of this spell, these changes last until dispelled. A creature can only be affected by one instance of Sculpt Flesh at a time, and casting a second instance on a creature dispels the first."
             ]
         }
+    ],
+    "feat": [
+        {
+            "name": "Glutton",
+            "source": "StorymakerExpanDnD",
+            "page": 106,
+            "ability": [
+                {
+                    "con": 1
+                }
+            ],
+            "entries": [
+                "Mastering gustatory excess, you gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You gain proficiency in the Eating skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
+                        "you can eat one piece of food or drink one drink or potion without spending an action or bonus action. You may only use this ability once per turn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Natural Product",
+            "source": "StorymakerExpanDnD",
+            "page": 106,
+            "ability": [
+                {
+                    "con": 1
+                }
+            ],
+            "entries": [
+                "You are able to produce an edible product from an appropriate part of your anatomy, such as milk from your breasts, in quantities far greater than normal for your race. You gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You produce 1 pint (pound) of product every two hours.",
+                        "Your product is Average quality, and burns 1 diet point, per pint, to produce. If you are below your races base weight, your product is Slimming quality, and burns half a diet point per pint to produce (rounded up at the end of the day). If you are above three times your races base weight, your product is Fatty quality, and burns 2 diet points per pint to produce.",
+                        "You can store a number of pints (pounds) of product equal to four times your Constitution modifier (minimum of 2). You cannot produce more product if you have reached this limit, and leak small, uncomfortable amounts until you harvest your product. Stored product counts towards your encumbrance limit.",
+                        "Your product capacity is modified by size: it is halved per size smaller than Small, or quadrupled per size larger than Medium. Your production rate is multiplied by 4 for each size you are above Medium and halved for each size you are below Medium. Any diet points you burn through production are subject to modifiers from your size and spells like Modify Metabolism."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Growth Spurt",
+            "source": "StorymakerExpanDnD",
+            "page": 106,
+            "ability": [
+                {
+                    "str": 1
+                }
+            ],
+            "entries": [
+                "A growth spurt has caused you to be large for your race, standing head and shoulders over your fellows. You gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Your size increases by one step (Small to Medium, Medium to Large, etc), to a maximum of Large."
+                    ]
+                },
+                "In addition your character gains the following limitations:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Large creatures have disadvantage on attack rolls with light weapons. A light weapon's size makes it too small for a Large creature to use effectively.",
+                        "You require four times the daily amount of food as a normal member of your race.",
+                        "Your base height increases by ½ your race's base height.",
+                        "Your base weight is double that of an average member of your race."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Shrunken Advantage",
+            "source": "StorymakerExpanDnD",
+            "page": 106,
+            "ability": [
+                {
+                    "dex": 1
+                }
+            ],
+            "entries": [
+                "Exposure to magic has caused you to become small for your race, standing head and shoulders under your fellows. If you have a racial trait that makes you count one size smaller for determining your carrying capacity, it is disabled. You gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Your size decreases by one step (Medium to Small, Large to Medium, etc), to a minimum of small. You gain all of the traits appropriate to your new size.",
+                        "Once per long rest you can take the Dodge action as a reaction when you are attacked."
+                    ]
+                },
+                "In addition your character gains the following limitations:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You require half the daily amount of food as a normal member of your race.",
+                        "Your base height decreases by ½ your race's base height.",
+                        "If your race's original size is Large, your base weight is a quarter of your races base weight. Otherwise your base weight is half your race's base weight."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Honeyed Words",
+            "source": "StorymakerExpanDnD",
+            "page": 106,
+            "ability": [
+                {
+                    "cha": 1
+                }
+            ],
+            "entries": [
+                "You have a way with words that makes recovering from a gaffe or verbal misstep look easy. You gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You gain proficiency in the Persuasion Skill. If you are already proficient in the skill you, add double your proficiency bonus to checks you make with it.",
+                        "You may reroll one Charisma skill check of your choosing. You must accept the second result, even if it is worse. You must finish a long rest before you can use this ability again."
+                    ]
+                }
+            ]
+        }
     ]
 }
