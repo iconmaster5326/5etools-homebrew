@@ -12733,6 +12733,598 @@
             "entries": [
                 "With a touch, the target's skin becomes pliant and springy, bending and rebounding against assault. Until the spell ends, the target can use their reaction to force a creature that hits them with an attack to make a Dexterity saving throw. On a failure, the attack hits that creature instead. On a success, the attack hits as normal."
             ]
+        },
+        {
+            "name": "Amazonian Figure",
+            "source": "StorymakerExpanDnD",
+            "page": 98,
+            "level": 5,
+            "school": "T",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Cleric",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Paladin",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    }
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [
+                "ST"
+            ],
+            "savingThrow": [],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "With a touch, you endow a friendly creature with the build of a magically sculpted amazon, even if it may be buried under fat. The target's bulk limit doubles for the duration of the spell, as well as their carrying capacity, push and drag limit, and long and high jump distance. Additionally, the target has advantage on Strength checks made to move, lift, or break objects or grapple creatures."
+            ]
+        },
+        {
+            "name": "Blueberrify",
+            "source": "StorymakerExpanDnD",
+            "page": 99,
+            "level": 5,
+            "school": "T",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a blueberry"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "damageInflict": [
+                "bludgeoning"
+            ],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [
+                "ST"
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "A blueberry shoots from your hand, flying into the mouth of a creature you can see within range to attempt to inflate it with blueberry juice. The target must make a Constitution saving throw. On a successful save, the target takes 2d8 bludgeoning damage, and the spell ends. On a failed save, the target takes 4d8 bludgeoning damage, and until the spell ends, you can use your action on each of your turns to automatically deal 4d8 bludgeoning damage to the target. The spell ends if you use your action to do anything else, if the target is ever outside the spell's range, or if the target has total cover from you. Whenever the spell deals damage to a target, the target inflates with a number of pounds of blueberry juice equal to the damage dealt, and the target must make another Constitution saving throw. After failing three Constitution saving throws against this spell, including the initial save, the target inflates with enough juice to push the target to immobility and occupies the space of a creature one size larger than normal, though the target can be rolled easily. The inflation ends after 1 hour."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Fat Surge",
+            "source": "StorymakerExpanDnD",
+            "page": 99,
+            "level": 5,
+            "school": "T",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [
+                "ST"
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "A creature you touch with this spell must make a Constitution saving throw or gain an amount of fat that would push them past their next bulk threshold. If the creature does not have bulk limits or is already immobilized, it simply gains 10d100 pounds of fat."
+            ]
+        },
+        {
+            "name": "Fist of the Feeding Star",
+            "source": "StorymakerExpanDnD",
+            "page": 99,
+            "level": 5,
+            "school": "C",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Ranger",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a piece of food or drink"
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "damageInflict": [
+                "bludgeoning"
+            ],
+            "conditionInflict": [],
+            "spellAttack": [
+                "M"
+            ],
+            "areaTags": [
+                "MT"
+            ],
+            "savingThrow": [],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "You flourish the food used in the casting and then vanish to strike like the wind. Choose up to five creatures you can see within range. Make a melee spell attack against each target. On a hit, a target takes 3d10 bludgeoning damage and is forced to consume an equal number of pounds of fatty food. You can then teleport to an unoccupied space you can see within 5 feet of one of the targets you hit or missed."
+            ]
+        },
+        {
+            "name": "Immobilize Monster",
+            "source": "StorymakerExpanDnD",
+            "page": 99,
+            "level": 5,
+            "school": "T",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [
+                "ST",
+                "MT"
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "Your magic temporarily fattens a creature into immobility. The target must make a Constitution saving throw or gain enough fat to push them past their immobility threshold until the spell ends. Creatures without bulk limits instead gain 100d100 pounds until the spell ends. Clothing and armor worn by the creature stretches to fit its new size until the spell ends as well."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When casting this spell using a spell slot of 6th level or higher, you may target one additional creature per slot level above 5th. The creatures must be within 30 feet of each other."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Portly Portent",
+            "source": "StorymakerExpanDnD",
+            "page": 99,
+            "level": 5,
+            "school": "D",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "candle wax"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    }
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [],
+            "savingThrow": [],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "You foresee a future where you narrowly dodge a number of hazards or perils, but are much heavier. For the duration of the spell, you cannot be surprised and have advantage on all saving throws, and when you trigger a trap or are targeted by an attack that your allies are not aware of, you have enough time to shout out one word to warn them. Each time you roll a saving throw or recieve one of its other benefits while this spell is in effect, you gain 2d20 pounds."
+            ]
+        },
+        {
+            "name": "Rampant Vitality",
+            "source": "StorymakerExpanDnD",
+            "page": 99,
+            "level": 5,
+            "school": "T",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Paladin",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [],
+            "savingThrow": [],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "This risky spell channels an overload of life energy through your body. Your health and physical prowess are greatly augmented, but the excess power raging through your body is absorbed, manifesting on your frame as fat. For the duration of this spell, your Strength and Constitution scores are each increased by 4, and you gain 20 pounds of fat at the end of each of your turns.",
+                "When this spell ends, you suffer a further backlash as the accumulated life energy coalesces all at once, causing you to put on a surge of weight. For each round the spell lasted, you gain 1d100 pounds of fat."
+            ]
+        },
+        {
+            "name": "Slavering Beast",
+            "source": "StorymakerExpanDnD",
+            "page": 100,
+            "level": 5,
+            "school": "E",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Ranger",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "alchemist's supplies"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [
+                "ST"
+            ],
+            "savingThrow": [
+                "intelligence"
+            ],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "You force one creature you can see to make an Intelligence saving throw. A willing creature can fail the save automatically. If it fails, the target's maw becomes a natural weapon which deals 1d12 piercing damage on a hit. The natural weapon is magic and has a +2 bonus to attack and damage rolls made with it. For the duration of the spell, the target regards all creatures it can see as enemies, allies included. Each time the target takes damage, it can repeat the save, ending the effect on a success. At the beginning of each of its turns, the target must use its movement to move toward the nearest creature by the shortest path possible and use its action to bite it if it is within reach. If an enemy provokes an opportunity attack from the affected creature, the creature must make that attack if it is able to."
+            ]
+        },
+        {
+            "name": "Slovenly Plague",
+            "source": "StorymakerExpanDnD",
+            "page": 101,
+            "level": 5,
+            "school": "N",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "permanent",
+                    "ends": [
+                        "dispel"
+                    ]
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [],
+            "spellAttack": [
+                "M"
+            ],
+            "areaTags": [
+                "ST"
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "opposedCheck": [],
+            "miscTags": [],
+            "entries": [
+                "Your touch spreads a plague of unnatural indolence, gluttony, and Noxious emissions. Make a melee spell attack against the target. If it hits, the target is afflicted with the Slob Plague disease below. The disease begins immediately, but the target must make a Constitution saving throw at the end of each of its turns. If it succeeds on three of these saves, the disease ends on the target and they are immune to the disease for the next 7 days. If it fails on three of these saves, it is afflicted with the disease until it is dispelled or removed with any effect that removes a disease. If the disease ends on the first target, all creatures that have been subsequently afflicted by the disease immediately recover from it as well.",
+                {
+                    "type": "entries",
+                    "name": "Slob Plague",
+                    "entries": [
+                        "Slob plague is an only mildly debilitating disease but spreads rapidly. A creature afflicted by Slob Plague has disadvantage on Strength and Dexterity ability checks and has their movement speed reduced by 10 feet (minimum 5 feet.) Additionally the target is afflicted with constant gaseous emissions that spread the disease and make it difficult to speak.",
+                        "Any time an afflicted individual attempts to cast a spell with Verbal components they must make a DC 10 Concentration check to successfully cast the spell, losing the spell slot with no effect on a failure as their gaseous emissions mangle the spell's verbal component. Any creature that ends their turn within 10 feet of a creature afflicted by Slob Plague must make a Constitution Saving Throw (DC 13 or the Spell save DC of the one who initially afflicted the plague onto the first target, whichever is higher). On a failure, they also contract the Slob Plague. On a success, they resist the disease and cannot contract it again from the same person."
+                    ]
+                },
+                {
+                    "type": "inset",
+                    "name": "Slob Plague and the Contagion Spell",
+                    "entries": [
+                        "At the Game master's discretion, the Slob Plague disease can be added as one of the possible diseases afflicted by the Contagion spell. In that scenario, the affects of the disease remain the same, with the following exceptions: Each individual instance of the disease lasts for only 7 days, as if caused by a fresh casting of Contagion, but when the initial subject is cured, the subsequent individuals affected are still diseased."
+                    ]
+                }
+            ]
         }
     ]
 }
