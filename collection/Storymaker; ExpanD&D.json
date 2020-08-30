@@ -7845,6 +7845,73 @@
                 "You may conjure a goodberry pie as an Action. Once you use this feature, you cannot do so again for 1d4 days."
             ],
             "featureType": "EI"
+        },
+        {
+            "name": "Eldritch Conviction",
+            "source": "StorymakerExpanDnD",
+            "entries": [
+                "Your hit point maximum increases by an amount equal to your warlock level and increases by 1 each time you gain a level in this class. If you lose this invocation, you lose any bonuses to your hit point maximum you received from this invocation."
+            ],
+            "featureType": "EI"
+        },
+        {
+            "name": "Malleable Measure",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {"level": 5}
+            ],
+            "entries": [
+                "You can cast Enlarge/Reduce once without expending a spell slot. You regain the ability to do so when you finish a short or long rest."
+            ],
+            "featureType": "EI"
+        },
+                {
+            "name": "The Hand that Feeds",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": 9,
+                    "pact": "Pact of the Flesh"
+                }
+            ],
+            "entries": [
+                "Another creature of your choice that can touch you can use its action to feed you a piece of food. It gains a bonus of +1 to its AC, and the AC bonus that you receive from your pact boon increases to +2. You must both be willing. These benefits last for 1 hour. After you use this feature, you can’t use it again until you finish a short or long rest."
+            ],
+            "featureType": "EI"
+        },
+        {
+            "name": "Eldritch Reach",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "pact": "Pact of the Flesh"
+                }
+            ],
+            "entries": [
+                "When you make a melee attack, or cast a spell with a range of Touch, your reach for it is 5 feet greater than normal."
+            ],
+            "featureType": "EI"
+        },
+        {
+            "name": "Gluttony’s Reward",
+            "source": "StorymakerExpanDnD",
+            "prerequisite": [
+                {
+                    "level": 7,
+                    "pact": "Pact of the Flesh"
+                }
+            ],
+            "entries": [
+                "Your patron’s might flows through your body, granting you the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "While you have food in your stomach, your hit point maximum and current hit points increase by 5 and your unarmed strikes have a bonus of +1 to their attack and damage rolls. You lose these bonuses if your stomach is empty.",
+                        "Before you make an attack with an unarmed strike, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add +10 to the attack’s damage."
+                    ]
+                }
+            ],
+            "featureType": "EI"
         }
     ],
     "subclass": [
