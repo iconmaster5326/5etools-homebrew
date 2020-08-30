@@ -14241,5 +14241,301 @@
                 }
             ]
         }
+    ],
+    "background": [
+        {
+            "name": "Recovering Immobile",
+            "source": "StorymakerExpanDnD",
+            "page": 107,
+            "skillProficiencies": [
+                {
+                    "eating": true,
+                    "insight": true
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "anyStandard": 1
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "choose": {
+                        "from": [
+                            "cook's utensils"
+                        ]
+                    }
+                }
+            ],
+            "entries": [
+                "Whether it be a result of an attack you lived through before you became an adventurer, a wayward bit of magic, or just sheer overindulgance, in your past you have had experience with being immobilized by your own flesh. Your time being a mountain of mass all on your own has shaped you and changed you, even if you have managed to slim down to a more manageable size by this point. Now you have a sense for the sheer heights of gluttony that can be achieved in this world.",
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Skill Proficiencies",
+                            "entry": "{@skill Eating}, {@skill Insight}"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Tool Proficiencies",
+                            "entry": "Cook's Utensils"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Languages",
+                            "entry": "One of your choice"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Equipment",
+                            "entry": "A set of common clothes, a set of massive clothes from when you were immobilized, a trinket rolled randomly on the table, cook's utensils, and a pouch containing 10 gp"
+                        }
+                    ]
+                },
+                {
+                    "name": "Immobilizing Event",
+                    "type": "entries",
+                    "entries": [
+                        "A number of different events might cause a character to be rendered immobile in their past. Choose an event or roll on the table below to define your experience being immobilized.",
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "d10",
+                                "Immobilizing Event"
+                            ],
+                            "colStyles": [
+                                "col-1 text-center",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    1,
+                                    "I ate myself into immobility"
+                                ],
+                                [
+                                    2,
+                                    "A spell or potion gone wrong rendered me too fat to move"
+                                ],
+                                [
+                                    3,
+                                    "I was attacked by mysterious creatures that fattened me and left me for dead"
+                                ],
+                                [
+                                    4,
+                                    "I was taken hostage and fed to make sure I wouldn't be able to escape on my own"
+                                ],
+                                [
+                                    5,
+                                    "My significant other fattened me up until I could not move"
+                                ],
+                                [
+                                    6,
+                                    "I don't remember what happened, I just woke up one day unable to move"
+                                ],
+                                [
+                                    7,
+                                    "I was treated as a prize hog by some powerful figure"
+                                ],
+                                [
+                                    8,
+                                    "I was mind controlled and forced to stuff myself until I was immobilized"
+                                ],
+                                [
+                                    9,
+                                    "I was caught in the crossfire of powerful fattening magics"
+                                ],
+                                [
+                                    10,
+                                    "My culture values fat as a sign of beauty, and I was groomed to be the most beautiful specimen of my home"
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Feature: Glutton's Awareness",
+                    "type": "entries",
+                    "entries": [
+                        "You have an easier time than most finding the places where one might get food easier in a city. Whether by negotiating for nearly expired food or just through knowing the best deals, you can typically find food in a city for half the price it would normally cost to buy."
+                    ],
+                    "data": {
+                        "isFeature": true
+                    }
+                },
+                {
+                    "name": "Suggested Characteristics",
+                    "type": "entries",
+                    "entries": [
+                        "Whether they enjoyed it or not, Recovering Immobiles are more often than not shaped by the events that left them unable to move for long periods. Now that they are able to walk again, their perspective has completely changed.",
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "d8",
+                                "Personality Trait"
+                            ],
+                            "colStyles": [
+                                "col-1 text-center",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    "1",
+                                    "The feeling of warm fat is intoxicating"
+                                ],
+                                [
+                                    "2",
+                                    "I have very particular tastes when it comes to food"
+                                ],
+                                [
+                                    "3",
+                                    "I never say no to an eating contest"
+                                ],
+                                [
+                                    "4",
+                                    "I make sure everyone around me is eating right; can't have them wasting away"
+                                ],
+                                [
+                                    "5",
+                                    "I portion my meals exactingly to make sure I am always the weight I want to be"
+                                ],
+                                [
+                                    "6",
+                                    "I'm always making unique combinations with the food I get whenever I eat"
+                                ],
+                                [
+                                    "7",
+                                    "I've got a unique sway to my motions left over from my heaviest times right before immobility"
+                                ],
+                                [
+                                    "8",
+                                    "I have a habit of eating to hide my emotions"
+                                ]
+                            ]
+                        },
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "d6",
+                                "Ideal"
+                            ],
+                            "colStyles": [
+                                "col-1 text-center",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    "1",
+                                    "Bounty. No one should ever go hungry. If people want to eat themselves immobile, they should have all the food they need. (Good)"
+                                ],
+                                [
+                                    "2",
+                                    "Restraint. I've taken more than my fair share of food already, I'll make sure I'm not taking more than is fair now. (Lawful)"
+                                ],
+                                [
+                                    "3",
+                                    "Freedom. Maybe I'll get back to immobility at some point, maybe I won't. But it will be on my terms. (Chaotic)"
+                                ],
+                                [
+                                    "4",
+                                    "Gluttony. All the food in the world exists to be fed to me and my endless hunger. (Evil)"
+                                ],
+                                [
+                                    "5",
+                                    "Satisfaction. I make sure me and my allies eat till we're full. No more, no less. (Neutral)"
+                                ],
+                                [
+                                    "6",
+                                    "Trauma. My experiences being immobile were harrowing. I'm never going back to that point (any)"
+                                ]
+                            ]
+                        },
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "d6",
+                                "Bond"
+                            ],
+                            "colStyles": [
+                                "col-1 text-center",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    "1",
+                                    "I've got someone to take care of who's approaching or beyond immobility themselves."
+                                ],
+                                [
+                                    "2",
+                                    "I've still got lingering traces of hunger from the events that left me unable to move. I need to find out more about what happened."
+                                ],
+                                [
+                                    "3",
+                                    "I'm only mobile again thanks to someone who saved me; I owe that person my life."
+                                ],
+                                [
+                                    "4",
+                                    "I was happy and fat before someone stole that situation away from me. I need revenge, whether I go back to that or not."
+                                ],
+                                [
+                                    "5",
+                                    "Now that I've lost weight, those who knew me before have spurned me."
+                                ],
+                                [
+                                    "6",
+                                    "I had to make a deal with someone in exchange for being able to walk again, and I'm still waiting for that to come home."
+                                ]
+                            ]
+                        },
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "d6",
+                                "Flaw"
+                            ],
+                            "colStyles": [
+                                "col-1 text-center",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    "1",
+                                    "My time immobile scarred me. I have a deep-seated phobia of getting fat again."
+                                ],
+                                [
+                                    "2",
+                                    "I can't resist the smell of good food, even when I can't afford it."
+                                ],
+                                [
+                                    "3",
+                                    "I keep having these urges to fatten people up, and sometimes I can't help it."
+                                ],
+                                [
+                                    "4",
+                                    "Deep down, I fear that I might -want- to be immobile again."
+                                ],
+                                [
+                                    "5",
+                                    "Restraint? What does that mean?"
+                                ],
+                                [
+                                    "6",
+                                    "I've developed an eating disorder as a result of my experiences."
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "inset",
+                    "name": "Variant Feature: Not Quite Recovered",
+                    "entries": [
+                        "Sometimes the recovery from immobility wasn't quite as smooth as you might have hoped. In addition to the benefits and traits granted by this background, a character can choose to start their adventure at a weight just above their first bulk limit (typically 10-50 pounds above). In exchange, they start with an extra 3 days worth of rations to represent the extra food they've been holding on to."
+                    ]
+                }
+            ]
+        }
     ]
 }
