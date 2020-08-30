@@ -6271,6 +6271,385 @@
                 "Your Blade Burst and Unfolding Blast now deal piercing damage equal to 1d6 + your Dexterity modifier + your Sneak Attack damage, or half for targets who pass the saving throw.",
                 "You can now use your Unfolding Blast to launch all of your Folded Blades at a single target. When you use your Unfolding Blast, you may instead select a single eligible target. That target must make a Dexterity saving throw against your Blade Burst save DC. On a failure, the target takes piercing damage equal to 1d6 per blade expelled + your Dexterity modifier + your Sneak Attack damage, or half as much on a successful save."
             ]
+        },
+        {
+            "name": "Adiposean",
+            "source": "StorymakerExpanDnD",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Adiposean",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "When Narce invented the art of Lipomancy, it didn’t take long before wizards began experimenting (as they do) to find the limits of this new technique. Some, in an attempt to increase their power, tried to infuse their bodies with more intense concentrations of lipomantic energy. Out of these early experiments were created the first adipose sorcerers. In the time since then, some sorcerers are the result of experiments; some are born in areas of high lipomantic energy concentrations; and some simply have simply been born with the power with no apparent link. Born with an intrinsic link, these magicians do not have the fine control that a lipomantic wizard holds; rather, the energy runs through them, affecting their bodies and their spells alike.",
+                {
+                    "type": "inset",
+                    "name": "Friendly Fattening",
+                    "entries": [
+                        "As written, the Adiposean sorcerer will fatten up their enemies and allies both. If you want to avoid friendly fire, here are two options:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "Allow allies to roll a Constitution saving throw to avoid the fattening effects of the spell.",
+                                "Exclude allies from the effects of the spells entirely, and have it only target enemies."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Fattening Flux|Sorcerer||Adiposean|StorymakerExpanDnD|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Solid Body|Sorcerer||Adiposean|StorymakerExpanDnD|1"
+                }
+            ]
+        },
+        {
+            "name": "Fattening Flux",
+            "source": "StorymakerExpanDnD",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Adiposean",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "Starting at 1st level, the unstable lipomancy that runs rampant through your veins causes a constant state of flux within your body. When you replenish your sorcery points after a long rest, you gain weight equal to your sorcery points maximum. When you expend sorcery points, you lose weight equal to the amount spent.",
+                "These effects are not limited to the sorcerer. At level 1, your Flux die is a d4. Creatures that fail a save, are hit by your spell attack roll, or affected by your spells when no save is given, gain weight as determined by your Flux die. They gain 1 Flux die in fat for every level of the spell slot used, or 1 Flux die for cantrips. Your Flux die becomes a d6 at 5th level, a d8 at level 10, and to 1d10 at level 15."
+            ]
+        },
+        {
+            "name": "Solid Body",
+            "source": "StorymakerExpanDnD",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Adiposean",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "At 1st Level, due to the lipomantic effects on your bloodline, your well-fed form is better at absorbing blows. You may calculate your AC using your your Dexterity modifier or Constitution modifer, whichever is higher.",
+                "In addition, your body has become better adapted to handling the burdens you carry. Your Bulk limit is doubled. This stacks with effects from Brawny, size, and similar abilities."
+            ]
+        },
+        {
+            "name": "Arcane Replenishment",
+            "source": "StorymakerExpanDnD",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Adiposean",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 6,
+            "entries": [
+                "At 6th level, You have gained some mastery of the fattening energies that infuse you. As an Action, regain a number of sorcery points up to your Charisma modifier. Take 1d6 points of Necrotic damage and lose an equal amount of weight equal to the damage taken for each point gained. After using this ability, you must complete a short or long rest before you can do so again."
+            ]
+        },
+        {
+            "name": "Adipose Metamagics",
+            "source": "StorymakerExpanDnD",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Adiposean",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 14,
+            "entries": [
+                "At 14th level, you have learned how to use your body as fuel to heighten the effects of your spells. You gain the following intrinsic metamagics in addition to the ones you already know:",
+                {
+                    "type": "entries",
+                    "name": "Elevated Spell",
+                    "entries": [
+                        "When you cast a spell, you can treat the spell as if it had been cast using a higher level spell slot by spending 2 sorcery points for each level you wish to increase the spell by, up to the highest level spell you can cast."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Widening Spell",
+                    "entries": [
+                        "When you cast a spell, you can spend 2 sorcery points to cause each creature affected by your Flux die to temporarily gain weight. Each creature doubles in weight until the end of your next turn. While they are fattened, their speed is halved as they adjust to their expanded bodies."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Lipomantic Wellspring",
+            "source": "StorymakerExpanDnD",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Adiposean",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 18,
+            "entries": [
+                "At 18th level, your body has become inured to the ravages of lipomancy as you fuel your spells. You gain resistance to necrotic damage. In addition, as an action you may tap into the font of lipomantic energy that flows through you, increasing its flow to a torrent. For 1 minute, at the beginning of each of your turns, you regain 1 sorcery point, and heal 1d6 hit points and gain an equal number of pounds of fat. Once you use this ability, you cannot use it again until you have completed a long rest."
+            ]
+        },
+        {
+            "name": "Fey-Heart Feeder",
+            "source": "StorymakerExpanDnD",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "F. Feeder",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "Your innate magic evinces the capricious nature of wanton fey mingling with your own. This gift may be an inheritance from a particularly sybaritic fey ancestor, or perhaps a force of chaos and indulgence chose you to be a wellspring of hedonism on a whim. Regardless of the source of your power, you find an affinity for magics that inspire gluttony and excess in those around you, sometimes without them ever becoming aware of your influence.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Capricious Casting|Sorcerer||F. Feeder|StorymakerExpanDnD|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Trickster's Stealth|Sorcerer||F. Feeder|StorymakerExpanDnD|1"
+                }
+            ]
+        },
+        {
+            "name": "Capricious Casting",
+            "source": "StorymakerExpanDnD",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "F. Feeder",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "At 1st level, the following spells are added to the Sorcerer spell list for you:",
+                {
+                    "type": "table",
+                    "colLabels": [
+                        "Spell level",
+                        "Spell"
+                    ],
+                    "rows": [
+                        [
+                            "1st",
+                            "Resize"
+                        ],
+                        [
+                            "2nd",
+                            "Narce's Fatness Arrow"
+                        ],
+                        [
+                            "3rd",
+                            "Overabundance"
+                        ],
+                        [
+                            "4th",
+                            "Create Fattening Food and Drink"
+                        ],
+                        [
+                            "5th",
+                            "Blueberrify"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Trickster's Stealth",
+            "source": "StorymakerExpanDnD",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "F. Feeder",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "At 1st level, you gain proficiency in Stealth. Additionally, you can Hide as a bonus action.",
+                "When you reach 3rd level in this class, you learn invisibility, which doesn't count against your number of sorcerer spells known. In addition, you can cast it by spending 2 Sorcery Points or by expending a spell slot. If you cast it with sorcery points, you can cast it as a bonus action."
+            ]
+        },
+        {
+            "name": "Virulent Voracity",
+            "source": "StorymakerExpanDnD",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "F. Feeder",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 6,
+            "entries": [
+                "Starting at 6th level, as an action, you can spend 3 sorcery points to infect a creature you can see within 120 feet with mindless hunger. The creature must make a Charisma saving throw against your spellcasting DC. On a failed save, the creature becomes charmed by you for 1 minute. While charmed in this way, the creature must spend its action, bonus action, and movement to seek out and devour the nearest food on each of its turns, and it cannot take reactions. The creature doesn't move into obviously dangerous ground.",
+                "The spell ends for an affected creature if it takes any damage. If someone else uses an action to attempt to shake the creature to its senses, the creature can repeat the saving throw with advantage. Anyone who damages the creature or tries to shake it to its senses must pass a Charisma save or be charmed by you in this way for 1 minute. A remove curse spell ends the effect early."
+            ]
+        },
+        {
+            "name": "Fey Resistance",
+            "source": "StorymakerExpanDnD",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "F. Feeder",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 14,
+            "entries": [
+                "Starting at 14th level, you have advantage on saving throws against spells and other magical effects."
+            ]
+        },
+        {
+            "name": "Form of the Feeder Fey",
+            "source": "StorymakerExpanDnD",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "F. Feeder",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 18,
+            "entries": [
+                "Starting at 18th level, you can spend 6 Sorcery Points as a bonus action to adopt the form of a fey wellspring of excess. You remain in this form for 1 minute. It ends early if you are incapacitated, if you die, or if you dismiss it as a bonus action. While in this form, you gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You gain a flying speed of 30 feet.",
+                        "You are affected by the Reduce effect of the Enlarge Reduce spell, reducing your size to Tiny instead of the normal reduction.",
+                        "You can cast feed and abyssal stomach at their lowest levels without expending a spell slot or requiring material components.",
+                        "As an action, you can turn invisible until your concentration ends (as if concentrating on a spell), with any equipment you are wearing or carrying turning invisible as long as it is on your person."
+                    ]
+                },
+                "Also starting at 18th level, you can use an action to touch a creature and weaken their will. If the creature fails a Charisma saving throw against your spellcasting DC, it must eat any food offered to it. For 1 minute, any spell attacks that cause the target to eat food (such as the feed spell) automatically hit the target, and the target automatically fails any saving throws on similar spells (such as the overabundance spell). While under the effects of this magic, the target's stomach capacity is effectively infinite, they cannot take damage from overeating, and they are charmed as if by your Virulent Voracity feature."
+            ]
+        },
+        {
+            "name": "Gaseous Power",
+            "source": "StorymakerExpanDnD",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Gas Power",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "All Sorcerers' powers come from within themselves, from their bloodline, from natural vagaries of magic within them, or from a number of other factors in their makeup. Sorcerers of the Gaseous Power origin draw their magic from a more literal interpretation of that idea. The magic within their body wells up like an arcane gas cloud, which must eventually be released to deadly effect.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Noxious Power|Sorcerer||Gas Power|StorymakerExpanDnD|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Gaseous Release|Sorcerer||Gas Power|StorymakerExpanDnD|1"
+                }
+            ]
+        },
+        {
+            "name": "Noxious Power",
+            "source": "StorymakerExpanDnD",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Gas Power",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "Starting at 1st level, the caustic nature of the gasses constantly brewing within you grants you resistance to Poison damage and advantage on saving throws made against poison."
+            ]
+        },
+        {
+            "name": "Gaseous Release",
+            "source": "StorymakerExpanDnD",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Gas Power",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "When you choose this origin at 1st level, your body's natural gas wells up when you draw upon your energy to cast spells. You can use a bonus action on your turn to release this gas in a cloud around you immediately before or after you cast a spell of 1st level or higher, causing other creatures within 5 feet of you to make a Constituion saving throw or be Poisoned until the start of your next turn. Creatures that don't need to breathe or are immune to poison automatically succeed on this saving throw."
+            ]
+        },
+        {
+            "name": "Noxious Spell",
+            "source": "StorymakerExpanDnD",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Gas Power",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 6,
+            "entries": [
+                "At 6th level, you gain the ability to weave your spells into your gaseous releases. When you cast a spell that does not require an attack roll, you can choose to forgo the Verbal and Somatic components of the spell and release it as a 20-foot radius cloud of gas centered on a point within 60 feet of you, which persists for a number of rounds equal to your Charisma modifier. Any creature that enters the cloud or starts its turn within it, including you, is subjected to the spell. A creature can only be affected by the cloud once per use of this ability. Creatures that don't need to breathe or are immune to poison are unaffected by the spell. If the spell requires concentration, you must concentrate on the cloud for its duration. Once you have used this ability, you cannot do so again until you finish a long rest."
+            ]
+        },
+        {
+            "name": "Gaseous flight",
+            "source": "StorymakerExpanDnD",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Gas Power",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 14,
+            "entries": [
+                "Starting at 14th level, you have supreme control over your gaseous production. As an action, you can produce an excessive amount of gas and store it in your body, inflating your body or part of your body to twice your original size. You take up the space of a creature one size larger than normal, and gain a fly speed equal to your current speed. This inflation lasts until you release the gas as an action on your turn, at which point any creatures within 20 feet must make a Constitution saving throw or be poisoned for the next minute. Any creature that succeeds on this saving throw is immune to this effect for the next 24 hours.",
+                "Any armor or clothing not made to accomodate this growth might be destroyed when you trigger it."
+            ]
+        },
+        {
+            "name": "Stinking Aura",
+            "source": "StorymakerExpanDnD",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Gas Power",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 18,
+            "entries": [
+                "At 18th level, your gaseous releases have become constant and unceasing, but you have magical control over its potency. You have disadvantage on Stealth checks, but you constantly exhude an aura of gas within 20 feet of you. Creatures you choose that enter your aura for the first time on their turn or start their turn in your aura must make a Constitution saving throw or spend their Action retching and coughing. Creatures that don't need to breathe or are immune to poison automatically succeed on this saving throw.",
+                "Additionally, you can also use this aura to bolster allies by making the stench pleasant to their senses. You can choose a number of allies within your aura equal to your Charisma modifier (minimum 1) to be bolstered by your aura, granting them advantage on Constitution Checks and Constitution Saving throws. You are always affected by this version of the ability and do not count against the number of creatures that can be affected by it."
+            ]
+        },
+        {
+            "name": "Voidborn",
+            "source": "StorymakerExpanDnD",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Voidborn",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "Voidborn sorcerers are touched in some way by elemental emptiness. Some have been exposed to the all-consuming vastness of the outer rifts, others may have void elemental ancestry, and others still have lost a tiny piece of their soul, connecting them to a powerful metaphysical want that is made real and dangerous. Voidborn sorcerers are rare, as their insatiable needfulness threatens to bring bankruptcy and famine. Many are allowed to waste away and starve before ever reaching adulthood. But those who do manage to stave off the void find that it makes a powerful font of sorcery, as there is great strength in emptiness, as they draw magic into their bodies to fill the eternal hunger.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Bottomless Void|Sorcerer||Voidborn|StorymakerExpanDnD|1"
+                }
+            ]
+        },
+        {
+            "name": "Bottomless Void",
+            "source": "StorymakerExpanDnD",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Voidborn",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 1,
+            "entries": [
+                "Starting at 1st level, your deep connection to the outer rifts threatens to devour you from within, which renders your appetite nigh inexhaustible. At the end of each long rest, make a Constitution save with disadvantage against your spellcasting DC. On a failure, you lose a number of pounds of fat equal to two times your sorcerer level.",
+                "In addition, immediately before you would have to roll to Overstuff yourself, you instead instantaneously digest all food in your stomach, gaining 1d4 pounds of fat for each pound of food digested in this way. Food digested in this way does not count toward diet points at your next long rest. This occurs automatically a number of times equal to your sorcerer level. You regain all expended uses of this feature when you complete a long rest.",
+                "Finally, the void within grants you a unique durability to sheer magic; you have resistance to Force damage."
+            ]
+        },
+        {
+            "name": "Devour Missile",
+            "source": "StorymakerExpanDnD",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Voidborn",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 6,
+            "entries": [
+                "Starting at 6th level, you gain the ability to swallow spells and projectiles launched at you. When you are targeted by a ranged spell attack or a ranged weapon attack, you can use your reaction to spend 1 sorcery point if it is a ranged weapon attack or 1 point per spell level and consume the effect of the attack, nullifying it for you."
+            ]
+        },
+        {
+            "name": "Redirect Missile",
+            "source": "StorymakerExpanDnD",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Voidborn",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 14,
+            "entries": [
+                "At 14th level, when a creature within 15 feet of you would be the target of a ranged spell attack or ranged weapon attack, you may use your reaction to spend 3 sorcery points to become the target of the attack, even if you would normally be outside the attack’s range. If it is a spell that has multiple targets, you replace only the one target. You may use the Devour Missile class feature with the same reaction."
+            ]
+        },
+        {
+            "name": "All-Consuming",
+            "source": "StorymakerExpanDnD",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Voidborn",
+            "subclassSource": "StorymakerExpanDnD",
+            "level": 18,
+            "entries": [
+                "Beginning at 18th level, the bottomless void within can devour any matter that passes your lips. As an action, you can expose the void within, drawing any objects and creatures in a 15 foot cone in front of you into the void to be consumed. Any creatures and objects up to Large size or smaller that are fully, or partially within the cone are affected. Nonmagical objects are consumed immediately. Magical objects or creatures must make a Constitution saving throw. On a failure, the target takes 1d4 points of Force damage for each of your levels in Sorcerer, or half as much damage on a success. Objects destroyed or creatures reduced to 0 hit points by this damage are consumed. Anything consumed by this ability is both stretched and compressed, grown and shrunk rapidly by the force of the void, and ends up becoming 10d10 pounds of normal food in the sorcerer's stomach. Once you use this feature, you must complete a long rest or spend 13 sorcery points as a bonus action before you can do so again."
+            ]
         }
     ],
     "optionalfeature": [
@@ -7753,6 +8132,84 @@
                 "Unfolding Blast|Rogue||Shadowblade|StorymakerExpanDnD|9",
                 "Combined Barrage|Rogue||Shadowblade|StorymakerExpanDnD|13",
                 "Folded Mastery|Rogue||Shadowblade|StorymakerExpanDnD|17"
+            ]
+        },
+        {
+            "name": "Adiposean",
+            "source": "StorymakerExpanDnD",
+            "page": 66,
+            "shortName": "Adiposean",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Adiposean|Sorcerer||Adiposean|StorymakerExpanDnD|1",
+                "Arcane Replenishment|Sorcerer||Adiposean|StorymakerExpanDnD|6",
+                "Adipose Metamagics|Sorcerer||Adiposean|StorymakerExpanDnD|14",
+                "Lipomantic Wellspring|Sorcerer||Adiposean|StorymakerExpanDnD|18"
+            ]
+        },
+        {
+            "name": "Fey-Heart Feeder",
+            "source": "StorymakerExpanDnD",
+            "page": 67,
+            "shortName": "F. Feeder",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Fey-Heart Feeder|Sorcerer||F. Feeder|StorymakerExpanDnD|1",
+                "Virulent Voracity|Sorcerer||F. Feeder|StorymakerExpanDnD|6",
+                "Fey Resistance|Sorcerer||F. Feeder|StorymakerExpanDnD|14",
+                "Form of the Feeder Fey|Sorcerer||F. Feeder|StorymakerExpanDnD|18"
+            ],
+            "subclassSpells": [
+                {
+                    "name": "Resize",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Narce's Fatness Arrow",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Overabundance",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Create Fattening Food and Drink",
+                    "source": "StorymakerExpanDnD"
+                },
+                {
+                    "name": "Blueberrify",
+                    "source": "StorymakerExpanDnD"
+                }
+            ]
+        },
+        {
+            "name": "Gaseous Power",
+            "source": "StorymakerExpanDnD",
+            "page": 68,
+            "shortName": "Gas Power",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Gaseous Power|Sorcerer||Gas Power|StorymakerExpanDnD|1",
+                "Noxious Spell|Sorcerer||Gas Power|StorymakerExpanDnD|6",
+                "Gaseous Flight|Sorcerer||Gas Power|StorymakerExpanDnD|14",
+                "Stinking Aura|Sorcerer||Gas Power|StorymakerExpanDnD|18"
+            ]
+        },
+        {
+            "name": "Voidborn",
+            "source": "StorymakerExpanDnD",
+            "page": 69,
+            "shortName": "Voidborn",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Voidborn|Sorcerer||Voidborn|StorymakerExpanDnD|1",
+                "Devour Missile|Sorcerer||Voidborn|StorymakerExpanDnD|6",
+                "Redirect Missile|Sorcerer||Voidborn|StorymakerExpanDnD|14",
+                "All-Consuming|Sorcerer||Voidborn|StorymakerExpanDnD|18"
             ]
         }
     ]
