@@ -9596,6 +9596,892 @@
                 "One creature within range who can hear you choose must succeed on a Constitution saving throw. On a failure, if it has any food in its stomach, it takes 1d12 force damage, otherwise, it takes 1d8. The target Fattens equal to the damage taken in this way.",
                 "The spell's damage increases by one die when you reach 5th, 11th, and 17th level."
             ]
+        },
+        {
+            "name": "Burn Fat",
+            "source": "StorymakerExpanDnD",
+            "page": 89,
+            "level": 1,
+            "school": "T",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Cleric",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Paladin",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "damageInflict": [
+                "fire"
+            ],
+            "spellAttack": [
+                "M"
+            ],
+            "areaTags": [
+                "ST"
+            ],
+            "savingThrow": [],
+            "miscTags": [],
+            "entries": [
+                "With a touch, searing pain burns away excess weight. Make a melee spell attack. On a hit, the target loses 4d4 pounds of fat, and if the target is an enemy, they take an equivalent amount of fire damage."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When cast using a spell slot of 2nd level or higher, the weight loss of the spell increases by 2d4 for each spell slot level above 1st."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Chaotic Corpulence",
+            "source": "StorymakerExpanDnD",
+            "page": 90,
+            "level": 1,
+            "school": "V",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "radius",
+                "distance": {
+                    "type": "feet",
+                    "amount": 15
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "damageInflict": [
+                "fire",
+                "cold"
+            ],
+            "spellAttack": [],
+            "areaTags": [
+                "S"
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "miscTags": [],
+            "entries": [
+                "Each creature within 15 feet of you that doesn’t have total cover from you must make a Constitution saving throw. A creature takes 1d8 fire damage and 1d8 cold damage on a failed save, or half as much damage on a successful one. If the amount of fire damage a creature takes does not match the amount of cold damage it takes, it fattens or slims equal to the damage it takes, gaining weight if it took more cold damage, or losing weight if it took more fire damage."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 2nd level or higher, the fire damage or the cold damage (your choice) increases by 1d8 for each slot level above 1st."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Exercisism",
+            "source": "StorymakerExpanDnD",
+            "page": 90,
+            "level": 1,
+            "school": "T",
+            "meta": {
+                "ritual": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Cleric",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "minute"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a burnt candlewick"
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "damageInflict": [],
+            "spellAttack": [],
+            "areaTags": [
+                "ST"
+            ],
+            "savingThrow": [],
+            "miscTags": [],
+            "entries": [
+                "A willing creature you touch burns 1 diet point and loses 1 hit point."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 2nd level or higher, the number of diet points burnt and hit points lost increases by 1 for each slot level above 1st."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Find Food and Drink",
+            "source": "StorymakerExpanDnD",
+            "page": 90,
+            "level": 1,
+            "school": "D",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Paladin",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Ranger",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "an empty plate, bowl, or cup"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "damageInflict": [],
+            "spellAttack": [],
+            "areaTags": [
+                "ST"
+            ],
+            "savingThrow": [],
+            "miscTags": [],
+            "entries": [
+                "The smell of food registers strongly on your senses. For the duration of the spell, you can find the shortest path to the nearest piece of food or drink and you have advantage on Survival checks to forage."
+            ]
+        },
+        {
+            "name": "Fattening Jest",
+            "source": "StorymakerExpanDnD",
+            "page": 90,
+            "level": 1,
+            "school": "E",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "damageInflict": [
+                "psychic"
+            ],
+            "spellAttack": [],
+            "areaTags": [
+                "ST"
+            ],
+            "savingThrow": [
+                "wisdom"
+            ],
+            "miscTags": [],
+            "entries": [
+                "You make a joke at the expense of one creature of your choice within range's weight, laced with a subtle enchantment. If the target can hear you (though it need not understand you), it must succeed on a Wisdom saving throw or take 2d10 Psychic damage, gaining that much weight in fat, and reducing their movement speed by half on their next turn as they get used to the new weight. On a successful save, the target takes half as much damage and their movement speed is not halved."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Feed",
+            "source": "StorymakerExpanDnD",
+            "page": 90,
+            "level": 1,
+            "school": "C",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Paladin",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Ranger",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 120
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "damageInflict": [],
+            "spellAttack": [
+                "R"
+            ],
+            "areaTags": [
+                "ST"
+            ],
+            "savingThrow": [],
+            "miscTags": [],
+            "entries": [
+                "You conjure three blasts of fatty food to force a target to eat. Make a ranged spell attack roll against a target within range for each blast. On a hit, the target is forced to consume 1d6 pounds of fatty food. On a critical, the amount of food doubles."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 2nd level or higher, create one additional blast for each spell level above 1st."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Gaseous Rupture",
+            "source": "StorymakerExpanDnD",
+            "page": 90,
+            "level": 1,
+            "school": "C",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "damageInflict": [
+                "poison"
+            ],
+            "spellAttack": [],
+            "areaTags": [
+                "ST"
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "miscTags": [],
+            "entries": [
+                "A creature of your choice within range must make a Constitution saving throw. On a failure, they are rendered unable to speak until the end of your next turn as their body bloats with noxious gases that continuously erupt from them, and each creature (including the target) within 10 feet of the target suffers 1d10 poison damage."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 2nd level or higher, the poison damage of the spell increases by 1d10 for each spell level above 1st."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Hearty Tonic",
+            "source": "StorymakerExpanDnD",
+            "page": 91,
+            "level": 1,
+            "school": "C",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "minute"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "alchemist’s supplies"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    }
+                }
+            ],
+            "damageInflict": [],
+            "spellAttack": [],
+            "areaTags": [],
+            "savingThrow": [],
+            "miscTags": [
+                "THP"
+            ],
+            "entries": [
+                "You create a hearty tonic in a simple vial that appears in your hand. The elixir retains its potency for the duration or until it's consumed, at which point the vial vanishes. As an action, a creature can drink the elixir or administer it to another creature. The drinker gains 2d4 + 2 temporary hit points and gains double the amount of temporary hit points in fat."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 2nd level or higher, you create an additional hearty tonic for each slot level above 1st."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Heavy Smite",
+            "source": "StorymakerExpanDnD",
+            "page": 91,
+            "level": 1,
+            "school": "V",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Paladin",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "components": {
+                "v": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "damageInflict": [
+                "force"
+            ],
+            "spellAttack": [],
+            "areaTags": [
+                "ST"
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "miscTags": [],
+            "entries": [
+                "You channel your weight into a single crushing blow. The next time you hit a target during the spell’s duration, you strike with devastating force, dealing an additional 1d8 Force damage. Additionally, the target must make a Constitution saving throw. On a failed save, until the end of the target's next turn, attacks against the target are made with advantage and it automatically fails all Strength and Dexterity saving throws."
+            ]
+        },
+        {
+            "name": "Modify Metabolism",
+            "source": "StorymakerExpanDnD",
+            "page": 91,
+            "level": 1,
+            "school": "T",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Ranger",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 24
+                    }
+                }
+            ],
+            "damageInflict": [],
+            "spellAttack": [],
+            "areaTags": [
+                "ST"
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "miscTags": [],
+            "entries": [
+                "With a touch, you alter a creature’s metabolism, either increasing or decreasing the amount of calories they burn over the day. An unwilling creature must succeed on a Constitution saving throw or be affected. For an affected creature, at the end of their next long rest when calculating the number of diet points burned by exercise, the number is affected in one of the following ways of your choice:",
+                {
+                    "type": "entries",
+                    "name": "Increase",
+                    "entries": [
+                        "Double them for the target."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Decrease",
+                    "entries": [
+                        "Halve them for the target."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Resize",
+            "source": "StorymakerExpanDnD",
+            "page": 91,
+            "level": 1,
+            "school": "T",
+            "meta": {
+                "ritual": true
+            },
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a needle and thread"
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "damageInflict": [
+                "bludgeoning"
+            ],
+            "conditionInflict": [
+                "restrained"
+            ],
+            "spellAttack": [],
+            "areaTags": [
+                "ST"
+            ],
+            "savingThrow": [
+                "strength"
+            ],
+            "miscTags": [],
+            "entries": [
+                "With a series of eldritch measurements, you change the dimensions of nonmagical cloth outfits, instantly retailoring them. You can tailor up to six sets of clothes to fit their wearers (creating more fabric as necessary) or hem a single one in to the point of unusability.",
+                {
+                    "type": "entries",
+                    "name": "Hem in",
+                    "entries": [
+                        "Choose one creature in range that you can see wearing nonmagical clothes. The creature makes a Strength saving throw. On a failure, the clothes shrink and constrict them, dealing them 1d6 bludgeoning damage and the creature becomes Restrained. If they succeed, they take half as much damage and rip through the outfit, damaging it but avoiding the restained effect. This damage is only cosmetic, and does not impede the use of armor. A creature Restrained in this way can use its action to make another Strength save against your spellcasting DC. On a success, they force their outfit to retain its original size."
+                    ]
+                }
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of higher level than 1st, you can affect more kinds of materials. With a 2nd level spell slot, you may target leather armor in addition to clothes. With a 3rd level spell slot, the spell can affect armor made from mundane metals. With a 4th level spell slot, the spell works on adamintine, mithril and other mystical materials, though it thins or thickens the material rather than conjuring more of it. With a 5th level spell slot, it can affect magical clothing and armor."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Syrup Trap",
+            "source": "StorymakerExpanDnD",
+            "page": 91,
+            "level": 1,
+            "school": "C",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a sprig of peppermint"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    }
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [
+                "grappled"
+            ],
+            "spellAttack": [],
+            "areaTags": [
+                "Q"
+            ],
+            "savingThrow": [
+                "strength"
+            ],
+            "opposedCheck": [
+                "strength"
+            ],
+            "miscTags": [],
+            "entries": [
+                "Sticky syrup covers the ground in a 10-foot square centered on a point within range and turns it into difficult terrain for the duration. When the grease appears, each creature standing in its area must succeed on a Strength saving throw or become grappled. A creature that enters the area or ends its turn there must also succeed on a Strength saving throw or become grappled. A creature grappled by the syrup can use its actions to make a Strength check against your spell save DC. If it succeeds, it is no longer grappled. A creature grappled by the syrup may also try to eat the syrup that is sticking to it, using an action or bonus action to consume 1 pound of fatty food. After consuming a number of pounds of fatty food equal to your spellcasting ability modifier, it is no longer grappled."
+            ]
+        },
+        {
+            "name": "Tango’s Tincture",
+            "source": "StorymakerExpanDnD",
+            "page": 92,
+            "level": 1,
+            "school": "V",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Ranger",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a sprig of peppermint"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    }
+                }
+            ],
+            "damageInflict": [],
+            "conditionInflict": [],
+            "spellAttack": [],
+            "areaTags": [
+                "ST"
+            ],
+            "savingThrow": [],
+            "opposedCheck": [],
+            "miscTags": [
+                "HL"
+            ],
+            "entries": [
+                "You feed a creature a magical restorative leaf, and the target gains 1 diet point. For the duration of the spell, the target regains a number of hit points equal to your spellcasting ability modifier + the target’s Constitution modifier at the end of each of its turns and Fattens equal to half the number of hit points it regained. The spell ends early if the target falls to 0 hit points."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell with a spell slot of 2nd level or higher, the healing increases by 2 hit points for each level above 1st."
+                    ]
+                }
+            ]
         }
     ]
 }
