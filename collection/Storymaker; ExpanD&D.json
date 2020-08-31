@@ -14845,5 +14845,1504 @@
                 }
             ]
         }
+    ],
+    "monster": [
+        {
+            "name": "Brownie",
+            "source": "StorymakerExpanDnD",
+            "page": 119,
+            "size": "T",
+            "type": "fey",
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "ac": [
+                15
+            ],
+            "hp": {
+                "average": 10,
+                "formula": "3d4+3"
+            },
+            "speed": {
+                "walk": 15,
+                "fly": 40
+            },
+            "str": 8,
+            "dex": 18,
+            "con": 13,
+            "int": 14,
+            "wis": 8,
+            "cha": 14,
+            "skill": {
+                "deception": "+5",
+                "eating": "+4",
+                "perception": "+2",
+                "stealth": "+10",
+                "sleight of hand": "+7"
+            },
+            "senses": [
+                "Darkvision 60 ft."
+            ],
+            "passive": 12,
+            "languages": [
+                "Common",
+                "Sylvan"
+            ],
+            "cr": "1/2",
+            "environment": [
+                "forest"
+            ],
+            "traitTags": [],
+            "senseTags": [
+                "D"
+            ],
+            "actionTags": [],
+            "languageTags": [
+                "C",
+                "S"
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "spellcastingTags": [],
+            "miscTags": [],
+            "conditionInflict": [],
+            "conditionInflictSpell": [],
+            "spellcasting": [],
+            "trait": [
+                {
+                    "name": "Bulk",
+                    "entries": [
+                        "Limit: 78 lb. Average weight: 40 lbs."
+                    ]
+                },
+                {
+                    "name": "Elusive",
+                    "entries": [
+                        "The brownie may cast Pass Without Trace once per day."
+                    ]
+                },
+                {
+                    "name": "Venomous",
+                    "entries": [
+                        "When the brownie successfully deals damage with its Bite or Poison Dart attack, the target must make a DC 12 Constitution saving throw. On a failure, the target is beset by hunger, and makes all attacks, saves, and skill checks with disadvantage until they consume at least 1 lb of food."
+                    ]
+                },
+                {
+                    "name": "Poisonous",
+                    "entries": [
+                        "If the brownie is consumed then the eater must immediately make a DC 15 Constitution saving throw. On a failure, the target is beset by hunger, and makes all attacks, saves, and skill checks with disadvantage until they consume an additional 5 lb of food."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "+7 to hit, hit: 2 (1d4) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Poison Dart",
+                    "entries": [
+                        "+7 to hit, 20 ft. range, hit: 1 piercing damage."
+                    ]
+                }
+            ],
+            "fluff": {
+                "type": "entries",
+                "entries": [
+                    "Small and mischievous, brownies appear as plump, winged humanoids between 5 and 7 inches tall. They are larger and hardier than their sprite cousins, but are still quite miniscule. They are most common in well-forested areas, but have been reported in other regions as well. They have become more common in cities and towns recently, as they can be found stealing food from kitchens, larders, and even market stalls.",
+                    {
+                        "type": "entries",
+                        "name": "Gluttonous Tricksters",
+                        "entries": [
+                            "Brownies main goal in life is to eat, followed only by playing pranks. Adventurers tell tales of waking in the morning to find the contents of their bags strewn about the campsite, all edible items missing. Surprisingly strong for their size, they sometimes urge each other into increasingly audacious pranks, attempting to steal food from people in plain sight."
+                        ]
+                    },
+                    {
+                        "type": "inset",
+                        "entries": [
+                            "Although reported to be surprisingly delicious, most creatures avoid eating brownies. According to one ogre, \"Dey ain't fill ya up for nuffin, and yer always wantin' 'nother right after.\""
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Cake Golem",
+            "source": "StorymakerExpanDnD",
+            "page": 120,
+            "size": "L",
+            "type": "construct",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                10
+            ],
+            "hp": {
+                "average": 104,
+                "formula": "31d10+44"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 19,
+            "dex": 10,
+            "con": 18,
+            "int": 6,
+            "wis": 10,
+            "cha": 5,
+            "immune": [
+                "lightning",
+                "poison"
+            ],
+            "resist": [
+                {
+                    "resist": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks that aren't adamantine",
+                    "cond": true
+                }
+            ],
+            "conditionImmune": [
+                "charmed",
+                "exhaustion",
+                "frightened",
+                "paralyzed",
+                "petrified",
+                "poisoned"
+            ],
+            "senses": [
+                "Darkvision 60 ft."
+            ],
+            "passive": 10,
+            "languages": [
+                "understands the languages of its creator but can't speak"
+            ],
+            "cr": "5",
+            "environment": [],
+            "traitTags": [
+                "Immutable Form",
+                "Magic Resistance",
+                "Magic Weapons"
+            ],
+            "senseTags": [
+                "D"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "CS"
+            ],
+            "damageTags": [
+                "B"
+            ],
+            "spellcastingTags": [],
+            "miscTags": [],
+            "conditionInflict": [],
+            "conditionInflictSpell": [],
+            "spellcasting": [],
+            "trait": [
+                {
+                    "name": "Bulk",
+                    "entries": [
+                        "Limit: N/A. Average weight: 2000 lbs."
+                    ]
+                },
+                {
+                    "name": "Immutable Form",
+                    "entries": [
+                        "The golem is immune to any spell or effect that would alder its form."
+                    ]
+                },
+                {
+                    "name": "Aversion of Fire",
+                    "entries": [
+                        "If the golem takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn."
+                    ]
+                },
+                {
+                    "name": "Magic Resistance",
+                    "entries": [
+                        "The golem has advantage on saving throws against spells and other magical effects."
+                    ]
+                },
+                {
+                    "name": "Magic Weapons",
+                    "entries": [
+                        "The golem's weapon attacks are magical."
+                    ]
+                },
+                {
+                    "name": "Siege Monster",
+                    "entries": [
+                        "The golem deals double damage to objects and structures."
+                    ]
+                },
+                {
+                    "name": "Food Composition",
+                    "entries": [
+                        "The golem is made of fattening magical substance. Any creature that hits the Pudding with a bite attack eats 1d4 pounds of food, doubled on a critical hit."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The golem makes two melee attacks."
+                    ]
+                },
+                {
+                    "name": "Slam",
+                    "entries": [
+                        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8+4) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Food Blast",
+                    "entries": [
+                        "Ranged Weapon Attack: +3 to hit, reach 30 ft., one target. Hit: 9 (2d8+0) bludgeoning damage, and the target eats an equivalent number of pounds of food."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ancient Lipomantic Dragon",
+            "source": "StorymakerExpanDnD",
+            "page": 121,
+            "size": "G",
+            "type": "dragon",
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 20,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 574,
+                "formula": "28d20+280"
+            },
+            "speed": {
+                "walk": 30,
+                "climb": 30,
+                "fly": 80
+            },
+            "str": 30,
+            "dex": 10,
+            "con": 30,
+            "int": 20,
+            "wis": 13,
+            "cha": 25,
+            "save": {
+                "str": "+17",
+                "con": "+17",
+                "int": "+12",
+                "cha": "+14"
+            },
+            "skill": {
+                "eating": "+24",
+                "perception": "+15"
+            },
+            "immune": [
+                {
+                    "immune": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
+            "resist": [
+                "necrotic",
+                "force"
+            ],
+            "senses": [
+                "Blindsight 60 ft.",
+                "Darkvision 120 ft."
+            ],
+            "passive": 25,
+            "languages": [
+                "Common",
+                "Draconic"
+            ],
+            "cr": "24",
+            "environment": [],
+            "traitTags": [
+                "Legendary Resistance"
+            ],
+            "senseTags": [
+                "B",
+                "SD"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C",
+                "DR"
+            ],
+            "damageTags": [
+                "P",
+                "S",
+                "B",
+                "N",
+                "F"
+            ],
+            "spellcastingTags": [],
+            "miscTags": [],
+            "conditionInflict": [
+                "ravenous"
+            ],
+            "conditionInflictLegendary": [
+                "prone"
+            ],
+            "conditionInflictSpell": [],
+            "spellcasting": [],
+            "trait": [
+                {
+                    "name": "Bulk",
+                    "entries": [
+                        "Limit: 57,600 lbs. Average weight: 55,000 lbs."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/day)",
+                    "entries": [
+                        "If the dragon fails a saving throw, it can choose to succeed instead."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The dragon can use its slavering presence. It then makes three attacks; one with its bite and two with its claws."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "Melee Weapon Attack: +17 to hit, Reach 15 ft., one target. Hit: 21 (2d10 + 10) piercing damage plus 14 (4d6) either necrotic or force damage, dragon's choice. Necrotic damage Slims equal to twice the damage dealt and Fattens the dragon equally, force damage Fattens equal to twice the damage dealt."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "Melee Weapon Attack: +17 to hit, Reach 10 ft., one target. Hit: 17 (2d6 + 10) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "Melee Weapon Attack: +17 to hit, Reach 20 ft., one target. Hit: 19 (2d8 + 10) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Slavering Presence",
+                    "entries": [
+                        "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 22 Wisdom saving throw or become ravenous for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Slavering Presence for the next 24 hours."
+                    ]
+                },
+                {
+                    "name": "Breath Weapon {@recharge 5}",
+                    "entries": [
+                        "The dragon has two potential breath weapons that each use the same recharge. The dragon can choose either Siphoning Breath or Swelling Breath.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "name": "Siphoning Breath",
+                                    "entries": [
+                                        "The dragon exhales a 120-foot line of siphoning lipomantic energy that is 10 feet wide. Each creature in that area must make a DC 24 Dexterity saving throw, taking 91 (26d6) necrotic damage on a failed save, or half as much on a successful one. Affected creatures Slim equal to twice the damage dealt, and the dragon Fattens for the total number of pounds lost this way among all affected creatures."
+                                    ]
+                                },
+                                {
+                                    "name": "Swelling Breath",
+                                    "entries": [
+                                        "The dragon exhales Swelling lipomantic energy in a 90-foot cone. Each creatures in that area must make a DC 24 Dexterity saving throw, taking 91 (21d6) Force damage on a failed save, or half as much damage on a successful one. Each affected target Fattens for twice the damage dealt."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "legendary": [
+                {
+                    "name": "Detect",
+                    "entries": [
+                        "The dragon makes a Wisdom (Perception) check."
+                    ]
+                },
+                {
+                    "name": "Tail Attack",
+                    "entries": [
+                        "The dragon makes a tail attack."
+                    ]
+                },
+                {
+                    "name": "Wing Attack",
+                    "entries": [
+                        "(Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Adult Lipomantic Dragon",
+            "source": "StorymakerExpanDnD",
+            "page": 122,
+            "size": "H",
+            "type": "dragon",
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 17,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 275,
+                "formula": "19d12+152"
+            },
+            "speed": {
+                "walk": 30,
+                "climb": 30,
+                "fly": 80
+            },
+            "str": 27,
+            "dex": 10,
+            "con": 26,
+            "int": 18,
+            "wis": 11,
+            "cha": 23,
+            "save": {
+                "str": "+14",
+                "con": "+14",
+                "int": "+10",
+                "cha": "+12"
+            },
+            "skill": {
+                "eating": "+20",
+                "perception": "+12"
+            },
+            "immune": [
+                {
+                    "immune": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
+            "resist": [
+                "necrotic",
+                "force"
+            ],
+            "senses": [
+                "Blindsight 60 ft.",
+                "Darkvision 120 ft."
+            ],
+            "passive": 22,
+            "languages": [
+                "Common",
+                "Draconic"
+            ],
+            "cr": "17",
+            "environment": [],
+            "traitTags": [
+                "Legendary Resistance"
+            ],
+            "senseTags": [
+                "B",
+                "SD"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C",
+                "DR"
+            ],
+            "damageTags": [
+                "P",
+                "S",
+                "B",
+                "N",
+                "F"
+            ],
+            "spellcastingTags": [],
+            "miscTags": [],
+            "conditionInflict": [
+                "ravenous"
+            ],
+            "conditionInflictLegendary": [
+                "prone"
+            ],
+            "conditionInflictSpell": [],
+            "spellcasting": [],
+            "trait": [
+                {
+                    "name": "Bulk",
+                    "entries": [
+                        "Limit: 12,720 lbs. Average weight: 12,000 lbs."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/day)",
+                    "entries": [
+                        "If the dragon fails a saving throw, it can choose to succeed instead."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The dragon can use its slavering presence. It then makes three attacks; one with its bite and two with its claws."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "Melee Weapon Attack: +14 to hit, Reach 10 ft., one target. Hit: 19 (2d10 + 8) piercing damage plus 7 (2d6) either necrotic or force damage, dragon's choice. Necrotic damage Slims equal to twice the damage dealt and Fattens the dragon equally, force damage Fattens equal to twice the damage dealt."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "Melee Weapon Attack: +14 to hit, Reach 5 ft., one target. Hit: 15 (2d6 + 8) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "Melee Weapon Attack: +14 to hit, Reach 15 ft., one target. Hit: 17 (2d8 + 8) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Slavering Presence",
+                    "entries": [
+                        "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 20 Wisdom saving throw or become ravenous for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Slavering Presence for the next 24 hours."
+                    ]
+                },
+                {
+                    "name": "Breath Weapon {@recharge 5}",
+                    "entries": [
+                        "The dragon has two potential breath weapons that each use the same recharge. The dragon can choose either Siphoning Breath or Swelling Breath.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "name": "Siphoning Breath",
+                                    "entries": [
+                                        "The dragon exhales a 120-foot line of siphoning lipomantic energy that is 10 feet wide. Each creature in that area must make a DC 24 Dexterity saving throw, taking 63 (18d6) necrotic damage on a failed save, or half as much on a successful one. Affected creatures Slim equal to twice the damage dealt, and the dragon Fattens for the total number of pounds lost this way among all affected creatures."
+                                    ]
+                                },
+                                {
+                                    "name": "Swelling Breath",
+                                    "entries": [
+                                        "The dragon exhales Swelling lipomantic energy in a 90-foot cone. Each creatures in that area must make a DC 24 Dexterity saving throw, taking 63 (18d6) Force damage on a failed save, or half as much damage on a successful one. Each affected target Fattens for twice the damage dealt."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "legendary": [
+                {
+                    "name": "Detect",
+                    "entries": [
+                        "The dragon makes a Wisdom (Perception) check."
+                    ]
+                },
+                {
+                    "name": "Tail Attack",
+                    "entries": [
+                        "The dragon makes a tail attack."
+                    ]
+                },
+                {
+                    "name": "Wing Attack",
+                    "entries": [
+                        "(Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 22 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Young Lipomantic Dragon",
+            "source": "StorymakerExpanDnD",
+            "page": 123,
+            "size": "L",
+            "type": "dragon",
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 195,
+                "formula": "17d12+152"
+            },
+            "speed": {
+                "walk": 30,
+                "climb": 30,
+                "fly": 80
+            },
+            "str": 23,
+            "dex": 10,
+            "con": 22,
+            "int": 16,
+            "wis": 9,
+            "cha": 21,
+            "save": {
+                "str": "+10",
+                "con": "+10",
+                "int": "+7",
+                "cha": "+9"
+            },
+            "skill": {
+                "eating": "+14",
+                "perception": "+7"
+            },
+            "resist": [
+                "necrotic",
+                "force",
+                {
+                    "immune": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
+            "senses": [
+                "Blindsight 60 ft.",
+                "Darkvision 120 ft."
+            ],
+            "passive": 17,
+            "languages": [
+                "Common",
+                "Draconic"
+            ],
+            "cr": "10",
+            "environment": [],
+            "traitTags": [
+                
+            ],
+            "senseTags": [
+                "B",
+                "SD"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C",
+                "DR"
+            ],
+            "damageTags": [
+                "P",
+                "S",
+                "N",
+                "F"
+            ],
+            "spellcastingTags": [],
+            "miscTags": [],
+            "conditionInflict": [
+            ],
+            "conditionInflictSpell": [],
+            "spellcasting": [],
+            "trait": [
+                {
+                    "name": "Bulk",
+                    "entries": [
+                        "Limit: 2,700 lbs. Average weight: 2,500 lbs."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The dragon makes three attacks; one with its bite and two with its claws."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "Melee Weapon Attack: +10 to hit, Reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage plus 3 (1d6) either necrotic or force damage, dragon's choice. Necrotic damage Slims equal to twice the damage dealt and Fattens the dragon equally, force damage Fattens equal to twice the damage dealt."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "Melee Weapon Attack: +10 to hit, Reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Breath Weapon {@recharge 5}",
+                    "entries": [
+                        "The dragon has two potential breath weapons that each use the same recharge. The dragon can choose either Siphoning Breath or Swelling Breath.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "name": "Siphoning Breath",
+                                    "entries": [
+                                        "The dragon exhales a 120-foot line of siphoning lipomantic energy that is 10 feet wide. Each creature in that area must make a DC 24 Dexterity saving throw, taking 56 (16d6) necrotic damage on a failed save, or half as much on a successful one. Affected creatures Slim equal to twice the damage dealt, and the dragon Fattens for the total number of pounds lost this way among all affected creatures."
+                                    ]
+                                },
+                                {
+                                    "name": "Swelling Breath",
+                                    "entries": [
+                                        "The dragon exhales Swelling lipomantic energy in a 90-foot cone. Each creatures in that area must make a DC 24 Dexterity saving throw, taking 56 (16d6) Force damage on a failed save, or half as much damage on a successful one. Each affected target Fattens for twice the damage dealt."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Lipomantic Wyrmling",
+            "source": "StorymakerExpanDnD",
+            "page": 123,
+            "size": "M",
+            "type": "dragon",
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 15,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 85,
+                "formula": "10d8+40"
+            },
+            "speed": {
+                "walk": 20,
+                "climb": 20,
+                "fly": 60
+            },
+            "str": 19,
+            "dex": 10,
+            "con": 18,
+            "int": 14,
+            "wis": 9,
+            "cha": 17,
+            "save": {
+                "str": "+6",
+                "con": "+6",
+                "int": "+4",
+                "cha": "+5"
+            },
+            "skill": {
+                "eating": "+8",
+                "perception": "+3"
+            },
+            "resist": [
+                "necrotic",
+                "force"
+            ],
+            "senses": [
+                "Blindsight 10 ft.",
+                "Darkvision 60 ft."
+            ],
+            "passive": 13,
+            "languages": [
+                "Draconic"
+            ],
+            "cr": "4",
+            "environment": [],
+            "traitTags": [
+                
+            ],
+            "senseTags": [
+                "B",
+                "SD"
+            ],
+            "actionTags": [
+            ],
+            "languageTags": [
+                "DR"
+            ],
+            "damageTags": [
+                "P",
+                "N",
+                "F"
+            ],
+            "spellcastingTags": [],
+            "miscTags": [],
+            "conditionInflict": [
+            ],
+            "conditionInflictSpell": [],
+            "spellcasting": [],
+            "trait": [
+                {
+                    "name": "Bulk",
+                    "entries": [
+                        "Limit: 555 lbs. Average weight: 450 lbs."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "Melee Weapon Attack: +6 to hit, Reach 5 ft., one target. Hit: 9 (1d10 + 4) piercing damage plus 3 (1d6) either necrotic or force damage, dragon's choice. Necrotic damage Slims equal to twice the damage dealt and Fattens the dragon equally, force damage Fattens equal to twice the damage dealt."
+                    ]
+                },
+                {
+                    "name": "Breath Weapon {@recharge 5}",
+                    "entries": [
+                        "The dragon has two potential breath weapons that each use the same recharge. The dragon can choose either Siphoning Breath or Swelling Breath.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "name": "Siphoning Breath",
+                                    "entries": [
+                                        "The dragon exhales a 120-foot line of siphoning lipomantic energy that is 10 feet wide. Each creature in that area must make a DC 24 Dexterity saving throw, taking 24 (7d6) necrotic damage on a failed save, or half as much on a successful one. Affected creatures Slim equal to twice the damage dealt, and the dragon Fattens for the total number of pounds lost this way among all affected creatures."
+                                    ]
+                                },
+                                {
+                                    "name": "Swelling Breath",
+                                    "entries": [
+                                        "The dragon exhales Swelling lipomantic energy in a 90-foot cone. Each creatures in that area must make a DC 24 Dexterity saving throw, taking 24 (7d6) Force damage on a failed save, or half as much damage on a successful one. Each affected target Fattens for twice the damage dealt."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ancient Myomantic Dragon",
+            "source": "StorymakerExpanDnD",
+            "page": 124,
+            "size": "G",
+            "type": "dragon",
+            "alignment": [
+                "L",
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 22,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 533,
+                "formula": "26d20+260"
+            },
+            "speed": {
+                "walk": 50,
+                "climb": 50,
+                "fly": 100
+            },
+            "str": 34,
+            "dex": 10,
+            "con": 30,
+            "int": 12,
+            "wis": 14,
+            "cha": 28,
+            "save": {
+                "str": "+19",
+                "dex": "+7",
+                "con": "+17",
+                "cha": "+16"
+            },
+            "skill": {
+                "athletics": "+26",
+                "eating": "+24",
+                "perception": "+16"
+            },
+            "immune": [
+                {
+                    "immune": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
+            "resist": [
+                "thunder"
+            ],
+            "senses": [
+                "Blindsight 60 ft.",
+                "Darkvision 120 ft."
+            ],
+            "passive": 26,
+            "languages": [
+                "Common",
+                "Draconic"
+            ],
+            "cr": "23",
+            "environment": [],
+            "traitTags": [
+                "Legendary Resistance"
+            ],
+            "senseTags": [
+                "B",
+                "SD"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C",
+                "DR"
+            ],
+            "damageTags": [
+                "P",
+                "S",
+                "B",
+                "T"
+            ],
+            "spellcastingTags": [],
+            "miscTags": [],
+            "conditionInflict": [
+                "charmed"
+            ],
+            "conditionInflictLegendary": [
+                "prone"
+            ],
+            "conditionInflictSpell": [],
+            "spellcasting": [],
+            "trait": [
+                {
+                    "name": "Bulk",
+                    "entries": [
+                        "Limit: 100,000 lbs. Average weight: 40,000 lbs., mostly muscle"
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/day)",
+                    "entries": [
+                        "If the dragon fails a saving throw, it can choose to succeed instead."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The dragon can use its awesome presence. It then makes three attacks; one with its bite and two with its claws."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "Melee Weapon Attack: +19 to hit, Reach 15 ft., one target. Hit: 23 (2d10 + 12) piercing damage plus 11 (2d10) thunder damage. The target either Swells or Shrinks equal to twice the damage dealt, the dragon's choice."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "Melee Weapon Attack: +19 to hit, Reach 10 ft., one target. Hit: 19 (2d6 + 12) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "Melee Weapon Attack: +17 to hit, Reach 20 ft., one target. Hit: 19 (2d8 + 10) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Awesome Presence",
+                    "entries": [
+                        "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Charisma saving throw or become charmed by the dragon for 1 minute. A creature can repeat the saving throw at the end of each of its turns or if the dragon or its allies deal damage to it, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Awesome Presence for the next 24 hours.",
+                        "While charmed in this way, creatures are drawn to worship the dragon's muscularity and serve it in the hopes of receiving more impressive muscles of their own, even fighting their old allies at the dragon's command."
+                    ]
+                },
+                {
+                    "name": "Mighty Breath {@recharge 5}",
+                    "entries": [
+                        "The dragon exhales thunderous force in a 90-foot cone. Each creature in that area must make a DC 23 Constitution Saving Throw, taking 88 (16d10) thunder damage on a failed save, or half as much on a successful one. Affected targets either swell or shrink equal to twice the damage dealt, the dragon's choice."
+                    ]
+                },
+                {
+                    "name": "Pump You Up",
+                    "entries": [
+                        "The Dragon chooses one creature under the effects of its Awesome Presence within 60 feet. That creature swells by 20d10 pounds. It must then make a DC 21 Charisma saving throw. On a failure, the duration of the charm effect extends by 24 hours, and the target no longer makes saves at the end of each of its turns for the duration. This can only affect a creature once every 12 hours."
+                    ]
+                }
+            ],
+            "legendary": [
+                {
+                    "name": "Detect",
+                    "entries": [
+                        "The dragon makes a Wisdom (Perception) check."
+                    ]
+                },
+                {
+                    "name": "Tail Attack",
+                    "entries": [
+                        "The dragon makes a tail attack."
+                    ]
+                },
+                {
+                    "name": "Wing Attack",
+                    "entries": [
+                        "(Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 23 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Adult Myomantic Dragon",
+            "source": "StorymakerExpanDnD",
+            "page": 125,
+            "size": "H",
+            "type": "dragon",
+            "alignment": [
+                "L",
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 19,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 261,
+                "formula": "18d12+144"
+            },
+            "speed": {
+                "walk": 50,
+                "climb": 50,
+                "fly": 100
+            },
+            "str": 30,
+            "dex": 10,
+            "con": 26,
+            "int": 10,
+            "wis": 12,
+            "cha": 26,
+            "save": {
+                "str": "+15",
+                "con": "+13",
+                "int": "+5",
+                "cha": "+13"
+            },
+            "skill": {
+                "athletics": "+20",
+                "eating": "+18",
+                "perception": "+11"
+            },
+            "immune": [
+                {
+                    "immune": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
+            "resist": [
+                "thunder"
+            ],
+            "senses": [
+                "Blindsight 60 ft.",
+                "Darkvision 120 ft."
+            ],
+            "passive": 21,
+            "languages": [
+                "Common",
+                "Draconic"
+            ],
+            "cr": "16",
+            "environment": [],
+            "traitTags": [
+                "Legendary Resistance"
+            ],
+            "senseTags": [
+                "B",
+                "SD"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C",
+                "DR"
+            ],
+            "damageTags": [
+                "P",
+                "S",
+                "B",
+                "T"
+            ],
+            "spellcastingTags": [],
+            "miscTags": [],
+            "conditionInflict": [
+                "charmed"
+            ],
+            "conditionInflictLegendary": [
+                "prone"
+            ],
+            "conditionInflictSpell": [],
+            "spellcasting": [],
+            "trait": [
+                {
+                    "name": "Bulk",
+                    "entries": [
+                        "Limit: 15,000 lbs. Average weight: 5,500 lbs., mostly muscle"
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/day)",
+                    "entries": [
+                        "If the dragon fails a saving throw, it can choose to succeed instead."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The dragon can use its awesome presence. It then makes three attacks; one with its bite and two with its claws."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "Melee Weapon Attack: +15 to hit, Reach 10 ft., one target. Hit: 21 (2d10 + 10) piercing damage plus 5 (1d10) thunder damage. The target either Swells or Shrinks equal to twice the damage dealt, the dragon's choice."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "Melee Weapon Attack: +15 to hit, Reach 5 ft., one target. Hit: 17 (2d6 + 10) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "Melee Weapon Attack: +15 to hit, Reach 15 ft., one target. Hit: 19 (2d8 + 10) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Awesome Presence",
+                    "entries": [
+                        "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 18 Charisma saving throw or become charmed by the dragon for 1 minute. A creature can repeat the saving throw at the end of each of its turns or if the dragon or its allies deal damage to it, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Awesome Presence for the next 24 hours.",
+                        "While charmed in this way, creatures are drawn to worship the dragon's muscularity and serve it in the hopes of receiving more impressive muscles of their own, even fighting their old allies at the dragon's command."
+                    ]
+                },
+                {
+                    "name": "Mighty Breath {@recharge 5}",
+                    "entries": [
+                        "The dragon exhales thunderous force in a 90-foot cone. Each creature in that area must make a DC 19 Constitution Saving Throw, taking 66 (12d10) thunder damage on a failed save, or half as much on a successful one. Affected targets either swell or shrink equal to twice the damage dealt, the dragon's choice."
+                    ]
+                },
+                {
+                    "name": "Pump You Up",
+                    "entries": [
+                        "The Dragon chooses one creature under the effects of its Awesome Presence within 60 feet. That creature swells by 20d10 pounds. It must then make a DC 18 Charisma saving throw. On a failure, the duration of the charm effect extends by 24 hours, and the target no longer makes saves at the end of each of its turns for the duration. This can only affect a creature once every 12 hours."
+                    ]
+                }
+            ],
+            "legendary": [
+                {
+                    "name": "Detect",
+                    "entries": [
+                        "The dragon makes a Wisdom (Perception) check."
+                    ]
+                },
+                {
+                    "name": "Tail Attack",
+                    "entries": [
+                        "The dragon makes a tail attack."
+                    ]
+                },
+                {
+                    "name": "Wing Attack",
+                    "entries": [
+                        "(Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 22 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Young Myomantic Dragon",
+            "source": "StorymakerExpanDnD",
+            "page": 126,
+            "size": "L",
+            "type": "dragon",
+            "alignment": [
+                "L",
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 18,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 184,
+                "formula": "16d10+144"
+            },
+            "speed": {
+                "walk": 50,
+                "climb": 50,
+                "fly": 100
+            },
+            "str": 26,
+            "dex": 10,
+            "con": 22,
+            "int": 8,
+            "wis": 10,
+            "cha": 24,
+            "save": {
+                "str": "+12",
+                "con": "+10",
+                "int": "+3",
+                "cha": "+11"
+            },
+            "skill": {
+                "athletics": "+16",
+                "eating": "+14",
+                "perception": "+8"
+            },
+            "resist": [
+                "thunder",
+                {
+                    "immune": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
+            "senses": [
+                "Blindsight 30 ft.",
+                "Darkvision 120 ft."
+            ],
+            "passive": 18,
+            "languages": [
+                "Common",
+                "Draconic"
+            ],
+            "cr": "9",
+            "environment": [],
+            "traitTags": [
+            ],
+            "senseTags": [
+                "B",
+                "SD"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C",
+                "DR"
+            ],
+            "damageTags": [
+                "P",
+                "S",
+                "T"
+            ],
+            "spellcastingTags": [],
+            "miscTags": [],
+            "conditionInflict": [
+            ],
+            "conditionInflictSpell": [],
+            "spellcasting": [],
+            "trait": [
+                {
+                    "name": "Bulk",
+                    "entries": [
+                        "Limit: 3,200 lbs. Average weight: 1,300 lbs., mostly muscle"
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The dragon makes three attacks; one with its bite and two with its claws."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "Melee Weapon Attack: +15 to hit, Reach 10 ft., one target. Hit: 19 (2d10 + 8) piercing damage plus 5 (1d10) thunder damage. The target either Swells or Shrinks equal to twice the damage dealt, the dragon's choice."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "Melee Weapon Attack: +15 to hit, Reach 5 ft., one target. Hit: 15 (2d6 + 8) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Mighty Breath {@recharge 5}",
+                    "entries": [
+                        "The dragon exhales thunderous force in a 90-foot cone. Each creature in that area must make a DC 19 Constitution Saving Throw, taking 55 (10d10) thunder damage on a failed save, or half as much on a successful one. Affected targets either swell or shrink equal to twice the damage dealt, the dragon's choice."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Myomantic Wyrmling",
+            "source": "StorymakerExpanDnD",
+            "page": 126,
+            "size": "M",
+            "type": "dragon",
+            "alignment": [
+                "L",
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 17,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 68,
+                "formula": "8d8+32"
+            },
+            "speed": {
+                "walk": 40,
+                "climb": 40,
+                "fly": 60
+            },
+            "str": 22,
+            "dex": 10,
+            "con": 18,
+            "int": 6,
+            "wis": 8,
+            "cha": 22,
+            "save": {
+                "str": "+8",
+                "con": "+6",
+                "int": "+0",
+                "cha": "+8"
+            },
+            "skill": {
+                "athletics": "+10",
+                "eating": "+8",
+                "perception": "+2"
+            },
+            "resist": [
+                "thunder"
+            ],
+            "senses": [
+                "Blindsight 10 ft.",
+                "Darkvision 60 ft."
+            ],
+            "passive": 12,
+            "languages": [
+                "Draconic"
+            ],
+            "cr": "3",
+            "environment": [],
+            "traitTags": [
+            ],
+            "senseTags": [
+                "B",
+                "SD"
+            ],
+            "actionTags": [
+            ],
+            "languageTags": [
+                "DR"
+            ],
+            "damageTags": [
+                "P",
+                "T"
+            ],
+            "spellcastingTags": [],
+            "miscTags": [],
+            "conditionInflict": [
+            ],
+            "conditionInflictSpell": [],
+            "spellcasting": [],
+            "trait": [
+                {
+                    "name": "Bulk",
+                    "entries": [
+                        "Limit: 700 lbs. Average weight: 325 lbs., mostly muscle"
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "Melee Weapon Attack: +6 to hit, Reach 5 ft., one target. Hit: 11 (1d10 + 6) piercing damage plus 3 (1d6) thunder damage. The target either Swells or Shrinks equal to twice the damage dealt, the dragon's choice."
+                    ]
+                },
+                {
+                    "name": "Mighty Breath {@recharge 5}",
+                    "entries": [
+                        "The dragon exhales thunderous force in a 90-foot cone. Each creature in that area must make a DC 19 Constitution Saving Throw, taking 22 (4d10) thunder damage on a failed save, or half as much on a successful one. Affected targets either swell or shrink equal to twice the damage dealt, the dragon's choice."
+                    ]
+                }
+            ]
+        }
     ]
 }
