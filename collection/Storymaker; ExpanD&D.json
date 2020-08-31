@@ -14537,5 +14537,313 @@
                 }
             ]
         }
+    ],
+    "item": [
+        {
+            "name": "Battle Burrito",
+            "source": "StorymakerExpanDnD",
+            "page": 109,
+            "type": "FD",
+            "rarity": "rare",
+            "entries": [
+                "For the next minute, you gain the following bonuses:",
+                {
+                    "type": "list",
+                    "items": [
+                        "+2 to your Armor Class.",
+                        "+1 to attack and damage rolls made with weapon attacks.",
+                        "+10 temporary Hit Points."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Brutal Bun",
+            "source": "StorymakerExpanDnD",
+            "page": 109,
+            "type": "FD",
+            "rarity": "uncommon",
+            "entries": [
+                "Upon comsumption: For the next 2d4+1 rounds, when you use your action to take the Attack action, you may make an additional attack using your bonus action."
+            ]
+        },
+        {
+            "name": "Cleansing Creampuff",
+            "source": "StorymakerExpanDnD",
+            "page": 109,
+            "type": "FD",
+            "rarity": "uncommon",
+            "entries": [
+                "Upon consumption, the imbiber may end one of the following conditions afflicting them: blinded, deafened, frightened, or poisoned."
+            ]
+        },
+        {
+            "name": "Clothes of Holding",
+            "source": "StorymakerExpanDnD",
+            "page": 109,
+            "wondrous": true,
+            "rarity": "rare",
+            "entries": [
+                "This finely worked set of clothes will fit anyone, always working to mold their wearer's figure in a flattering fashion. While you wear these, your effective weight is decreased by up to 500 lbs, not to exceed racial limits. This does not decrease your actual weight; any effects that increase your weight function normally, but do not have any apparent effect unless it exceeds the ability of the clothes of holding to hide."
+            ]
+        },
+        {
+            "name": "Everlasting Trail Ration",
+            "source": "StorymakerExpanDnD",
+            "page": 109,
+            "wondrous": true,
+            "rarity": "common",
+            "entries": [
+                "This unassuming trail ration is a pressed log of nuts, dried berries, and smoked meat, all held together with a suet-like substance and weighing 1 lb. If eaten slowly, this trail ration can regenerate itself back to its original size. It can provide up to 4 lbs of normal food if eaten gradually over the course of an entire day. If eaten all at once, it continues to regenerate while in the creature's stomach, adding 4 lbs of normal food to their next diet calculation."
+            ]
+        },
+        {
+            "name": "Feasting Table",
+            "source": "StorymakerExpanDnD",
+            "page": 109,
+            "wondrous": true,
+            "rarity": "very rare",
+            "entries": [
+                "This tiny object looks like a miniature sculpting of a feast table laden with food. When its command word is spoken and the item is thrown on the ground, it expands into a life-size table laden with an impressive spread of delicious food and drink. The item functions as the spell Heroes' Feast.",
+                "An individual need only eat 10 pounds of food from the table to gain the benefits of the Heroes' Feast spell, but the food is not only very fattening, it is enchanting. Any creatures sitting down to eat at this table must make a DC 18 Wisdom Saving throw. If they succeed, they may eat as much as they want from the table. If they fail, they are compelled to continue eating until all of the food on the table is gone. There are 200 pounds of food on the table, and each pound of food consumed adds 1 pounds of fat to the partaker and is digested instantly, preventing the consumer from stuffing themselves past fullness.",
+                "Once the item has been used and the hour duration of the feast is up, the item cannot be used again for two days."
+            ]
+        },
+        {
+            "name": "Fleet Flan",
+            "source": "StorymakerExpanDnD",
+            "page": 109,
+            "type": "FD",
+            "rarity": "uncommon",
+            "entries": [
+                "Upon comsumption: For the next 2d4+1 rounds, you may take the Dash or Disengage action as a bonus action."
+            ]
+        },
+        {
+            "name": "Girdle of Slimming",
+            "source": "StorymakerExpanDnD",
+            "page": 109,
+            "wondrous": true,
+            "rarity": "uncommon, rare, very rare",
+            "entries": [
+                "This wide belt of fine leather is decorated with graceful concave lines, arcing inwards towards the buckle. When the belt is put on, the wearer may attempt to achieve a specific weight. The belt reduces the wearer's apparent weight by up to a maximum of (100/200/300) lbs. This effect lasts until the belt is taken off, at which point the wearer returns to their actual size.",
+                "In addition, while this belt is worn, it will absorb energy from consumed food to aid the wearer in staying slim. Each Diet point of food eaten is instead converted into charges on the belt. The belt can contain (5/10/15) charges, and sheds (1d6+1 / 2d6+2 / 3d6+3) charges after each long rest. If the belt absorbs more charges than its limit, it absorbs all food in the wearer's stomach and is then immediately destroyed. The wearer immediately Fattens equal to the number of charges in the destroyed belt."
+            ]
+        },
+        {
+            "name": "Girdle of Fattening",
+            "source": "StorymakerExpanDnD",
+            "page": 109,
+            "wondrous": true,
+            "rarity": "rare",
+            "curse": true,
+            "entries": [
+                "This belt looks very similar to a Girdle of Slimming and an identify spell will initially classify it as such, but the decorative designs on it tend to bend away from the buckle. When the belt is put on, it immediately reduces the apparent weight as though it were a Girdle of Slimming.",
+                "While this belt is worn, it augments the amount of food consumed by the wearer. Every pound of food consumed by the wearer gains 1 additional Diet point, consuming 1 charge from the belt. The belt contains 10 charges and regenerates 1d6+4 charges after each long rest."
+            ]
+        },
+        {
+            "name": "Goodberry Pie",
+            "source": "StorymakerExpanDnD",
+            "page": 109,
+            "type": "FD",
+            "rarity": "common",
+            "entries": [
+                "Each of the 10 slices of this delicious pie causes the consumer to gain 2d20 pounds of fat."
+            ]
+        },
+        {
+            "name": "Mystic Meringue",
+            "source": "StorymakerExpanDnD",
+            "page": 110,
+            "type": "FD",
+            "rarity": "uncommon",
+            "entries": [
+                "Upon comsumption: For the next minute, gain the following bonuses:",
+                {
+                    "type": "list",
+                    "items": [
+                        "+1 to the saving throw DC of your spells.",
+                        "+1 to spell attack rolls."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Porcine Periapt",
+            "source": "StorymakerExpanDnD",
+            "page": 110,
+            "wondrous": true,
+            "rarity": "uncommon",
+            "entries": [
+                "This necklace consists of a fine golden chain holding a small amulet. Upon the amulet is engraved a cute stylized pig. While the necklace is worn, the bearer may consume up to twice their normal passive limit before rolling to overeat."
+            ]
+        },
+        {
+            "name": "Restorative Ointment",
+            "source": "StorymakerExpanDnD",
+            "page": 110,
+            "wondrous": true,
+            "rarity": "rare",
+            "entries": [
+                "This small metal tin contains a thick, creamy, tan, ointment that smells faintly of sweet botanicals and can be used in a multitude of ways. With each use, the target gains 1d6 pounds. Each full tin contains 5 doses. As an action you may expend 1 dose to do one of the following:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Antitoxin - When applied to a poisoned creature, they gain advantage on all checks against the poison.",
+                        "Antibiotic - When applied to a diseased creature, it removes disease.",
+                        "Salve - When rubbed into a wound, the creature heals 4d4+4 hit points.",
+                        "Nutritional supplement – When consumed by a healthy creature, they immediately gain 4d4 pounds. This is in addition to the 1d6 pounds gained from usage."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Slimming Celery",
+            "source": "StorymakerExpanDnD",
+            "page": 110,
+            "type": "FD",
+            "rarity": "common",
+            "entries": [
+                "This stalk of celery is easily broken into 10 pieces, that each cause a consuming character to lose 2d20 pounds when eaten."
+            ]
+        },
+        {
+            "name": "Swift Souffle",
+            "source": "StorymakerExpanDnD",
+            "page": 110,
+            "type": "FD",
+            "rarity": "uncommon",
+            "entries": [
+                "For the next 2d4+1 rounds, the consumer's movement speed is increased by 20 feet."
+            ]
+        },
+        {
+            "name": "Symbol of Gluttonous Faith",
+            "source": "StorymakerExpanDnD",
+            "page": 110,
+            "wondrous": true,
+            "rarity": "very rare",
+            "reqAttune": "by a cleric or paladin",
+            "entries": [
+                "This immaculately worked holy symbol has had an unusual amount of care lavished on its construction and ornamentation, and seems to almost glow with its own light. While wielding this holy symbol, all spell attacks gain +1, and all spell DCs are raised by 1; however, the wielder has disadvantage on saving throws to resist effects that would force the wielder to consume food."
+            ]
+        },
+        {
+            "name": "Tough Tart",
+            "source": "StorymakerExpanDnD",
+            "page": 110,
+            "type": "FD",
+            "rarity": "uncommon",
+            "entries": [
+                "Upon consumption, the character gains Temporary Hit Points equal to their Character Level plus their Constitution modifier (minimum 1)."
+            ]
+        },
+        {
+            "name": "Swollen Sweetroll",
+            "source": "StorymakerExpanDnD",
+            "page": 110,
+            "type": "FD",
+            "rarity": "very rare",
+            "curse": true,
+            "entries": [
+                "Upon consumption of this delicious sweetroll, the creature must make a Constitution Saving Throw (DC 17) or be fattened to immobility. If the creature does not have a bulk threshold, or is already immobile, they instead gain 20d100 pounds of fat."
+            ]
+        },
+        {
+            "name": "Feasting Food",
+            "source": "StorymakerExpanDnD",
+            "page": 110,
+            "type": "FD",
+            "rarity": "uncommon",
+            "curse": true,
+            "entries": [
+                "This cursed food item can appear to be any normal type of food. Upon conscumption however, the creature enters a frenzied, hungering state, seeking out any food in the vicinity to devour. A creature consuming the Feasting Food must make a Charisma Saving Throw (DC 14) or become Charmed by the food. While charmed in this way, the creature must immediately seek out and consume any food they can find. This includes any food they may be able to summon through spells such as create fattening food and drink, which they will create when they run out of other food to consume if they are still under the food's effect by that point.",
+                "Any and all food eaten during this state is instantly digested, adding their diet points to the creature's total, but also immediately adding 1d4 pounds of fat to the creature's body per pound of food consumed.",
+                "This state lasts for up to 10 minutes, or until the creature is immobilized."
+            ]
+        },
+        {
+            "name": "Arc Carver",
+            "source": "StorymakerExpanDnD",
+            "page": 111,
+            "type": "M",
+            "rarity": "artifact",
+            "reqAttune": true,
+            "baseItem": "longsword|PHB",
+            "weaponCategory": "martial",
+            "weapon": true,
+            "entries": [
+                "A weapon as ancient as the art it helped birth, Arc Carver's name is etched in history alongside its eternal wielder, the legendary Narce, mother of Lipomancy. Crafted from a fragment of the raw essence of magic, shaped by the iron will of Narce herself, Arc Carver is a peerless weapon from whom the very first spells of Lipomancy were drawn, the inspiration behind the art itself. The weapon is too powerful in its true, unrestrained state for even Narce to wield indefinitely, and so she crafted it with layers of restrictions and suppressing power that can only be unleashed when one of comparable will to the Lich Queen herself holds the blade in their hands.",
+                "In its dormant state, the weapon is scarcely more notable than a regular longsword, the only thing distinguishing it from its more mundane kindred being the intricate runes carved along the length of the blade. Even in this state, however, the weapon is deadly, carving through enemies with an arc of lightning that leaves foes charred in its wake.",
+                "As its true power is unleashed, however, the weapon grows not just in strength but in grandeur, becoming more impressive, its styling more opulent, and in its semi-released form, it appears to be a sword of incredible artistry, its blade becoming jagged like the lightning it is formed of, its magic beginning to seep out of the blade on its own, affecting everything around it. At this point the weapon will go wild if not kept in check by someone of incredible force of personality, its raw magic lashing out, the essence of lipomancy both made from it and made into it causing wild transformation of living creatures within its reach.",
+                "All of this, however, pales in comparison to the power upon its full release. In its true, untethered state, it scarcely even resembles a blade anymore, instead having more in common with a living bolt of lightning attached to a hilt, writhing and lashing about under its own power. At this point not even Narce can fully contain its energies, and the weapon lashes out at everything around it, chaotically warping the landscape and the creatures its power can reach, its sheer chaotic energy on full display.",
+                "It is said that just witnessing this blade in its full potential inspired Narce, and just her momentary glimpse of its power lead to the development of the Flabshock cantrip, the very first of the lipomantic spells that would be drawn from the study of this blade's chaotic power over flesh and matter, life and energy. It is a weapon that even gods have taken note of, and its power has echoed through the halls of so many realms beyond the material, that the spells and abilities it inspired have been found in the divine blessings of gods and demons unto their clerics and warlocks.",
+                "More than Narce herself, this blade is the origin of Lipomancy.",
+                {
+                    "type": "entries",
+                    "name": "Sealed",
+                    "entries": [
+                        "In its sealed state, the Arc Carver has the following properties:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "A +3 bonus to attack and damage rolls.",
+                                "4 minor beneficial properties.",
+                                "2 major beneficial properties.",
+                                "4 minor detrimental properties.",
+                                "2 major detrimental properties.",
+                                "Attacks made with this weapon can be made using the attacker's Strength, Dexterity, or Intelligence modifier for attack and damage.",
+                                "The weapon traces with lipomantic lightning drawn from not only the weapon, but its wielder's connection to it, causing all successful hits to deal an additional 2d6 + the Wielder's Constitution modifier points of Lightning damage, and causing targets hit to Fatten equal to the Lightning damage dealt in this way.",
+                                "{@b Lipomantic Charges.} The weapon forms a symbiotic relationship with its wielder, siphoning its lipomantic energy into charges that the wielder can use in a number of ways. The Weapon has a maximum number of charges equal to a combination of its wielder's Charisma and Constitution Modifiers, and regains 1d6 charges each day at dawn. The wielder can also charge the weapon with their own lipomantic energy, suffering 2d6 points of Necrotic damage that ignore damage resistance and losing a number of pounds of fat equal to twice that number, causing the weapon to regain Lipomantic Charges equal to half that number. Performing this sacrifice takes an Action.",
+                                "{@b Invoke Lipomancy.} Arc Carver's Wielder can expend Lipomantic Charges to cast certain spells at their lowest spell level, ignoring material components; the spells available and the number of charges required to cast them are as follows: Burn Fat (1 charge), Chaotic Corpulence (1 charge), Heavy Smite (2 charges), Modify Metabolism (2 charges), Asset Barrier (2 charges), Immobilize Person (3 charges), Narce's Fatness Arrow (3 charges), Siphoning Smite (3 charges)",
+                                "{@b Fuel Magic.} Arc Carver's Wielder can expend Lipomantic Charges to heighten the level of a spell being cast by its wielder using their own spell slots or Arc Carver's Invoke Lipomancy ability at a cost of 3 Lipomantic Charges per spell level beyond the spell's base level.",
+                                "{@b Unleash Potential.} The Wielder can attempt to unleash Arc Carver into its next state by making a Charisma Ability Check (DC 25). On a success, the weapon advances to its next stage of release. On a failure, the weapon refuses its release and the wielder cannot attempt to release it again until the weapon is ready. Roll a D6 at the beginning of each of the wielder's turns. On a 5 or a 6, the weapon is ready to attempt to unleash again."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Partial Release",
+                    "entries": [
+                        "In its partially released state, the Arc Carver retains all properties of its sealed state and gains the following:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "The bonus to attack and damage rolls increases to +4.",
+                                "The Lightning damage the weapon deals increases to 4d6 + the wielder's Constitution or Charisma modifier, whichever is higher.",
+                                "The Weapon's maximum Lipomantic Charges increase by an amount equal to the wielder's Proficiency bonus.",
+                                "The damage the wielder can suffer to restore Lipomantic charges increases to 4d6 points of Necrotic damage.",
+                                "{@b Lipomantic Backlash.} The Wielder must make a Charisma Saving Throw (DC 25) at the beginning of each of their turns or suffer 4d6 points of Necrotic Damage that ignore damage resistance and immunity and lose a number of pounds of fat equal to twice that amount.",
+                                "The Following Spells are added to the list of spells available using the Invoke Lipomancy ability: Abyssal Stomach (3 charges), Bloat (3 charges), Drain (3 charges), Expanding Edict (3 charges), Fat Feedback (4 charges) Hypnotic Hunter (4 charges), Redirect Repast (4 charges), Embulking Smite (4 charges), Fatball (5 charges), Amazonian Figure (5 charges), Immobilize Monster (5 charges), Fat Surge (6 charges), Fist of the Feeding Star (6 charges)",
+                                "{@b Lipomantic Sense.} In this state, the Wielder of Arc Carver is in tune with the essence of lipomancy. They can tell by looking at a creature what their current weight is, how much of it is fat or muscle, whether they have a bulk limit and if so, what it is, how much food is in their stomach, and how many diet or exercise points they currently have in their metabolism.",
+                                "{@b Lipomantic Infusion.} The powers of Lipomancy course through the wielder, doubling their Bulk Limits and giving them control over their own metabolism, allowing them to digest a number of pounds of food in their stomach equal to their Proficiency bonus as a bonus action. They get to decide whether the diet points from any food digested this way enters their metabolism or not, and they may also choose to turn those diet points into exercise points.",
+                                "{@b Leash the Storm.} The Wielder can attempt to leash Arc Carver into its previous state by making a Charisma Ability Check (DC 25). On a success, the weapon regresses to its previous stage of release. On a failure, the weapon refuses its leashing and the wielder cannot attempt to leash it again until the weapon is ready. Roll a D6 at the beginning of each of the wielder's turns, on a 5 or a 6, the weapon is ready to be leashed again. The Wielder can also pay a price if they fail the roll to automatically succeed. Doing so causes them to take Arc Carver's Lipomantic Backlash damage, only they lose a number of pounds of fat equal to ten times the damage dealt, and they also gain a point of exhaustion."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Unleashed",
+                    "entries": [
+                        "In its Unleashed state, the Arc Carver retains all properties of its previous two states and gains the following:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "The bonus to attack and damage rolls increases to +5.",
+                                "The Lightning damage the weapon deals increases to 6d6 + the wielder's Constitution AND Charisma modifiers.",
+                                "The Weapon's maximum Lipomantic Charges increase by an amount equal to half the wielder's maximum hit dice.",
+                                "The damage the wielder can suffer to restore Lipomantic charges, and the damage of Lipomantic Backlash both increase to 6d6 points of Necrotic damage.",
+                                "The saving throw to resist Lipomantic Backlash increases to DC 30.",
+                                "The Following Spells are added to the list of spells available using the Invoke Lipomancy ability: Collapse (6 charges), Investiture of Fat (6 charges), Narce's Hypnotic Trance (6 charges), Raze Restraint (7 charges), Adipose Armor (8 charges), Cornucopia (8 charges) Dessert Storm (9 charges), Knights of the Round (10 charges), Sculpt Flesh (10 charges)",
+                                "{@b Avatar of Lipomancy.} The wielder of Arc Carver no longer has a bulk limit and has an infinite stomach capacity. As a bonus action, they can digest any amount of food in their stomach, choosing whether to accept any diet points the food provides into their system, and choosing whether to convert any of those diet points into exercise points. They can also use this ability on any willing creature they can touch."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
