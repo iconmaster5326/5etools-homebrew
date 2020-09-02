@@ -14909,7 +14909,6 @@
             "miscTags": [],
             "conditionInflict": [],
             "conditionInflictSpell": [],
-            "spellcasting": [],
             "trait": [
                 {
                     "name": "Bulk",
@@ -15048,7 +15047,6 @@
             "miscTags": [],
             "conditionInflict": [],
             "conditionInflictSpell": [],
-            "spellcasting": [],
             "trait": [
                 {
                     "name": "Bulk",
@@ -15213,7 +15211,6 @@
                 "prone"
             ],
             "conditionInflictSpell": [],
-            "spellcasting": [],
             "trait": [
                 {
                     "name": "Bulk",
@@ -15403,7 +15400,6 @@
                 "prone"
             ],
             "conditionInflictSpell": [],
-            "spellcasting": [],
             "trait": [
                 {
                     "name": "Bulk",
@@ -15561,9 +15557,7 @@
             ],
             "cr": "10",
             "environment": [],
-            "traitTags": [
-                
-            ],
+            "traitTags": [],
             "senseTags": [
                 "B",
                 "SD"
@@ -15583,10 +15577,8 @@
             ],
             "spellcastingTags": [],
             "miscTags": [],
-            "conditionInflict": [
-            ],
+            "conditionInflict": [],
             "conditionInflictSpell": [],
-            "spellcasting": [],
             "trait": [
                 {
                     "name": "Bulk",
@@ -15696,15 +15688,12 @@
             ],
             "cr": "4",
             "environment": [],
-            "traitTags": [
-                
-            ],
+            "traitTags": [],
             "senseTags": [
                 "B",
                 "SD"
             ],
-            "actionTags": [
-            ],
+            "actionTags": [],
             "languageTags": [
                 "DR"
             ],
@@ -15715,10 +15704,8 @@
             ],
             "spellcastingTags": [],
             "miscTags": [],
-            "conditionInflict": [
-            ],
+            "conditionInflict": [],
             "conditionInflictSpell": [],
-            "spellcasting": [],
             "trait": [
                 {
                     "name": "Bulk",
@@ -15857,7 +15844,6 @@
                 "prone"
             ],
             "conditionInflictSpell": [],
-            "spellcasting": [],
             "trait": [
                 {
                     "name": "Bulk",
@@ -16036,7 +16022,6 @@
                 "prone"
             ],
             "conditionInflictSpell": [],
-            "spellcasting": [],
             "trait": [
                 {
                     "name": "Bulk",
@@ -16184,8 +16169,7 @@
             ],
             "cr": "9",
             "environment": [],
-            "traitTags": [
-            ],
+            "traitTags": [],
             "senseTags": [
                 "B",
                 "SD"
@@ -16204,10 +16188,8 @@
             ],
             "spellcastingTags": [],
             "miscTags": [],
-            "conditionInflict": [
-            ],
+            "conditionInflict": [],
             "conditionInflictSpell": [],
-            "spellcasting": [],
             "trait": [
                 {
                     "name": "Bulk",
@@ -16300,14 +16282,12 @@
             ],
             "cr": "3",
             "environment": [],
-            "traitTags": [
-            ],
+            "traitTags": [],
             "senseTags": [
                 "B",
                 "SD"
             ],
-            "actionTags": [
-            ],
+            "actionTags": [],
             "languageTags": [
                 "DR"
             ],
@@ -16317,10 +16297,8 @@
             ],
             "spellcastingTags": [],
             "miscTags": [],
-            "conditionInflict": [
-            ],
+            "conditionInflict": [],
             "conditionInflictSpell": [],
-            "spellcasting": [],
             "trait": [
                 {
                     "name": "Bulk",
@@ -16340,6 +16318,2553 @@
                     "name": "Mighty Breath {@recharge 5}",
                     "entries": [
                         "The dragon exhales thunderous force in a 90-foot cone. Each creature in that area must make a DC 19 Constitution Saving Throw, taking 22 (4d10) thunder damage on a failed save, or half as much on a successful one. Affected targets either swell or shrink equal to twice the damage dealt, the dragon's choice."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ancient Noxious Dragon",
+            "source": "StorymakerExpanDnD",
+            "page": 127,
+            "size": "G",
+            "type": "dragon",
+            "alignment": [
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 21,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 451,
+                "formula": "22d20+220"
+            },
+            "speed": {
+                "walk": 40,
+                "swim": 40,
+                "fly": 80
+            },
+            "str": 26,
+            "dex": 10,
+            "con": 30,
+            "int": 20,
+            "wis": 16,
+            "cha": 18,
+            "save": {
+                "str": "+15",
+                "con": "+17",
+                "wis": "+10",
+                "cha": "+16"
+            },
+            "skill": {
+                "eating": "+24",
+                "insight": "+10",
+                "perception": "+16",
+                "persuasion": "+11"
+            },
+            "immune": [
+                {
+                    "immune": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
+            "resist": [
+                "poison"
+            ],
+            "conditionImmune": [
+                "poisioned"
+            ],
+            "senses": [
+                "Blindsight 60 ft.",
+                "Darkvision 120 ft."
+            ],
+            "passive": 27,
+            "languages": [
+                "Common",
+                "Draconic"
+            ],
+            "cr": "22",
+            "environment": [],
+            "traitTags": [
+                "Legendary Resistance",
+                "Amphibious"
+            ],
+            "senseTags": [
+                "B",
+                "SD"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C",
+                "DR"
+            ],
+            "damageTags": [
+                "P",
+                "S",
+                "B",
+                "I"
+            ],
+            "spellcastingTags": [],
+            "miscTags": [],
+            "conditionInflict": [
+                "bloated"
+            ],
+            "conditionInflictLegendary": [
+                "prone"
+            ],
+            "conditionInflictSpell": [],
+            "trait": [
+                {
+                    "name": "Bulk",
+                    "entries": [
+                        "Limit: 53,760 lbs. Average weight: 55,000 lbs."
+                    ]
+                },
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The dragon can breathe air and water."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/day)",
+                    "entries": [
+                        "If the dragon fails a saving throw, it can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Noxious Backlash",
+                    "entries": [
+                        "Whenever the dragon takes damage of any type but psychic, each creature within 10 feet of the dragon takes 10 (3d6) poison damage."
+                    ]
+                },
+                {
+                    "name": "Slob Plaguebearer",
+                    "entries": [
+                        "The dragon is a carrier of the Slob Plague. Its Bite, Noxious Backlash, and Noxious Breath all spread the disease to any creatures that are damaged by them, requiring a DC 19 Constitution saving throw to avoid contracting the disease. Subsequent spreads of the disease are also DC 19 to resist. The dragon itself is immune to the disease."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The dragon can use its noxious presence. It then makes three attacks; one with its bite and two with its claws."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "Melee Weapon Attack: +15 to hit, Reach 15 ft., one target. Hit: 19 (2d10 + 8) piercing damage plus 10 (3d6) poison damage."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "Melee Weapon Attack: +15 to hit, Reach 10 ft., one target. Hit: 15 (2d6 + 8) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "Melee Weapon Attack: +15 to hit, Reach 20 ft., one target. Hit: 17 (2d8 + 8) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Noxious Presence",
+                    "entries": [
+                        "Each creature of the dragon's choice that is within 120 feet of the dragon must succeed on a DC 19 Constitution saving throw or be bloated for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Noxious Presence for the next 24 hours.",
+                        "While bloated in this way, any damage a creature takes other than psychic damage causes them and any creatures other than the dragon within 10 feet of them to suffer the dragon's Noxious Backlash damage."
+                    ]
+                },
+                {
+                    "name": "Noxious Breath {@recharge 5}",
+                    "entries": [
+                        "The dragon exhales noxious gases in a 90-foot cone. Each creature in that area must make a DC 22 Constitution saving throw, taking 77 (22d6) poison damage on a failed save, or half as much damage on a successful one.",
+                        "Creatures that fail the saving throw also suffer the effects of the Slow spell until the start of the dragon's next turn."
+                    ]
+                }
+            ],
+            "legendary": [
+                {
+                    "name": "Detect",
+                    "entries": [
+                        "The dragon makes a Wisdom (Perception) check."
+                    ]
+                },
+                {
+                    "name": "Tail Attack",
+                    "entries": [
+                        "The dragon makes a tail attack."
+                    ]
+                },
+                {
+                    "name": "Wing Attack",
+                    "entries": [
+                        "(Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 23 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Adult Noxious Dragon",
+            "source": "StorymakerExpanDnD",
+            "page": 128,
+            "size": "H",
+            "type": "dragon",
+            "alignment": [
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 19,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 261,
+                "formula": "18d12+144"
+            },
+            "speed": {
+                "walk": 40,
+                "swim": 40,
+                "fly": 80
+            },
+            "str": 22,
+            "dex": 10,
+            "con": 26,
+            "int": 18,
+            "wis": 14,
+            "cha": 16,
+            "save": {
+                "str": "+11",
+                "con": "+13",
+                "wis": "+7",
+                "cha": "+8"
+            },
+            "skill": {
+                "eating": "+20",
+                "insight": "+8",
+                "perception": "+14",
+                "persuasion": "+9"
+            },
+            "immune": [
+                {
+                    "immune": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
+            "resist": [
+                "poison"
+            ],
+            "conditionImmune": [
+                "poisioned"
+            ],
+            "senses": [
+                "Blindsight 60 ft.",
+                "Darkvision 120 ft."
+            ],
+            "passive": 27,
+            "languages": [
+                "Common",
+                "Draconic"
+            ],
+            "cr": "15",
+            "environment": [],
+            "traitTags": [
+                "Legendary Resistance",
+                "Amphibious"
+            ],
+            "senseTags": [
+                "B",
+                "SD"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C",
+                "DR"
+            ],
+            "damageTags": [
+                "P",
+                "S",
+                "B",
+                "I"
+            ],
+            "spellcastingTags": [],
+            "miscTags": [],
+            "conditionInflict": [
+                "bloated"
+            ],
+            "conditionInflictLegendary": [
+                "prone"
+            ],
+            "conditionInflictSpell": [],
+            "trait": [
+                {
+                    "name": "Bulk",
+                    "entries": [
+                        "Limit: 11,520 lbs. Average weight: 11,500 lbs."
+                    ]
+                },
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The dragon can breathe air and water."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/day)",
+                    "entries": [
+                        "If the dragon fails a saving throw, it can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Noxious Backlash",
+                    "entries": [
+                        "Whenever the dragon takes damage of any type but psychic, each creature within 10 feet of the dragon takes 10 (3d6) poison damage."
+                    ]
+                },
+                {
+                    "name": "Slob Plaguebearer",
+                    "entries": [
+                        "The dragon is a carrier of the Slob Plague. Its Bite, Noxious Backlash, and Noxious Breath all spread the disease to any creatures that are damaged by them, requiring a DC 17 Constitution saving throw to avoid contracting the disease. Subsequent spreads of the disease are also DC 17 to resist. The dragon itself is immune to the disease."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The dragon can use its noxious presence. It then makes three attacks; one with its bite and two with its claws."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "Melee Weapon Attack: +11 to hit, Reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage plus 7 (2d6) poison damage."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "Melee Weapon Attack: +11 to hit, Reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "Melee Weapon Attack: +11 to hit, Reach 15 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Noxious Presence",
+                    "entries": [
+                        "Each creature of the dragon's choice that is within 120 feet of the dragon must succeed on a DC 16 Constitution saving throw or be bloated for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Noxious Presence for the next 24 hours.",
+                        "While bloated in this way, any damage a creature takes other than psychic damage causes them and any creatures other than the dragon within 10 feet of them to suffer the dragon's Noxious Backlash damage."
+                    ]
+                },
+                {
+                    "name": "Noxious Breath {@recharge 5}",
+                    "entries": [
+                        "The dragon exhales noxious gases in a 90-foot cone. Each creature in that area must make a DC 18 Constitution saving throw, taking 56 (16d6) poison damage on a failed save, or half as much damage on a successful one.",
+                        "Creatures that fail the saving throw also suffer the effects of the Slow spell until the start of the dragon's next turn."
+                    ]
+                }
+            ],
+            "legendary": [
+                {
+                    "name": "Detect",
+                    "entries": [
+                        "The dragon makes a Wisdom (Perception) check."
+                    ]
+                },
+                {
+                    "name": "Tail Attack",
+                    "entries": [
+                        "The dragon makes a tail attack."
+                    ]
+                },
+                {
+                    "name": "Wing Attack",
+                    "entries": [
+                        "(Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 23 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Young Noxious Dragon",
+            "source": "StorymakerExpanDnD",
+            "page": 129,
+            "size": "L",
+            "type": "dragon",
+            "alignment": [
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 18,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 184,
+                "formula": "16d10+96"
+            },
+            "speed": {
+                "walk": 40,
+                "swim": 40,
+                "fly": 80
+            },
+            "str": 18,
+            "dex": 10,
+            "con": 22,
+            "int": 16,
+            "wis": 12,
+            "cha": 14,
+            "save": {
+                "str": "+7",
+                "con": "+9",
+                "wis": "+4",
+                "cha": "+5"
+            },
+            "skill": {
+                "eating": "+14",
+                "insight": "+5",
+                "perception": "+9",
+                "persuasion": "+6"
+            },
+            "resist": [
+                "poison",
+                {
+                    "resist": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
+            "conditionImmune": [
+                "poisioned"
+            ],
+            "senses": [
+                "Blindsight 60 ft.",
+                "Darkvision 120 ft."
+            ],
+            "passive": 27,
+            "languages": [
+                "Common",
+                "Draconic"
+            ],
+            "cr": "8",
+            "environment": [],
+            "traitTags": [
+                "Amphibious"
+            ],
+            "senseTags": [
+                "B",
+                "SD"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C",
+                "DR"
+            ],
+            "damageTags": [
+                "P",
+                "S",
+                "I"
+            ],
+            "spellcastingTags": [],
+            "miscTags": [],
+            "conditionInflict": [],
+            "conditionInflictSpell": [],
+            "trait": [
+                {
+                    "name": "Bulk",
+                    "entries": [
+                        "Limit: 2400 lbs. Average weight: 2500 lbs."
+                    ]
+                },
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The dragon can breathe air and water."
+                    ]
+                },
+                {
+                    "name": "Noxious Backlash",
+                    "entries": [
+                        "Whenever the dragon takes damage of any type but psychic, each creature within 10 feet of the dragon takes 7 (2d6) poison damage."
+                    ]
+                },
+                {
+                    "name": "Slob Plaguebearer",
+                    "entries": [
+                        "The dragon is a carrier of the Slob Plague. Its Bite, Noxious Backlash, and Noxious Breath all spread the disease to any creatures that are damaged by them, requiring a DC 15 Constitution saving throw to avoid contracting the disease. Subsequent spreads of the disease are also DC 15 to resist. The dragon itself is immune to the disease."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The dragon makes three attacks; one with its bite and two with its claws."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "Melee Weapon Attack: +7 to hit, Reach 10 ft., one target. Hit: 15 (2d10 + 4) piercing damage plus 7 (2d6) poison damage."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "Melee Weapon Attack: +7 to hit, Reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Noxious Breath {@recharge 5}",
+                    "entries": [
+                        "The dragon exhales noxious gases in a 90-foot cone. Each creature in that area must make a DC 14 Constitution saving throw, taking 42 (12d6) poison damage on a failed save, or half as much damage on a successful one.",
+                        "Creatures that fail the saving throw also suffer the effects of the Slow spell until the start of the dragon's next turn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Noxious Wyrmling",
+            "source": "StorymakerExpanDnD",
+            "page": 129,
+            "size": "M",
+            "type": "dragon",
+            "alignment": [
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 17,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 59,
+                "formula": "7d8+28"
+            },
+            "speed": {
+                "walk": 30,
+                "swim": 30,
+                "fly": 60
+            },
+            "str": 14,
+            "dex": 10,
+            "con": 18,
+            "int": 14,
+            "wis": 10,
+            "cha": 12,
+            "save": {
+                "str": "+4",
+                "con": "+6",
+                "wis": "+2",
+                "cha": "+3"
+            },
+            "skill": {
+                "eating": "+8",
+                "insight": "+2",
+                "perception": "+4",
+                "persuasion": "+3"
+            },
+            "resist": [
+                "poison"
+            ],
+            "conditionImmune": [
+                "poisioned"
+            ],
+            "senses": [
+                "Blindsight 10 ft.",
+                "Darkvision 60 ft."
+            ],
+            "passive": 27,
+            "languages": [
+                "Draconic"
+            ],
+            "cr": "2",
+            "environment": [],
+            "traitTags": [
+                "Amphibious"
+            ],
+            "senseTags": [
+                "B",
+                "SD"
+            ],
+            "actionTags": [],
+            "languageTags": [
+                "DR"
+            ],
+            "damageTags": [
+                "P",
+                "I"
+            ],
+            "spellcastingTags": [],
+            "miscTags": [],
+            "conditionInflict": [],
+            "conditionInflictSpell": [],
+            "trait": [
+                {
+                    "name": "Bulk",
+                    "entries": [
+                        "Limit: 480 lbs. Average weight: 450 lbs."
+                    ]
+                },
+                {
+                    "name": "Amphibious",
+                    "entries": [
+                        "The dragon can breathe air and water."
+                    ]
+                },
+                {
+                    "name": "Noxious Backlash",
+                    "entries": [
+                        "Whenever the dragon takes damage of any type but psychic, each creature within 10 feet of the dragon takes 3 (1d6) poison damage."
+                    ]
+                },
+                {
+                    "name": "Slob Plaguebearer",
+                    "entries": [
+                        "The dragon is a carrier of the Slob Plague. Its Bite, Noxious Backlash, and Noxious Breath all spread the disease to any creatures that are damaged by them, requiring a DC 13 Constitution saving throw to avoid contracting the disease. Subsequent spreads of the disease are also DC 13 to resist. The dragon itself is immune to the disease."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "Melee Weapon Attack: +4 to hit, Reach 5 ft., one target. Hit: 7 (1d10 +2) piercing damage plus 3 (1d6) poison damage."
+                    ]
+                },
+                {
+                    "name": "Noxious Breath {@recharge 5}",
+                    "entries": [
+                        "The dragon exhales noxious gases in a 90-foot cone. Each creature in that area must make a DC 11 Constitution saving throw, taking 21 (6d6) poison damage on a failed save, or half as much damage on a successful one.",
+                        "Creatures that fail the saving throw also suffer the effects of the Slow spell until the start of the dragon's next turn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Fatcubus",
+            "source": "StorymakerExpanDnD",
+            "page": 130,
+            "size": "M",
+            "type": {
+                "type": "fiend",
+                "tags": [
+                    "shapechanger"
+                ]
+            },
+            "alignment": [
+                "N",
+                "E"
+            ],
+            "ac": [
+                {
+                    "ac": 18,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 97,
+                "formula": "15d8+30"
+            },
+            "speed": {
+                "walk": 30,
+                "fly": 60
+            },
+            "str": 14,
+            "dex": 18,
+            "con": 14,
+            "int": 15,
+            "wis": 10,
+            "cha": 20,
+            "skill": {
+                "deception": "10",
+                "insight": "+5",
+                "perception": "+5",
+                "persuasion": "+10",
+                "stealth": "+9"
+            },
+            "resist": [
+                "cold",
+                "fire",
+                "lightning",
+                "poison",
+                {
+                    "resist": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
+            "senses": [
+                "Darkvision 60 ft."
+            ],
+            "passive": 14,
+            "languages": [
+                "Abyssal",
+                "Common",
+                "Infernal",
+                "telepathy 60 ft."
+            ],
+            "cr": "8",
+            "environment": [],
+            "traitTags": [],
+            "senseTags": [
+                "SD"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C",
+                "A",
+                "I",
+                "TP"
+            ],
+            "damageTags": [
+                "S",
+                "Y",
+                "I"
+            ],
+            "spellcastingTags": [],
+            "miscTags": [],
+            "conditionInflict": [
+                "charmed"
+            ],
+            "conditionInflictSpell": [],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The fatcubus's innate spellcasting ability is Charisma (spell save DC 18). The fatcubus can cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "Abyssal Stomach",
+                        "Create Fattening Food and Drink (one 4lb. meal at a time)",
+                        "Modify Metabolism",
+                        "Resize",
+                        "Sex Appeal",
+                        "Stretch Stomach"
+                    ],
+                    "daily": {
+                        "2e": [
+                            "Amazonian Figure",
+                            "Ass Barrier",
+                            "Fattening Jest",
+                            "Hypnotic Hunger",
+                            "Immobilize Person",
+                            "Sexual Hypnotism"
+                        ],
+                        "1e": [
+                            "Dietary Curse (24 hrs)",
+                            "Fatball"
+                        ]
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Bulk",
+                    "entries": [
+                        "Limit: N/A. Average weight: 350 lbs."
+                    ]
+                },
+                {
+                    "name": "Telepathic Bond",
+                    "entries": [
+                        "The fatcubus ignores the range restriction on its telepathy when communicating with a creature it has charmed. The two don't even need to be on the same plane of existence."
+                    ]
+                },
+                {
+                    "name": "Shapechanger",
+                    "entries": [
+                        "The fatcubus can use its action to polymorph into a small, medium, or large humanoid, or back into its true form. Without wings, the fiend loses its flying speed. Other than its size and speed, its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed in appearance, but does resize to its new form. It reverts to its true form if it dies."
+                    ]
+                },
+                {
+                    "name": "Unburdened",
+                    "entries": [
+                        "The fatcubus is unburdened by the size of whatever form it takes, including its true form. The fatcubus does not have a bulk limit."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Fatcubus makes two attacks with its claws and uses its fattening breath, if able."
+                    ]
+                },
+                {
+                    "name": "Claw (Fiend Form Only)",
+                    "entries": [
+                        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) slashing damage, plus fat equal to damage."
+                    ]
+                },
+                {
+                    "name": "Charm",
+                    "entries": [
+                        "One humanoid the fatcubus can see within 30 feet of it must succeed on a DC 15 Wisdom saving throw or be magically charmed for 1 day. The charmed target obeys the fatcubus's verbal or telepathic commands. If the target suffers any harm from the fatcubus or her allies or receives a suicidal command, it can repeat the saving throw, ending the effect on a success. If the target successfully saves against the effect, or if the effect on it ends, the target is immune to this fatcubus's Charm for the next 24 hours.",
+                        "The fatcubus can have only one target charmed at a time. If it charms another, the effect on the previous target ends."
+                    ]
+                },
+                {
+                    "name": "Draining Kiss",
+                    "entries": [
+                        "The fatcubus kisses a creature charmed by it or a willing creature. The target must make a DC 15 Constitution saving throw against this magic, taking 32 (5d10+5) psychic damage on a failed save, or half as much damage on a successful one. The target's hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+                    ]
+                },
+                {
+                    "name": "Etherealness",
+                    "entries": [
+                        "The fatcubus magically enters the Ethereal Plane from the Material Plane, or vice versa."
+                    ]
+                },
+                {
+                    "name": "Fattening Breath {@recharge 4}",
+                    "entries": [
+                        "The fatcubus exhudes a gaseous cloud in a 30-foot cone. Each creature in that area must succeed on a DC 15 Constitution saving throw. On a failed save, the creature takes 17 (3d10+2) Poison damage, and gains an amount of fat equal to four times the damage dealt in this way."
+                    ]
+                },
+                {
+                    "name": "Fattening Kiss",
+                    "entries": [
+                        "The fatcubus kisses a creature charmed by it or a willing creature. The target must make a DC 15 Constitution saving throw against this magic, gaining 2d100 lbs of fat on a failed save, or half as much on a successful one."
+                    ]
+                }
+            ],
+            "fluff": {
+                "type": "entries",
+                "entries": [
+                    "Some would say that the most pressing flaw of the Succubus or Incubus is their single-minded nature. While they are cunning and devious, their primary tool is lust and debauchery. Deprived of this, they have little at their disposal, and even in success, drain their victim dry before moving on. This is not true of the creature known as the Fatcubus. The entire realm of sin is in the range of the Fatcubus's powers, but they focus most strongly on the aspects of Gluttony and Greed alongside the more traditional Lust. Beyond their widened scope of manipulation, they also make their victims last longer, using them as a long-lasting power source which they can coax more energy from than most of their lesser ilk.",
+                    "The name of the fiends is largely the term most mortals apply to them, as the true name of their race is a well-kept secret that lies separate from the masses of the Tanar'ri and the structured legions of the Baatezu.",
+                    {
+                        "type": "entries",
+                        "name": "Patient Temptors",
+                        "entries": [
+                            "The Fatcubus, like the incubus, is patient and cunning, but the Fatcubus has perhaps an even longer attention span for its schemes. A Fatcubus enjoys the long process of wearing down a target's will along with their form, watching them bloat and fatten until they are a soft, pillowy rendition of their former selves. They pride themselves on turning toned adventurers into quivering mounds of flab over the course of years, and then using the resulting victim as a potent source of energy, as their powers enter the realm of lipomancy.",
+                            "A victim rarely notices their descent into gluttony's arms until it is far too late. A small meal grows slowly larger, an extra snack while on the road. A small paunch that forms under the armor, an extra meal at the end of the day. Eventually the formerly mighty warrior is a bloated glutton, content to eat and pleasure themselves until the Fatcubus comes to claim them, manifesting as a beautiful figure, plump with exaggerated sexual features, showing off the very fatty traits that the victim has been slowly trained to enjoy.",
+                            "Rather than killing their victims, the Fatcubus keeps them as toys and pets, playing with their bodies as they fatten and shrink them to their whim, breaking them, mind and body, until they are obediant, lustful servants with no thought but their love and lust for their master. These loyal victims are a constant source of power that feeds the Fatcubus's growing powers."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Unnatural Attraction",
+                        "entries": [
+                            "While a Fatcubus retains the lethal kiss of their Succubus and Incubus brethren, that is not the only power their bodies exhude. Their kiss can also cause a target to rapidly grow fatter, and their ministrations slowly cause their victims to feel an intense attraction for more soft and fatty forms, their own included. The bodies of Fatcubi also build up a noxious fattening gas, which they can release to affect multiple victims at once."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "More Potent Offspring",
+                        "entries": [
+                            "Like the Succubus or Incubus, the Fatcubus breeds with others of their kind to produce more of their own. On the occasion of their reproduction with a humanoid, however, the Cambion that they produce shares a spark of the Fatcubus's power, creating a being known as a Fatling. In a cruel twist of fate, perhaps as a balancing of scales to keep the Fatcubus from becoming too powerful, many Fatlings care more for growing themselves and others ever fatter than they care about performing tasks of evil or corruption. Those that do turn out as wicked as their parents, however, are powerful allies for their Fatcubus sires."
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Fatling",
+            "source": "StorymakerExpanDnD",
+            "page": 132,
+            "size": "M",
+            "type": "fiend",
+            "alignment": [
+                {
+                    "alignment": [
+                        "C",
+                        "N"
+                    ],
+                    "chance": 50
+                },
+                {
+                    "alignment": [
+                        "E"
+                    ],
+                    "chance": 50
+                }
+            ],
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "scale mail"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 96,
+                "formula": "13d8+45"
+            },
+            "speed": {
+                "walk": 30,
+                "fly": 60
+            },
+            "str": 18,
+            "dex": 18,
+            "con": 16,
+            "int": 14,
+            "wis": 12,
+            "cha": 18,
+            "save": {
+                "str": "+7",
+                "con": "+6",
+                "int": "+5",
+                "cha": "+7"
+            },
+            "skill": {
+                "deception": "7",
+                "intimidation": "+7",
+                "perception": "+4",
+                "stealth": "+7"
+            },
+            "resist": [
+                "cold",
+                "fire",
+                "lightning",
+                "poison",
+                {
+                    "resist": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
+            "senses": [
+                "Darkvision 60 ft."
+            ],
+            "passive": 14,
+            "languages": [
+                "Abyssal",
+                "Common",
+                "Infernal"
+            ],
+            "cr": "6",
+            "environment": [],
+            "traitTags": [],
+            "senseTags": [
+                "SD"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C",
+                "A",
+                "I"
+            ],
+            "damageTags": [
+                "P",
+                "B",
+                "F"
+            ],
+            "spellcastingTags": [],
+            "miscTags": [],
+            "conditionInflict": [
+                "charmed"
+            ],
+            "conditionInflictSpell": [],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The fatling's spellcasting ability is Charisma (spell save DC 15). The fatling can innately cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "Create Fattening Food and Drink (one 2lb. meal at a time)"
+                    ],
+                    "daily": {
+                        "3e": [
+                            "Fattening Jest",
+                            "Hypnotic Hunger",
+                            "Sexual Hypnotism"
+                        ],
+                        "1e": [
+                            "plane shift (self only)",
+                            "Fat Surge"
+                        ]
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Bulk",
+                    "entries": [
+                        "Limit: N/A. Average weight: 600 lbs."
+                    ]
+                },
+                {
+                    "name": "Unburdened",
+                    "entries": [
+                        "The fatling is unburdened by its size, no matter how fat it gets. The fatling does not have a bulk limit."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The fatling makes two melee attacks or uses its Fat Ray twice."
+                    ]
+                },
+                {
+                    "name": "Giant Fork",
+                    "entries": [
+                        "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target Hit: 6 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing damage if used in two hands to make a melee attack, plus 3 (1d6) magical bludgeoning damage that adds fat equal to the damage dealt."
+                    ]
+                },
+                {
+                    "name": "Fat Ray",
+                    "entries": [
+                        "Ranged Spell Attack: +7 to hit, range 120 ft., one target. Hit: 10 (3d6) force damage that adds fat equal to damage dealt."
+                    ]
+                },
+                {
+                    "name": "Fattening Kiss",
+                    "entries": [
+                        "The fatling kisses a creature charmed by it or a willing creature. The target must make a DC 15 Constitution saving throw against this magic, gaining 1d100 lbs of fat on a failed save, or half as much on a successful one."
+                    ]
+                },
+                {
+                    "name": "Fiendish Charm",
+                    "entries": [
+                        "One humanoid the fatling can see within 30 feet of it must succeed on a DC 15 Wisdom saving throw or be magically charmed for 1 day. The charmed target obeys the fatling's spoken commands. If the target suffers any harm from the fatling or another creature or receives a suicidal command from the fatling, the target can repeat the saving throw, ending the effect on itself on a success. If the charm ends, the creature is immune to the fatling's Fiendish Charm for the next 24 hours. The fatling can have only one target charmed at a time. If it charms another, the effect on the previous target ends."
+                    ]
+                }
+            ],
+            "fluff": {
+                "type": "entries",
+                "entries": [
+                    "The offspring of a powerful gluttony-aligned fiend (usually a fatcubus) and a humanoid (usually a human). Fatlings inherit aspects of both parents, but their leathery wings, sometimes horns, sometimes tails, and always sheer propensity for massive size are hallmarks of their otherworldly parentage.",
+                    {
+                        "type": "entries",
+                        "name": "Born to be Fat",
+                        "entries": [
+                            "Fatlings are often touched more by the gluttony side of their parentage than by the evil side. While a sizable portion of Fatlings grow to be just as malicious as their fiendish parents, just as many end up being simple tricksters and gluttons, whose desires are often summed up as the want to grow fatter and make others do the same. Even in youth, a fatling is an incorrigible glutton who encourages those around them to indulge just as they do."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Infectious Affection",
+                        "entries": [
+                            "Fatlings tend to spread their love for size and weight to those around them. Those who spend a large portion of time around the Fatling or who are repeatedly charmed by them often find their attractions leaning toward individuals who share the Fatling's propensity for enormity, and they just as often find their own waistlines mirroring their fiendish friend's. Fatlings raised in the Nine Hells often employ this trait to create a following of fatty servants to keep them safe, and those from the Abyss use this trait to keep prey or predators too fat to flee or give chase."
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Feeder",
+            "source": "StorymakerExpanDnD",
+            "page": 133,
+            "size": "L",
+            "type": "monstrosity",
+            "alignment": [
+                "N",
+                "E"
+            ],
+            "ac": [
+                {
+                    "ac": 20,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 93,
+                "formula": "11d10+33"
+            },
+            "speed": {
+                "walk": 10,
+                "climb": 10
+            },
+            "str": 14,
+            "dex": 8,
+            "con": 17,
+            "int": 7,
+            "wis": 16,
+            "cha": 6,
+            "skill": {
+                "perception": "6",
+                "stealth": "+3"
+            },
+            "senses": [
+                "Darkvision 60 ft."
+            ],
+            "passive": 16,
+            "cr": "5",
+            "environment": [],
+            "traitTags": [],
+            "senseTags": [
+                "SD"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "damageTags": [],
+            "spellcastingTags": [],
+            "miscTags": [],
+            "conditionInflict": [
+                "grappled",
+                "restrained"
+            ],
+            "trait": [
+                {
+                    "name": "Bulk",
+                    "entries": [
+                        "Limit: N/A. Average weight: 120 lbs."
+                    ]
+                },
+                {
+                    "name": "False Appearance",
+                    "entries": [
+                        "While the feeder reamin motionless, it is indistinguishable from a normal table, cornucopia, or other eating platform full of food."
+                    ]
+                },
+                {
+                    "name": "Grasping Tendrils",
+                    "entries": [
+                        "The feeder can have up to six tendrils at a time. Each tendril can be attacked (AC 20; 10 hit points; immunity to poison and psychic damage). Destroying a tendril deals no damage to the feeder, which can extrude a replacement tendril on its next turn. A tendril can also be broken if a creature takes an action and succeeds on a DC 15 Strength check against it."
+                    ]
+                },
+                {
+                    "name": "Shapechanger",
+                    "entries": [
+                        "The Feeder can use its action to polymorph into a table, a cornucopia, a platter, or some other means of containing or presenting food. Its statistics are the same in each form. A feeder reverts to its table form if it dies."
+                    ]
+                },
+                {
+                    "name": "Walking Feast",
+                    "entries": [
+                        "The feeder generates an unlimited supply of enchanted, fattening food on its body. Creatures that spend their action eating from the feeder's body gain 1d6 pounds of fat and eat as many pounds of enchanted fatty food."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The feeder makes four attacks with its tendrils, uses Reel, and then uses Feast."
+                    ]
+                },
+                {
+                    "name": "Tendril",
+                    "entries": [
+                        "Melee Weapon Attack: +7 to hit, reach 30 ft., one creature. Hit: The target is grappled (escape DC 15). Until the grapple ends, the target is restrained and has disadvantage on Strength checks and Strength saving throws, and the feeder can't use the same tendril on another target."
+                    ]
+                },
+                {
+                    "name": "Reel",
+                    "entries": [
+                        "The feeder pulls each creature grappled by it up to 25 feet straight toward it."
+                    ]
+                },
+                {
+                    "name": "Feast",
+                    "entries": [
+                        "The feeder forces the target to consume some of the enchanted food on its body. The creature must make a Wisdom saving throw (DC 15), or be compelled to use its action continue eating the food on the feeder on each of its turns. The target may attempt the saving throw again at the start of each of its turns, or if another creature makes a DC 15 Strength check to pull them away from the feast. On a failure, the target is compelled to return to the feast and continue eating. On a success, the compulsion ends."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Feeder Fairy",
+            "source": "StorymakerExpanDnD",
+            "page": 134,
+            "size": "T",
+            "type": "fey",
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "ac": [
+                15
+            ],
+            "hp": {
+                "average": 7,
+                "formula": "1d4+5"
+            },
+            "speed": {
+                "walk": 10,
+                "fly": 30
+            },
+            "str": 2,
+            "dex": 20,
+            "con": 20,
+            "int": 10,
+            "wis": 14,
+            "cha": 18,
+            "skill": {
+                "eating": "+7",
+                "perception": "+4",
+                "stealth": "+7"
+            },
+            "languages": [
+                "Sylvan",
+                "Elven",
+                "Common"
+            ],
+            "passive": 14,
+            "cr": "1/2",
+            "environment": [],
+            "traitTags": [
+                "Magic Resistance"
+            ],
+            "senseTags": [
+                "SD"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "damageTags": [],
+            "spellcastingTags": [],
+            "miscTags": [],
+            "conditionInflict": [
+                "grappled",
+                "restrained"
+            ],
+            "languageTags": [
+                "S",
+                "E",
+                "C"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The feeder fairy's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit on spell attack rolls). It can innately cast the following spells, requiring only its fairy dust as a component:"
+                    ],
+                    "will": [
+                        "abyssal stomach",
+                        "flabshock (1d8)",
+                        "feed"
+                    ],
+                    "daily": {
+                        "1e": [
+                            "asset barrier",
+                            "blueberrify",
+                            "dietary curse",
+                            "fat feedback",
+                            "fly",
+                            "immobilize monster",
+                            "modify metabolism",
+                            "overabundance",
+                            "resize",
+                            "softskin"
+                        ]
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Bulk",
+                    "entries": [
+                        "Limit: 82 lbs. Average weight: 20 lbs."
+                    ]
+                },
+                {
+                    "name": "Magic Resistance",
+                    "entries": [
+                        "The feeder fairy has advantage on saving throws against spells and other magical effects."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Superior Invisibility",
+                    "entries": [
+                        "The feeder fairy turns invisible until its concentration ends (as if concentrating on a spell). Any equipment the feeder fairy wears or carries is invisible with it."
+                    ]
+                },
+                {
+                    "name": "Glutton's Gift",
+                    "entries": [
+                        "The feeder fairy touches a creature and imbues it with a magical desire to eat and grow fatter. If the creature fails a DC 14 Charisma saving throw, the victim must eat any food the feeder fairy or their companions offer them. For the next minute, any spell attacks from any feeder fairy that cause the target to eat food (such as the feed spell) automatically hit the target, and the target automatically fails any saving throws on similar spells (such as the Overabundance spell). While under the effects of this magic, the target's stomach capacity is effectively infinite, and they cannot take damage from overeating."
+                    ]
+                }
+            ],
+            "fluff": {
+                "type": "entries",
+                "entries": [
+                    "Mischevious food-based tricksters, the feeder fairies are a mysterious plague upon the lives of everyday civilians who find themselves suddenly bloating outward from mysterious food that they can't seem to resist. There is little rhyme or reason behind their choice of initial victims, but from their initial point of impact, there is a very clear outward spiral of their influence once they appear in a location.",
+                    {
+                        "type": "entries",
+                        "name": "Interference is fattening",
+                        "entries": [
+                            "It is said that interfering with a victim of the feeder fairies, whether it be attempting to prevent them from eating, trying to share any of their food, or on rare occasion just interacting with them for long periods of time, is enough to attract the attention of their stealthy tormentors. From this chain of interactions, the influence of the feeder fairies spreads throughout groups of individuals who end up being assailed and bloated by these invisible tricksters, often left just on the brink of immobility, or sometimes even just beyond, before being left to their own devices."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Oblivious feasting",
+                        "entries": [
+                            "Those affected by the touch of the feeder fairy- known as the Glutton's Gift to those who study the creatures- are seemingly oblivious, or at the very least not as alarmed as they probably should be, to the vast amount of food they are consuming, or even to others in the same predicament, even as their bodies swell and fatten out around them. To that end victims will often go about their daily lives, obliviously being fed by the invisible fairies as they interact with others around them, unwittingly spreading the plague of fairies throughout their circle of peers. Some theorize that this is the means by which feeder fairies reproduce, as there never seem to be a shortage of fairies around to pick up the slack whenever a new victim needs to be fattened up. Once the population of a particular area has been sufficiently broadened at the waist however, they mysteriously disappear, presumably to find a new set of victims."
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Food Elemental",
+            "source": "StorymakerExpanDnD",
+            "page": 135,
+            "size": "L",
+            "type": "elemental",
+            "alignment": [
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 14,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 126,
+                "formula": "12d10+60"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 18,
+            "dex": 14,
+            "con": 20,
+            "int": 5,
+            "wis": 10,
+            "cha": 8,
+            "vulnerable": [
+                "fire"
+            ],
+            "resist": [
+                "thunder",
+                {
+                    "resist": [
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
+            "immune": [
+                "poison"
+            ],
+            "languages": [
+                "Terran",
+                "Aquan"
+            ],
+            "senses": [
+                "Darkvision 60 ft."
+            ],
+            "passive": 10,
+            "cr": "5",
+            "environment": [],
+            "traitTags": [],
+            "senseTags": [
+                "SD"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "damageTags": [
+                "B"
+            ],
+            "spellcastingTags": [],
+            "miscTags": [],
+            "conditionInflict": [
+                "grappled",
+                "restrained"
+            ],
+            "languageTags": [
+                "T",
+                "AQ"
+            ],
+            "trait": [
+                {
+                    "name": "Bulk",
+                    "entries": [
+                        "Limit: N/A. Average weight: 1600 lbs."
+                    ]
+                },
+                {
+                    "name": "Cobbleform",
+                    "entries": [
+                        "The elemental can enter a hostile creature's space and stop there. It can move through a space as narrow as 6 inches wide without squeezing."
+                    ]
+                },
+                {
+                    "name": "Cook",
+                    "entries": [
+                        "If the elemental takes fire damage, part of it is cooked off; it drops an edible item that heals 1 hit point if consumed."
+                    ]
+                },
+                {
+                    "name": "Food Composition",
+                    "entries": [
+                        "The elemental is made of fattening magical substance. Any creature that hits the elemental with a bite attack eats 1d4 pounds of food, doubled on a critical hit."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The elemental makes two slam attacks."
+                    ]
+                },
+                {
+                    "name": "Slam",
+                    "entries": [
+                        "+7 to hit, reach 5 ft., one target. Hit: 13 (2d8+4) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Engulf {@recharge 4}",
+                    "entries": [
+                        "Each creature in the elemental's space must make a DC 15 Constitution saving throw. On a failure, the target takes 13 (2d8 +4) bludgeoning damage and is forced to consume an equivalent amount of pounds of fatty food. If it is Large or smaller, it is also grappled (escape DC 14). Until the grapple ends, the target is restrained. If the saving throw is successful, the target is pushed out of the elemental's space.",
+                        "The elemental can grapple one Large creature or up to two Medium or smaller creatures at one time. At the start of each of the elemental's turns, each target grappled by it takes 13 (2d8+4) bludgeoning damage and is forced to consume an equivalent amount of pounds of fatty food. A creature within 5 feet of the elemental can pull a creature or object out of it by taking an action to make a DC 14 Strength check and succeeding."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Glutton Titan",
+            "source": "StorymakerExpanDnD",
+            "page": 136,
+            "size": "H",
+            "type": {
+                "type": "celestial",
+                "tags": [
+                    "titan"
+                ]
+            },
+            "alignment": [
+                {
+                    "alignment": [
+                        "C",
+                        "N"
+                    ],
+                    "chance": 75
+                },
+                {
+                    "alignment": [
+                        "C",
+                        "E"
+                    ],
+                    "chance": 25
+                }
+            ],
+            "ac": [
+                {
+                    "ac": 22,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 313,
+                "formula": "19d12+190"
+            },
+            "speed": {
+                "walk": 50,
+                "fly": 50,
+                "swim": 50
+            },
+            "str": 30,
+            "dex": 21,
+            "con": 30,
+            "int": 21,
+            "wis": 22,
+            "cha": 27,
+            "save": {
+                "str": "+17",
+                "con": "+17",
+                "wis": "+13",
+                "cha": "+15"
+            },
+            "skill": {
+                "eating": "+17",
+                "insight": "+13",
+                "persuasion": "+15"
+            },
+            "immune": [
+                {
+                    "immune": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
+            "languages": [
+                "all"
+            ],
+            "senses": [
+                "Truesight 120 ft."
+            ],
+            "passive": 16,
+            "cr": "23",
+            "environment": [],
+            "traitTags": [],
+            "senseTags": [
+                "U"
+            ],
+            "actionTags": [],
+            "damageTags": [
+                "B",
+                "A"
+            ],
+            "spellcastingTags": [],
+            "miscTags": [],
+            "conditionInflict": [
+                "grappled",
+                "restrained",
+                "blinded"
+            ],
+            "conditionInflictLegendary": [
+                "poisoned"
+            ],
+            "languageTags": [
+                "XX"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The Glutton Titan's innate spellcasting ability is Charisma (spell save DC 23, +15 to hit with spell attacks). It can ainnately cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "Abyssal Stomach",
+                        "Aura of Lightness",
+                        "Create Fattening Food and Drink",
+                        "Redirect Repast"
+                    ],
+                    "daily": {
+                        "1e": [
+                            "Expanding Edict",
+                            "Investiture of Fat",
+                            "Rampant Vitality",
+                            "Slavering Beast",
+                            "plane shift (self only)"
+                        ]
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Bulk",
+                    "entries": [
+                        "Limit: 14,400 lbs. Average weight: 10000 lbs."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Slam",
+                    "entries": [
+                        "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 31 (6d6 + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 saving throw or be grappled and restrained until the end of the Glutton Titan's next turn, held fast to the sticky food residue on the titan's hands."
+                    ]
+                },
+                {
+                    "name": "Food Bolt",
+                    "entries": [
+                        "Ranged Spell Attack: +15 to hit, range 600 ft., one target. Hit: 24 (7d6) pounds of fatty food fed to the target."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Eat",
+                    "entries": [
+                        "When the Glutton Titan grapples and restrains a creature with its Slam attack, it can use its reaction to swallow them whole. While swallowed, the target is blinded and restrained, it has total cover against attacks and other effects outisde of the Glutton Titan, and it takes 21 (6d6) acid damage at the start of each of the Glutton Titan's turns. A glutton titan can have up to 3 creatures swallowed at a time.",
+                        "If the glutton titan takes 30 damage or more in a single turn from its swallowed creatures, the glutton titan must succeed on a DC 27 Constitution saving throw at the end of that turn or regurgitate the creatures, which fall prone in a space within 10 feet of the glutton titan. If the glutton titan dies, a swallowed creature is no longer restrained by it and can escape the corpse by using 15 feet of movement, exiting prone."
+                    ]
+                }
+            ],
+            "legendary": [
+                {
+                    "name": "Attack",
+                    "entries": [
+                        "The glutton titan makes one attack."
+                    ]
+                },
+                {
+                    "name": "Gaseous Release. (Costs 2 Actions)",
+                    "entries": [
+                        "The glutton titan releases a foul cloud of noxious gases around it. All other creatures within 60 feet of the glutton titan must succeed on a DC 25 Constitution saving throw or be poisoned until the end of their next turn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Liposanguinor",
+            "source": "StorymakerExpanDnD",
+            "page": 137,
+            "size": "M",
+            "type": {
+                "type": "undead",
+                "tags": [
+                    "spahechanger"
+                ]
+            },
+            "alignment": [
+                "L",
+                "E"
+            ],
+            "ac": [
+                {
+                    "ac": 18,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 190,
+                "formula": "20d8+100"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 18,
+            "dex": 18,
+            "con": 20,
+            "int": 17,
+            "wis": 15,
+            "cha": 20,
+            "save": {
+                "dex": "+9",
+                "wis": "+7",
+                "cha": "+10"
+            },
+            "skill": {
+                "eating": "+10",
+                "perception": "+7",
+                "stealth": "+9"
+            },
+            "resist": [
+                "necrotic",
+                {
+                    "resist": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
+            "languages": [
+                "the languages it knew in life"
+            ],
+            "senses": [
+                "Darkvision 120 ft."
+            ],
+            "passive": 17,
+            "cr": "15",
+            "environment": [],
+            "traitTags": [],
+            "senseTags": [
+                "SD"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "damageTags": [
+                "B",
+                "P",
+                "N"
+            ],
+            "spellcastingTags": [],
+            "miscTags": [],
+            "conditionInflict": [
+                "charmed"
+            ],
+            "languageTags": [
+                "LF"
+            ],
+            "trait": [
+                {
+                    "name": "Bulk",
+                    "entries": [
+                        "Limit: 570 lbs. Average weight: 400 lbs."
+                    ]
+                },
+                {
+                    "name": "Vampiric Creature",
+                    "entries": [
+                        "To conserve on page space: The Liposanguinor has all of the abilities of a more traditional Vampire, with any modifications or additions noted below."
+                    ]
+                },
+                {
+                    "name": "Lipomantic Gift",
+                    "entries": [
+                        "The Liposanguinor is unaffected by being above its bulk threshold."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack (Liposanguinor Form Only)",
+                    "entries": [
+                        "The Liposanguinor makes two attacks, only one of which can be a bite attack."
+                    ]
+                },
+                {
+                    "name": "Unarmed Strike (Liposanguinor Form Only)",
+                    "entries": [
+                        "Melee Weapon Attack: +9 to hit, reach 5 ft., one creature. Hit: 8 (1d8 + 4) bludgeoning damage. Instead of dealing damage, the Liposanguinor can grapple the target (escape DC 18)."
+                    ]
+                },
+                {
+                    "name": "Bite (Bat or Liposanguinor Form Only)",
+                    "entries": [
+                        "Melee Weapon Attack: +9 to hit, reach 5 ft., one willing creature, or a creature that is grappled by the Liposanguinor, incapacitated, or restrained. Hit: 7 (1d6 + 4) piercing damage plus 10 (3d6) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, they lose a numbe of pounds of fat equal to the necrotic damage taken, and the Liposanguinor regains hit points and Fattens equal to that amount. The hit point reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a Liposanguinor spawn under the Liposanguinor's control."
+                    ]
+                },
+                {
+                    "name": "Charm",
+                    "entries": [
+                        "The Liposanguinor targets one humanoid it can see within 30 feet of it. If the target can see the Liposanguinor, the target must succeed on a DC 18 Wisdom saving throw against this magic or be charmed by the Liposanguinor. The charmed target regards the Liposanguinor as a trusted friend to be heeded and protected. Although the target isn't under the Liposanguinor's control, it takes the Liposanguinor's requests or actions in the most favorable way it can, it cannot resist any food offered to it by the Liposanguinor, no matter how full it is, and it is a willing target for the Liposanguinor's bite attack.",
+                        "Each time the Liposanguinor or the Liposanguinor's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the Liposanguinor is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+                    ]
+                },
+                {
+                    "name": "Children of the Harvest Moon (1/Day)",
+                    "entries": [
+                        "The Liposanguinor magically calls 2d4 swarms of bats or rats provided that the sun isn't up. Optionally, the Liposanguinor can call 1d4 sweet puddings instead. The called creatures arrive in 1d4 rounds, acting as allies of the Liposanguinor and obeying its spoken commands. The beasts remain for 1 hour, until the Liposanguinor dies, or until the Liposanguinor dismisses them as a bonus action."
+                    ]
+                },
+                {
+                    "name": "Lipomantic Transfer",
+                    "entries": [
+                        "By sinking its teeth gently into a willing creature, the Liposanguinor can siphon any amount of its own body fat into another creature."
+                    ]
+                }
+            ],
+            "legendary": [
+                {
+                    "name": "Move",
+                    "entries": [
+                        "The Liposanguinor moves up to its speed without provoking opportunity attacks."
+                    ]
+                },
+                {
+                    "name": "Unarmed Strike",
+                    "entries": [
+                        "The Liposanguinor makes one unarmed strike."
+                    ]
+                },
+                {
+                    "name": "Bite (Costs 2 Actions)",
+                    "entries": [
+                        "The Liposanguinor makes one bite attack."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Narce, the Lich Queen",
+            "source": "StorymakerExpanDnD",
+            "page": 138,
+            "size": "M",
+            "type": "undead",
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 23,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 250,
+                "formula": "25d8+125"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 11,
+            "dex": 16,
+            "con": 20,
+            "int": 27,
+            "wis": 21,
+            "cha": 30,
+            "save": {
+                "con": "+12",
+                "int": "+15",
+                "wis": "+12",
+                "cha": "+17"
+            },
+            "skill": {
+                "arcana": "+18",
+                "deception": "+17",
+                "history": "+12",
+                "insight": "+9",
+                "perception": "+12"
+            },
+            "resist": [
+                "necrotic",
+                "cold",
+                "lightning"
+            ],
+            "immune": [
+                "poison",
+                {
+                    "immune": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical attacks",
+                    "cond": true
+                }
+            ],
+            "conditionImmune": [
+                "charmed",
+                "exhaustion",
+                "frightened",
+                "paralyzed",
+                "poisioned"
+            ],
+            "languages": [
+                "Common",
+                "Deep Speech",
+                "Dwarven",
+                "Elven",
+                "Infernal",
+                "Undercommon"
+            ],
+            "senses": [
+                "Truesight 120 ft."
+            ],
+            "passive": 22,
+            "cr": "30",
+            "environment": [],
+            "traitTags": [
+                "Rejuvenation",
+                "Legendary Resistance"
+            ],
+            "senseTags": [
+                "U"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "damageTags": [],
+            "spellcastingTags": [],
+            "miscTags": [],
+            "conditionInflict": [],
+            "languageTags": [
+                "C",
+                "DS",
+                "D",
+                "E",
+                "I",
+                "UC"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Wizard Training",
+                    "headerEntries": [
+                        "Narce is a 25th-level Wizard with the Lipomancy Arcane Discipline, with all of the class features that provides. Her spellcasting ability is Intelligence (spell save DC 23, +15 to hit with spell attacks). Narce has the following wizard spells prepared:"
+                    ],
+                    "spells": {
+                        "0": {
+                            "slots": 0,
+                            "spells": [
+                                "mage hand",
+                                "prestidigitation",
+                                "flabshock"
+                            ]
+                        },
+                        "1": {
+                            "slots": 0,
+                            "spells": [
+                                "detect magic",
+                                "magic missile",
+                                "shield",
+                                "thunderwave",
+                                "resize"
+                            ]
+                        },
+                        "2": {
+                            "slots": 0,
+                            "spells": [
+                                "detect thoughts",
+                                "invisibility",
+                                "Mirror Image",
+                                "Impede",
+                                "Narce's Sympathy Gain",
+                                "Dietary Curse",
+                                "Asset Barrier"
+                            ]
+                        },
+                        "3": {
+                            "slots": 0,
+                            "spells": [
+                                "animate dead",
+                                "counterspell",
+                                "dispel magic",
+                                "firebal",
+                                "Drain",
+                                "Abyssal Stomach"
+                            ]
+                        },
+                        "4": {
+                            "slots": 0,
+                            "spells": [
+                                "blight",
+                                "dimension door",
+                                "fatball"
+                            ]
+                        },
+                        "5": {
+                            "slots": 0,
+                            "spells": [
+                                "cloudkill",
+                                "scrying",
+                                "fat surge"
+                            ]
+                        },
+                        "6": {
+                            "slots": 0,
+                            "spells": [
+                                "disintegrate",
+                                "globe of invulnerability",
+                                "investiture of fat",
+                                "narce's hypnotic trance"
+                            ]
+                        },
+                        "7": {
+                            "slots": 0,
+                            "spells": [
+                                "finger of death",
+                                "plane shift",
+                                "Mordenkainen's magnificent mansion"
+                            ]
+                        },
+                        "8": {
+                            "slots": 0,
+                            "spells": [
+                                "dominate monster",
+                                "power word stun"
+                            ]
+                        },
+                        "9": {
+                            "slots": 0,
+                            "spells": [
+                                "power word kill",
+                                "imprisonment",
+                                "sculpt flesh"
+                            ]
+                        }
+                    },
+                    "ability": "int",
+                    "type": "spellcasting"
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Bulk",
+                    "entries": [
+                        "Limit: N/A. Average weight: 600 lbs."
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries": [
+                        "If Narce fails a saving throw, she can choose to succeed instead."
+                    ]
+                },
+                {
+                    "name": "Rejuvenation",
+                    "entries": [
+                        "If she has a phylactery, when destroyed, Narce gains a new body in 1d10 days, regaining all her hit points and becoming active again. The new body appears within 5 feet of the phylactery."
+                    ]
+                },
+                {
+                    "name": "Spell Mastery",
+                    "entries": [
+                        "Per the Spell Mastery Wizard ability, Narce can cast the Feed and Narce's Fatness Arrow spells at will at their base level without expending a spell slot."
+                    ]
+                },
+                {
+                    "name": "Signature Spells",
+                    "entries": [
+                        "Per the Signature Spells Wizard ability, Narce can cast the Bloat and Hypnotic Hunger spells at 3rd level once per short or long rest each without expending a spell slot."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "Narce makes three attacks with Arc Carver."
+                    ]
+                },
+                {
+                    "name": "Paralyzing Touch",
+                    "entries": [
+                        "Melee Spell Attack: +15, Reach 5ft., one creature Hit: 10 (3d6) cold damage The target must succeed on a DC 18 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                    ]
+                },
+                {
+                    "name": "Flabshock",
+                    "entries": [
+                        "Ranged Spell Attack: +15, 120 ft., one target. Hit 18 (4d8) lightning/fat damage."
+                    ]
+                },
+                {
+                    "name": "Narce's Fatness Arrow",
+                    "entries": [
+                        "Ranged Spell Attack: +15, 120 ft., one target. Hit 10 (4d4) poison damage, and the target takes 2d4 poison damage at the end of its turn. On a miss, the arrow splashes the target for half as much of the initial damage and no damage at the end of its next turn. The target Fattens equal to the damage dealt this way."
+                    ]
+                },
+                {
+                    "name": "Feed",
+                    "entries": [
+                        "Ranged Spell Attack: +15, 120 ft., one target. Hit 3 (1d6) Fatty Food damage. Narce makes 3 attacks with this spell"
+                    ]
+                },
+                {
+                    "name": "Arc Carver",
+                    "entries": [
+                        "Magical Melee Weapon Attack: +15, 5 ft., one target. Hit 15 (1d10+11) Slashing damage plus 12 (2d6+5) lightning/fat damage."
+                    ]
+                }
+            ],
+            "legendary": [
+                {
+                    "name": "Cantrip",
+                    "entries": [
+                        "Narce casts a cantrip."
+                    ]
+                },
+                {
+                    "name": "Cast a Spell. (costs 2 Actions)",
+                    "entries": [
+                        "Narce casts one of her spells."
+                    ]
+                },
+                {
+                    "name": "Paralyzing Touch (Costs 2 Actions)",
+                    "entries": [
+                        "Narce uses her Paralyzing Touch"
+                    ]
+                },
+                {
+                    "name": "Fattening Gaze (Costs 2 Actions)",
+                    "entries": [
+                        "Narce fixes her gaze on one creature she can see within 10 feet of her, imposing her sheer will over the target's very existence. The target must succeed on a DC 18 Charisma saving throw against this magic or become immobilized by fat for 1 minute. The immobilized target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target's saving throw is successful or the effect ends for it, the target is immune to Narce's gaze for the next 24 hours. Creatures without a bulk limit have their weight multiplied by ten."
+                    ]
+                },
+                {
+                    "name": "Siphon Weight (Costs 3 Actions)",
+                    "entries": [
+                        "each non-undead, non-construct creature within 20 feet of Narce must make a DC 18 Constitution saving throw against this magic, taking 28 (8d6) necrotic damage on a failed save, or half as much on a successful one, and losing twice that amount of damage in pounds of fat, Narce gaining a total amount of pounds of fat equal to the fat lost among all targets."
+                    ]
+                }
+            ],
+            "fluff": {
+                "type": "entries",
+                "entries": [
+                    "Narce, once the greatest of lipomantic wizards, known originally as the Mother of Lipomancy, is an ancient woman who has persisted for thousands of years. Once a human of legendary renown, her desire for immortality bordering on an obsession lead her to the ancient art of lichdom. But lipomancy is the art of the living flesh, and the combination of her prowess as a Lipomancer and her sheer power as a Lich allows her to conceal her true nature from most anyone. She does not even detect as undead to the senses of paladins or detection magic, as she has taken precautions against such methods. To all outside eyes, she appears to be a Human Woman of graying hair but youthful, if incredibly broad, build.",
+                    "Nowadays she often masquerades as Nera, a spellsword of some minor renown among the circles of most nations, someone who might occasionally treat with royalty, but is still known to walk among taverns and have a drink. She does not seek to make enemies of the world or dominate all life, but neither is she still a paragon of morality, her power and age having crumbled much of her personal restraint.",
+                    {
+                        "type": "entries",
+                        "name": "A Self-made Lich",
+                        "entries": [
+                            "Narce ripped the knowledge of the process of Lichdom from the minds of those who held it by force and used her own lipomantic power supplies to fuel the transformation, meaning she owes no fealty to anyone for this change, and her alignment remains largely inviolate. The unique nature of the power she uses to fuel the transformation also means that her body does not decay: The magic that fuels her life force is Lipomantic in nature, so as long as she keeps a steady supply of adipose on her frame, which tends to rapidly lose weight compared to normal members of society, her frame remains as lifelike and youthful as any.",
+                            "Due to how often she travels, her phylactery is always on her person, and is perhaps one of the few clues as to her true nature: A pendant she wears around her neck, deep in her cleavage, that bears the symbol of Narce's ancient school of magic. Made from magically reinforced Adamantine fixed around an enchanted Diamond, the pendant itself cannot be destroyed by any mundane means. Nothing short of a disintegrate spell, an enchanted adamantine weapon, or something of even more destructive force can even damage the pendant, let alone destroy it. It has 100 hit points and an AC of 15."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Adipose Animation",
+                        "entries": [
+                            "While the traditional method of maintaining her lifeforce; using the imprisonment spell to trap creatures within her phylactery, is still functional for a unique specimen such as Narce, she also has her own unique method of maintaining the life-force that keeps her going. She is able to leech off the adipose and fat of creatures, including herself, to supplant the life-force supplied by a soul. The inefficiency of this method requires her to use an immense amount of body fat, but it does allow her to extend her life-force non-lethally, to the point that soul consumption is often a last resort if she is low on energy.",
+                            "The only problem with the undertaking is that the creature cannot have been fattened by her using direct spells. The energy transfer of creating fat on a target is not perfectly efficient, and she loses more energy fattening a target than she gains from consuming the fat. To that end, she often only uses the slightest of magical touch to induce incredible hunger and metabolism in her target, and allows them to fatten themselves to the obscene levels required to fuel her existence. However, this takes some time, as nearly 100,000 pounds of sheer adipose is required to make up the combined life-force of one average humanoid soul.",
+                            "To this end she often keeps a harem of servant men and women to serve as her feasting batteries, fattening each as massively as possible before draining them to fuel her life force and repeating the process. Whenever one of these servants dies, or if she spends more energy than normal and needs a particularly strong boost, she will often seek out new servants from the particularly gluttonous members of the world. She is not particularly concerned with whether or not the creature is willing, however. She will make an attempt to persuade with words to conserve energy, and if that serves, then well done. But if not, she has no problems taking what she wants by force."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Phylactery Failsafe",
+                        "entries": [
+                            "When a lich’s body is broken by accident or assault, the will and mind of the lich drains from it, leaving only a lifeless corpse behind. Within days, a new body reforms next to the lich’s phylactery, coalescing out of glowing smoke that issues from the device. Narce's personal phylactery is held within her cleavage on a pendant, but she has imbued it with a magical failsafe to ensure it should never be destroyed: Should her life force fade from her current body, the phylactery will be teleported to her secret lair deep beneath the city of Osbera."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Observational Wanderer",
+                        "entries": [
+                            "Unlike most Liches, Narce believes that experiencing all that reality has to offer is the secret to gaining power. To that end, she often tends to wander the world, experiencing the new creations of each passing generation, seeing the advances of magic and technology, tasting the food and drink that each place calls its own. She often does this under a number of different disguises, the most recent of which being Nera Songswallow, a wandering spellblade of notable heft and considerable power, someone who is a known quantity in most of the courts of this world and several of the other planes."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Creator of Artifacts",
+                        "entries": [
+                            "Narce has created and left behind many artifacts throughout the ages, and she often will occasionally deposit a new one somewhere hidden away, experimenting to see when one might discover them and what one might do with such powerful magical items upon their acquisition. Her lipomantic statues are just one example of a variety of magical items she has sprinkled throughout the lands, along with her ancient Iron Staff which she has left to be discovered by an enterprising mage who might follow in her footsteps, and a number of other ancient lipomantic artifacts."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Undead Nature",
+                        "entries": [
+                            "A lich doesn’t require air, food, drink, or sleep. Narce enjoys it nonetheless though, and the lipomantic energy suffusing her body means that she digests and gains weight just as rapidly as her body loses it to fuel her appearance."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Narce's Lair",
+                        "entries": [
+                            "Narce's lair is hidden deep, deep beneath the city of Osbera, almost directly below the current seat of the throne, accessible only via magic as there are no physical entrances or exits at the moment. Here is where Narce returns when she feels tired of interacting with the world, and where she keeps the vast majority of her experiments and pet projects. Notable among these projects is 'Project F', an experiment to see just how fat one living humanoid can get with all of the magical tools at Narce's disposal. An elf who has long ago forgotten her own name and purpose, and who exists at this point only to grow more colossal. In times of dire need, Narce can drain enough life force from F's mass to sustain herself for some time, as a mere 100,000 pounds of adipose is little more than a drop in the bucket of F's ungodly mass, contained mostly in extra-dimensional space.",
+                            "When encountered in her lair, Narce has a challenge rating of 26 (90,000 XP)."
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Lair Actions",
+                        "entries": [
+                            "On initiative count 20 (losing initiative ties), the Narce can take a lair action to cause one of the following magical effects; Narce can’t use the same effect two rounds in a row:",
+                            {
+                                "type": "list",
+                                "items": [
+                                    "Narce rolls a d8 and regains a spell slot of that level or lower. If it has no spent spell slots of that level or lower, nothing happens.",
+                                    "Narce targets one creature it can see within 30 feet of it. A crackling cord of Lipomantic energy tethers the lich to the target. Whenever Narce takes damage, the target must make a DC 18 Constitution saving throw. On a failed save, Narce takes half the damage (rounded down), and the target takes the remaining damage, gaining a number of pounds of fat equal to the damage taken. This tether lasts until initiative count 20 on the next round or until the lich or the target is no longer in Narce’s lair.",
+                                    "Narce calls forth the Lipomantic energy that permeates her lair. This energy coalesces and attacks one creature that Narce can see within 60 feet of her. The target must succeed on a DC 18 Constitution saving throw, taking 52 (15d6) necrotic damage on a failed save, or half as much damage on a success, and Fattens equal to the damage taken."
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Sweet Pudding",
+            "source": "StorymakerExpanDnD",
+            "page": 141,
+            "size": "L",
+            "type": "ooze",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                8
+            ],
+            "hp": {
+                "average": 99,
+                "formula": "12d10+36"
+            },
+            "speed": {
+                "walk": 20,
+                "climb": 20
+            },
+            "str": 16,
+            "dex": 6,
+            "con": 16,
+            "int": 2,
+            "wis": 6,
+            "cha": 1,
+            "immune": [
+                "acid",
+                "cold",
+                "lighting",
+                "slashing"
+            ],
+            "conditionImmune": [
+                "blinded",
+                "charmed",
+                "deafened",
+                "exhaustion",
+                "frightened",
+                "prone"
+            ],
+            "senses": [
+                "Blindsight 60 ft. (blind beyond this radius)"
+            ],
+            "passive": 8,
+            "cr": "5",
+            "environment": [],
+            "traitTags": [],
+            "senseTags": [
+                "B"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "damageTags": [
+                "B"
+            ],
+            "spellcastingTags": [],
+            "miscTags": [],
+            "conditionInflict": [
+                "grappled"
+            ],
+            "languageTags": [],
+            "trait": [
+                {
+                    "name": "Bulk",
+                    "entries": [
+                        "Limit: N/A. Average weight: 600 lbs."
+                    ]
+                },
+                {
+                    "name": "Amorphous",
+                    "entries": [
+                        "The pudding can move through a space as narrow as 1 inch wide without squeezing."
+                    ]
+                },
+                {
+                    "name": "False Appearance",
+                    "entries": [
+                        "While the pudding remains motionless, it is indistinguishable from a pile of congealed treats and sweets."
+                    ]
+                },
+                {
+                    "name": "Spider Climb",
+                    "entries": [
+                        "The pudding can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                    ]
+                },
+                {
+                    "name": "Fatty Composition",
+                    "entries": [
+                        "The pudding is made of fattening magical substance. Any creature that hits the Pudding with a bite attack gains 1d4 pounds of fat, doubled on a critical hit."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Sweet Pudding uses its Pseudopod attack twice. It can substitute either of these attacks with its Stuff ability if possible."
+                    ]
+                },
+                {
+                    "name": "Stuff",
+                    "entries": [
+                        "When the Sweet pudding is grappling a creature it can stuff a tendril inside the nearest orifice. When the ooze stuffs the creature, the creature must succeed on a DC 15 constitution saving throw or take 20 (4d6+6) bludgeoning damage and gain an equal amount of pounds of fat. On a successful saving throw the creature still takes half the damage and fat."
+                    ]
+                },
+                {
+                    "name": "Pseudopod",
+                    "entries": [
+                        "Melee Weapon Attack: +6 to hit, reach 5ft., one target. Hit: 13 (3d6+3) bludgeoning damage, and the creature is grappled (escape DC 15)."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Knight of the Steel Harvest",
+            "source": "StorymakerExpanDnD",
+            "page": 142,
+            "size": "M",
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "any race"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 20,
+                    "from": ["plate"]
+                }
+            ],
+            "hp": {
+                "average": 127,
+                "formula": "15d8+60"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 18,
+            "dex": 10,
+            "con": 18,
+            "int": 12,
+            "wis": 14,
+            "cha": 15,
+            "save": {
+                "str": "+8",
+                "con": "+8"
+            },
+            "skill": {
+                "athletics": "+8",
+                "eating": "+12",
+                "intimidation": "+6"
+            },
+            "passive": 11,
+            "languages": [
+                "any two languages"
+            ],
+            "cr": "6",
+            "environment": [],
+            "traitTags": [],
+            "senseTags": [],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "damageTags": [],
+            "spellcastingTags": [],
+            "miscTags": [],
+            "conditionInflict": [],
+            "languageTags": [],
+            "trait": [
+                {
+                    "name": "Bulk",
+                    "entries": [
+                        "Limit: 540 lbs. Average weight: 600 lbs."
+                    ]
+                },
+                {
+                    "name": "Heavy Shove",
+                    "entries": [
+                        "The Knight of the Steel Harvest can attempt to shove or knock a target prone as a bonus action."
+                    ]
+                },
+                {
+                    "name": "Heavy Strikes",
+                    "entries": [
+                        "Once per turn, when the Knight of the Steel Harvest hits with a melee attack, they may add their Constitution bonus (4) to the damage."
+                    ]
+                },
+                {
+                    "name": "Heavy Padding",
+                    "entries": [
+                        "While wearing heavy armor and not using a shield, the Knight of the Steel Harvest's armor class includes half their Constitution bonus."
+                    ]
+                },
+                {
+                    "name": "Tireless",
+                    "entries": [
+                        "The Knight of the Steel Harvest is not negatively affected by being burdened or impeded by their bulk limit."
+                    ]
+                },
+                {
+                    "name": "Take a Breather",
+                    "entries": [
+                        "Once per combat, as a bonus action, the Knight of the Steel Harvest can regain 1d10+19 hit points."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Knight of the Steel Harvest makes two melee attacks."
+                    ]
+                },
+                {
+                    "name": "Greatsword",
+                    "entries": [
+                        "Melee Weapon Attack: +8 to hit, reach 5ft., one target. Hit 11 (2d6 + 4)"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Lipomancer",
+            "source": "StorymakerExpanDnD",
+            "page": 143,
+            "size": "M",
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "any race"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                12,
+                {
+                    "ac": 15,
+                    "condition": "with {@spell mage armor}",
+                    "braces": true
+                }
+            ],
+            "hp": {
+                "average": 58,
+                "formula": "9d8+18"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 11,
+            "dex": 14,
+            "con": 15,
+            "int": 18,
+            "wis": 12,
+            "cha": 11,
+            "save": {
+                "int": "+6",
+                "wis": "+4"
+            },
+            "skill": {
+                "arcana": "+6",
+                "eating": "+5",
+                "history": "+6"
+            },
+            "passive": 11,
+            "languages": [
+                "any four languages"
+            ],
+            "cr": "7",
+            "environment": [],
+            "traitTags": [],
+            "senseTags": [],
+            "actionTags": [],
+            "damageTags": [
+                "P"
+            ],
+            "spellcastingTags": [],
+            "miscTags": [],
+            "conditionInflict": [],
+            "languageTags": [],
+            "spellcasting": [
+                {
+                    "name": "Wizard Training",
+                    "headerEntries": [
+                        "The lipomancer is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The lipomancer has the following wizard spells prepared:"
+                    ],
+                    "spells": {
+                        "0": {
+                            "slots": 0,
+                            "spells": [
+                                "flabshock",
+                                "light",
+                                "mage hand",
+                                "prestidigtation"
+                            ]
+                        },
+                        "1": {
+                            "slots": 0,
+                            "spells": [
+                                "Detect Magic",
+                                "Feed",
+                                "Mage Armor",
+                                "Resize",
+                                "Shield"
+                            ]
+                        },
+                        "2": {
+                            "slots": 0,
+                            "spells": [
+                                "Immobilize Person",
+                                "Narce's Fatness Arrow"
+                            ]
+                        },
+                        "3": {
+                            "slots": 0,
+                            "spells": [
+                                "Abyssal Stomach",
+                                "Fat Feedback",
+                                "Hypnotic Hunger"
+                            ]
+                        },
+                        "4": {
+                            "slots": 0,
+                            "spells": [
+                                "Fatball",
+                                "Softskin"
+                            ]
+                        },
+                        "5": {
+                            "slots": 0,
+                            "spells": [
+                                "Fat Surge"
+                            ]
+                        }
+                    },
+                    "ability": "int",
+                    "type": "spellcasting"
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Bulk",
+                    "entries": [
+                        "Limit: 540 lbs. Average weight: 600 lbs."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Dagger",
+                    "entries": [
+                        "Melee or Ranged Weapon Attack: +5 to hit, reach 5ft. or range 20/60 ft., one target. Hit 4 (1d4 + 2) piercing damage."
                     ]
                 }
             ]
