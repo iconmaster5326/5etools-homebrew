@@ -40,7 +40,7 @@
                             "type": "entries",
                             "name": "Burdened",
                             "entries": [
-                                "If a character has exceeded their Bulk limit, they are considered Burdened. The character has disadvantage on checks made to resist gaining levels of Exhaustion."
+                                "If a character has exceeded their Bulk limit, they are considered Burdened. The character has disadvantage on checks made to resist gaining levels of {@condition Exhaustion}."
                             ]
                         },
                         {
@@ -54,7 +54,7 @@
                             "type": "entries",
                             "name": "Immobilized",
                             "entries": [
-                                "If a character has reached a weight of 2 times their Bulk limit, they are considered immobilized. The character is considered Restrained by their own body."
+                                "If a character has reached a weight of 2 times their Bulk limit, they are considered immobilized. The character is considered {@condition Restrained} by their own body."
                             ]
                         },
                         {
@@ -151,7 +151,7 @@
                             "type": "entries",
                             "name": "Malnourished",
                             "entries": [
-                                "If a character is below their Emaciation Threshold, they are considered Malnourished. The character has disadvantage on checks made to resist gaining levels of Exhaustion."
+                                "If a character is below their Emaciation Threshold, they are considered Malnourished. The character has disadvantage on checks made to resist gaining levels of {@condition Exhaustion}."
                             ]
                         },
                         {
@@ -305,7 +305,7 @@
                     "type": "entries",
                     "name": "Overindulging",
                     "entries": [
-                        "If a character is forced to eat or drink more than their fullness capacity and Stuffing check will allow, they take {@dice 1d4} points of Bludgeoning damage for each pound of food they consume past their stuffing limit. Any creature rendered unconscious by this damage is stable and not subject to death saving throws unless attacked, as normal for a stabilized creature."
+                        "If a character is forced to eat or drink more than their fullness capacity and Stuffing check will allow, they take {@dice 1d4} points of Bludgeoning damage for each pound of food they consume past their stuffing limit. Any creature rendered {@condition unconscious} by this damage is stable and not subject to death saving throws unless attacked, as normal for a stabilized creature."
                     ]
                 },
                 {
@@ -548,7 +548,7 @@
                 }
             ],
             "entries": [
-                "Force-feeding a creature is a subset of the grappling mechanics, and is considered a type of grappling check, meaning it is affected by any abilities or features that affect grapple checks. A character can make a force-feeding check (which, as per grappling rules, will typically be a Strength ({@skill Athletics}) check) to try and force a target within melee range who is currently restrained or who is grappled by the character or one of their allies to eat. A success causes the victim to consume one of the following:",
+                "Force-feeding a creature is a subset of the grappling mechanics, and is considered a type of grappling check, meaning it is affected by any abilities or features that affect grapple checks. A character can make a force-feeding check (which, as per grappling rules, will typically be a Strength ({@skill Athletics}) check) to try and force a target within melee range who is currently {@condition restrained} or who is {@condition grappled} by the character or one of their allies to eat. A success causes the victim to consume one of the following:",
                 {
                     "type": "list",
                     "items": [
@@ -588,8 +588,8 @@
                     "type": "list",
                     "items": [
                         "A bloated creature can speak only falteringly, and cannot form verbal components for spells without first spending a Bonus Action to make a DC 15 Concentration check.",
-                        "A bloated creature is Poisoned.",
-                        "A bloated creature has disadvantage on Charisma checks and Dexterity ({@skill Acrobatics}) and ({@skill Stealth}) checks, even if they are immune to the poisoned condition.",
+                        "A bloated creature is {@condition Poisoned}.",
+                        "A bloated creature has disadvantage on Charisma checks and Dexterity ({@skill Acrobatics}) and ({@skill Stealth}) checks, even if they are immune to the {@condition poisoned} condition.",
                         "A bloated creature's movement speed is reduced by 5 ft, to a minimum of 5 ft."
                     ]
                 }
@@ -872,7 +872,7 @@
                     "type": "entries",
                     "name": "Gluttonous Suggestion",
                     "entries": [
-                        "As an action, one creature that you can see within 30 feet of you must succeed on a Charisma saving throw against a DC of (8+ your Charisma modifier + your Proficiency bonus) or be affected by this trait for one minute. Creatures immune to being charmed or that do not need to eat automatically succeed. A creature can also choose to voluntarily fail this saving throw. An affected creature is under all of the following effects while the Fatling is not incapacitated:",
+                        "As an action, one creature that you can see within 30 feet of you must succeed on a Charisma saving throw against a DC of (8+ your Charisma modifier + your Proficiency bonus) or be affected by this trait for one minute. Creatures immune to being {@condition charmed} or that do not need to eat automatically succeed. A creature can also choose to voluntarily fail this saving throw. An affected creature is under all of the following effects while the Fatling is not {@condition incapacitated}:",
                         {
                             "type": "list",
                             "items": [
@@ -960,7 +960,7 @@
                                 "You do not have a base weight. Instead, if your weight falls below 25 pounds, you fall unconcsious until your weight is restored above 25 pounds.",
                                 "When you are burdened, your walking speed is reduced by 10 feet in addition to normal effects.",
                                 "When you are impeded, you do not suffer disadvantage on {@skill Athletics} checks.",
-                                "When you are immobilized, you are not restrained, but your walking speed is reduced to 5 feet and you cannot dash."
+                                "When you are immobilized, you are not {@condition restrained}, but your walking speed is reduced to 5 feet and you cannot dash."
                             ]
                         }
                     ]
@@ -1019,7 +1019,7 @@
                             "type": "entries",
                             "name": "Ooze Resilience",
                             "entries": [
-                                "ViscoGelatin are notoriously hard to kill. You have advantage on death saving throws. In addition, strikes against you while you are unconscious do not critically hit, though they do still have advantage."
+                                "ViscoGelatin are notoriously hard to kill. You have advantage on death saving throws. In addition, strikes against you while you are {@condition unconscious} do not critically hit, though they do still have advantage."
                             ]
                         },
                         {
@@ -1070,7 +1070,7 @@
                             "type": "entries",
                             "name": "Sweet (Savory) Snare",
                             "entries": [
-                                "As an action, you can attempt to restrain a creature you can touch. The target must make a Strength saving throw. On a failure, the target is restrained, takes {@dice 1d4} bludgeoning damage, and is forced to consume a number of pounds of fatty food equal to the damage dealt, and you lose an equal amount of weight. The damage increases to {@dice 1d6} at level 6, {@dice 1d8} at level 11, and {@dice 1d10} at level 16. While restraining a creature this way, you can use your action to make it repeat the saving throw or suffer the same effect, you are unable to grapple another target, and your movement speed is reduced to 0. The target is no longer restrained if a creature that can touch it succeeds on a Strength check, if the target succeeds on an {@skill Athletics} or {@skill Acrobatics} check, or if you use your action to do anything but stuff the target. The DC for this feature is 8 + your proficiency bonus + your Strength modifier. After you successfully restrain someone on the initial save once, you must finish a short or long rest before using this feature again."
+                                "As an action, you can attempt to restrain a creature you can touch. The target must make a Strength saving throw. On a failure, the target is {@condition restrained}, takes {@dice 1d4} bludgeoning damage, and is forced to consume a number of pounds of fatty food equal to the damage dealt, and you lose an equal amount of weight. The damage increases to {@dice 1d6} at level 6, {@dice 1d8} at level 11, and {@dice 1d10} at level 16. While restraining a creature this way, you can use your action to make it repeat the saving throw or suffer the same effect, you are unable to grapple another target, and your movement speed is reduced to 0. The target is no longer {@condition restrained} if a creature that can touch it succeeds on a Strength check, if the target succeeds on an {@skill Athletics} or {@skill Acrobatics} check, or if you use your action to do anything but stuff the target. The DC for this feature is 8 + your proficiency bonus + your Strength modifier. After you successfully restrain someone on the initial save once, you must finish a short or long rest before using this feature again."
                             ]
                         },
                         {
@@ -1779,7 +1779,7 @@
                         "{@b Bloated.} You gain resistance to slashing damage, and you may add your Constitution modifier to the damage rolls of your unarmed attacks. Your weight doubles for the duration."
                     ]
                 },
-                "Your transformation lasts for 1 minute. It ends early if you are knocked unconscious. You can also end your transformation on your turn as a bonus action."
+                "Your transformation lasts for 1 minute. It ends early if you are knocked {@condition unconscious}. You can also end your transformation on your turn as a bonus action."
             ]
         },
         {
@@ -1962,7 +1962,7 @@
                 {
                     "type": "list",
                     "items": [
-                        "{@b Elastic.} While in this form, creatures you grapple are considered restrained by you.",
+                        "{@b Elastic.} While in this form, creatures you grapple are considered {@condition restrained} by you.",
                         "{@b Inflated.} While in this form, your long jump and high jump distances are doubled, and you can walk across and stand on liquids and the thinnest of surfaces, such as a sheet of ribbon, without falling or tearing through.",
                         "{@b Bloated.} While in this form, you gain advantage on saving throws to resist being pushed or moved, and can use your reaction to make an unarmed strike against a creature that misses you with a melee attack."
                     ]
@@ -2008,7 +2008,7 @@
             "classSource": "StorymakerExpanDnD",
             "level": 15,
             "entries": [
-                "At 15th level, your flesh shape has become ease itself for you to maintain. It no longer has a maximum duration, allowing you to maintain any flesh shape until you fall unconscious or end it yourself. You must still expend another use to change flesh shapes, however."
+                "At 15th level, your flesh shape has become ease itself for you to maintain. It no longer has a maximum duration, allowing you to maintain any flesh shape until you fall {@condition unconscious} or end it yourself. You must still expend another use to change flesh shapes, however."
             ]
         },
         {
@@ -2262,7 +2262,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 14,
             "entries": [
-                "At 14th level, your healing touch can cleanse your allies of maladies. Whenever a creature is healed by your Tender's Touch feature, you can choose to end either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned.",
+                "At 14th level, your healing touch can cleanse your allies of maladies. Whenever a creature is healed by your Tender's Touch feature, you can choose to end either one disease or one condition afflicting it. The condition can be {@condition blinded}, {@condition deafened}, {@condition paralyzed}, or {@condition poisoned}.",
                 "You can use this ability a number of times equal to your Wisdom modifier, and regain expended uses at the end of a long rest."
             ]
         },
@@ -2406,7 +2406,7 @@
                     "items": [
                         "the creature immediately gains 1 pound.",
                         "the creature immediately loses 1 pound.",
-                        "the creature has advantage on saving throws against exhaustion for the next hour.",
+                        "the creature has advantage on saving throws against {@condition exhaustion} for the next hour.",
                         "the creature gains darkvision to a distance of 30 feet for the next hour.",
                         "the creature gains disadvantage on Dexterity ({@skill stealth}) checks for the next hour",
                         "the creature gains advantage on Constitution ({@skill eating}) checks for the next minute."
@@ -2494,7 +2494,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 3,
             "entries": [
-                "Additionally at 3rd level, while raging you can charge across the battlefield and plow down creatures in your path. While raging, as an action, you can attempt to move up to your movement speed in a straight line through your enemies. Each enemy whose space you attempt to move through must make a Strength saving throw. On a failure, they are knocked prone and take bludgeoning damage equal to your Rage Damage. Hostile creatures' space counts as difficult terrain when you use this feature. If this movement would end in a hostile creature's space and that creature failed its save against this feature, it is moved to the nearest unoccupied space. If it succeeded, it can choose whether to move to the nearest unoccupied space or force you to move to the nearest unoccupied space.",
+                "Additionally at 3rd level, while raging you can charge across the battlefield and plow down creatures in your path. While raging, as an action, you can attempt to move up to your movement speed in a straight line through your enemies. Each enemy whose space you attempt to move through must make a Strength saving throw. On a failure, they are knocked {@condition prone} and take bludgeoning damage equal to your Rage Damage. Hostile creatures' space counts as difficult terrain when you use this feature. If this movement would end in a hostile creature's space and that creature failed its save against this feature, it is moved to the nearest unoccupied space. If it succeeded, it can choose whether to move to the nearest unoccupied space or force you to move to the nearest unoccupied space.",
                 "After you use this feature, you can't use it again until you finish a short or long rest."
             ]
         },
@@ -2507,7 +2507,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 6,
             "entries": [
-                "At 6th level, your unstoppable momentum makes you difficult to slow when you are on the warpath. While raging, you cannot be restrained or have your movement reduced by nonmagical means, including difficult terrain or hindrances of your own bulk."
+                "At 6th level, your unstoppable momentum makes you difficult to slow when you are on the warpath. While raging, you cannot be {@condition restrained} or have your movement reduced by nonmagical means, including difficult terrain or hindrances of your own bulk."
             ]
         },
         {
@@ -2519,8 +2519,8 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 10,
             "entries": [
-                "At 10th level, you have gained the ability to concentrate your weight into one point powerfully enough to shake the earth. As an action while raging, or as a bonus action if used immediately after using Flesh Boulder, you can choose to fall prone and force all creatures of your choice within 10 feet of you to make a Strength saving throw or fall prone, taking bludgeoning damage equal to your Rage Damage.",
-                "Creatures that are already prone must also make a Constitution saving throw or have their movement speed reduced to 0 until the end of your next turn.",
+                "At 10th level, you have gained the ability to concentrate your weight into one point powerfully enough to shake the earth. As an action while raging, or as a bonus action if used immediately after using Flesh Boulder, you can choose to fall {@condition prone} and force all creatures of your choice within 10 feet of you to make a Strength saving throw or fall {@condition prone}, taking bludgeoning damage equal to your Rage Damage.",
+                "Creatures that are already {@condition prone} must also make a Constitution saving throw or have their movement speed reduced to 0 until the end of your next turn.",
                 "After you use this feature, you can't use it again until you finish a short or long rest."
             ]
         },
@@ -2588,7 +2588,7 @@
             "level": 3,
             "entries": [
                 "Also at 3rd level, when you deal damage to a creature with your bite attack while raging, if their current number of Hit Points is less than or equal to than 10 + two times your Barbarian level, you can use your reaction to swallow them whole.",
-                "A creature you swallow in this way begins suffocating and is blinded, restrained, and incapacitated while in your stomach, and the creature contributes 1/10th of its weight for the purpose of determining your fullness. If you fall to 0 hit points while you have a creature in your stomach, it is neither restrained nor incapacitated and can exit your body using 5 feet of movement, ending the blindness. If a creature falls to 0 hit points in your stomach, they turn into into an amount of Fatty food equal to 1/10th their total weight. Any edible items are immediately consumed with the creature, and activate their effects on you. Any inedible items are coughed up on your next long or short rest."
+                "A creature you swallow in this way begins suffocating and is {@condition blinded}, {@condition restrained}, and {@condition incapacitated} while in your stomach, and the creature contributes 1/10th of its weight for the purpose of determining your fullness. If you fall to 0 hit points while you have a creature in your stomach, it is neither {@condition restrained} nor {@condition incapacitated} and can exit your body using 5 feet of movement, ending the blindness. If a creature falls to 0 hit points in your stomach, they turn into into an amount of Fatty food equal to 1/10th their total weight. Any edible items are immediately consumed with the creature, and activate their effects on you. Any inedible items are coughed up on your next long or short rest."
             ]
         },
         {
@@ -2625,7 +2625,7 @@
             "level": 14,
             "entries": [
                 "Starting 14th level, while raging you now gain Hit Points equal to the pounds of food you digest from your Ravenous Constitution feature, and you do not need to use a reaction when you use Swallow Whole.",
-                "When you swallow an enemy, any hostile creature within 30 feet of you must make a Wisdom save versus a save DC of 8 + your Strength modifier + your Proficiency bonus. On a failure they become frightened for 1 minute. A frightened target can repeat this saving throw at the end of each of its turns, ending the frightened condition on itself on a success. If a target's saving throw is successful, or the effect ends for it, the target is immune to this feature for the next 24 hours."
+                "When you swallow an enemy, any hostile creature within 30 feet of you must make a Wisdom save versus a save DC of 8 + your Strength modifier + your Proficiency bonus. On a failure they become {@condition frightened} for 1 minute. A {@condition frightened} target can repeat this saving throw at the end of each of its turns, ending the {@condition frightened} condition on itself on a success. If a target's saving throw is successful, or the effect ends for it, the target is immune to this feature for the next 24 hours."
             ]
         },
         {
@@ -2669,7 +2669,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 3,
             "entries": [
-                "Also starting at 3rd level, you can mark an individual, rendering them more susceptible to your seductive wiles. As an Action, you can touch a creature you can see within 5 feet of you. That target must succeed a Wisdom saving throw against your spell save DC. If it fails, you automatically assume an appearance considered attractive by your target, following Bodyshaper's restrictions, and the target is charmed by you while you maintain that appearance, until you do anything harmful to it, or until the end of your next long rest. Once you use this feature, you cannot do so again until you finish a long rest."
+                "Also starting at 3rd level, you can mark an individual, rendering them more susceptible to your seductive wiles. As an Action, you can touch a creature you can see within 5 feet of you. That target must succeed a Wisdom saving throw against your spell save DC. If it fails, you automatically assume an appearance considered attractive by your target, following Bodyshaper's restrictions, and the target is {@condition charmed} by you while you maintain that appearance, until you do anything harmful to it, or until the end of your next long rest. Once you use this feature, you cannot do so again until you finish a long rest."
             ]
         },
         {
@@ -2681,7 +2681,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 6,
             "entries": [
-                "At 6th level, you gain the ability to glean information from a creature by intimate contact, such as a kiss. As an action, you can kiss or otherwise intimately make contact with another creature, which must make a Charisma saving throw against your spell save DC. If it fails, You can learn the answer to one question of your choice from the target by skimming his mind for those thoughts or memories. If a creature succeeds the saving throw, they cannot be affected by this feature again until you finish a long rest. Creatures immune to being charmed are unaffected."
+                "At 6th level, you gain the ability to glean information from a creature by intimate contact, such as a kiss. As an action, you can kiss or otherwise intimately make contact with another creature, which must make a Charisma saving throw against your spell save DC. If it fails, You can learn the answer to one question of your choice from the target by skimming his mind for those thoughts or memories. If a creature succeeds the saving throw, they cannot be affected by this feature again until you finish a long rest. Creatures immune to being {@condition charmed} are unaffected."
             ]
         },
         {
@@ -2693,7 +2693,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 14,
             "entries": [
-                "Starting at 14th level, you can turn your admirers against each other as they vie for your favor. As an action, designate a creature within 120 feet of you that is charmed by you. While it is charmed by you, it regards other creatures charmed by you as its enemies. Whenever the creature chooses a target, it must choose at random from among the creatures it can see that are charmed by you or whom it already regarded as enemies. If an enemy provokes an opportunity attack, the creature must make that attack if it's able to. You can use this feature a number of times equal to your Charisma modifier. You regain all expended uses of this feature when you finish a long rest."
+                "Starting at 14th level, you can turn your admirers against each other as they vie for your favor. As an action, designate a creature within 120 feet of you that is {@condition charmed} by you. While it is {@condition charmed} by you, it regards other creatures {@condition charmed} by you as its enemies. Whenever the creature chooses a target, it must choose at random from among the creatures it can see that are {@condition charmed} by you or whom it already regarded as enemies. If an enemy provokes an opportunity attack, the creature must make that attack if it's able to. You can use this feature a number of times equal to your Charisma modifier. You regain all expended uses of this feature when you finish a long rest."
             ]
         },
         {
@@ -2897,7 +2897,7 @@
                         ],
                         [
                             17,
-                            "{@b Star.} Either one disease or one condition afflicting you ends. The condition can be blinded, deafened, paralyzed, or poisoned."
+                            "{@b Star.} Either one disease or one condition afflicting you ends. The condition can be {@condition blinded}, {@condition deafened}, {@condition paralyzed}, or {@condition poisoned}."
                         ],
                         [
                             18,
@@ -3025,7 +3025,7 @@
                     "type": "list",
                     "items": [
                         "The target is pushed 10 feet away from you.",
-                        "The target is immediately knocked Prone."
+                        "The target is immediately knocked {@condition Prone}."
                     ]
                 },
                 "You can use this feature a number of times equal to your Strength or Dexterity modifier, whichever is higher (a minimum of once). You regain any expended uses when you finish a Long rest.",
@@ -3209,7 +3209,7 @@
             "level": 3,
             "entries": [
                 "Also at 3rd level, your vampiric transformation has melded with your rituals as a Blood Hunter. You gain a claw attack and a bite attack, each of which are unarmed attacks that deal {@dice 1d4} Slashing or Piercing damage, respectively. Your unarmed strikes are considered a single weapon in regards to your crimson rite feature. You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes. Additionally, when you use your Attack action to grapple and successfully grapple your opponent, you may attempt to bite them as a bonus action.",
-                "Bite attacks against a willing creature, a creature that is grappled by you, or a creature that is incapacitated or restrained, deal an amount of additional Necrotic damage equal to your Rite Damage Die. You regain hit points equal to the necrotic damage dealt this way, and the target loses an equal number of pounds of mass, and you gain the same number of pounds of fat.",
+                "Bite attacks against a willing creature, a creature that is {@condition grappled} by you, or a creature that is {@condition incapacitated} or {@condition restrained}, deal an amount of additional Necrotic damage equal to your Rite Damage Die. You regain hit points equal to the necrotic damage dealt this way, and the target loses an equal number of pounds of mass, and you gain the same number of pounds of fat.",
                 "Also, you can transfer fat to your bite targets. As an Action, you can bite a willing target and, instead of dealing damage, transfer any amount of pounds of fat from your body to the target's.",
                 "Your Unarmed strike damage increases to {@dice 1d6} at 6th level, {@dice 1d8} at 11th, and {@dice 1d10} at 16th level."
             ]
@@ -3248,8 +3248,8 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 15,
             "entries": [
-                "At 15th level, you have awakened the Vampire's latent ability to charm with a glance. Target one humanoid you can see within 30 feet. If the target can see you, it must make a Wisdom saving throw (DC 8 + your proficiency + your Charisma modifier) or be charmed by you. The charmed target regards you as a trusted friend to be heeded and protected. Although the target isn't under your control, it takes your requests or actions in the most favorable way it can, and is a willing target for your bite attack.",
-                "Each time you or your companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Once a creature succeeds the saving throw, they cannot be charmed again by this feature for 24 hours. Otherwise, the effect lasts 24 hours or until you are killed, are on a different plane of existence than the target, or you take a bonus action to end the effect.",
+                "At 15th level, you have awakened the Vampire's latent ability to charm with a glance. Target one humanoid you can see within 30 feet. If the target can see you, it must make a Wisdom saving throw (DC 8 + your proficiency + your Charisma modifier) or be {@condition charmed} by you. The {@condition charmed} target regards you as a trusted friend to be heeded and protected. Although the target isn't under your control, it takes your requests or actions in the most favorable way it can, and is a willing target for your bite attack.",
+                "Each time you or your companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Once a creature succeeds the saving throw, they cannot be {@condition charmed} again by this feature for 24 hours. Otherwise, the effect lasts 24 hours or until you are killed, are on a different plane of existence than the target, or you take a bonus action to end the effect.",
                 "Once you use this ability, you must complete a short or long rest before doing so again."
             ]
         },
@@ -3470,7 +3470,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 1,
             "entries": [
-                "Also at 1st level, you can use your touch to soothe the pain and unpleasantness in others. As an action, you can touch a creature you can see to remove one of the following conditions: Blinded, Stunned, Frightened, or Deafened.",
+                "Also at 1st level, you can use your touch to soothe the pain and unpleasantness in others. As an action, you can touch a creature you can see to remove one of the following conditions: {@condition Blinded}, {@condition Stunned}, {@condition Frightened}, or {@condition Deafened}.",
                 "You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest."
             ]
         },
@@ -3528,7 +3528,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 17,
             "entries": [
-                "At 17th level, you have become the icon of your deity's hedonism. You are immune to being Charmed, you cannot gain levels of Exhaustion, you no longer have a Bulk Threshold or a Fullness capacity, and you no longer need to breathe. Instead of sleeping, you can spend the time during a Long Rest that you would be sleeping enjoying delicious food and achieve the same benefits."
+                "At 17th level, you have become the icon of your deity's hedonism. You are immune to being {@condition Charmed}, you cannot gain levels of {@condition Exhaustion}, you no longer have a Bulk Threshold or a Fullness capacity, and you no longer need to breathe. Instead of sleeping, you can spend the time during a Long Rest that you would be sleeping enjoying delicious food and achieve the same benefits."
             ]
         },
         {
@@ -3738,7 +3738,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 2,
             "entries": [
-                "At 2nd level, you can channel your divine power to debilitate those around you. You release a cloud of tainted energy around you, affecting all creatures of your choice within 20 feet. Each creature takes an amount of Poison damage equal to 5 + your cleric level, and must make a Constitution saving throw against your Spell Save DC. Those that fail are poisoned and rendered unable to speak until the end of your next turn as their bodies swell with tainted gases that continuously release themselves. Creatures that are immune to poison automatically succeed on this saving throw."
+                "At 2nd level, you can channel your divine power to debilitate those around you. You release a cloud of tainted energy around you, affecting all creatures of your choice within 20 feet. Each creature takes an amount of Poison damage equal to 5 + your cleric level, and must make a Constitution saving throw against your Spell Save DC. Those that fail are {@condition poisoned} and rendered unable to speak until the end of your next turn as their bodies swell with tainted gases that continuously release themselves. Creatures that are immune to poison automatically succeed on this saving throw."
             ]
         },
         {
@@ -3774,7 +3774,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 17,
             "entries": [
-                "At 17th level, your gaze not only drains foes of the will to act, but fills them with rapture at their own slovenliness. A creature affected by your Gaze of Indolence is also charmed by you for the duration (the triggering attack still happens), and emits noises of pleasure and noxious expulsions that unsettle those around them. Any of the affected creature's allies have disadvantage on attack rolls and ability checks so long as they remain within 20 feet of the affected creature."
+                "At 17th level, your gaze not only drains foes of the will to act, but fills them with rapture at their own slovenliness. A creature affected by your Gaze of Indolence is also {@condition charmed} by you for the duration (the triggering attack still happens), and emits noises of pleasure and noxious expulsions that unsettle those around them. Any of the affected creature's allies have disadvantage on attack rolls and ability checks so long as they remain within 20 feet of the affected creature."
             ]
         },
         {
@@ -4218,7 +4218,7 @@
                 "At 7th level, you have learned the secrets the knights employ to not only maintain their physique, but also employ it on the battlefield.",
                 "You gain proficiency in the {@skill Eating} skill.",
                 "Whether you already had proficiency in the {@skill Eating} skill or not, you gain expertise in it as well.",
-                "Additionally, while wearing heavy armor and not using a shield, you may attempt to shove or knock an enemy prone as a bonus action."
+                "Additionally, while wearing heavy armor and not using a shield, you may attempt to shove or knock an enemy {@condition prone} as a bonus action."
             ]
         },
         {
@@ -4320,7 +4320,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 7,
             "entries": [
-                "At 7th level, the runes on your armor can be used to thrust attackers away from you. When you are hit by a melee attack, you can use your reaction to deal {@dice 1d10} + your Intelligence modifier in force damage to your attacker, and force your attacker to make a Strength Saving throw or be pushed 20 feet directly away from you and knocked prone. Using this feature drains {@dice 1d10} pounds of fat from your body, and once used cannot be used again until your 4th turn after you use this. The number of rounds that must pass reduces by 1 at 10th, 15th, and 18th level; at 18th level, you can use this feature once every round."
+                "At 7th level, the runes on your armor can be used to thrust attackers away from you. When you are hit by a melee attack, you can use your reaction to deal {@dice 1d10} + your Intelligence modifier in force damage to your attacker, and force your attacker to make a Strength Saving throw or be pushed 20 feet directly away from you and knocked {@condition prone}. Using this feature drains {@dice 1d10} pounds of fat from your body, and once used cannot be used again until your 4th turn after you use this. The number of rounds that must pass reduces by 1 at 10th, 15th, and 18th level; at 18th level, you can use this feature once every round."
             ]
         },
         {
@@ -4513,15 +4513,15 @@
                     "type": "entries",
                     "name": "Demon Crushing Hold (1 Ki point)",
                     "entries": [
-                        "Make a Strength ({@skill Athletics}) check, contested by your opponent's Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}), as if grappling, against a creature currently grappled by you. If you succeed, your target is restrained while they are grappled by you, and you may move freely through your target's space. At the start of each of your target's turns while they are grappled by you, they take bludgeoning damage equal to your Wisdom modifier (minimum of 1)."
+                        "Make a Strength ({@skill Athletics}) check, contested by your opponent's Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}), as if grappling, against a creature currently {@condition grappled} by you. If you succeed, your target is {@condition restrained} while they are {@condition grappled} by you, and you may move freely through your target's space. At the start of each of your target's turns while they are {@condition grappled} by you, they take bludgeoning damage equal to your Wisdom modifier (minimum of 1)."
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Dragon's Breath Throw (1 Ki point)",
                     "entries": [
-                        "You throw a creature grappled by you 5 feet horizontally, in any direction, ending the grapple. This increases to 10 feet if you are Burdened or Clumsy, 15 feet if you are Impeded or Lumbering, and 20 feet if you are Immobilized or Musclebound. Your target must make a Strength saving throw against your Ki save DC. They have disadvantage on this save if they cannot move the full throw distance due to an obstacle or another creature. On a failure they fall prone and take bludgeoning damage equal to your martial arts die. If your target would be pushed into another creature's space, that creature must also make the save for this maneuver.",
-                        "If the impacted creature is one or more sizes smaller than the thrown one, it makes the save with disadvantage, and it does not stop the movement of the thrown creature, moving into available nearby spaces if necessary. On a failure, it takes bludgeoning damage equal to your martial arts die and is knocked prone."
+                        "You throw a creature {@condition grappled} by you 5 feet horizontally, in any direction, ending the grapple. This increases to 10 feet if you are Burdened or Clumsy, 15 feet if you are Impeded or Lumbering, and 20 feet if you are Immobilized or Musclebound. Your target must make a Strength saving throw against your Ki save DC. They have disadvantage on this save if they cannot move the full throw distance due to an obstacle or another creature. On a failure they fall {@condition prone} and take bludgeoning damage equal to your martial arts die. If your target would be pushed into another creature's space, that creature must also make the save for this maneuver.",
+                        "If the impacted creature is one or more sizes smaller than the thrown one, it makes the save with disadvantage, and it does not stop the movement of the thrown creature, moving into available nearby spaces if necessary. On a failure, it takes bludgeoning damage equal to your martial arts die and is knocked {@condition prone}."
                     ]
                 }
             ]
@@ -4535,7 +4535,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 6,
             "entries": [
-                "Starting at 6th level, you can deflect or even catch melee attacks. When you are hit by a melee weapon attack, you can spend 1 Ki point to use your reaction to reduce the damage by {@dice 1d10} + your Dexterity modifier + your Monk level. If you reduce the damage to 0, and you would be able to make a grapple attempt against the creature that triggered this effect, you may automatically apply the grappled condition to that creature. Attack rolls with the weapon or attack that triggered this feature have disadvantage until the grapple ends."
+                "Starting at 6th level, you can deflect or even catch melee attacks. When you are hit by a melee weapon attack, you can spend 1 Ki point to use your reaction to reduce the damage by {@dice 1d10} + your Dexterity modifier + your Monk level. If you reduce the damage to 0, and you would be able to make a grapple attempt against the creature that triggered this effect, you may automatically apply the {@condition grappled} condition to that creature. Attack rolls with the weapon or attack that triggered this feature have disadvantage until the grapple ends."
             ]
         },
         {
@@ -4619,7 +4619,7 @@
             "level": 6,
             "entries": [
                 "At 6th level, as a reaction to taking damage, you may spend 2 Ki to gain resistance to all damage, including the triggering attack, until the beginning of your next turn. After using this ability, you must complete a long rest before you can use it again.",
-                "Additionally, you may ignore penalties to your movement speed from being Burdened or Impeded. If you are Immobile, you may make attacks without disadvantage from being Restrained by your own body."
+                "Additionally, you may ignore penalties to your movement speed from being Burdened or Impeded. If you are Immobile, you may make attacks without disadvantage from being {@condition Restrained} by your own body."
             ]
         },
         {
@@ -4714,7 +4714,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 11,
             "entries": [
-                "At 11th level, you punish those who dare to attack you in melee. Whenever you are struck by a melee attack and not knocked unconscious, you may immediately spend 1 ki point to make a single melee attack against the creature that struck you, adding your Proficiency bonus to the damage roll of a successful hit. You may not use any other monk abilities, such as Stunning Strike, to affect this attack. You may use this ability a number of times per round equal to your Wisdom Modifier (minimum 1)."
+                "At 11th level, you punish those who dare to attack you in melee. Whenever you are struck by a melee attack and not knocked {@condition unconscious}, you may immediately spend 1 ki point to make a single melee attack against the creature that struck you, adding your Proficiency bonus to the damage roll of a successful hit. You may not use any other monk abilities, such as Stunning Strike, to affect this attack. You may use this ability a number of times per round equal to your Wisdom Modifier (minimum 1)."
             ]
         },
         {
@@ -5016,14 +5016,14 @@
                     "name": "Titan of Fortitude",
                     "entries": [
                         "You can use your Channel Divinity to grow in size and strength. as an Action, you can increase your size by one size category and gain resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons. For the duration, you may add your Charisma modifier (minimum bonus of +1) to damage rolls of your Melee Weapon Attacks. These benefits last for 1 minute.",
-                        "You can end this effect on your turn as part of any other action. If you fall unconscious, this effect ends."
+                        "You can end this effect on your turn as part of any other action. If you fall {@condition unconscious}, this effect ends."
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Taunt the Unholy",
                     "entries": [
-                        "As an action, you present your holy symbol and speak an inflammatory prayer inciting the ire of your foes. Each enemy that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it has disadvantage on all attack rolls against targets other than you for a number of rounds equal to your Charisma Modifier (minimum 1 round). This effect ends early if you fall unconscious."
+                        "As an action, you present your holy symbol and speak an inflammatory prayer inciting the ire of your foes. Each enemy that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it has disadvantage on all attack rolls against targets other than you for a number of rounds equal to your Charisma Modifier (minimum 1 round). This effect ends early if you fall {@condition unconscious}."
                     ]
                 }
             ]
@@ -5068,7 +5068,7 @@
                     "items": [
                         "Your Size is increased by one size category, and all Melee Weapon Attacks you make deal an additional d4 damage.",
                         "Your Melee Weapon Attacks deal double damage to objects and structures.",
-                        "You cannot be charmed, restrained, paralyzed, or petrified."
+                        "You cannot be {@condition charmed}, {@condition restrained}, {@condition paralyzed}, or {@condition petrified}."
                     ]
                 },
                 "Once you use this feature, you can't use it again until you finish a long rest."
@@ -5169,14 +5169,14 @@
                     "type": "entries",
                     "name": "Seismic Step",
                     "entries": [
-                        "As an action, you slam your foot into the ground, sending a shockwave through their vicinity. All creatures of your choice within 20 feet must make a Strength saving throw with a DC equal to 8 + proficiency build + the paladin's Strength modifier. A creature that fails is moved up to 10 feet in any direction at the paladin's discretion and is knocked prone."
+                        "As an action, you slam your foot into the ground, sending a shockwave through their vicinity. All creatures of your choice within 20 feet must make a Strength saving throw with a DC equal to 8 + proficiency build + the paladin's Strength modifier. A creature that fails is moved up to 10 feet in any direction at the paladin's discretion and is knocked {@condition prone}."
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Body Block",
                     "entries": [
-                        "As an action, you call out your enemies, using your unmissable figure to draw the ire of their foes. You may choose a number of targets within 30 feet up to their Charisma modifier. A chosen target receives disadvantage if they attack any target other than the paladin. The effect lasts for one minute, or until you choose to end it (no action required). This effect also ends if you fall unconscious."
+                        "As an action, you call out your enemies, using your unmissable figure to draw the ire of their foes. You may choose a number of targets within 30 feet up to their Charisma modifier. A chosen target receives disadvantage if they attack any target other than the paladin. The effect lasts for one minute, or until you choose to end it (no action required). This effect also ends if you fall {@condition unconscious}."
                     ]
                 }
             ]
@@ -5202,7 +5202,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 15,
             "entries": [
-                "Starting at 15th level, you become nearly impossible to shift against your will. While standing, you cannot be forced to move or knocked prone."
+                "Starting at 15th level, you become nearly impossible to shift against your will. While standing, you cannot be forced to move or knocked {@condition prone}."
             ]
         },
         {
@@ -5486,7 +5486,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 17,
             "entries": [
-                "At 17th level, you can hurl even the heaviest of targets with your sheer strength and determination. When you make an attack against a creature you are grappling or who is grappling you, you can expend 3 moxie points to make it a Ring Toss. If the attack hits, the grapple ends as the creature is thrown a number of feet in a direction of your choice equal to the result of a roll of your Fisticuffs die plus your Strength modifier, is knocked prone, and must make a Constitution saving throw or be stunned until the end of their next turn."
+                "At 17th level, you can hurl even the heaviest of targets with your sheer strength and determination. When you make an attack against a creature you are grappling or who is grappling you, you can expend 3 moxie points to make it a Ring Toss. If the attack hits, the grapple ends as the creature is thrown a number of feet in a direction of your choice equal to the result of a roll of your Fisticuffs die plus your Strength modifier, is knocked {@condition prone}, and must make a Constitution saving throw or be {@condition stunned} until the end of their next turn."
             ]
         },
         {
@@ -5567,7 +5567,7 @@
                     "type": "entries",
                     "name": "Staggering Shot",
                     "entries": [
-                        "The target cannot take reactions until the end of its next turn. If you are Impeded by your bulk, the target is instead incapacitated until the end of its next turn."
+                        "The target cannot take reactions until the end of its next turn. If you are Impeded by your bulk, the target is instead {@condition incapacitated} until the end of its next turn."
                     ]
                 },
                 {
@@ -5782,7 +5782,7 @@
                     "type": "entries",
                     "name": "Survivor's Thorns",
                     "entries": [
-                        "You have a climbing speed equal to your walking speed. Any creature that strikes you in melee or begins their turn grappling you or grappled by you takes piercing damage equal to your Constitution modifier."
+                        "You have a climbing speed equal to your walking speed. Any creature that strikes you in melee or begins their turn grappling you or {@condition grappled} by you takes piercing damage equal to your Constitution modifier."
                     ]
                 }
             ]
@@ -5801,14 +5801,14 @@
                     "type": "entries",
                     "name": "Prowler's Escape",
                     "entries": [
-                        "You can use the Disengage action as a bonus action on your turn. Additionally, you have advantage on ability checks and saving throws made to escape a grapple or to end any effect that applies the restrained condition on you."
+                        "You can use the Disengage action as a bonus action on your turn. Additionally, you have advantage on ability checks and saving throws made to escape a grapple or to end any effect that applies the {@condition restrained} condition on you."
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Charger's Takedown",
                     "entries": [
-                        "Once per round, if you move at least 20 feet in a straight line towards a creature, and if your next melee weapon attack against it hits, it must succeed on a Strength saving throw against your spell save DC or be knocked prone."
+                        "Once per round, if you move at least 20 feet in a straight line towards a creature, and if your next melee weapon attack against it hits, it must succeed on a Strength saving throw against your spell save DC or be knocked {@condition prone}."
                     ]
                 },
                 {
@@ -5835,21 +5835,21 @@
                     "type": "entries",
                     "name": "Prowler's Venom",
                     "entries": [
-                        "This natural weapon deals piercing damage. If you hit a creature with this weapon, it must pass a Constitution save against your spell save DC or be poisoned and take {@dice 2d4} poison damage at the start of each of its turns for 1 minute. An affected creature can repeat the save at the end of each of its turns, ending the effect on a success."
+                        "This natural weapon deals piercing damage. If you hit a creature with this weapon, it must pass a Constitution save against your spell save DC or be {@condition poisoned} and take {@dice 2d4} poison damage at the start of each of its turns for 1 minute. An affected creature can repeat the save at the end of each of its turns, ending the effect on a success."
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Charger's Savagery",
                     "entries": [
-                        "This natural weapon deals slashing damage. If you hit a creature with this weapon, it and any creatures of your choice that can see you or the target within 10 feet of you must make a Wisdom saving throw against your spell save DC or be frightened by you until the end of its next turn. Creatures besides the target you hit have advantage on this save."
+                        "This natural weapon deals slashing damage. If you hit a creature with this weapon, it and any creatures of your choice that can see you or the target within 10 feet of you must make a Wisdom saving throw against your spell save DC or be {@condition frightened} by you until the end of its next turn. Creatures besides the target you hit have advantage on this save."
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Survivor's Embrace",
                     "entries": [
-                        "This natural weapon deals bludgeoning damage. If you hit a creature with this weapon, the target is grappled with an escape DC equal to your spell save DC. Until this grapple ends, the target is restrained, you can attack that creature with this natural weapon as a bonus action, and you can't use this natural weapon on another target."
+                        "This natural weapon deals bludgeoning damage. If you hit a creature with this weapon, the target is {@condition grappled} with an escape DC equal to your spell save DC. Until this grapple ends, the target is {@condition restrained}, you can attack that creature with this natural weapon as a bonus action, and you can't use this natural weapon on another target."
                     ]
                 }
             ]
@@ -5938,7 +5938,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 17,
             "entries": [
-                "At 17th level, your ability to steal essence has improved, and the drain has become so potent that it leaves enemies winded. A creature who you successfully use Essence Theft on gains the Poisoned condition until the ability's duration ends. Additionally, they are always a viable target for your Sneak Attack ability, even if you have disadvantage on your attack rolls against them.",
+                "At 17th level, your ability to steal essence has improved, and the drain has become so potent that it leaves enemies winded. A creature who you successfully use Essence Theft on gains the {@condition Poisoned} condition until the ability's duration ends. Additionally, they are always a viable target for your Sneak Attack ability, even if you have disadvantage on your attack rolls against them.",
                 "If you kill a target under the effects of Essence Theft and use Essence Devour on them, the effect of Essence Theft remains until the end of your next long rest."
             ]
         },
@@ -6119,7 +6119,7 @@
                             "type": "entries",
                             "name": "Burst",
                             "entries": [
-                                "The force of your deflation forces creatures within 5 feet of you to succeed against a Strength saving throw against your inflation DC or be knocked prone and deafened."
+                                "The force of your deflation forces creatures within 5 feet of you to succeed against a Strength saving throw against your inflation DC or be knocked {@condition prone} and {@condition deafened}."
                             ]
                         }
                     ]
@@ -6184,7 +6184,7 @@
                             "type": "entries",
                             "name": "Enemy",
                             "entries": [
-                                "A creature you have inflated with liquid is restrained, and when it is hit by an attack or forced to move by an effect besides this one it must make a Dexterity saving throw against your Inflation DC or be rolled and forced to move 10 feet away from the attacker or in the direction of the forced movement."
+                                "A creature you have inflated with liquid is {@condition restrained}, and when it is hit by an attack or forced to move by an effect besides this one it must make a Dexterity saving throw against your Inflation DC or be rolled and forced to move 10 feet away from the attacker or in the direction of the forced movement."
                             ]
                         }
                     ]
@@ -6227,7 +6227,7 @@
             "entries": [
                 "At 3rd level you can compress and fold your flesh, disguising your weight from inspection and creating spaces to hide small weapons and items about your person. Over the course of a short or long rest, you may reduce your apparent weight to any weight that is not below your base weight, and within one Bulk threshold of your actual weight. During this process, you may hide a number of weapons with the Light property equal to your Constitution modifier (minimum 1) about your person. You may also hide a number of items about your person equal to your Constitution modifier (minimum 1), provided each weighs no more than 2 pounds. You may retrieve these weapons and items on your turn as if drawing them from a sheath, even if you would normally be prevented from doing so.",
                 "While your weight is disguised you can fool personal inspection, physical measure, or any other mundane effect which would otherwise reveal your weight or the weapons and items hidden on your person. You do not suffer Bulk penalties to Dexterity checks or Dexterity saving throws if your apparent weight is below your Impeded Threshold, otherwise you suffer Bulk penalties as normal.",
-                "If you die or are knocked unconscious your actual weight is revealed, and any weapons and items hidden on your person from this feature are dropped on the ground within 5 feet of your current position. If you would occupy more space than normal as a result of your weight, any creatures in spaces now occupied by you are displaced to the nearest available space of their choosing."
+                "If you die or are knocked {@condition unconscious} your actual weight is revealed, and any weapons and items hidden on your person from this feature are dropped on the ground within 5 feet of your current position. If you would occupy more space than normal as a result of your weight, any creatures in spaces now occupied by you are displaced to the nearest available space of their choosing."
             ]
         },
         {
@@ -6482,8 +6482,8 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 6,
             "entries": [
-                "Starting at 6th level, as an action, you can spend 3 sorcery points to infect a creature you can see within 120 feet with mindless hunger. The creature must make a Charisma saving throw against your spellcasting DC. On a failed save, the creature becomes charmed by you for 1 minute. While charmed in this way, the creature must spend its action, bonus action, and movement to seek out and devour the nearest food on each of its turns, and it cannot take reactions. The creature doesn't move into obviously dangerous ground.",
-                "The spell ends for an affected creature if it takes any damage. If someone else uses an action to attempt to shake the creature to its senses, the creature can repeat the saving throw with advantage. Anyone who damages the creature or tries to shake it to its senses must pass a Charisma save or be charmed by you in this way for 1 minute. A remove curse spell ends the effect early."
+                "Starting at 6th level, as an action, you can spend 3 sorcery points to infect a creature you can see within 120 feet with mindless hunger. The creature must make a Charisma saving throw against your spellcasting DC. On a failed save, the creature becomes {@condition charmed} by you for 1 minute. While {@condition charmed} in this way, the creature must spend its action, bonus action, and movement to seek out and devour the nearest food on each of its turns, and it cannot take reactions. The creature doesn't move into obviously dangerous ground.",
+                "The spell ends for an affected creature if it takes any damage. If someone else uses an action to attempt to shake the creature to its senses, the creature can repeat the saving throw with advantage. Anyone who damages the creature or tries to shake it to its senses must pass a Charisma save or be {@condition charmed} by you in this way for 1 minute. A remove curse spell ends the effect early."
             ]
         },
         {
@@ -6507,17 +6507,17 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 18,
             "entries": [
-                "Starting at 18th level, you can spend 6 Sorcery Points as a bonus action to adopt the form of a fey wellspring of excess. You remain in this form for 1 minute. It ends early if you are incapacitated, if you die, or if you dismiss it as a bonus action. While in this form, you gain the following benefits:",
+                "Starting at 18th level, you can spend 6 Sorcery Points as a bonus action to adopt the form of a fey wellspring of excess. You remain in this form for 1 minute. It ends early if you are {@condition incapacitated}, if you die, or if you dismiss it as a bonus action. While in this form, you gain the following benefits:",
                 {
                     "type": "list",
                     "items": [
                         "You gain a flying speed of 30 feet.",
                         "You are affected by the Reduce effect of the Enlarge Reduce spell, reducing your size to Tiny instead of the normal reduction.",
                         "You can cast {@spell feed|StorymakerExpanDnD} and {@spell abyssal stomach|StorymakerExpanDnD} at their lowest levels without expending a spell slot or requiring material components.",
-                        "As an action, you can turn invisible until your concentration ends (as if concentrating on a spell), with any equipment you are wearing or carrying turning invisible as long as it is on your person."
+                        "As an action, you can turn {@condition invisible} until your concentration ends (as if concentrating on a spell), with any equipment you are wearing or carrying turning {@condition invisible} as long as it is on your person."
                     ]
                 },
-                "Also starting at 18th level, you can use an action to touch a creature and weaken their will. If the creature fails a Charisma saving throw against your spellcasting DC, it must eat any food offered to it. For 1 minute, any spell attacks that cause the target to eat food (such as the feed spell) automatically hit the target, and the target automatically fails any saving throws on similar spells (such as the overabundance spell). While under the effects of this magic, the target's stomach capacity is effectively infinite, they cannot take damage from overeating, and they are charmed as if by your Virulent Voracity feature."
+                "Also starting at 18th level, you can use an action to touch a creature and weaken their will. If the creature fails a Charisma saving throw against your spellcasting DC, it must eat any food offered to it. For 1 minute, any spell attacks that cause the target to eat food (such as the feed spell) automatically hit the target, and the target automatically fails any saving throws on similar spells (such as the overabundance spell). While under the effects of this magic, the target's stomach capacity is effectively infinite, they cannot take damage from overeating, and they are {@condition charmed} as if by your Virulent Voracity feature."
             ]
         },
         {
@@ -6561,7 +6561,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 1,
             "entries": [
-                "When you choose this origin at 1st level, your body's natural gas wells up when you draw upon your energy to cast spells. You can use a bonus action on your turn to release this gas in a cloud around you immediately before or after you cast a spell of 1st level or higher, causing other creatures within 5 feet of you to make a Constituion saving throw or be Poisoned until the start of your next turn. Creatures that don't need to breathe or are immune to poison automatically succeed on this saving throw."
+                "When you choose this origin at 1st level, your body's natural gas wells up when you draw upon your energy to cast spells. You can use a bonus action on your turn to release this gas in a cloud around you immediately before or after you cast a spell of 1st level or higher, causing other creatures within 5 feet of you to make a Constituion saving throw or be {@condition Poisoned} until the start of your next turn. Creatures that don't need to breathe or are immune to poison automatically succeed on this saving throw."
             ]
         },
         {
@@ -6585,7 +6585,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 14,
             "entries": [
-                "Starting at 14th level, you have supreme control over your gaseous production. As an action, you can produce an excessive amount of gas and store it in your body, inflating your body or part of your body to twice your original size. You take up the space of a creature one size larger than normal, and gain a fly speed equal to your current speed. This inflation lasts until you release the gas as an action on your turn, at which point any creatures within 20 feet must make a Constitution saving throw or be poisoned for the next minute. Any creature that succeeds on this saving throw is immune to this effect for the next 24 hours.",
+                "Starting at 14th level, you have supreme control over your gaseous production. As an action, you can produce an excessive amount of gas and store it in your body, inflating your body or part of your body to twice your original size. You take up the space of a creature one size larger than normal, and gain a fly speed equal to your current speed. This inflation lasts until you release the gas as an action on your turn, at which point any creatures within 20 feet must make a Constitution saving throw or be {@condition poisoned} for the next minute. Any creature that succeeds on this saving throw is immune to this effect for the next 24 hours.",
                 "Any armor or clothing not made to accomodate this growth might be destroyed when you trigger it."
             ]
         },
@@ -6740,7 +6740,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 6,
             "entries": [
-                "Starting at 6th level, you can conjure a piece of enchanted food or drink. Food enchanted this way disappears within 24 hours of creating it. You may also enchant a piece of food you have conjured magically, such as through the feed spell. A creature that eats a piece of food enchanted in this way must make a Charisma saving throw with Disadvantage or be charmed by you for 24 hours. This charm ends if you or your companions do anything harmful to it. Once you have used this ability, you cannot do so again until you finish a long rest."
+                "Starting at 6th level, you can conjure a piece of enchanted food or drink. Food enchanted this way disappears within 24 hours of creating it. You may also enchant a piece of food you have conjured magically, such as through the feed spell. A creature that eats a piece of food enchanted in this way must make a Charisma saving throw with Disadvantage or be {@condition charmed} by you for 24 hours. This charm ends if you or your companions do anything harmful to it. Once you have used this ability, you cannot do so again until you finish a long rest."
             ]
         },
         {
@@ -6752,8 +6752,8 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 10,
             "entries": [
-                "Starting at 10th level, your Patron allows you to share in the positive effects of your ministrations on others. Whenever you cast a spell that only targets a creature charmed by your Charmed Offering or feed them a consumable magic item, you can choose to also be affected by that spell or item. You can also make any spell you cast that targets only you also target a creature charmed by your Charmed Offering.",
-                "Additionally, a target charmed by your Charmed Offering now, in addition to being charmed, regards you as a trusted friend to be heeded and protected. Although the target isn't under your control, it takes your requests or actions in the most favorable way it can. Asking the creature to stab itself, throw itself onto a spear, immolate itself, or do some other obviously harmful act ends the charm."
+                "Starting at 10th level, your Patron allows you to share in the positive effects of your ministrations on others. Whenever you cast a spell that only targets a creature {@condition charmed} by your Charmed Offering or feed them a consumable magic item, you can choose to also be affected by that spell or item. You can also make any spell you cast that targets only you also target a creature {@condition charmed} by your Charmed Offering.",
+                "Additionally, a target {@condition charmed} by your Charmed Offering now, in addition to being {@condition charmed}, regards you as a trusted friend to be heeded and protected. Although the target isn't under your control, it takes your requests or actions in the most favorable way it can. Asking the creature to stab itself, throw itself onto a spear, immolate itself, or do some other obviously harmful act ends the charm."
             ]
         },
         {
@@ -7283,7 +7283,7 @@
                 }
             ],
             "entries": [
-                "As a bonus action, you force a creature within 60 feet of you to consume their sins all over again, causing them to make a Wisdom Saving Throw taking psychic damage equal to your Blood Hunter level plus your Intelligence modifier on a failure, or half as much on a success, gaining a number of pounds of fat equal to twice the damage dealt. A creature that fails this Saving Throw is also stunned until the end of your next turn. Creatures with an Evil alignment (or, at the DM's discretion, creatures not of an Evil Alignment that have a particularly sinful past) have disadvantage on the Saving Throw.",
+                "As a bonus action, you force a creature within 60 feet of you to consume their sins all over again, causing them to make a Wisdom Saving Throw taking psychic damage equal to your Blood Hunter level plus your Intelligence modifier on a failure, or half as much on a success, gaining a number of pounds of fat equal to twice the damage dealt. A creature that fails this Saving Throw is also {@condition stunned} until the end of your next turn. Creatures with an Evil alignment (or, at the DM's discretion, creatures not of an Evil Alignment that have a particularly sinful past) have disadvantage on the Saving Throw.",
                 {
                     "name": "Amplify",
                     "entries": [
@@ -7496,7 +7496,7 @@
             ],
             "entries": [
                 "{@i Duration: 7 days}",
-                "An afflicted creature is driven wild with lust and must make a Charisma saving throw against your Spell Save DC each time it sees a new creature that shares a creature type with it or be charmed by it until it no longer sees that creature."
+                "An afflicted creature is driven wild with lust and must make a Charisma saving throw against your Spell Save DC each time it sees a new creature that shares a creature type with it or be {@condition charmed} by it until it no longer sees that creature."
             ],
             "featureType": "CotSD"
         },
@@ -7542,7 +7542,7 @@
             ],
             "entries": [
                 "{@i Duration: 7 days}",
-                "The affected creature and any creature within 5 feet of them that is not immune to poison or disease is poisoned."
+                "The affected creature and any creature within 5 feet of them that is not immune to poison or disease is {@condition poisoned}."
             ],
             "featureType": "CotSD"
         },
@@ -7655,7 +7655,7 @@
                 }
             ],
             "entries": [
-                "This small, decadent looking creampuff is both tasty and a great boon. Upon consumption, the imbiber may end one of the following conditions afflicting them: blinded, deafened, frightened, or poisoned."
+                "This small, decadent looking creampuff is both tasty and a great boon. Upon consumption, the imbiber may end one of the following conditions afflicting them: {@condition blinded}, {@condition deafened}, {@condition frightened}, or {@condition poisoned}."
             ],
             "featureType": "GLR"
         },
@@ -7677,7 +7677,7 @@
                 }
             ],
             "entries": [
-                "This dark colored bundle of licorice smells of blackberries. Upon consumption, the imbiber must make a Constitution saving throw. On a failed save, the creature gains the poisoned condition and their speed is halved for one minute as the poison within the licorice takes hold. On a success, the creature is unaffected."
+                "This dark colored bundle of licorice smells of blackberries. Upon consumption, the imbiber must make a Constitution saving throw. On a failed save, the creature gains the {@condition poisoned} condition and their speed is halved for one minute as the poison within the licorice takes hold. On a success, the creature is unaffected."
             ],
             "featureType": "GLR"
         },
@@ -7743,7 +7743,7 @@
                 }
             ],
             "entries": [
-                "This is a large tub of... gravy. Upon consumption, the imbiber must make a Wisdom saving throw or become Ravenous for one minute."
+                "This is a large tub of... gravy. Upon consumption, the imbiber must make a Wisdom saving throw or become {@condition Ravenous|StorymakerExpanDnD} for one minute."
             ],
             "featureType": "GLR"
         },
@@ -8034,7 +8034,7 @@
                 }
             ],
             "entries": [
-                "As an action, you can exhude an aura of terror by performing some action, whether it be roaring, stomping the ground, or some other gesture of intimidation, which causes enemies to react in fear. Each creature of your choice within 30 feet of you must make a Wisdom saving throw (DC 8 + your proficiency bonus + your Charisma modifier). A target automatically succeeds on the save if it can't hear or see you. On a failed save, a target becomes frightened of you for 1 minute. If the frightened target takes any damage, it can repeat the saving throw, ending the effect on itself on a success."
+                "As an action, you can exhude an aura of terror by performing some action, whether it be roaring, stomping the ground, or some other gesture of intimidation, which causes enemies to react in fear. Each creature of your choice within 30 feet of you must make a Wisdom saving throw (DC 8 + your proficiency bonus + your Charisma modifier). A target automatically succeeds on the save if it can't hear or see you. On a failed save, a target becomes {@condition frightened} of you for 1 minute. If the {@condition frightened} target takes any damage, it can repeat the saving throw, ending the effect on itself on a success."
             ],
             "featureType": "EI"
         },
@@ -10341,7 +10341,7 @@
                     "type": "entries",
                     "name": "Hem in",
                     "entries": [
-                        "Choose one creature in range that you can see wearing nonmagical clothes. The creature makes a Strength saving throw. On a failure, the clothes shrink and constrict them, dealing them {@dice 1d6} bludgeoning damage and the creature becomes Restrained. If they succeed, they take half as much damage and rip through the outfit, damaging it but avoiding the restained effect. This damage is only cosmetic, and does not impede the use of armor. A creature Restrained in this way can use its action to make another Strength save against your spellcasting DC. On a success, they force their outfit to retain its original size."
+                        "Choose one creature in range that you can see wearing nonmagical clothes. The creature makes a Strength saving throw. On a failure, the clothes shrink and constrict them, dealing them {@dice 1d6} bludgeoning damage and the creature becomes {@condition Restrained}. If they succeed, they take half as much damage and rip through the outfit, damaging it but avoiding the restained effect. This damage is only cosmetic, and does not impede the use of armor. A creature {@condition Restrained} in this way can use its action to make another Strength save against your spellcasting DC. On a success, they force their outfit to retain its original size."
                     ]
                 }
             ],
@@ -10412,7 +10412,7 @@
             ],
             "miscTags": [],
             "entries": [
-                "Sticky syrup covers the ground in a 10-foot square centered on a point within range and turns it into difficult terrain for the duration. When the grease appears, each creature standing in its area must succeed on a Strength saving throw or become grappled. A creature that enters the area or ends its turn there must also succeed on a Strength saving throw or become grappled. A creature grappled by the syrup can use its actions to make a Strength check against your spell save DC. If it succeeds, it is no longer grappled. A creature grappled by the syrup may also try to eat the syrup that is sticking to it, using an action or bonus action to consume 1 pound of fatty food. After consuming a number of pounds of fatty food equal to your spellcasting ability modifier, it is no longer grappled."
+                "Sticky syrup covers the ground in a 10-foot square centered on a point within range and turns it into difficult terrain for the duration. When the grease appears, each creature standing in its area must succeed on a Strength saving throw or become {@condition grappled}. A creature that enters the area or ends its turn there must also succeed on a Strength saving throw or become {@condition grappled}. A creature {@condition grappled} by the syrup can use its actions to make a Strength check against your spell save DC. If it succeeds, it is no longer {@condition grappled}. A creature {@condition grappled} by the syrup may also try to eat the syrup that is sticking to it, using an action or bonus action to consume 1 pound of fatty food. After consuming a number of pounds of fatty food equal to your spellcasting ability modifier, it is no longer {@condition grappled}."
             ]
         },
         {
@@ -11272,7 +11272,7 @@
             "opposedCheck": [],
             "miscTags": [],
             "entries": [
-                "You create an invisible ward on one creature within range. Until the spell ends, any creature that targets the warded creature with an attack or a harmful effect must first make a Constitution saving throw. On a failure, the warded creature gains resistance to the attack, while the attacking creature immediately gains fat equal to four times the damage dealt.",
+                "You create an {@condition invisible} ward on one creature within range. Until the spell ends, any creature that targets the warded creature with an attack or a harmful effect must first make a Constitution saving throw. On a failure, the warded creature gains resistance to the attack, while the attacking creature immediately gains fat equal to four times the damage dealt.",
                 "If the warded creature makes an attack or casts a spell that affects an enemy creature, this spell ends."
             ]
         },
@@ -11686,7 +11686,7 @@
             "opposedCheck": [],
             "miscTags": [],
             "entries": [
-                "You place a magical command on a creature that you can see within range, forcing it to carry out some service or refrain from some action or course of activity as you decide. If the creature can understand you, it must succeed on a Wisdom saving throw or become charmed by you for the duration. While the creature is charmed by you, it Fattens equal to half its bulk limit each time it acts in a manner directly counter to your instructions, but no more than once each day. Weight gained in this way is lost when the creature finishes a long rest. A creature that can't understand you is unaffected by the spell. You can issue any command you choose, short of an activity that would result in certain death. Should you issue a suicidal command, the spell ends. You can end the spell early by using an action to dismiss it. A remove curse, greater restoration, or wish spell also ends it."
+                "You place a magical command on a creature that you can see within range, forcing it to carry out some service or refrain from some action or course of activity as you decide. If the creature can understand you, it must succeed on a Wisdom saving throw or become {@condition charmed} by you for the duration. While the creature is {@condition charmed} by you, it Fattens equal to half its bulk limit each time it acts in a manner directly counter to your instructions, but no more than once each day. Weight gained in this way is lost when the creature finishes a long rest. A creature that can't understand you is unaffected by the spell. You can issue any command you choose, short of an activity that would result in certain death. Should you issue a suicidal command, the spell ends. You can end the spell early by using an action to dismiss it. A remove curse, greater restoration, or wish spell also ends it."
             ],
             "entriesHigherLevel": [
                 {
@@ -11983,7 +11983,7 @@
             "opposedCheck": [],
             "miscTags": [],
             "entries": [
-                "Holding up a piece of food, you create a small feast for one person and force a target you can see within range to make a Wisdom saving throw. On a failure, the target is charmed, and racked with irresistable hunger. On their turn, they must spend their movement, action, and bonus action moving to the nearest source of food, starting with the feast created by the spell, and eating as much as possible. The feast created by the spell can last the creature three rounds of ravenous eating and will fill the target to their maximum capacity, including an overeating check, after which they will seek out any other food in the area to consume. If there is no food to be found in the area, the target spends their turn clutching their stomach as they are racked with hunger pains. The target can make another Wisdom saving throw at the end of each of its turns. On a success, the spell ends. If the spell ends and the target has been eating for three rounds or more, they are stunned until the end of their next turn as they are struck by a feeling of immense fullness."
+                "Holding up a piece of food, you create a small feast for one person and force a target you can see within range to make a Wisdom saving throw. On a failure, the target is {@condition charmed}, and racked with irresistable hunger. On their turn, they must spend their movement, action, and bonus action moving to the nearest source of food, starting with the feast created by the spell, and eating as much as possible. The feast created by the spell can last the creature three rounds of ravenous eating and will fill the target to their maximum capacity, including an overeating check, after which they will seek out any other food in the area to consume. If there is no food to be found in the area, the target spends their turn clutching their stomach as they are racked with hunger pains. The target can make another Wisdom saving throw at the end of each of its turns. On a success, the spell ends. If the spell ends and the target has been eating for three rounds or more, they are {@condition stunned} until the end of their next turn as they are struck by a feeling of immense fullness."
             ],
             "entriesHigherLevel": [
                 {
@@ -12062,7 +12062,7 @@
             "opposedCheck": [],
             "miscTags": [],
             "entries": [
-                "Your body swells with a sudden surge of unnatural poisonous gases before you release them in a burst of toxic potency. Each creature in a 60 foot cone originating from you must make a Constitution saving throw or suffer {@dice 8d6} poison damage and be poisoned for {@dice 1d6} rounds. Creatures that succeed on the saving throw take half as much damage and are not poisoned."
+                "Your body swells with a sudden surge of unnatural poisonous gases before you release them in a burst of toxic potency. Each creature in a 60 foot cone originating from you must make a Constitution saving throw or suffer {@dice 8d6} poison damage and be {@condition poisoned} for {@dice 1d6} rounds. Creatures that succeed on the saving throw take half as much damage and are not {@condition poisoned}."
             ],
             "entriesHigherLevel": [
                 {
@@ -12362,7 +12362,7 @@
             "opposedCheck": [],
             "miscTags": [],
             "entries": [
-                "You create a feast in an unoccupied space within range. The feast occupies a 5 foot cube and consists of a number of pounds of fatty food equal to your spellcasting ability modifier. Any creature that can see or smell the feast that moves or ends its turn within 10 feet of it for the first time in a round must succeed on a Wisdom saving throw or be charmed by you. A creature which eats the food made by this spell automatically fails this save, and creatures with no food in its stomach has disadvantage on the save. The feast produces a number of pounds of fatty food equal to your spellcasting ability modifier per creature charmed by you in this way at the start of each of your turns. While charmed in this way, a creature must spend its movement, action, and bonus action to move towards the feast and eat the food provided by it. The creature doesn't move into obviously dangerous ground. A creature charmed by the Feast can repeat the saving throw against its effects on the end of each of its turns, but suffers disadvantage on these saves until they are full, including the result of an overstuffing check. On a success, it is no longer charmed by you and cannot be charmed in this way until after its stomach next becomes empty."
+                "You create a feast in an unoccupied space within range. The feast occupies a 5 foot cube and consists of a number of pounds of fatty food equal to your spellcasting ability modifier. Any creature that can see or smell the feast that moves or ends its turn within 10 feet of it for the first time in a round must succeed on a Wisdom saving throw or be {@condition charmed} by you. A creature which eats the food made by this spell automatically fails this save, and creatures with no food in its stomach has disadvantage on the save. The feast produces a number of pounds of fatty food equal to your spellcasting ability modifier per creature {@condition charmed} by you in this way at the start of each of your turns. While {@condition charmed} in this way, a creature must spend its movement, action, and bonus action to move towards the feast and eat the food provided by it. The creature doesn't move into obviously dangerous ground. A creature {@condition charmed} by the Feast can repeat the saving throw against its effects on the end of each of its turns, but suffers disadvantage on these saves until they are full, including the result of an overstuffing check. On a success, it is no longer {@condition charmed} by you and cannot be {@condition charmed} in this way until after its stomach next becomes empty."
             ]
         },
         {
@@ -12609,7 +12609,7 @@
             ],
             "miscTags": [],
             "entries": [
-                "Writhing, sappy vines fill a 20-foot square on the ground that you can see within range. For the duration, these vines turn the ground in the area into difficult terrain. When a creature enters the affected area for the first time on a turn or starts its turn there, the creature must succeed on a Dexterity saving throw or be forced to consume a number of pounds of fatty food equal to their stomach capacity (including the result of an {@skill Eating} check) plus {@dice 2d6} and be restrained by the vines until the spell ends. A creature that starts its turn in the area and is already restrained by the vines is forced to consume an additional {@dice 2d6} pounds of fatty food. A creature restrained by the vines can use its action to make a Strength or Dexterity check (its choice) against your spell save DC. On a success, it frees itself."
+                "Writhing, sappy vines fill a 20-foot square on the ground that you can see within range. For the duration, these vines turn the ground in the area into difficult terrain. When a creature enters the affected area for the first time on a turn or starts its turn there, the creature must succeed on a Dexterity saving throw or be forced to consume a number of pounds of fatty food equal to their stomach capacity (including the result of an {@skill Eating} check) plus {@dice 2d6} and be {@condition restrained} by the vines until the spell ends. A creature that starts its turn in the area and is already {@condition restrained} by the vines is forced to consume an additional {@dice 2d6} pounds of fatty food. A creature {@condition restrained} by the vines can use its action to make a Strength or Dexterity check (its choice) against your spell save DC. On a success, it frees itself."
             ]
         },
         {
@@ -12664,7 +12664,7 @@
             "opposedCheck": [],
             "miscTags": [],
             "entries": [
-                "You augment your physicality with an enchantment that elicits raw attraction from those who gaze upon you, coupling it with a visual showcase for added effect. One sexual characteristic of your choice expands drastically and becomes the most prominent feature on your body, and anyone who looks at you for the duration of the spell must make a Wisdom saving throw or be charmed by you. Anyone who would not normally be sexually attracted to your sex or the body parts on display has advantage on the saving throw."
+                "You augment your physicality with an enchantment that elicits raw attraction from those who gaze upon you, coupling it with a visual showcase for added effect. One sexual characteristic of your choice expands drastically and becomes the most prominent feature on your body, and anyone who looks at you for the duration of the spell must make a Wisdom saving throw or be {@condition charmed} by you. Anyone who would not normally be sexually attracted to your sex or the body parts on display has advantage on the saving throw."
             ]
         },
         {
@@ -13451,7 +13451,7 @@
                 "HL"
             ],
             "entries": [
-                "You make a soothing gesture, and up to three willing creatures of your choice that you can see within range fall unconscious for the spell's duration. A creature with 0 hit points is unaffected. The spell ends on a target early if it takes damage or someone uses an action to shake or slap it awake. A target gains 1 pound of fat every minute (60 in one hour). If a target remains unconscious for the full duration, that target gains the benefit of a long rest, even if it has benefited from a long rest within the past 24 hours, and it can't be affected by this spell again until it finishes a long rest not given by this spell."
+                "You make a soothing gesture, and up to three willing creatures of your choice that you can see within range fall {@condition unconscious} for the spell's duration. A creature with 0 hit points is unaffected. The spell ends on a target early if it takes damage or someone uses an action to shake or slap it awake. A target gains 1 pound of fat every minute (60 in one hour). If a target remains {@condition unconscious} for the full duration, that target gains the benefit of a long rest, even if it has benefited from a long rest within the past 24 hours, and it can't be affected by this spell again until it finishes a long rest not given by this spell."
             ],
             "entriesHigherLevel": [
                 {
@@ -13969,7 +13969,7 @@
             "opposedCheck": [],
             "miscTags": [],
             "entries": [
-                "A sugary maelstrom forms in a cylinder with a radius of 360 feet and up to 5,000 feet tall, centered on a point you can see, and the area becomes lightly obscured for the duration of the spell. Howling winds kick up biting grains of sugar. Each creature in the area of the maelstrom when it appears must make a Dexterity saving throw. On a failed save, a creature takes {@dice 2d4} piercing damage, is force-fed a number of pounds of fatty food equal to the damage taken, and is blinded until the end of their next turn. Each round you maintain concentration on this spell, the storm produces additional effects on your turn.",
+                "A sugary maelstrom forms in a cylinder with a radius of 360 feet and up to 5,000 feet tall, centered on a point you can see, and the area becomes lightly obscured for the duration of the spell. Howling winds kick up biting grains of sugar. Each creature in the area of the maelstrom when it appears must make a Dexterity saving throw. On a failed save, a creature takes {@dice 2d4} piercing damage, is force-fed a number of pounds of fatty food equal to the damage taken, and is {@condition blinded} until the end of their next turn. Each round you maintain concentration on this spell, the storm produces additional effects on your turn.",
                 {
                     "type": "entries",
                     "name": "Round 2",
@@ -14574,7 +14574,7 @@
             "type": "FD",
             "rarity": "uncommon",
             "entries": [
-                "Upon consumption, the imbiber may end one of the following conditions afflicting them: blinded, deafened, frightened, or poisoned."
+                "Upon consumption, the imbiber may end one of the following conditions afflicting them: {@condition blinded}, {@condition deafened}, {@condition frightened}, or {@condition poisoned}."
             ]
         },
         {
@@ -14690,7 +14690,7 @@
                 {
                     "type": "list",
                     "items": [
-                        "Antitoxin - When applied to a poisoned creature, they gain advantage on all checks against the poison.",
+                        "Antitoxin - When applied to a {@condition poisoned} creature, they gain advantage on all checks against the poison.",
                         "Antibiotic - When applied to a diseased creature, it removes disease.",
                         "Salve - When rubbed into a wound, the creature heals {@dice 4d4+4} hit points.",
                         "Nutritional supplement – When consumed by a healthy creature, they immediately gain {@dice 4d4} pounds. This is in addition to the {@dice 1d6} pounds gained from usage."
@@ -14758,7 +14758,7 @@
             "rarity": "uncommon",
             "curse": true,
             "entries": [
-                "This cursed food item can appear to be any normal type of food. Upon conscumption however, the creature enters a frenzied, hungering state, seeking out any food in the vicinity to devour. A creature consuming the Feasting Food must make a Charisma Saving Throw (DC 14) or become Charmed by the food. While charmed in this way, the creature must immediately seek out and consume any food they can find. This includes any food they may be able to summon through spells such as create fattening food and drink, which they will create when they run out of other food to consume if they are still under the food's effect by that point.",
+                "This cursed food item can appear to be any normal type of food. Upon conscumption however, the creature enters a frenzied, hungering state, seeking out any food in the vicinity to devour. A creature consuming the Feasting Food must make a Charisma Saving Throw (DC 14) or become {@condition Charmed} by the food. While {@condition charmed} in this way, the creature must immediately seek out and consume any food they can find. This includes any food they may be able to summon through spells such as create fattening food and drink, which they will create when they run out of other food to consume if they are still under the food's effect by that point.",
                 "Any and all food eaten during this state is instantly digested, adding their diet points to the creature's total, but also immediately adding {@dice 1d4} pounds of fat to the creature's body per pound of food consumed.",
                 "This state lasts for up to 10 minutes, or until the creature is immobilized."
             ]
@@ -14819,7 +14819,7 @@
                                 "The Following Spells are added to the list of spells available using the Invoke Lipomancy ability: Abyssal Stomach (3 charges), Bloat (3 charges), Drain (3 charges), Expanding Edict (3 charges), Fat Feedback (4 charges) Hypnotic Hunter (4 charges), Redirect Repast (4 charges), Embulking Smite (4 charges), Fatball (5 charges), Amazonian Figure (5 charges), Immobilize Monster (5 charges), Fat Surge (6 charges), Fist of the Feeding Star (6 charges)",
                                 "{@b Lipomantic Sense.} In this state, the Wielder of Arc Carver is in tune with the essence of lipomancy. They can tell by looking at a creature what their current weight is, how much of it is fat or muscle, whether they have a bulk limit and if so, what it is, how much food is in their stomach, and how many diet or exercise points they currently have in their metabolism.",
                                 "{@b Lipomantic Infusion.} The powers of Lipomancy course through the wielder, doubling their Bulk Limits and giving them control over their own metabolism, allowing them to digest a number of pounds of food in their stomach equal to their Proficiency bonus as a bonus action. They get to decide whether the diet points from any food digested this way enters their metabolism or not, and they may also choose to turn those diet points into exercise points.",
-                                "{@b Leash the Storm.} The Wielder can attempt to leash Arc Carver into its previous state by making a Charisma Ability Check (DC 25). On a success, the weapon regresses to its previous stage of release. On a failure, the weapon refuses its leashing and the wielder cannot attempt to leash it again until the weapon is ready. Roll a D6 at the beginning of each of the wielder's turns, on a 5 or a 6, the weapon is ready to be leashed again. The Wielder can also pay a price if they fail the roll to automatically succeed. Doing so causes them to take Arc Carver's Lipomantic Backlash damage, only they lose a number of pounds of fat equal to ten times the damage dealt, and they also gain a point of exhaustion."
+                                "{@b Leash the Storm.} The Wielder can attempt to leash Arc Carver into its previous state by making a Charisma Ability Check (DC 25). On a success, the weapon regresses to its previous stage of release. On a failure, the weapon refuses its leashing and the wielder cannot attempt to leash it again until the weapon is ready. Roll a D6 at the beginning of each of the wielder's turns, on a 5 or a 6, the weapon is ready to be leashed again. The Wielder can also pay a price if they fail the roll to automatically succeed. Doing so causes them to take Arc Carver's Lipomantic Backlash damage, only they lose a number of pounds of fat equal to ten times the damage dealt, and they also gain a point of {@condition exhaustion}."
                             ]
                         }
                     ]
@@ -15253,7 +15253,7 @@
                 {
                     "name": "Slavering Presence",
                     "entries": [
-                        "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 22 Wisdom saving throw or become ravenous for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Slavering Presence for the next 24 hours."
+                        "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 22 Wisdom saving throw or become {@condition ravenous|StorymakerExpanDnD} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Slavering Presence for the next 24 hours."
                     ]
                 },
                 {
@@ -15296,7 +15296,7 @@
                 {
                     "name": "Wing Attack",
                     "entries": [
-                        "(Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 ({@dice 2d6} + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+                        "(Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 ({@dice 2d6} + 10) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
                     ]
                 }
             ]
@@ -15442,7 +15442,7 @@
                 {
                     "name": "Slavering Presence",
                     "entries": [
-                        "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 20 Wisdom saving throw or become ravenous for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Slavering Presence for the next 24 hours."
+                        "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 20 Wisdom saving throw or become {@condition ravenous|StorymakerExpanDnD} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Slavering Presence for the next 24 hours."
                     ]
                 },
                 {
@@ -15485,7 +15485,7 @@
                 {
                     "name": "Wing Attack",
                     "entries": [
-                        "(Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 22 Dexterity saving throw or take 15 ({@dice 2d6} + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+                        "(Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 22 Dexterity saving throw or take 15 ({@dice 2d6} + 8) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
                     ]
                 }
             ]
@@ -15886,8 +15886,8 @@
                 {
                     "name": "Awesome Presence",
                     "entries": [
-                        "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Charisma saving throw or become charmed by the dragon for 1 minute. A creature can repeat the saving throw at the end of each of its turns or if the dragon or its allies deal damage to it, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Awesome Presence for the next 24 hours.",
-                        "While charmed in this way, creatures are drawn to worship the dragon's muscularity and serve it in the hopes of receiving more impressive muscles of their own, even fighting their old allies at the dragon's command."
+                        "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Charisma saving throw or become {@condition charmed} by the dragon for 1 minute. A creature can repeat the saving throw at the end of each of its turns or if the dragon or its allies deal damage to it, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Awesome Presence for the next 24 hours.",
+                        "While {@condition charmed} in this way, creatures are drawn to worship the dragon's muscularity and serve it in the hopes of receiving more impressive muscles of their own, even fighting their old allies at the dragon's command."
                     ]
                 },
                 {
@@ -15919,7 +15919,7 @@
                 {
                     "name": "Wing Attack",
                     "entries": [
-                        "(Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 23 Dexterity saving throw or take 17 ({@dice 2d6} + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+                        "(Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 23 Dexterity saving throw or take 17 ({@dice 2d6} + 10) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
                     ]
                 }
             ]
@@ -16064,8 +16064,8 @@
                 {
                     "name": "Awesome Presence",
                     "entries": [
-                        "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 18 Charisma saving throw or become charmed by the dragon for 1 minute. A creature can repeat the saving throw at the end of each of its turns or if the dragon or its allies deal damage to it, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Awesome Presence for the next 24 hours.",
-                        "While charmed in this way, creatures are drawn to worship the dragon's muscularity and serve it in the hopes of receiving more impressive muscles of their own, even fighting their old allies at the dragon's command."
+                        "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 18 Charisma saving throw or become {@condition charmed} by the dragon for 1 minute. A creature can repeat the saving throw at the end of each of its turns or if the dragon or its allies deal damage to it, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Awesome Presence for the next 24 hours.",
+                        "While {@condition charmed} in this way, creatures are drawn to worship the dragon's muscularity and serve it in the hopes of receiving more impressive muscles of their own, even fighting their old allies at the dragon's command."
                     ]
                 },
                 {
@@ -16097,7 +16097,7 @@
                 {
                     "name": "Wing Attack",
                     "entries": [
-                        "(Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 22 Dexterity saving throw or take 15 ({@dice 2d6} + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+                        "(Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 22 Dexterity saving throw or take 15 ({@dice 2d6} + 8) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
                     ]
                 }
             ]
@@ -16484,8 +16484,8 @@
                 {
                     "name": "Noxious Presence",
                     "entries": [
-                        "Each creature of the dragon's choice that is within 120 feet of the dragon must succeed on a DC 19 Constitution saving throw or be bloated for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Noxious Presence for the next 24 hours.",
-                        "While bloated in this way, any damage a creature takes other than psychic damage causes them and any creatures other than the dragon within 10 feet of them to suffer the dragon's Noxious Backlash damage."
+                        "Each creature of the dragon's choice that is within 120 feet of the dragon must succeed on a DC 19 Constitution saving throw or be {@condition bloated|StorymakerExpanDnD} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Noxious Presence for the next 24 hours.",
+                        "While {@condition bloated|StorymakerExpanDnD} in this way, any damage a creature takes other than psychic damage causes them and any creatures other than the dragon within 10 feet of them to suffer the dragon's Noxious Backlash damage."
                     ]
                 },
                 {
@@ -16512,7 +16512,7 @@
                 {
                     "name": "Wing Attack",
                     "entries": [
-                        "(Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 23 Dexterity saving throw or take 17 ({@dice 2d6} + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+                        "(Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 23 Dexterity saving throw or take 17 ({@dice 2d6} + 10) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
                     ]
                 }
             ]
@@ -16679,8 +16679,8 @@
                 {
                     "name": "Noxious Presence",
                     "entries": [
-                        "Each creature of the dragon's choice that is within 120 feet of the dragon must succeed on a DC 16 Constitution saving throw or be bloated for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Noxious Presence for the next 24 hours.",
-                        "While bloated in this way, any damage a creature takes other than psychic damage causes them and any creatures other than the dragon within 10 feet of them to suffer the dragon's Noxious Backlash damage."
+                        "Each creature of the dragon's choice that is within 120 feet of the dragon must succeed on a DC 16 Constitution saving throw or be {@condition bloated|StorymakerExpanDnD} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Noxious Presence for the next 24 hours.",
+                        "While {@condition bloated|StorymakerExpanDnD} in this way, any damage a creature takes other than psychic damage causes them and any creatures other than the dragon within 10 feet of them to suffer the dragon's Noxious Backlash damage."
                     ]
                 },
                 {
@@ -16707,7 +16707,7 @@
                 {
                     "name": "Wing Attack",
                     "entries": [
-                        "(Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 23 Dexterity saving throw or take 17 ({@dice 2d6} + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+                        "(Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 23 Dexterity saving throw or take 17 ({@dice 2d6} + 10) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
                     ]
                 }
             ]
@@ -17117,7 +17117,7 @@
                 {
                     "name": "Telepathic Bond",
                     "entries": [
-                        "The fatcubus ignores the range restriction on its telepathy when communicating with a creature it has charmed. The two don't even need to be on the same plane of existence."
+                        "The fatcubus ignores the range restriction on its telepathy when communicating with a creature it has {@condition charmed}. The two don't even need to be on the same plane of existence."
                     ]
                 },
                 {
@@ -17149,14 +17149,14 @@
                 {
                     "name": "Charm",
                     "entries": [
-                        "One humanoid the fatcubus can see within 30 feet of it must succeed on a DC 15 Wisdom saving throw or be magically charmed for 1 day. The charmed target obeys the fatcubus's verbal or telepathic commands. If the target suffers any harm from the fatcubus or her allies or receives a suicidal command, it can repeat the saving throw, ending the effect on a success. If the target successfully saves against the effect, or if the effect on it ends, the target is immune to this fatcubus's Charm for the next 24 hours.",
-                        "The fatcubus can have only one target charmed at a time. If it charms another, the effect on the previous target ends."
+                        "One humanoid the fatcubus can see within 30 feet of it must succeed on a DC 15 Wisdom saving throw or be magically {@condition charmed} for 1 day. The {@condition charmed} target obeys the fatcubus's verbal or telepathic commands. If the target suffers any harm from the fatcubus or her allies or receives a suicidal command, it can repeat the saving throw, ending the effect on a success. If the target successfully saves against the effect, or if the effect on it ends, the target is immune to this fatcubus's Charm for the next 24 hours.",
+                        "The fatcubus can have only one target {@condition charmed} at a time. If it charms another, the effect on the previous target ends."
                     ]
                 },
                 {
                     "name": "Draining Kiss",
                     "entries": [
-                        "The fatcubus kisses a creature charmed by it or a willing creature. The target must make a DC 15 Constitution saving throw against this magic, taking 32 ({@dice 5d10+5}) psychic damage on a failed save, or half as much damage on a successful one. The target's hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+                        "The fatcubus kisses a creature {@condition charmed} by it or a willing creature. The target must make a DC 15 Constitution saving throw against this magic, taking 32 ({@dice 5d10+5}) psychic damage on a failed save, or half as much damage on a successful one. The target's hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
                     ]
                 },
                 {
@@ -17174,7 +17174,7 @@
                 {
                     "name": "Fattening Kiss",
                     "entries": [
-                        "The fatcubus kisses a creature charmed by it or a willing creature. The target must make a DC 15 Constitution saving throw against this magic, gaining {@dice 2d100} lbs of fat on a failed save, or half as much on a successful one."
+                        "The fatcubus kisses a creature {@condition charmed} by it or a willing creature. The target must make a DC 15 Constitution saving throw against this magic, gaining {@dice 2d100} lbs of fat on a failed save, or half as much on a successful one."
                     ]
                 }
             ],
@@ -17373,13 +17373,13 @@
                 {
                     "name": "Fattening Kiss",
                     "entries": [
-                        "The fatling kisses a creature charmed by it or a willing creature. The target must make a DC 15 Constitution saving throw against this magic, gaining {@dice 1d100} lbs of fat on a failed save, or half as much on a successful one."
+                        "The fatling kisses a creature {@condition charmed} by it or a willing creature. The target must make a DC 15 Constitution saving throw against this magic, gaining {@dice 1d100} lbs of fat on a failed save, or half as much on a successful one."
                     ]
                 },
                 {
                     "name": "Fiendish Charm",
                     "entries": [
-                        "One humanoid the fatling can see within 30 feet of it must succeed on a DC 15 Wisdom saving throw or be magically charmed for 1 day. The charmed target obeys the fatling's spoken commands. If the target suffers any harm from the fatling or another creature or receives a suicidal command from the fatling, the target can repeat the saving throw, ending the effect on itself on a success. If the charm ends, the creature is immune to the fatling's Fiendish Charm for the next 24 hours. The fatling can have only one target charmed at a time. If it charms another, the effect on the previous target ends."
+                        "One humanoid the fatling can see within 30 feet of it must succeed on a DC 15 Wisdom saving throw or be magically {@condition charmed} for 1 day. The {@condition charmed} target obeys the fatling's spoken commands. If the target suffers any harm from the fatling or another creature or receives a suicidal command from the fatling, the target can repeat the saving throw, ending the effect on itself on a success. If the charm ends, the creature is immune to the fatling's Fiendish Charm for the next 24 hours. The fatling can have only one target {@condition charmed} at a time. If it charms another, the effect on the previous target ends."
                     ]
                 }
             ],
@@ -17502,13 +17502,13 @@
                 {
                     "name": "Tendril",
                     "entries": [
-                        "Melee Weapon Attack: +7 to hit, reach 30 ft., one creature. Hit: The target is grappled (escape DC 15). Until the grapple ends, the target is restrained and has disadvantage on Strength checks and Strength saving throws, and the feeder can't use the same tendril on another target."
+                        "Melee Weapon Attack: +7 to hit, reach 30 ft., one creature. Hit: The target is {@condition grappled} (escape DC 15). Until the grapple ends, the target is {@condition restrained} and has disadvantage on Strength checks and Strength saving throws, and the feeder can't use the same tendril on another target."
                     ]
                 },
                 {
                     "name": "Reel",
                     "entries": [
-                        "The feeder pulls each creature grappled by it up to 25 feet straight toward it."
+                        "The feeder pulls each creature {@condition grappled} by it up to 25 feet straight toward it."
                     ]
                 },
                 {
@@ -17627,7 +17627,7 @@
                 {
                     "name": "Superior Invisibility",
                     "entries": [
-                        "The feeder fairy turns invisible until its concentration ends (as if concentrating on a spell). Any equipment the feeder fairy wears or carries is invisible with it."
+                        "The feeder fairy turns {@condition invisible} until its concentration ends (as if concentrating on a spell). Any equipment the feeder fairy wears or carries is {@condition invisible} with it."
                     ]
                 },
                 {
@@ -17777,8 +17777,8 @@
                 {
                     "name": "Engulf {@recharge 4}",
                     "entries": [
-                        "Each creature in the elemental's space must make a DC 15 Constitution saving throw. On a failure, the target takes 13 ({@dice 2d8} +4) bludgeoning damage and is forced to consume an equivalent amount of pounds of fatty food. If it is Large or smaller, it is also grappled (escape DC 14). Until the grapple ends, the target is restrained. If the saving throw is successful, the target is pushed out of the elemental's space.",
-                        "The elemental can grapple one Large creature or up to two Medium or smaller creatures at one time. At the start of each of the elemental's turns, each target grappled by it takes 13 ({@dice 2d8+4}) bludgeoning damage and is forced to consume an equivalent amount of pounds of fatty food. A creature within 5 feet of the elemental can pull a creature or object out of it by taking an action to make a DC 14 Strength check and succeeding."
+                        "Each creature in the elemental's space must make a DC 15 Constitution saving throw. On a failure, the target takes 13 ({@dice 2d8} +4) bludgeoning damage and is forced to consume an equivalent amount of pounds of fatty food. If it is Large or smaller, it is also {@condition grappled} (escape DC 14). Until the grapple ends, the target is {@condition restrained}. If the saving throw is successful, the target is pushed out of the elemental's space.",
+                        "The elemental can grapple one Large creature or up to two Medium or smaller creatures at one time. At the start of each of the elemental's turns, each target {@condition grappled} by it takes 13 ({@dice 2d8+4}) bludgeoning damage and is forced to consume an equivalent amount of pounds of fatty food. A creature within 5 feet of the elemental can pull a creature or object out of it by taking an action to make a DC 14 Strength check and succeeding."
                     ]
                 }
             ]
@@ -17923,7 +17923,7 @@
                 {
                     "name": "Slam",
                     "entries": [
-                        "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 31 ({@dice 6d6} + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 saving throw or be grappled and restrained until the end of the Glutton Titan's next turn, held fast to the sticky food residue on the titan's hands."
+                        "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 31 ({@dice 6d6} + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 saving throw or be {@condition grappled} and {@condition restrained} until the end of the Glutton Titan's next turn, held fast to the sticky food residue on the titan's hands."
                     ]
                 },
                 {
@@ -17937,8 +17937,8 @@
                 {
                     "name": "Eat",
                     "entries": [
-                        "When the Glutton Titan grapples and restrains a creature with its Slam attack, it can use its reaction to swallow them whole. While swallowed, the target is blinded and restrained, it has total cover against attacks and other effects outisde of the Glutton Titan, and it takes 21 ({@dice 6d6}) acid damage at the start of each of the Glutton Titan's turns. A glutton titan can have up to 3 creatures swallowed at a time.",
-                        "If the glutton titan takes 30 damage or more in a single turn from its swallowed creatures, the glutton titan must succeed on a DC 27 Constitution saving throw at the end of that turn or regurgitate the creatures, which fall prone in a space within 10 feet of the glutton titan. If the glutton titan dies, a swallowed creature is no longer restrained by it and can escape the corpse by using 15 feet of movement, exiting prone."
+                        "When the Glutton Titan grapples and restrains a creature with its Slam attack, it can use its reaction to swallow them whole. While swallowed, the target is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outisde of the Glutton Titan, and it takes 21 ({@dice 6d6}) acid damage at the start of each of the Glutton Titan's turns. A glutton titan can have up to 3 creatures swallowed at a time.",
+                        "If the glutton titan takes 30 damage or more in a single turn from its swallowed creatures, the glutton titan must succeed on a DC 27 Constitution saving throw at the end of that turn or regurgitate the creatures, which fall {@condition prone} in a space within 10 feet of the glutton titan. If the glutton titan dies, a swallowed creature is no longer {@condition restrained} by it and can escape the corpse by using 15 feet of movement, exiting {@condition prone}."
                     ]
                 }
             ],
@@ -17952,7 +17952,7 @@
                 {
                     "name": "Gaseous Release. (Costs 2 Actions)",
                     "entries": [
-                        "The glutton titan releases a foul cloud of noxious gases around it. All other creatures within 60 feet of the glutton titan must succeed on a DC 25 Constitution saving throw or be poisoned until the end of their next turn."
+                        "The glutton titan releases a foul cloud of noxious gases around it. All other creatures within 60 feet of the glutton titan must succeed on a DC 25 Constitution saving throw or be {@condition poisoned} until the end of their next turn."
                     ]
                 }
             ]
@@ -18080,13 +18080,13 @@
                 {
                     "name": "Bite (Bat or Liposanguinor Form Only)",
                     "entries": [
-                        "Melee Weapon Attack: +9 to hit, reach 5 ft., one willing creature, or a creature that is grappled by the Liposanguinor, incapacitated, or restrained. Hit: 7 ({@dice 1d6} + 4) piercing damage plus 10 ({@dice 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, they lose a numbe of pounds of fat equal to the necrotic damage taken, and the Liposanguinor regains hit points and Fattens equal to that amount. The hit point reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a Liposanguinor spawn under the Liposanguinor's control."
+                        "Melee Weapon Attack: +9 to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the Liposanguinor, {@condition incapacitated}, or {@condition restrained}. Hit: 7 ({@dice 1d6} + 4) piercing damage plus 10 ({@dice 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, they lose a numbe of pounds of fat equal to the necrotic damage taken, and the Liposanguinor regains hit points and Fattens equal to that amount. The hit point reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a Liposanguinor spawn under the Liposanguinor's control."
                     ]
                 },
                 {
                     "name": "Charm",
                     "entries": [
-                        "The Liposanguinor targets one humanoid it can see within 30 feet of it. If the target can see the Liposanguinor, the target must succeed on a DC 18 Wisdom saving throw against this magic or be charmed by the Liposanguinor. The charmed target regards the Liposanguinor as a trusted friend to be heeded and protected. Although the target isn't under the Liposanguinor's control, it takes the Liposanguinor's requests or actions in the most favorable way it can, it cannot resist any food offered to it by the Liposanguinor, no matter how full it is, and it is a willing target for the Liposanguinor's bite attack.",
+                        "The Liposanguinor targets one humanoid it can see within 30 feet of it. If the target can see the Liposanguinor, the target must succeed on a DC 18 Wisdom saving throw against this magic or be {@condition charmed} by the Liposanguinor. The {@condition charmed} target regards the Liposanguinor as a trusted friend to be heeded and protected. Although the target isn't under the Liposanguinor's control, it takes the Liposanguinor's requests or actions in the most favorable way it can, it cannot resist any food offered to it by the Liposanguinor, no matter how full it is, and it is a willing target for the Liposanguinor's bite attack.",
                         "Each time the Liposanguinor or the Liposanguinor's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the Liposanguinor is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
                     ]
                 },
@@ -18371,7 +18371,7 @@
                 {
                     "name": "Paralyzing Touch",
                     "entries": [
-                        "Melee Spell Attack: +15, Reach 5ft., one creature Hit: 10 ({@dice 3d6}) cold damage The target must succeed on a DC 18 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                        "Melee Spell Attack: +15, Reach 5ft., one creature Hit: 10 ({@dice 3d6}) cold damage The target must succeed on a DC 18 Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
                     ]
                 },
                 {
@@ -18617,7 +18617,7 @@
                 {
                     "name": "Pseudopod",
                     "entries": [
-                        "Melee Weapon Attack: +6 to hit, reach 5ft., one target. Hit: 13 ({@dice 3d6+3}) bludgeoning damage, and the creature is grappled (escape DC 15)."
+                        "Melee Weapon Attack: +6 to hit, reach 5ft., one target. Hit: 13 ({@dice 3d6+3}) bludgeoning damage, and the creature is {@condition grappled} (escape DC 15)."
                     ]
                 }
             ]
@@ -18692,7 +18692,7 @@
                 {
                     "name": "Heavy Shove",
                     "entries": [
-                        "The Knight of the Steel Harvest can attempt to shove or knock a target prone as a bonus action."
+                        "The Knight of the Steel Harvest can attempt to shove or knock a target {@condition prone} as a bonus action."
                     ]
                 },
                 {
