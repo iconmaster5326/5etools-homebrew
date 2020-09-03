@@ -587,7 +587,7 @@
                 {
                     "type": "list",
                     "items": [
-                        "A bloated creature can speak only falteringly, and cannot form verbal components for spells without first spending a Bonus Action to make a DC 15 Concentration check.",
+                        "A bloated creature can speak only falteringly, and cannot form verbal components for spells without first spending a Bonus Action to make a {@dc 15} Concentration check.",
                         "A bloated creature is {@condition Poisoned}.",
                         "A bloated creature has disadvantage on Charisma checks and Dexterity ({@skill Acrobatics}) and ({@skill Stealth}) checks, even if they are immune to the {@condition poisoned} condition.",
                         "A bloated creature's movement speed is reduced by 5 ft, to a minimum of 5 ft."
@@ -3248,7 +3248,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 15,
             "entries": [
-                "At 15th level, you have awakened the Vampire's latent ability to charm with a glance. Target one humanoid you can see within 30 feet. If the target can see you, it must make a Wisdom saving throw (DC 8 + your proficiency + your Charisma modifier) or be {@condition charmed} by you. The {@condition charmed} target regards you as a trusted friend to be heeded and protected. Although the target isn't under your control, it takes your requests or actions in the most favorable way it can, and is a willing target for your bite attack.",
+                "At 15th level, you have awakened the Vampire's latent ability to charm with a glance. Target one humanoid you can see within 30 feet. If the target can see you, it must make a Wisdom saving throw ({@dc 8} + your proficiency + your Charisma modifier) or be {@condition charmed} by you. The {@condition charmed} target regards you as a trusted friend to be heeded and protected. Although the target isn't under your control, it takes your requests or actions in the most favorable way it can, and is a willing target for your bite attack.",
                 "Each time you or your companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Once a creature succeeds the saving throw, they cannot be {@condition charmed} again by this feature for 24 hours. Otherwise, the effect lasts 24 hours or until you are killed, are on a different plane of existence than the target, or you take a bonus action to end the effect.",
                 "Once you use this ability, you must complete a short or long rest before doing so again."
             ]
@@ -8034,7 +8034,7 @@
                 }
             ],
             "entries": [
-                "As an action, you can exhude an aura of terror by performing some action, whether it be roaring, stomping the ground, or some other gesture of intimidation, which causes enemies to react in fear. Each creature of your choice within 30 feet of you must make a Wisdom saving throw (DC 8 + your proficiency bonus + your Charisma modifier). A target automatically succeeds on the save if it can't hear or see you. On a failed save, a target becomes {@condition frightened} of you for 1 minute. If the {@condition frightened} target takes any damage, it can repeat the saving throw, ending the effect on itself on a success."
+                "As an action, you can exhude an aura of terror by performing some action, whether it be roaring, stomping the ground, or some other gesture of intimidation, which causes enemies to react in fear. Each creature of your choice within 30 feet of you must make a Wisdom saving throw ({@dc 8} + your proficiency bonus + your Charisma modifier). A target automatically succeeds on the save if it can't hear or see you. On a failed save, a target becomes {@condition frightened} of you for 1 minute. If the {@condition frightened} target takes any damage, it can repeat the saving throw, ending the effect on itself on a success."
             ],
             "featureType": "EI"
         },
@@ -10129,7 +10129,7 @@
                 "THP"
             ],
             "entries": [
-                "You create a hearty tonic in a simple vial that appears in your hand. The elixir retains its potency for the duration or until it's consumed, at which point the vial vanishes. As an action, a creature can drink the elixir or administer it to another creature. The drinker gains {@dice 2d4} + 2 temporary hit points and gains double the amount of temporary hit points in fat."
+                "You create a hearty tonic in a simple vial that appears in your hand. The elixir retains its potency for the duration or until it's consumed, at which point the vial vanishes. As an action, a creature can drink the elixir or administer it to another creature. The drinker gains {@dice 2d4+2} temporary hit points and gains double the amount of temporary hit points in fat."
             ],
             "entriesHigherLevel": [
                 {
@@ -13314,7 +13314,7 @@
                     "name": "Slob Plague",
                     "entries": [
                         "Slob plague is an only mildly debilitating disease but spreads rapidly. A creature afflicted by Slob Plague has disadvantage on Strength and Dexterity ability checks and has their movement speed reduced by 10 feet (minimum 5 feet.) Additionally the target is afflicted with constant gaseous emissions that spread the disease and make it difficult to speak.",
-                        "Any time an afflicted individual attempts to cast a spell with Verbal components they must make a DC 10 Concentration check to successfully cast the spell, losing the spell slot with no effect on a failure as their gaseous emissions mangle the spell's verbal component. Any creature that ends their turn within 10 feet of a creature afflicted by Slob Plague must make a Constitution Saving Throw (DC 13 or the Spell save DC of the one who initially afflicted the plague onto the first target, whichever is higher). On a failure, they also contract the Slob Plague. On a success, they resist the disease and cannot contract it again from the same person."
+                        "Any time an afflicted individual attempts to cast a spell with Verbal components they must make a {@dc 10} Concentration check to successfully cast the spell, losing the spell slot with no effect on a failure as their gaseous emissions mangle the spell's verbal component. Any creature that ends their turn within 10 feet of a creature afflicted by Slob Plague must make a Constitution Saving Throw ({@dc 13} or the Spell save DC of the one who initially afflicted the plague onto the first target, whichever is higher). On a failure, they also contract the Slob Plague. On a success, they resist the disease and cannot contract it again from the same person."
                     ]
                 },
                 {
@@ -14605,7 +14605,7 @@
             "rarity": "very rare",
             "entries": [
                 "This tiny object looks like a miniature sculpting of a feast table laden with food. When its command word is spoken and the item is thrown on the ground, it expands into a life-size table laden with an impressive spread of delicious food and drink. The item functions as the spell Heroes' Feast.",
-                "An individual need only eat 10 pounds of food from the table to gain the benefits of the Heroes' Feast spell, but the food is not only very fattening, it is enchanting. Any creatures sitting down to eat at this table must make a DC 18 Wisdom Saving throw. If they succeed, they may eat as much as they want from the table. If they fail, they are compelled to continue eating until all of the food on the table is gone. There are 200 pounds of food on the table, and each pound of food consumed adds 1 pounds of fat to the partaker and is digested instantly, preventing the consumer from stuffing themselves past fullness.",
+                "An individual need only eat 10 pounds of food from the table to gain the benefits of the Heroes' Feast spell, but the food is not only very fattening, it is enchanting. Any creatures sitting down to eat at this table must make a {@dc 18} Wisdom Saving throw. If they succeed, they may eat as much as they want from the table. If they fail, they are compelled to continue eating until all of the food on the table is gone. There are 200 pounds of food on the table, and each pound of food consumed adds 1 pounds of fat to the partaker and is digested instantly, preventing the consumer from stuffing themselves past fullness.",
                 "Once the item has been used and the hour duration of the feast is up, the item cannot be used again for two days."
             ]
         },
@@ -14747,7 +14747,7 @@
             "rarity": "very rare",
             "curse": true,
             "entries": [
-                "Upon consumption of this delicious sweetroll, the creature must make a Constitution Saving Throw (DC 17) or be fattened to immobility. If the creature does not have a bulk threshold, or is already immobile, they instead gain {@dice 20d100} pounds of fat."
+                "Upon consumption of this delicious sweetroll, the creature must make a Constitution Saving Throw ({@dc 17}) or be fattened to immobility. If the creature does not have a bulk threshold, or is already immobile, they instead gain {@dice 20d100} pounds of fat."
             ]
         },
         {
@@ -14758,7 +14758,7 @@
             "rarity": "uncommon",
             "curse": true,
             "entries": [
-                "This cursed food item can appear to be any normal type of food. Upon conscumption however, the creature enters a frenzied, hungering state, seeking out any food in the vicinity to devour. A creature consuming the Feasting Food must make a Charisma Saving Throw (DC 14) or become {@condition Charmed} by the food. While {@condition charmed} in this way, the creature must immediately seek out and consume any food they can find. This includes any food they may be able to summon through spells such as create fattening food and drink, which they will create when they run out of other food to consume if they are still under the food's effect by that point.",
+                "This cursed food item can appear to be any normal type of food. Upon conscumption however, the creature enters a frenzied, hungering state, seeking out any food in the vicinity to devour. A creature consuming the Feasting Food must make a Charisma Saving Throw ({@dc 14}) or become {@condition Charmed} by the food. While {@condition charmed} in this way, the creature must immediately seek out and consume any food they can find. This includes any food they may be able to summon through spells such as create fattening food and drink, which they will create when they run out of other food to consume if they are still under the food's effect by that point.",
                 "Any and all food eaten during this state is instantly digested, adding their diet points to the creature's total, but also immediately adding {@dice 1d4} pounds of fat to the creature's body per pound of food consumed.",
                 "This state lasts for up to 10 minutes, or until the creature is immobilized."
             ]
@@ -14798,7 +14798,7 @@
                                 "{@b Lipomantic Charges.} The weapon forms a symbiotic relationship with its wielder, siphoning its lipomantic energy into charges that the wielder can use in a number of ways. The Weapon has a maximum number of charges equal to a combination of its wielder's Charisma and Constitution Modifiers, and regains {@dice 1d6} charges each day at dawn. The wielder can also charge the weapon with their own lipomantic energy, suffering {@dice 2d6} points of Necrotic damage that ignore damage resistance and losing a number of pounds of fat equal to twice that number, causing the weapon to regain Lipomantic Charges equal to half that number. Performing this sacrifice takes an Action.",
                                 "{@b Invoke Lipomancy.} Arc Carver's Wielder can expend Lipomantic Charges to cast certain spells at their lowest spell level, ignoring material components; the spells available and the number of charges required to cast them are as follows: {@spell Burn Fat|StorymakerExpanDnD} (1 charge), {@spell Chaotic Corpulence|StorymakerExpanDnD} (1 charge),  {@spell Heavy Smite|StorymakerExpanDnD} (2 charges),  {@spell Modify Metabolism|StorymakerExpanDnD} (2 charges),  {@spell Asset Barrier|StorymakerExpanDnD} (2 charges), {@spell Immobilize Person|StorymakerExpanDnD} (3 charges), {@spell Narce's Fatness Arrow|StorymakerExpanDnD} (3 charges), {@spell Siphoning Smite|StorymakerExpanDnD} (3 charges)",
                                 "{@b Fuel Magic.} Arc Carver's Wielder can expend Lipomantic Charges to heighten the level of a spell being cast by its wielder using their own spell slots or Arc Carver's Invoke Lipomancy ability at a cost of 3 Lipomantic Charges per spell level beyond the spell's base level.",
-                                "{@b Unleash Potential.} The Wielder can attempt to unleash Arc Carver into its next state by making a Charisma Ability Check (DC 25). On a success, the weapon advances to its next stage of release. On a failure, the weapon refuses its release and the wielder cannot attempt to release it again until the weapon is ready. Roll a D6 at the beginning of each of the wielder's turns. On a 5 or a 6, the weapon is ready to attempt to unleash again."
+                                "{@b Unleash Potential.} The Wielder can attempt to unleash Arc Carver into its next state by making a Charisma Ability Check ({@dc 25}). On a success, the weapon advances to its next stage of release. On a failure, the weapon refuses its release and the wielder cannot attempt to release it again until the weapon is ready. Roll a D6 at the beginning of each of the wielder's turns. On a 5 or a 6, the weapon is ready to attempt to unleash again."
                             ]
                         }
                     ]
@@ -14815,11 +14815,11 @@
                                 "The Lightning damage the weapon deals increases to {@dice 4d6} + the wielder's Constitution or Charisma modifier, whichever is higher.",
                                 "The Weapon's maximum Lipomantic Charges increase by an amount equal to the wielder's Proficiency bonus.",
                                 "The damage the wielder can suffer to restore Lipomantic charges increases to {@dice 4d6} points of Necrotic damage.",
-                                "{@b Lipomantic Backlash.} The Wielder must make a Charisma Saving Throw (DC 25) at the beginning of each of their turns or suffer {@dice 4d6} points of Necrotic Damage that ignore damage resistance and immunity and lose a number of pounds of fat equal to twice that amount.",
+                                "{@b Lipomantic Backlash.} The Wielder must make a Charisma Saving Throw ({@dc 25}) at the beginning of each of their turns or suffer {@dice 4d6} points of Necrotic Damage that ignore damage resistance and immunity and lose a number of pounds of fat equal to twice that amount.",
                                 "The Following Spells are added to the list of spells available using the Invoke Lipomancy ability: Abyssal Stomach (3 charges), Bloat (3 charges), Drain (3 charges), Expanding Edict (3 charges), Fat Feedback (4 charges) Hypnotic Hunter (4 charges), Redirect Repast (4 charges), Embulking Smite (4 charges), Fatball (5 charges), Amazonian Figure (5 charges), Immobilize Monster (5 charges), Fat Surge (6 charges), Fist of the Feeding Star (6 charges)",
                                 "{@b Lipomantic Sense.} In this state, the Wielder of Arc Carver is in tune with the essence of lipomancy. They can tell by looking at a creature what their current weight is, how much of it is fat or muscle, whether they have a bulk limit and if so, what it is, how much food is in their stomach, and how many diet or exercise points they currently have in their metabolism.",
                                 "{@b Lipomantic Infusion.} The powers of Lipomancy course through the wielder, doubling their Bulk Limits and giving them control over their own metabolism, allowing them to digest a number of pounds of food in their stomach equal to their Proficiency bonus as a bonus action. They get to decide whether the diet points from any food digested this way enters their metabolism or not, and they may also choose to turn those diet points into exercise points.",
-                                "{@b Leash the Storm.} The Wielder can attempt to leash Arc Carver into its previous state by making a Charisma Ability Check (DC 25). On a success, the weapon regresses to its previous stage of release. On a failure, the weapon refuses its leashing and the wielder cannot attempt to leash it again until the weapon is ready. Roll a D6 at the beginning of each of the wielder's turns, on a 5 or a 6, the weapon is ready to be leashed again. The Wielder can also pay a price if they fail the roll to automatically succeed. Doing so causes them to take Arc Carver's Lipomantic Backlash damage, only they lose a number of pounds of fat equal to ten times the damage dealt, and they also gain a point of {@condition exhaustion}."
+                                "{@b Leash the Storm.} The Wielder can attempt to leash Arc Carver into its previous state by making a Charisma Ability Check ({@dc 25}). On a success, the weapon regresses to its previous stage of release. On a failure, the weapon refuses its leashing and the wielder cannot attempt to leash it again until the weapon is ready. Roll a D6 at the beginning of each of the wielder's turns, on a 5 or a 6, the weapon is ready to be leashed again. The Wielder can also pay a price if they fail the roll to automatically succeed. Doing so causes them to take Arc Carver's Lipomantic Backlash damage, only they lose a number of pounds of fat equal to ten times the damage dealt, and they also gain a point of {@condition exhaustion}."
                             ]
                         }
                     ]
@@ -14836,7 +14836,7 @@
                                 "The Lightning damage the weapon deals increases to {@dice 6d6} + the wielder's Constitution AND Charisma modifiers.",
                                 "The Weapon's maximum Lipomantic Charges increase by an amount equal to half the wielder's maximum hit dice.",
                                 "The damage the wielder can suffer to restore Lipomantic charges, and the damage of Lipomantic Backlash both increase to {@dice 6d6} points of Necrotic damage.",
-                                "The saving throw to resist Lipomantic Backlash increases to DC 30.",
+                                "The saving throw to resist Lipomantic Backlash increases to {@dc 30}.",
                                 "The Following Spells are added to the list of spells available using the Invoke Lipomancy ability: Collapse (6 charges), Investiture of Fat (6 charges), Narce's Hypnotic Trance (6 charges), Raze Restraint (7 charges), Adipose Armor (8 charges), Cornucopia (8 charges) Dessert Storm (9 charges), Knights of the Round (10 charges), Sculpt Flesh (10 charges)",
                                 "{@b Avatar of Lipomancy.} The wielder of Arc Carver no longer has a bulk limit and has an infinite stomach capacity. As a bonus action, they can digest any amount of food in their stomach, choosing whether to accept any diet points the food provides into their system, and choosing whether to convert any of those diet points into exercise points. They can also use this ability on any willing creature they can touch."
                             ]
@@ -14925,13 +14925,13 @@
                 {
                     "name": "Venomous",
                     "entries": [
-                        "When the brownie successfully deals damage with its Bite or Poison Dart attack, the target must make a DC 12 Constitution saving throw. On a failure, the target is beset by hunger, and makes all attacks, saves, and skill checks with disadvantage until they consume at least 1 lb of food."
+                        "When the brownie successfully deals damage with its Bite or Poison Dart attack, the target must make a {@dc 12} Constitution saving throw. On a failure, the target is beset by hunger, and makes all attacks, saves, and skill checks with disadvantage until they consume at least 1 lb of food."
                     ]
                 },
                 {
                     "name": "Poisonous",
                     "entries": [
-                        "If the brownie is consumed then the eater must immediately make a DC 15 Constitution saving throw. On a failure, the target is beset by hunger, and makes all attacks, saves, and skill checks with disadvantage until they consume an additional 5 lb of food."
+                        "If the brownie is consumed then the eater must immediately make a {@dc 15} Constitution saving throw. On a failure, the target is beset by hunger, and makes all attacks, saves, and skill checks with disadvantage until they consume an additional 5 lb of food."
                     ]
                 }
             ],
@@ -14939,13 +14939,13 @@
                 {
                     "name": "Bite",
                     "entries": [
-                        "+7 to hit, hit: 2 ({@dice 1d4}) piercing damage."
+                        "{@atk mw} {@hit 7} to hit, {@i Hit:} 2 ({@damage 1d4}) piercing damage."
                     ]
                 },
                 {
                     "name": "Poison Dart",
                     "entries": [
-                        "+7 to hit, 20 ft. range, hit: 1 piercing damage."
+                        "{@atk rw} {@hit 7} to hit, 20 ft. range, {@i Hit:}: 1 ({@damage 1}) piercing damage."
                     ]
                 }
             ],
@@ -15101,13 +15101,13 @@
                 {
                     "name": "Slam",
                     "entries": [
-                        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 ({@dice 2d8+4}) bludgeoning damage."
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@i Hit:} 13 ({@damage 2d8+4}) bludgeoning damage."
                     ]
                 },
                 {
                     "name": "Food Blast",
                     "entries": [
-                        "Ranged Weapon Attack: +3 to hit, reach 30 ft., one target. Hit: 9 ({@dice 2d8+0}) bludgeoning damage, and the target eats an equivalent number of pounds of food."
+                        "{@atk rw} {@hit 3} to hit, reach 30 ft., one target. {@i Hit:} 9 ({@damage 2d8+0}) bludgeoning damage, and the target eats an equivalent number of pounds of food."
                     ]
                 }
             ]
@@ -15235,25 +15235,25 @@
                 {
                     "name": "Bite",
                     "entries": [
-                        "Melee Weapon Attack: +17 to hit, Reach 15 ft., one target. Hit: 21 ({@dice 2d10} + 10) piercing damage plus 14 ({@dice 4d6}) either necrotic or force damage, dragon's choice. Necrotic damage Slims equal to twice the damage dealt and Fattens the dragon equally, force damage Fattens equal to twice the damage dealt."
+                        "{@atk mw} {@hit 17} to hit, Reach 15 ft., one target. {@i Hit:} 21 ({@damage 2d10+10}) piercing damage plus 14 ({@dice 4d6}) either necrotic or force damage, dragon's choice. Necrotic damage Slims equal to twice the damage dealt and Fattens the dragon equally, force damage Fattens equal to twice the damage dealt."
                     ]
                 },
                 {
                     "name": "Claw",
                     "entries": [
-                        "Melee Weapon Attack: +17 to hit, Reach 10 ft., one target. Hit: 17 ({@dice 2d6} + 10) slashing damage."
+                        "{@atk mw} {@hit 17} to hit, Reach 10 ft., one target. {@i Hit:} 17 ({@damage 2d6+10}) slashing damage."
                     ]
                 },
                 {
                     "name": "Tail",
                     "entries": [
-                        "Melee Weapon Attack: +17 to hit, Reach 20 ft., one target. Hit: 19 ({@dice 2d8} + 10) bludgeoning damage."
+                        "{@atk mw} {@hit 17} to hit, Reach 20 ft., one target. {@i Hit:} 19 ({@damage 2d8+10}) bludgeoning damage."
                     ]
                 },
                 {
                     "name": "Slavering Presence",
                     "entries": [
-                        "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 22 Wisdom saving throw or become {@condition ravenous|StorymakerExpanDnD} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Slavering Presence for the next 24 hours."
+                        "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a {@dc 22} Wisdom saving throw or become {@condition ravenous|StorymakerExpanDnD} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Slavering Presence for the next 24 hours."
                     ]
                 },
                 {
@@ -15266,13 +15266,13 @@
                                 {
                                     "name": "Siphoning Breath",
                                     "entries": [
-                                        "The dragon exhales a 120-foot line of siphoning lipomantic energy that is 10 feet wide. Each creature in that area must make a DC 24 Dexterity saving throw, taking 91 ({@dice 26d6}) necrotic damage on a failed save, or half as much on a successful one. Affected creatures Slim equal to twice the damage dealt, and the dragon Fattens for the total number of pounds lost this way among all affected creatures."
+                                        "The dragon exhales a 120-foot line of siphoning lipomantic energy that is 10 feet wide. Each creature in that area must make a {@dc 24} Dexterity saving throw, taking 91 ({@dice 26d6}) necrotic damage on a failed save, or half as much on a successful one. Affected creatures Slim equal to twice the damage dealt, and the dragon Fattens for the total number of pounds lost this way among all affected creatures."
                                     ]
                                 },
                                 {
                                     "name": "Swelling Breath",
                                     "entries": [
-                                        "The dragon exhales Swelling lipomantic energy in a 90-foot cone. Each creatures in that area must make a DC 24 Dexterity saving throw, taking 91 ({@dice 21d6}) Force damage on a failed save, or half as much damage on a successful one. Each affected target Fattens for twice the damage dealt."
+                                        "The dragon exhales Swelling lipomantic energy in a 90-foot cone. Each creatures in that area must make a {@dc 24} Dexterity saving throw, taking 91 ({@dice 21d6}) Force damage on a failed save, or half as much damage on a successful one. Each affected target Fattens for twice the damage dealt."
                                     ]
                                 }
                             ]
@@ -15296,7 +15296,7 @@
                 {
                     "name": "Wing Attack",
                     "entries": [
-                        "(Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 ({@dice 2d6} + 10) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
+                        "(Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a {@dc 25} Dexterity saving throw or take 17 ({@dice 2d6+10}) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
                     ]
                 }
             ]
@@ -15424,25 +15424,25 @@
                 {
                     "name": "Bite",
                     "entries": [
-                        "Melee Weapon Attack: +14 to hit, Reach 10 ft., one target. Hit: 19 ({@dice 2d10} + 8) piercing damage plus 7 ({@dice 2d6}) either necrotic or force damage, dragon's choice. Necrotic damage Slims equal to twice the damage dealt and Fattens the dragon equally, force damage Fattens equal to twice the damage dealt."
+                        "{@atk mw} {@hit 14} to hit, Reach 10 ft., one target. {@i Hit:} 19 ({@damage 2d10+8}) piercing damage plus 7 ({@dice 2d6}) either necrotic or force damage, dragon's choice. Necrotic damage Slims equal to twice the damage dealt and Fattens the dragon equally, force damage Fattens equal to twice the damage dealt."
                     ]
                 },
                 {
                     "name": "Claw",
                     "entries": [
-                        "Melee Weapon Attack: +14 to hit, Reach 5 ft., one target. Hit: 15 ({@dice 2d6} + 8) slashing damage."
+                        "{@atk mw} {@hit 14} to hit, Reach 5 ft., one target. {@i Hit:} 15 ({@damage 2d6+8}) slashing damage."
                     ]
                 },
                 {
                     "name": "Tail",
                     "entries": [
-                        "Melee Weapon Attack: +14 to hit, Reach 15 ft., one target. Hit: 17 ({@dice 2d8} + 8) bludgeoning damage."
+                        "{@atk mw} {@hit 14} to hit, Reach 15 ft., one target. {@i Hit:} 17 ({@damage 2d8+8}) bludgeoning damage."
                     ]
                 },
                 {
                     "name": "Slavering Presence",
                     "entries": [
-                        "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 20 Wisdom saving throw or become {@condition ravenous|StorymakerExpanDnD} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Slavering Presence for the next 24 hours."
+                        "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a {@dc 20} Wisdom saving throw or become {@condition ravenous|StorymakerExpanDnD} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Slavering Presence for the next 24 hours."
                     ]
                 },
                 {
@@ -15455,13 +15455,13 @@
                                 {
                                     "name": "Siphoning Breath",
                                     "entries": [
-                                        "The dragon exhales a 120-foot line of siphoning lipomantic energy that is 10 feet wide. Each creature in that area must make a DC 24 Dexterity saving throw, taking 63 ({@dice 18d6}) necrotic damage on a failed save, or half as much on a successful one. Affected creatures Slim equal to twice the damage dealt, and the dragon Fattens for the total number of pounds lost this way among all affected creatures."
+                                        "The dragon exhales a 120-foot line of siphoning lipomantic energy that is 10 feet wide. Each creature in that area must make a {@dc 24} Dexterity saving throw, taking 63 ({@dice 18d6}) necrotic damage on a failed save, or half as much on a successful one. Affected creatures Slim equal to twice the damage dealt, and the dragon Fattens for the total number of pounds lost this way among all affected creatures."
                                     ]
                                 },
                                 {
                                     "name": "Swelling Breath",
                                     "entries": [
-                                        "The dragon exhales Swelling lipomantic energy in a 90-foot cone. Each creatures in that area must make a DC 24 Dexterity saving throw, taking 63 ({@dice 18d6}) Force damage on a failed save, or half as much damage on a successful one. Each affected target Fattens for twice the damage dealt."
+                                        "The dragon exhales Swelling lipomantic energy in a 90-foot cone. Each creatures in that area must make a {@dc 24} Dexterity saving throw, taking 63 ({@dice 18d6}) Force damage on a failed save, or half as much damage on a successful one. Each affected target Fattens for twice the damage dealt."
                                     ]
                                 }
                             ]
@@ -15485,7 +15485,7 @@
                 {
                     "name": "Wing Attack",
                     "entries": [
-                        "(Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 22 Dexterity saving throw or take 15 ({@dice 2d6} + 8) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
+                        "(Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a {@dc 22} Dexterity saving throw or take 15 ({@dice 2d6+8}) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
                     ]
                 }
             ]
@@ -15597,13 +15597,13 @@
                 {
                     "name": "Bite",
                     "entries": [
-                        "Melee Weapon Attack: +10 to hit, Reach 10 ft., one target. Hit: 17 ({@dice 2d10} + 6) piercing damage plus 3 ({@dice 1d6}) either necrotic or force damage, dragon's choice. Necrotic damage Slims equal to twice the damage dealt and Fattens the dragon equally, force damage Fattens equal to twice the damage dealt."
+                        "{@atk mw} {@hit 10} to hit, Reach 10 ft., one target. {@i Hit:} 17 ({@damage 2d10+6}) piercing damage plus 3 ({@dice 1d6}) either necrotic or force damage, dragon's choice. Necrotic damage Slims equal to twice the damage dealt and Fattens the dragon equally, force damage Fattens equal to twice the damage dealt."
                     ]
                 },
                 {
                     "name": "Claw",
                     "entries": [
-                        "Melee Weapon Attack: +10 to hit, Reach 5 ft., one target. Hit: 13 ({@dice 2d6} + 6) slashing damage."
+                        "{@atk mw} {@hit 10} to hit, Reach 5 ft., one target. {@i Hit:} 13 ({@damage 2d6+6}) slashing damage."
                     ]
                 },
                 {
@@ -15616,13 +15616,13 @@
                                 {
                                     "name": "Siphoning Breath",
                                     "entries": [
-                                        "The dragon exhales a 120-foot line of siphoning lipomantic energy that is 10 feet wide. Each creature in that area must make a DC 24 Dexterity saving throw, taking 56 ({@dice 16d6}) necrotic damage on a failed save, or half as much on a successful one. Affected creatures Slim equal to twice the damage dealt, and the dragon Fattens for the total number of pounds lost this way among all affected creatures."
+                                        "The dragon exhales a 120-foot line of siphoning lipomantic energy that is 10 feet wide. Each creature in that area must make a {@dc 24} Dexterity saving throw, taking 56 ({@dice 16d6}) necrotic damage on a failed save, or half as much on a successful one. Affected creatures Slim equal to twice the damage dealt, and the dragon Fattens for the total number of pounds lost this way among all affected creatures."
                                     ]
                                 },
                                 {
                                     "name": "Swelling Breath",
                                     "entries": [
-                                        "The dragon exhales Swelling lipomantic energy in a 90-foot cone. Each creatures in that area must make a DC 24 Dexterity saving throw, taking 56 ({@dice 16d6}) Force damage on a failed save, or half as much damage on a successful one. Each affected target Fattens for twice the damage dealt."
+                                        "The dragon exhales Swelling lipomantic energy in a 90-foot cone. Each creatures in that area must make a {@dc 24} Dexterity saving throw, taking 56 ({@dice 16d6}) Force damage on a failed save, or half as much damage on a successful one. Each affected target Fattens for twice the damage dealt."
                                     ]
                                 }
                             ]
@@ -15718,7 +15718,7 @@
                 {
                     "name": "Bite",
                     "entries": [
-                        "Melee Weapon Attack: +6 to hit, Reach 5 ft., one target. Hit: 9 ({@dice 1d10} + 4) piercing damage plus 3 ({@dice 1d6}) either necrotic or force damage, dragon's choice. Necrotic damage Slims equal to twice the damage dealt and Fattens the dragon equally, force damage Fattens equal to twice the damage dealt."
+                        "{@atk mw} {@hit 6} to hit, Reach 5 ft., one target. {@i Hit:} 9 ({@damage 1d10+4}) piercing damage plus 3 ({@dice 1d6}) either necrotic or force damage, dragon's choice. Necrotic damage Slims equal to twice the damage dealt and Fattens the dragon equally, force damage Fattens equal to twice the damage dealt."
                     ]
                 },
                 {
@@ -15731,13 +15731,13 @@
                                 {
                                     "name": "Siphoning Breath",
                                     "entries": [
-                                        "The dragon exhales a 120-foot line of siphoning lipomantic energy that is 10 feet wide. Each creature in that area must make a DC 24 Dexterity saving throw, taking 24 ({@dice 7d6}) necrotic damage on a failed save, or half as much on a successful one. Affected creatures Slim equal to twice the damage dealt, and the dragon Fattens for the total number of pounds lost this way among all affected creatures."
+                                        "The dragon exhales a 120-foot line of siphoning lipomantic energy that is 10 feet wide. Each creature in that area must make a {@dc 24} Dexterity saving throw, taking 24 ({@dice 7d6}) necrotic damage on a failed save, or half as much on a successful one. Affected creatures Slim equal to twice the damage dealt, and the dragon Fattens for the total number of pounds lost this way among all affected creatures."
                                     ]
                                 },
                                 {
                                     "name": "Swelling Breath",
                                     "entries": [
-                                        "The dragon exhales Swelling lipomantic energy in a 90-foot cone. Each creatures in that area must make a DC 24 Dexterity saving throw, taking 24 ({@dice 7d6}) Force damage on a failed save, or half as much damage on a successful one. Each affected target Fattens for twice the damage dealt."
+                                        "The dragon exhales Swelling lipomantic energy in a 90-foot cone. Each creatures in that area must make a {@dc 24} Dexterity saving throw, taking 24 ({@dice 7d6}) Force damage on a failed save, or half as much damage on a successful one. Each affected target Fattens for twice the damage dealt."
                                     ]
                                 }
                             ]
@@ -15868,38 +15868,38 @@
                 {
                     "name": "Bite",
                     "entries": [
-                        "Melee Weapon Attack: +19 to hit, Reach 15 ft., one target. Hit: 23 ({@dice 2d10} + 12) piercing damage plus 11 ({@dice 2d10}) thunder damage. The target either Swells or Shrinks equal to twice the damage dealt, the dragon's choice."
+                        "{@atk mw} {@hit 19} to hit, Reach 15 ft., one target. {@i Hit:} 23 ({@damage 2d10+12}) piercing damage plus 11 ({@dice 2d10}) thunder damage. The target either Swells or Shrinks equal to twice the damage dealt, the dragon's choice."
                     ]
                 },
                 {
                     "name": "Claw",
                     "entries": [
-                        "Melee Weapon Attack: +19 to hit, Reach 10 ft., one target. Hit: 19 ({@dice 2d6} + 12) slashing damage."
+                        "{@atk mw} {@hit 19} to hit, Reach 10 ft., one target. {@i Hit:} 19 ({@damage 2d6+12}) slashing damage."
                     ]
                 },
                 {
                     "name": "Tail",
                     "entries": [
-                        "Melee Weapon Attack: +17 to hit, Reach 20 ft., one target. Hit: 19 ({@dice 2d8} + 10) bludgeoning damage."
+                        "{@atk mw} {@hit 17} to hit, Reach 20 ft., one target. {@i Hit:} 19 ({@damage 2d8+10}) bludgeoning damage."
                     ]
                 },
                 {
                     "name": "Awesome Presence",
                     "entries": [
-                        "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Charisma saving throw or become {@condition charmed} by the dragon for 1 minute. A creature can repeat the saving throw at the end of each of its turns or if the dragon or its allies deal damage to it, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Awesome Presence for the next 24 hours.",
+                        "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a {@dc 21} Charisma saving throw or become {@condition charmed} by the dragon for 1 minute. A creature can repeat the saving throw at the end of each of its turns or if the dragon or its allies deal damage to it, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Awesome Presence for the next 24 hours.",
                         "While {@condition charmed} in this way, creatures are drawn to worship the dragon's muscularity and serve it in the hopes of receiving more impressive muscles of their own, even fighting their old allies at the dragon's command."
                     ]
                 },
                 {
                     "name": "Mighty Breath {@recharge 5}",
                     "entries": [
-                        "The dragon exhales thunderous force in a 90-foot cone. Each creature in that area must make a DC 23 Constitution Saving Throw, taking 88 ({@dice 16d10}) thunder damage on a failed save, or half as much on a successful one. Affected targets either swell or shrink equal to twice the damage dealt, the dragon's choice."
+                        "The dragon exhales thunderous force in a 90-foot cone. Each creature in that area must make a {@dc 23} Constitution Saving Throw, taking 88 ({@dice 16d10}) thunder damage on a failed save, or half as much on a successful one. Affected targets either swell or shrink equal to twice the damage dealt, the dragon's choice."
                     ]
                 },
                 {
                     "name": "Pump You Up",
                     "entries": [
-                        "The Dragon chooses one creature under the effects of its Awesome Presence within 60 feet. That creature swells by {@dice 20d10} pounds. It must then make a DC 21 Charisma saving throw. On a failure, the duration of the charm effect extends by 24 hours, and the target no longer makes saves at the end of each of its turns for the duration. This can only affect a creature once every 12 hours."
+                        "The Dragon chooses one creature under the effects of its Awesome Presence within 60 feet. That creature swells by {@dice 20d10} pounds. It must then make a {@dc 21} Charisma saving throw. On a failure, the duration of the charm effect extends by 24 hours, and the target no longer makes saves at the end of each of its turns for the duration. This can only affect a creature once every 12 hours."
                     ]
                 }
             ],
@@ -15919,7 +15919,7 @@
                 {
                     "name": "Wing Attack",
                     "entries": [
-                        "(Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 23 Dexterity saving throw or take 17 ({@dice 2d6} + 10) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
+                        "(Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a {@dc 23} Dexterity saving throw or take 17 ({@dice 2d6+10}) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
                     ]
                 }
             ]
@@ -16046,38 +16046,38 @@
                 {
                     "name": "Bite",
                     "entries": [
-                        "Melee Weapon Attack: +15 to hit, Reach 10 ft., one target. Hit: 21 ({@dice 2d10} + 10) piercing damage plus 5 ({@dice 1d10}) thunder damage. The target either Swells or Shrinks equal to twice the damage dealt, the dragon's choice."
+                        "{@atk mw} {@hit 15} to hit, Reach 10 ft., one target. {@i Hit:} 21 ({@damage 2d10+10}) piercing damage plus 5 ({@dice 1d10}) thunder damage. The target either Swells or Shrinks equal to twice the damage dealt, the dragon's choice."
                     ]
                 },
                 {
                     "name": "Claw",
                     "entries": [
-                        "Melee Weapon Attack: +15 to hit, Reach 5 ft., one target. Hit: 17 ({@dice 2d6} + 10) slashing damage."
+                        "{@atk mw} {@hit 15} to hit, Reach 5 ft., one target. {@i Hit:} 17 ({@damage 2d6+10}) slashing damage."
                     ]
                 },
                 {
                     "name": "Tail",
                     "entries": [
-                        "Melee Weapon Attack: +15 to hit, Reach 15 ft., one target. Hit: 19 ({@dice 2d8} + 10) bludgeoning damage."
+                        "{@atk mw} {@hit 15} to hit, Reach 15 ft., one target. {@i Hit:} 19 ({@damage 2d8+10}) bludgeoning damage."
                     ]
                 },
                 {
                     "name": "Awesome Presence",
                     "entries": [
-                        "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 18 Charisma saving throw or become {@condition charmed} by the dragon for 1 minute. A creature can repeat the saving throw at the end of each of its turns or if the dragon or its allies deal damage to it, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Awesome Presence for the next 24 hours.",
+                        "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a {@dc 18} Charisma saving throw or become {@condition charmed} by the dragon for 1 minute. A creature can repeat the saving throw at the end of each of its turns or if the dragon or its allies deal damage to it, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Awesome Presence for the next 24 hours.",
                         "While {@condition charmed} in this way, creatures are drawn to worship the dragon's muscularity and serve it in the hopes of receiving more impressive muscles of their own, even fighting their old allies at the dragon's command."
                     ]
                 },
                 {
                     "name": "Mighty Breath {@recharge 5}",
                     "entries": [
-                        "The dragon exhales thunderous force in a 90-foot cone. Each creature in that area must make a DC 19 Constitution Saving Throw, taking 66 ({@dice 12d10}) thunder damage on a failed save, or half as much on a successful one. Affected targets either swell or shrink equal to twice the damage dealt, the dragon's choice."
+                        "The dragon exhales thunderous force in a 90-foot cone. Each creature in that area must make a {@dc 19} Constitution Saving Throw, taking 66 ({@dice 12d10}) thunder damage on a failed save, or half as much on a successful one. Affected targets either swell or shrink equal to twice the damage dealt, the dragon's choice."
                     ]
                 },
                 {
                     "name": "Pump You Up",
                     "entries": [
-                        "The Dragon chooses one creature under the effects of its Awesome Presence within 60 feet. That creature swells by {@dice 20d10} pounds. It must then make a DC 18 Charisma saving throw. On a failure, the duration of the charm effect extends by 24 hours, and the target no longer makes saves at the end of each of its turns for the duration. This can only affect a creature once every 12 hours."
+                        "The Dragon chooses one creature under the effects of its Awesome Presence within 60 feet. That creature swells by {@dice 20d10} pounds. It must then make a {@dc 18} Charisma saving throw. On a failure, the duration of the charm effect extends by 24 hours, and the target no longer makes saves at the end of each of its turns for the duration. This can only affect a creature once every 12 hours."
                     ]
                 }
             ],
@@ -16097,7 +16097,7 @@
                 {
                     "name": "Wing Attack",
                     "entries": [
-                        "(Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 22 Dexterity saving throw or take 15 ({@dice 2d6} + 8) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
+                        "(Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a {@dc 22} Dexterity saving throw or take 15 ({@dice 2d6+8}) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
                     ]
                 }
             ]
@@ -16208,19 +16208,19 @@
                 {
                     "name": "Bite",
                     "entries": [
-                        "Melee Weapon Attack: +15 to hit, Reach 10 ft., one target. Hit: 19 ({@dice 2d10} + 8) piercing damage plus 5 ({@dice 1d10}) thunder damage. The target either Swells or Shrinks equal to twice the damage dealt, the dragon's choice."
+                        "{@atk mw} {@hit 15} to hit, Reach 10 ft., one target. {@i Hit:} 19 ({@damage 2d10+8}) piercing damage plus 5 ({@dice 1d10}) thunder damage. The target either Swells or Shrinks equal to twice the damage dealt, the dragon's choice."
                     ]
                 },
                 {
                     "name": "Claw",
                     "entries": [
-                        "Melee Weapon Attack: +15 to hit, Reach 5 ft., one target. Hit: 15 ({@dice 2d6} + 8) slashing damage."
+                        "{@atk mw} {@hit 15} to hit, Reach 5 ft., one target. {@i Hit:} 15 ({@damage 2d6+8}) slashing damage."
                     ]
                 },
                 {
                     "name": "Mighty Breath {@recharge 5}",
                     "entries": [
-                        "The dragon exhales thunderous force in a 90-foot cone. Each creature in that area must make a DC 19 Constitution Saving Throw, taking 55 ({@dice 10d10}) thunder damage on a failed save, or half as much on a successful one. Affected targets either swell or shrink equal to twice the damage dealt, the dragon's choice."
+                        "The dragon exhales thunderous force in a 90-foot cone. Each creature in that area must make a {@dc 19} Constitution Saving Throw, taking 55 ({@dice 10d10}) thunder damage on a failed save, or half as much on a successful one. Affected targets either swell or shrink equal to twice the damage dealt, the dragon's choice."
                     ]
                 }
             ]
@@ -16311,13 +16311,13 @@
                 {
                     "name": "Bite",
                     "entries": [
-                        "Melee Weapon Attack: +6 to hit, Reach 5 ft., one target. Hit: 11 ({@dice 1d10} + 6) piercing damage plus 3 ({@dice 1d6}) thunder damage. The target either Swells or Shrinks equal to twice the damage dealt, the dragon's choice."
+                        "{@atk mw} {@hit 6} to hit, Reach 5 ft., one target. {@i Hit:} 11 ({@damage 1d10+6}) piercing damage plus 3 ({@dice 1d6}) thunder damage. The target either Swells or Shrinks equal to twice the damage dealt, the dragon's choice."
                     ]
                 },
                 {
                     "name": "Mighty Breath {@recharge 5}",
                     "entries": [
-                        "The dragon exhales thunderous force in a 90-foot cone. Each creature in that area must make a DC 19 Constitution Saving Throw, taking 22 ({@dice 4d10}) thunder damage on a failed save, or half as much on a successful one. Affected targets either swell or shrink equal to twice the damage dealt, the dragon's choice."
+                        "The dragon exhales thunderous force in a 90-foot cone. Each creature in that area must make a {@dc 19} Constitution Saving Throw, taking 22 ({@dice 4d10}) thunder damage on a failed save, or half as much on a successful one. Affected targets either swell or shrink equal to twice the damage dealt, the dragon's choice."
                     ]
                 }
             ]
@@ -16452,7 +16452,7 @@
                 {
                     "name": "Slob Plaguebearer",
                     "entries": [
-                        "The dragon is a carrier of the Slob Plague. Its Bite, Noxious Backlash, and Noxious Breath all spread the disease to any creatures that are damaged by them, requiring a DC 19 Constitution saving throw to avoid contracting the disease. Subsequent spreads of the disease are also DC 19 to resist. The dragon itself is immune to the disease."
+                        "The dragon is a carrier of the Slob Plague. Its Bite, Noxious Backlash, and Noxious Breath all spread the disease to any creatures that are damaged by them, requiring a {@dc 19} Constitution saving throw to avoid contracting the disease. Subsequent spreads of the disease are also {@dc 19} to resist. The dragon itself is immune to the disease."
                     ]
                 }
             ],
@@ -16466,32 +16466,32 @@
                 {
                     "name": "Bite",
                     "entries": [
-                        "Melee Weapon Attack: +15 to hit, Reach 15 ft., one target. Hit: 19 ({@dice 2d10} + 8) piercing damage plus 10 ({@dice 3d6}) poison damage."
+                        "{@atk mw} {@hit 15} to hit, Reach 15 ft., one target. {@i Hit:} 19 ({@damage 2d10+8}) piercing damage plus 10 ({@dice 3d6}) poison damage."
                     ]
                 },
                 {
                     "name": "Claw",
                     "entries": [
-                        "Melee Weapon Attack: +15 to hit, Reach 10 ft., one target. Hit: 15 ({@dice 2d6} + 8) slashing damage."
+                        "{@atk mw} {@hit 15} to hit, Reach 10 ft., one target. {@i Hit:} 15 ({@damage 2d6+8}) slashing damage."
                     ]
                 },
                 {
                     "name": "Tail",
                     "entries": [
-                        "Melee Weapon Attack: +15 to hit, Reach 20 ft., one target. Hit: 17 ({@dice 2d8} + 8) bludgeoning damage."
+                        "{@atk mw} {@hit 15} to hit, Reach 20 ft., one target. {@i Hit:} 17 ({@damage 2d8+8}) bludgeoning damage."
                     ]
                 },
                 {
                     "name": "Noxious Presence",
                     "entries": [
-                        "Each creature of the dragon's choice that is within 120 feet of the dragon must succeed on a DC 19 Constitution saving throw or be {@condition bloated|StorymakerExpanDnD} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Noxious Presence for the next 24 hours.",
+                        "Each creature of the dragon's choice that is within 120 feet of the dragon must succeed on a {@dc 19} Constitution saving throw or be {@condition bloated|StorymakerExpanDnD} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Noxious Presence for the next 24 hours.",
                         "While {@condition bloated|StorymakerExpanDnD} in this way, any damage a creature takes other than psychic damage causes them and any creatures other than the dragon within 10 feet of them to suffer the dragon's Noxious Backlash damage."
                     ]
                 },
                 {
                     "name": "Noxious Breath {@recharge 5}",
                     "entries": [
-                        "The dragon exhales noxious gases in a 90-foot cone. Each creature in that area must make a DC 22 Constitution saving throw, taking 77 ({@dice 22d6}) poison damage on a failed save, or half as much damage on a successful one.",
+                        "The dragon exhales noxious gases in a 90-foot cone. Each creature in that area must make a {@dc 22} Constitution saving throw, taking 77 ({@dice 22d6}) poison damage on a failed save, or half as much damage on a successful one.",
                         "Creatures that fail the saving throw also suffer the effects of the Slow spell until the start of the dragon's next turn."
                     ]
                 }
@@ -16512,7 +16512,7 @@
                 {
                     "name": "Wing Attack",
                     "entries": [
-                        "(Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 23 Dexterity saving throw or take 17 ({@dice 2d6} + 10) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
+                        "(Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a {@dc 23} Dexterity saving throw or take 17 ({@dice 2d6+10}) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
                     ]
                 }
             ]
@@ -16647,7 +16647,7 @@
                 {
                     "name": "Slob Plaguebearer",
                     "entries": [
-                        "The dragon is a carrier of the Slob Plague. Its Bite, Noxious Backlash, and Noxious Breath all spread the disease to any creatures that are damaged by them, requiring a DC 17 Constitution saving throw to avoid contracting the disease. Subsequent spreads of the disease are also DC 17 to resist. The dragon itself is immune to the disease."
+                        "The dragon is a carrier of the Slob Plague. Its Bite, Noxious Backlash, and Noxious Breath all spread the disease to any creatures that are damaged by them, requiring a {@dc 17} Constitution saving throw to avoid contracting the disease. Subsequent spreads of the disease are also {@dc 17} to resist. The dragon itself is immune to the disease."
                     ]
                 }
             ],
@@ -16661,32 +16661,32 @@
                 {
                     "name": "Bite",
                     "entries": [
-                        "Melee Weapon Attack: +11 to hit, Reach 10 ft., one target. Hit: 17 ({@dice 2d10} + 6) piercing damage plus 7 ({@dice 2d6}) poison damage."
+                        "{@atk mw} {@hit 11} to hit, Reach 10 ft., one target. {@i Hit:} 17 ({@damage 2d10+6}) piercing damage plus 7 ({@dice 2d6}) poison damage."
                     ]
                 },
                 {
                     "name": "Claw",
                     "entries": [
-                        "Melee Weapon Attack: +11 to hit, Reach 5 ft., one target. Hit: 13 ({@dice 2d6} + 6) slashing damage."
+                        "{@atk mw} {@hit 11} to hit, Reach 5 ft., one target. {@i Hit:} 13 ({@damage 2d6+6}) slashing damage."
                     ]
                 },
                 {
                     "name": "Tail",
                     "entries": [
-                        "Melee Weapon Attack: +11 to hit, Reach 15 ft., one target. Hit: 15 ({@dice 2d8} + 6) bludgeoning damage."
+                        "{@atk mw} {@hit 11} to hit, Reach 15 ft., one target. {@i Hit:} 15 ({@damage 2d8+6}) bludgeoning damage."
                     ]
                 },
                 {
                     "name": "Noxious Presence",
                     "entries": [
-                        "Each creature of the dragon's choice that is within 120 feet of the dragon must succeed on a DC 16 Constitution saving throw or be {@condition bloated|StorymakerExpanDnD} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Noxious Presence for the next 24 hours.",
+                        "Each creature of the dragon's choice that is within 120 feet of the dragon must succeed on a {@dc 16} Constitution saving throw or be {@condition bloated|StorymakerExpanDnD} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Noxious Presence for the next 24 hours.",
                         "While {@condition bloated|StorymakerExpanDnD} in this way, any damage a creature takes other than psychic damage causes them and any creatures other than the dragon within 10 feet of them to suffer the dragon's Noxious Backlash damage."
                     ]
                 },
                 {
                     "name": "Noxious Breath {@recharge 5}",
                     "entries": [
-                        "The dragon exhales noxious gases in a 90-foot cone. Each creature in that area must make a DC 18 Constitution saving throw, taking 56 ({@dice 16d6}) poison damage on a failed save, or half as much damage on a successful one.",
+                        "The dragon exhales noxious gases in a 90-foot cone. Each creature in that area must make a {@dc 18} Constitution saving throw, taking 56 ({@dice 16d6}) poison damage on a failed save, or half as much damage on a successful one.",
                         "Creatures that fail the saving throw also suffer the effects of the Slow spell until the start of the dragon's next turn."
                     ]
                 }
@@ -16707,7 +16707,7 @@
                 {
                     "name": "Wing Attack",
                     "entries": [
-                        "(Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 23 Dexterity saving throw or take 17 ({@dice 2d6} + 10) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
+                        "(Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a {@dc 23} Dexterity saving throw or take 17 ({@dice 2d6+10}) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
                     ]
                 }
             ]
@@ -16827,7 +16827,7 @@
                 {
                     "name": "Slob Plaguebearer",
                     "entries": [
-                        "The dragon is a carrier of the Slob Plague. Its Bite, Noxious Backlash, and Noxious Breath all spread the disease to any creatures that are damaged by them, requiring a DC 15 Constitution saving throw to avoid contracting the disease. Subsequent spreads of the disease are also DC 15 to resist. The dragon itself is immune to the disease."
+                        "The dragon is a carrier of the Slob Plague. Its Bite, Noxious Backlash, and Noxious Breath all spread the disease to any creatures that are damaged by them, requiring a {@dc 15} Constitution saving throw to avoid contracting the disease. Subsequent spreads of the disease are also {@dc 15} to resist. The dragon itself is immune to the disease."
                     ]
                 }
             ],
@@ -16841,19 +16841,19 @@
                 {
                     "name": "Bite",
                     "entries": [
-                        "Melee Weapon Attack: +7 to hit, Reach 10 ft., one target. Hit: 15 ({@dice 2d10} + 4) piercing damage plus 7 ({@dice 2d6}) poison damage."
+                        "{@atk mw} {@hit 7} to hit, Reach 10 ft., one target. {@i Hit:} 15 ({@damage 2d10+4}) piercing damage plus 7 ({@dice 2d6}) poison damage."
                     ]
                 },
                 {
                     "name": "Claw",
                     "entries": [
-                        "Melee Weapon Attack: +7 to hit, Reach 5 ft., one target. Hit: 11 ({@dice 2d6} + 4) slashing damage."
+                        "{@atk mw} {@hit 7} to hit, Reach 5 ft., one target. {@i Hit:} 11 ({@damage 2d6+4}) slashing damage."
                     ]
                 },
                 {
                     "name": "Noxious Breath {@recharge 5}",
                     "entries": [
-                        "The dragon exhales noxious gases in a 90-foot cone. Each creature in that area must make a DC 14 Constitution saving throw, taking 42 ({@dice 12d6}) poison damage on a failed save, or half as much damage on a successful one.",
+                        "The dragon exhales noxious gases in a 90-foot cone. Each creature in that area must make a {@dc 14} Constitution saving throw, taking 42 ({@dice 12d6}) poison damage on a failed save, or half as much damage on a successful one.",
                         "Creatures that fail the saving throw also suffer the effects of the Slow spell until the start of the dragon's next turn."
                     ]
                 }
@@ -16960,7 +16960,7 @@
                 {
                     "name": "Slob Plaguebearer",
                     "entries": [
-                        "The dragon is a carrier of the Slob Plague. Its Bite, Noxious Backlash, and Noxious Breath all spread the disease to any creatures that are damaged by them, requiring a DC 13 Constitution saving throw to avoid contracting the disease. Subsequent spreads of the disease are also DC 13 to resist. The dragon itself is immune to the disease."
+                        "The dragon is a carrier of the Slob Plague. Its Bite, Noxious Backlash, and Noxious Breath all spread the disease to any creatures that are damaged by them, requiring a {@dc 13} Constitution saving throw to avoid contracting the disease. Subsequent spreads of the disease are also {@dc 13} to resist. The dragon itself is immune to the disease."
                     ]
                 }
             ],
@@ -16968,13 +16968,13 @@
                 {
                     "name": "Bite",
                     "entries": [
-                        "Melee Weapon Attack: +4 to hit, Reach 5 ft., one target. Hit: 7 ({@dice 1d10} +2) piercing damage plus 3 ({@dice 1d6}) poison damage."
+                        "{@atk mw} {@hit 4} to hit, Reach 5 ft., one target. {@i Hit:} 7 ({@damage 1d10} +2) piercing damage plus 3 ({@dice 1d6}) poison damage."
                     ]
                 },
                 {
                     "name": "Noxious Breath {@recharge 5}",
                     "entries": [
-                        "The dragon exhales noxious gases in a 90-foot cone. Each creature in that area must make a DC 11 Constitution saving throw, taking 21 ({@dice 6d6}) poison damage on a failed save, or half as much damage on a successful one.",
+                        "The dragon exhales noxious gases in a 90-foot cone. Each creature in that area must make a {@dc 11} Constitution saving throw, taking 21 ({@dice 6d6}) poison damage on a failed save, or half as much damage on a successful one.",
                         "Creatures that fail the saving throw also suffer the effects of the Slow spell until the start of the dragon's next turn."
                     ]
                 }
@@ -17079,7 +17079,7 @@
                 {
                     "name": "Innate Spellcasting",
                     "headerEntries": [
-                        "The fatcubus's innate spellcasting ability is Charisma (spell save DC 18). The fatcubus can cast the following spells, requiring no material components:"
+                        "The fatcubus's innate spellcasting ability is Charisma (spell save {@dc 18}). The fatcubus can cast the following spells, requiring no material components:"
                     ],
                     "will": [
                         "{@spell Abyssal Stomach|StorymakerExpanDnD}",
@@ -17143,20 +17143,20 @@
                 {
                     "name": "Claw (Fiend Form Only)",
                     "entries": [
-                        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 7 ({@dice 1d6+4}) slashing damage, plus fat equal to damage."
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@i Hit:} 7 ({@damage 1d6+4}) slashing damage, plus fat equal to damage."
                     ]
                 },
                 {
                     "name": "Charm",
                     "entries": [
-                        "One humanoid the fatcubus can see within 30 feet of it must succeed on a DC 15 Wisdom saving throw or be magically {@condition charmed} for 1 day. The {@condition charmed} target obeys the fatcubus's verbal or telepathic commands. If the target suffers any harm from the fatcubus or her allies or receives a suicidal command, it can repeat the saving throw, ending the effect on a success. If the target successfully saves against the effect, or if the effect on it ends, the target is immune to this fatcubus's Charm for the next 24 hours.",
+                        "One humanoid the fatcubus can see within 30 feet of it must succeed on a {@dc 15} Wisdom saving throw or be magically {@condition charmed} for 1 day. The {@condition charmed} target obeys the fatcubus's verbal or telepathic commands. If the target suffers any harm from the fatcubus or her allies or receives a suicidal command, it can repeat the saving throw, ending the effect on a success. If the target successfully saves against the effect, or if the effect on it ends, the target is immune to this fatcubus's Charm for the next 24 hours.",
                         "The fatcubus can have only one target {@condition charmed} at a time. If it charms another, the effect on the previous target ends."
                     ]
                 },
                 {
                     "name": "Draining Kiss",
                     "entries": [
-                        "The fatcubus kisses a creature {@condition charmed} by it or a willing creature. The target must make a DC 15 Constitution saving throw against this magic, taking 32 ({@dice 5d10+5}) psychic damage on a failed save, or half as much damage on a successful one. The target's hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+                        "The fatcubus kisses a creature {@condition charmed} by it or a willing creature. The target must make a {@dc 15} Constitution saving throw against this magic, taking 32 ({@dice 5d10+5}) psychic damage on a failed save, or half as much damage on a successful one. The target's hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
                     ]
                 },
                 {
@@ -17168,13 +17168,13 @@
                 {
                     "name": "Fattening Breath {@recharge 4}",
                     "entries": [
-                        "The fatcubus exhudes a gaseous cloud in a 30-foot cone. Each creature in that area must succeed on a DC 15 Constitution saving throw. On a failed save, the creature takes 17 ({@dice 3d10+2}) Poison damage, and gains an amount of fat equal to four times the damage dealt in this way."
+                        "The fatcubus exhudes a gaseous cloud in a 30-foot cone. Each creature in that area must succeed on a {@dc 15} Constitution saving throw. On a failed save, the creature takes 17 ({@dice 3d10+2}) Poison damage, and gains an amount of fat equal to four times the damage dealt in this way."
                     ]
                 },
                 {
                     "name": "Fattening Kiss",
                     "entries": [
-                        "The fatcubus kisses a creature {@condition charmed} by it or a willing creature. The target must make a DC 15 Constitution saving throw against this magic, gaining {@dice 2d100} lbs of fat on a failed save, or half as much on a successful one."
+                        "The fatcubus kisses a creature {@condition charmed} by it or a willing creature. The target must make a {@dc 15} Constitution saving throw against this magic, gaining {@dice 2d100} lbs of fat on a failed save, or half as much on a successful one."
                     ]
                 }
             ],
@@ -17317,7 +17317,7 @@
                 {
                     "name": "Innate Spellcasting",
                     "headerEntries": [
-                        "The fatling's spellcasting ability is Charisma (spell save DC 15). The fatling can innately cast the following spells, requiring no material components:"
+                        "The fatling's spellcasting ability is Charisma (spell save {@dc 15}). The fatling can innately cast the following spells, requiring no material components:"
                     ],
                     "will": [
                         "{@spell Create Fattening Food and Drink|StorymakerExpanDnD} (one 2lb. meal at a time)"
@@ -17361,25 +17361,25 @@
                 {
                     "name": "Giant Fork",
                     "entries": [
-                        "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target Hit: 6 ({@dice 1d6} + 4) piercing damage, or 8 ({@dice 1d8} + 4) piercing damage if used in two hands to make a melee attack, plus 3 ({@dice 1d6}) magical bludgeoning damage that adds fat equal to the damage dealt."
+                        "{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 20/60 ft., one target {@i Hit:} 6 ({@damage 1d6+4}) piercing damage, or 8 ({@dice 1d8+4}) piercing damage if used in two hands to make a melee attack, plus 3 ({@dice 1d6}) magical bludgeoning damage that adds fat equal to the damage dealt."
                     ]
                 },
                 {
                     "name": "Fat Ray",
                     "entries": [
-                        "Ranged Spell Attack: +7 to hit, range 120 ft., one target. Hit: 10 ({@dice 3d6}) force damage that adds fat equal to damage dealt."
+                        "{@atk rs} {@hit 7} to hit, range 120 ft., one target. {@i Hit:} 10 ({@damage 3d6}) force damage that adds fat equal to damage dealt."
                     ]
                 },
                 {
                     "name": "Fattening Kiss",
                     "entries": [
-                        "The fatling kisses a creature {@condition charmed} by it or a willing creature. The target must make a DC 15 Constitution saving throw against this magic, gaining {@dice 1d100} lbs of fat on a failed save, or half as much on a successful one."
+                        "The fatling kisses a creature {@condition charmed} by it or a willing creature. The target must make a {@dc 15} Constitution saving throw against this magic, gaining {@dice 1d100} lbs of fat on a failed save, or half as much on a successful one."
                     ]
                 },
                 {
                     "name": "Fiendish Charm",
                     "entries": [
-                        "One humanoid the fatling can see within 30 feet of it must succeed on a DC 15 Wisdom saving throw or be magically {@condition charmed} for 1 day. The {@condition charmed} target obeys the fatling's spoken commands. If the target suffers any harm from the fatling or another creature or receives a suicidal command from the fatling, the target can repeat the saving throw, ending the effect on itself on a success. If the charm ends, the creature is immune to the fatling's Fiendish Charm for the next 24 hours. The fatling can have only one target {@condition charmed} at a time. If it charms another, the effect on the previous target ends."
+                        "One humanoid the fatling can see within 30 feet of it must succeed on a {@dc 15} Wisdom saving throw or be magically {@condition charmed} for 1 day. The {@condition charmed} target obeys the fatling's spoken commands. If the target suffers any harm from the fatling or another creature or receives a suicidal command from the fatling, the target can repeat the saving throw, ending the effect on itself on a success. If the charm ends, the creature is immune to the fatling's Fiendish Charm for the next 24 hours. The fatling can have only one target {@condition charmed} at a time. If it charms another, the effect on the previous target ends."
                     ]
                 }
             ],
@@ -17476,7 +17476,7 @@
                 {
                     "name": "Grasping Tendrils",
                     "entries": [
-                        "The feeder can have up to six tendrils at a time. Each tendril can be attacked (AC 20; 10 hit points; immunity to poison and psychic damage). Destroying a tendril deals no damage to the feeder, which can extrude a replacement tendril on its next turn. A tendril can also be broken if a creature takes an action and succeeds on a DC 15 Strength check against it."
+                        "The feeder can have up to six tendrils at a time. Each tendril can be attacked (AC 20; 10 hit points; immunity to poison and psychic damage). Destroying a tendril deals no damage to the feeder, which can extrude a replacement tendril on its next turn. A tendril can also be broken if a creature takes an action and succeeds on a {@dc 15} Strength check against it."
                     ]
                 },
                 {
@@ -17502,7 +17502,7 @@
                 {
                     "name": "Tendril",
                     "entries": [
-                        "Melee Weapon Attack: +7 to hit, reach 30 ft., one creature. Hit: The target is {@condition grappled} (escape DC 15). Until the grapple ends, the target is {@condition restrained} and has disadvantage on Strength checks and Strength saving throws, and the feeder can't use the same tendril on another target."
+                        "{@atk mw} {@hit 7} to hit, reach 30 ft., one creature. Hit: The target is {@condition grappled} (escape {@dc 15}). Until the grapple ends, the target is {@condition restrained} and has disadvantage on Strength checks and Strength saving throws, and the feeder can't use the same tendril on another target."
                     ]
                 },
                 {
@@ -17514,7 +17514,7 @@
                 {
                     "name": "Feast",
                     "entries": [
-                        "The feeder forces the target to consume some of the enchanted food on its body. The creature must make a Wisdom saving throw (DC 15), or be compelled to use its action continue eating the food on the feeder on each of its turns. The target may attempt the saving throw again at the start of each of its turns, or if another creature makes a DC 15 Strength check to pull them away from the feast. On a failure, the target is compelled to return to the feast and continue eating. On a success, the compulsion ends."
+                        "The feeder forces the target to consume some of the enchanted food on its body. The creature must make a Wisdom saving throw ({@dc 15}), or be compelled to use its action continue eating the food on the feeder on each of its turns. The target may attempt the saving throw again at the start of each of its turns, or if another creature makes a {@dc 15} Strength check to pull them away from the feast. On a failure, the target is compelled to return to the feast and continue eating. On a success, the compulsion ends."
                     ]
                 }
             ]
@@ -17584,7 +17584,7 @@
                 {
                     "name": "Innate Spellcasting",
                     "headerEntries": [
-                        "The feeder fairy's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit on spell attack rolls). It can innately cast the following spells, requiring only its fairy dust as a component:"
+                        "The feeder fairy's innate spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit on spell attack rolls). It can innately cast the following spells, requiring only its fairy dust as a component:"
                     ],
                     "will": [
                         "{@spell abyssal stomach|StorymakerExpanDnD}",
@@ -17633,7 +17633,7 @@
                 {
                     "name": "Glutton's Gift",
                     "entries": [
-                        "The feeder fairy touches a creature and imbues it with a magical desire to eat and grow fatter. If the creature fails a DC 14 Charisma saving throw, the victim must eat any food the feeder fairy or their companions offer them. For the next minute, any spell attacks from any feeder fairy that cause the target to eat food (such as the feed spell) automatically hit the target, and the target automatically fails any saving throws on similar spells (such as the Overabundance spell). While under the effects of this magic, the target's stomach capacity is effectively infinite, and they cannot take damage from overeating."
+                        "The feeder fairy touches a creature and imbues it with a magical desire to eat and grow fatter. If the creature fails a {@dc 14} Charisma saving throw, the victim must eat any food the feeder fairy or their companions offer them. For the next minute, any spell attacks from any feeder fairy that cause the target to eat food (such as the feed spell) automatically hit the target, and the target automatically fails any saving throws on similar spells (such as the Overabundance spell). While under the effects of this magic, the target's stomach capacity is effectively infinite, and they cannot take damage from overeating."
                     ]
                 }
             ],
@@ -17771,14 +17771,14 @@
                 {
                     "name": "Slam",
                     "entries": [
-                        "+7 to hit, reach 5 ft., one target. Hit: 13 ({@dice 2d8+4}) bludgeoning damage."
+                        "{@hit 7} to hit, reach 5 ft., one target. {@i Hit:} 13 ({@damage 2d8+4}) bludgeoning damage."
                     ]
                 },
                 {
                     "name": "Engulf {@recharge 4}",
                     "entries": [
-                        "Each creature in the elemental's space must make a DC 15 Constitution saving throw. On a failure, the target takes 13 ({@dice 2d8} +4) bludgeoning damage and is forced to consume an equivalent amount of pounds of fatty food. If it is Large or smaller, it is also {@condition grappled} (escape DC 14). Until the grapple ends, the target is {@condition restrained}. If the saving throw is successful, the target is pushed out of the elemental's space.",
-                        "The elemental can grapple one Large creature or up to two Medium or smaller creatures at one time. At the start of each of the elemental's turns, each target {@condition grappled} by it takes 13 ({@dice 2d8+4}) bludgeoning damage and is forced to consume an equivalent amount of pounds of fatty food. A creature within 5 feet of the elemental can pull a creature or object out of it by taking an action to make a DC 14 Strength check and succeeding."
+                        "Each creature in the elemental's space must make a {@dc 15} Constitution saving throw. On a failure, the target takes 13 ({@dice 2d8} +4) bludgeoning damage and is forced to consume an equivalent amount of pounds of fatty food. If it is Large or smaller, it is also {@condition grappled} (escape {@dc 14}). Until the grapple ends, the target is {@condition restrained}. If the saving throw is successful, the target is pushed out of the elemental's space.",
+                        "The elemental can grapple one Large creature or up to two Medium or smaller creatures at one time. At the start of each of the elemental's turns, each target {@condition grappled} by it takes 13 ({@dice 2d8+4}) bludgeoning damage and is forced to consume an equivalent amount of pounds of fatty food. A creature within 5 feet of the elemental can pull a creature or object out of it by taking an action to make a {@dc 14} Strength check and succeeding."
                     ]
                 }
             ]
@@ -17890,7 +17890,7 @@
                 {
                     "name": "Innate Spellcasting",
                     "headerEntries": [
-                        "The Glutton Titan's innate spellcasting ability is Charisma (spell save DC 23, +15 to hit with spell attacks). It can ainnately cast the following spells, requiring no material components:"
+                        "The Glutton Titan's innate spellcasting ability is Charisma (spell save {@dc 23}, {@hit 15} to hit with spell attacks). It can ainnately cast the following spells, requiring no material components:"
                     ],
                     "will": [
                         "{@spell Abyssal Stomach|StorymakerExpanDnD}",
@@ -17923,13 +17923,13 @@
                 {
                     "name": "Slam",
                     "entries": [
-                        "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 31 ({@dice 6d6} + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 saving throw or be {@condition grappled} and {@condition restrained} until the end of the Glutton Titan's next turn, held fast to the sticky food residue on the titan's hands."
+                        "{@atk mw} {@hit 17} to hit, reach 10 ft., one target. {@i Hit:} 31 ({@damage 6d6+10}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 15} saving throw or be {@condition grappled} and {@condition restrained} until the end of the Glutton Titan's next turn, held fast to the sticky food residue on the titan's hands."
                     ]
                 },
                 {
                     "name": "Food Bolt",
                     "entries": [
-                        "Ranged Spell Attack: +15 to hit, range 600 ft., one target. Hit: 24 ({@dice 7d6}) pounds of fatty food fed to the target."
+                        "{@atk rs} {@hit 15} to hit, range 600 ft., one target. {@i Hit:} 24 ({@damage 7d6}) pounds of fatty food fed to the target."
                     ]
                 }
             ],
@@ -17938,7 +17938,7 @@
                     "name": "Eat",
                     "entries": [
                         "When the Glutton Titan grapples and restrains a creature with its Slam attack, it can use its reaction to swallow them whole. While swallowed, the target is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outisde of the Glutton Titan, and it takes 21 ({@dice 6d6}) acid damage at the start of each of the Glutton Titan's turns. A glutton titan can have up to 3 creatures swallowed at a time.",
-                        "If the glutton titan takes 30 damage or more in a single turn from its swallowed creatures, the glutton titan must succeed on a DC 27 Constitution saving throw at the end of that turn or regurgitate the creatures, which fall {@condition prone} in a space within 10 feet of the glutton titan. If the glutton titan dies, a swallowed creature is no longer {@condition restrained} by it and can escape the corpse by using 15 feet of movement, exiting {@condition prone}."
+                        "If the glutton titan takes 30 damage or more in a single turn from its swallowed creatures, the glutton titan must succeed on a {@dc 27} Constitution saving throw at the end of that turn or regurgitate the creatures, which fall {@condition prone} in a space within 10 feet of the glutton titan. If the glutton titan dies, a swallowed creature is no longer {@condition restrained} by it and can escape the corpse by using 15 feet of movement, exiting {@condition prone}."
                     ]
                 }
             ],
@@ -17952,7 +17952,7 @@
                 {
                     "name": "Gaseous Release. (Costs 2 Actions)",
                     "entries": [
-                        "The glutton titan releases a foul cloud of noxious gases around it. All other creatures within 60 feet of the glutton titan must succeed on a DC 25 Constitution saving throw or be {@condition poisoned} until the end of their next turn."
+                        "The glutton titan releases a foul cloud of noxious gases around it. All other creatures within 60 feet of the glutton titan must succeed on a {@dc 25} Constitution saving throw or be {@condition poisoned} until the end of their next turn."
                     ]
                 }
             ]
@@ -18074,19 +18074,19 @@
                 {
                     "name": "Unarmed Strike (Liposanguinor Form Only)",
                     "entries": [
-                        "Melee Weapon Attack: +9 to hit, reach 5 ft., one creature. Hit: 8 ({@dice 1d8} + 4) bludgeoning damage. Instead of dealing damage, the Liposanguinor can grapple the target (escape DC 18)."
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@i Hit:} 8 ({@damage 1d8+4}) bludgeoning damage. Instead of dealing damage, the Liposanguinor can grapple the target (escape {@dc 18})."
                     ]
                 },
                 {
                     "name": "Bite (Bat or Liposanguinor Form Only)",
                     "entries": [
-                        "Melee Weapon Attack: +9 to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the Liposanguinor, {@condition incapacitated}, or {@condition restrained}. Hit: 7 ({@dice 1d6} + 4) piercing damage plus 10 ({@dice 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, they lose a numbe of pounds of fat equal to the necrotic damage taken, and the Liposanguinor regains hit points and Fattens equal to that amount. The hit point reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a Liposanguinor spawn under the Liposanguinor's control."
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the Liposanguinor, {@condition incapacitated}, or {@condition restrained}. {@i Hit:} 7 ({@damage 1d6+4}) piercing damage plus 10 ({@dice 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, they lose a numbe of pounds of fat equal to the necrotic damage taken, and the Liposanguinor regains hit points and Fattens equal to that amount. The hit point reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a Liposanguinor spawn under the Liposanguinor's control."
                     ]
                 },
                 {
                     "name": "Charm",
                     "entries": [
-                        "The Liposanguinor targets one humanoid it can see within 30 feet of it. If the target can see the Liposanguinor, the target must succeed on a DC 18 Wisdom saving throw against this magic or be {@condition charmed} by the Liposanguinor. The {@condition charmed} target regards the Liposanguinor as a trusted friend to be heeded and protected. Although the target isn't under the Liposanguinor's control, it takes the Liposanguinor's requests or actions in the most favorable way it can, it cannot resist any food offered to it by the Liposanguinor, no matter how full it is, and it is a willing target for the Liposanguinor's bite attack.",
+                        "The Liposanguinor targets one humanoid it can see within 30 feet of it. If the target can see the Liposanguinor, the target must succeed on a {@dc 18} Wisdom saving throw against this magic or be {@condition charmed} by the Liposanguinor. The {@condition charmed} target regards the Liposanguinor as a trusted friend to be heeded and protected. Although the target isn't under the Liposanguinor's control, it takes the Liposanguinor's requests or actions in the most favorable way it can, it cannot resist any food offered to it by the Liposanguinor, no matter how full it is, and it is a willing target for the Liposanguinor's bite attack.",
                         "Each time the Liposanguinor or the Liposanguinor's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the Liposanguinor is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
                     ]
                 },
@@ -18232,7 +18232,7 @@
                 {
                     "name": "Wizard Training",
                     "headerEntries": [
-                        "Narce is a 25th-level Wizard with the Lipomancy Arcane Discipline, with all of the class features that provides. Her spellcasting ability is Intelligence (spell save DC 23, +15 to hit with spell attacks). Narce has the following wizard spells prepared:"
+                        "Narce is a 25th-level Wizard with the Lipomancy Arcane Discipline, with all of the class features that provides. Her spellcasting ability is Intelligence (spell save {@dc 23}, {@hit 15} to hit with spell attacks). Narce has the following wizard spells prepared:"
                     ],
                     "spells": {
                         "0": {
@@ -18371,31 +18371,31 @@
                 {
                     "name": "Paralyzing Touch",
                     "entries": [
-                        "Melee Spell Attack: +15, Reach 5ft., one creature Hit: 10 ({@dice 3d6}) cold damage The target must succeed on a DC 18 Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                        "{@atk ms} +15, Reach 5ft., one creature {@i Hit:} 10 ({@damage 3d6}) cold damage The target must succeed on a {@dc 18} Constitution saving throw or be {@condition paralyzed} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
                     ]
                 },
                 {
                     "name": "Flabshock",
                     "entries": [
-                        "Ranged Spell Attack: +15, 120 ft., one target. Hit 18 ({@dice 4d8}) lightning/fat damage."
+                        "{@atk rs} +15, 120 ft., one target. Hit 18 ({@dice 4d8}) lightning/fat damage."
                     ]
                 },
                 {
                     "name": "Narce's Fatness Arrow",
                     "entries": [
-                        "Ranged Spell Attack: +15, 120 ft., one target. Hit 10 ({@dice 4d4}) poison damage, and the target takes {@dice 2d4} poison damage at the end of its turn. On a miss, the arrow splashes the target for half as much of the initial damage and no damage at the end of its next turn. The target Fattens equal to the damage dealt this way."
+                        "{@atk rs} +15, 120 ft., one target. Hit 10 ({@dice 4d4}) poison damage, and the target takes {@dice 2d4} poison damage at the end of its turn. On a miss, the arrow splashes the target for half as much of the initial damage and no damage at the end of its next turn. The target Fattens equal to the damage dealt this way."
                     ]
                 },
                 {
                     "name": "Feed",
                     "entries": [
-                        "Ranged Spell Attack: +15, 120 ft., one target. Hit 3 ({@dice 1d6}) Fatty Food damage. Narce makes 3 attacks with this spell"
+                        "{@atk rs} +15, 120 ft., one target. Hit 3 ({@dice 1d6}) Fatty Food damage. Narce makes 3 attacks with this spell"
                     ]
                 },
                 {
                     "name": "Arc Carver",
                     "entries": [
-                        "Magical Melee Weapon Attack: +15, 5 ft., one target. Hit 15 ({@dice 1d10+11}) Slashing damage plus 12 ({@dice 2d6+5}) lightning/fat damage."
+                        "Magical {@atk mw} +15, 5 ft., one target. Hit 15 ({@dice 1d10+11}) Slashing damage plus 12 ({@dice 2d6+5}) lightning/fat damage."
                     ]
                 }
             ],
@@ -18421,13 +18421,13 @@
                 {
                     "name": "Fattening Gaze (Costs 2 Actions)",
                     "entries": [
-                        "Narce fixes her gaze on one creature she can see within 10 feet of her, imposing her sheer will over the target's very existence. The target must succeed on a DC 18 Charisma saving throw against this magic or become immobilized by fat for 1 minute. The immobilized target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target's saving throw is successful or the effect ends for it, the target is immune to Narce's gaze for the next 24 hours. Creatures without a bulk limit have their weight multiplied by ten."
+                        "Narce fixes her gaze on one creature she can see within 10 feet of her, imposing her sheer will over the target's very existence. The target must succeed on a {@dc 18} Charisma saving throw against this magic or become immobilized by fat for 1 minute. The immobilized target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target's saving throw is successful or the effect ends for it, the target is immune to Narce's gaze for the next 24 hours. Creatures without a bulk limit have their weight multiplied by ten."
                     ]
                 },
                 {
                     "name": "Siphon Weight (Costs 3 Actions)",
                     "entries": [
-                        "each non-undead, non-construct creature within 20 feet of Narce must make a DC 18 Constitution saving throw against this magic, taking 28 ({@dice 8d6}) necrotic damage on a failed save, or half as much on a successful one, and losing twice that amount of damage in pounds of fat, Narce gaining a total amount of pounds of fat equal to the fat lost among all targets."
+                        "each non-undead, non-construct creature within 20 feet of Narce must make a {@dc 18} Constitution saving throw against this magic, taking 28 ({@dice 8d6}) necrotic damage on a failed save, or half as much on a successful one, and losing twice that amount of damage in pounds of fat, Narce gaining a total amount of pounds of fat equal to the fat lost among all targets."
                     ]
                 }
             ],
@@ -18498,8 +18498,8 @@
                                 "type": "list",
                                 "items": [
                                     "Narce rolls a d8 and regains a spell slot of that level or lower. If it has no spent spell slots of that level or lower, nothing happens.",
-                                    "Narce targets one creature it can see within 30 feet of it. A crackling cord of Lipomantic energy tethers the lich to the target. Whenever Narce takes damage, the target must make a DC 18 Constitution saving throw. On a failed save, Narce takes half the damage (rounded down), and the target takes the remaining damage, gaining a number of pounds of fat equal to the damage taken. This tether lasts until initiative count 20 on the next round or until the lich or the target is no longer in Narce’s lair.",
-                                    "Narce calls forth the Lipomantic energy that permeates her lair. This energy coalesces and attacks one creature that Narce can see within 60 feet of her. The target must succeed on a DC 18 Constitution saving throw, taking 52 ({@dice 15d6}) necrotic damage on a failed save, or half as much damage on a success, and Fattens equal to the damage taken."
+                                    "Narce targets one creature it can see within 30 feet of it. A crackling cord of Lipomantic energy tethers the lich to the target. Whenever Narce takes damage, the target must make a {@dc 18} Constitution saving throw. On a failed save, Narce takes half the damage (rounded down), and the target takes the remaining damage, gaining a number of pounds of fat equal to the damage taken. This tether lasts until initiative count 20 on the next round or until the lich or the target is no longer in Narce’s lair.",
+                                    "Narce calls forth the Lipomantic energy that permeates her lair. This energy coalesces and attacks one creature that Narce can see within 60 feet of her. The target must succeed on a {@dc 18} Constitution saving throw, taking 52 ({@dice 15d6}) necrotic damage on a failed save, or half as much damage on a success, and Fattens equal to the damage taken."
                                 ]
                             }
                         ]
@@ -18611,13 +18611,13 @@
                 {
                     "name": "Stuff",
                     "entries": [
-                        "When the Sweet pudding is grappling a creature it can stuff a tendril inside the nearest orifice. When the ooze stuffs the creature, the creature must succeed on a DC 15 constitution saving throw or take 20 ({@dice 4d6+6}) bludgeoning damage and gain an equal amount of pounds of fat. On a successful saving throw the creature still takes half the damage and fat."
+                        "When the Sweet pudding is grappling a creature it can stuff a tendril inside the nearest orifice. When the ooze stuffs the creature, the creature must succeed on a {@dc 15} constitution saving throw or take 20 ({@dice 4d6+6}) bludgeoning damage and gain an equal amount of pounds of fat. On a successful saving throw the creature still takes half the damage and fat."
                     ]
                 },
                 {
                     "name": "Pseudopod",
                     "entries": [
-                        "Melee Weapon Attack: +6 to hit, reach 5ft., one target. Hit: 13 ({@dice 3d6+3}) bludgeoning damage, and the creature is {@condition grappled} (escape DC 15)."
+                        "{@atk mw} {@hit 6} to hit, reach 5ft., one target. {@i Hit:} 13 ({@damage 3d6+3}) bludgeoning damage, and the creature is {@condition grappled} (escape {@dc 15})."
                     ]
                 }
             ]
@@ -18730,7 +18730,7 @@
                 {
                     "name": "Greatsword",
                     "entries": [
-                        "Melee Weapon Attack: +8 to hit, reach 5ft., one target. Hit 11 ({@dice 2d6} + 4)"
+                        "{@atk mw} {@hit 8} to hit, reach 5ft., one target. Hit 11 ({@dice 2d6+4})"
                     ]
                 }
             ]
@@ -18799,7 +18799,7 @@
                 {
                     "name": "Wizard Training",
                     "headerEntries": [
-                        "The lipomancer is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The lipomancer has the following wizard spells prepared:"
+                        "The lipomancer is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 15}, {@hit 7} to hit with spell attacks). The lipomancer has the following wizard spells prepared:"
                     ],
                     "spells": {
                         "0": {
@@ -18866,7 +18866,7 @@
                 {
                     "name": "Dagger",
                     "entries": [
-                        "Melee or Ranged Weapon Attack: +5 to hit, reach 5ft. or range 20/60 ft., one target. Hit 4 ({@dice 1d4} + 2) piercing damage."
+                        "{@atk mw,rw} {@hit 5} to hit, reach 5ft. or range 20/60 ft., one target. Hit 4 ({@dice 1d4+2}) piercing damage."
                     ]
                 }
             ]
