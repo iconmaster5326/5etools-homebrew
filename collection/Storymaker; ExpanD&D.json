@@ -47,7 +47,7 @@
                             "type": "entries",
                             "name": "Impeded",
                             "entries": [
-                                "If a character has reached a weight of 1.5 times their Bulk limit, they are considered impeded. Their natural movement speed is cut in half and they have disadvantage on Athletics and Acrobatics checks, and on Dexterity Saving Throws. The speed reduction does not affect magical movement speeds, such as that granted by the fly spell."
+                                "If a character has reached a weight of 1.5 times their Bulk limit, they are considered impeded. Their natural movement speed is cut in half and they have disadvantage on {@skill Athletics} and {@skill Acrobatics} checks, and on Dexterity Saving Throws. The speed reduction does not affect magical movement speeds, such as that granted by the fly spell."
                             ]
                         },
                         {
@@ -333,7 +333,7 @@
                     "type": "entries",
                     "name": "The Eating Action",
                     "entries": [
-                        "Eating in combat is done via the Eating Action, which can be done as either an Action or Bonus Action, and which allows the character in question to consume a number of pounds of food within their reach equal to half their {@skill Eating} Skill modifier (minimum 1). Do note that unique food items, such as magical food items, typically require one to use the Use an Object action rather than the Eating action, unless otherwise specified. The amount of food a creature can consume with the Eating action follows the same rules regarding size capacity increases and decreases as stomach capacity. Also, certain spells, abilities, or effects will dictate how much someone eats in a given round regardless, in which case refer to those features rather than the eating action. This calculation is only for how much food a creature can eat when it takes the eating action on its turn."
+                        "Eating in combat is done via the {@action Eating|StorymakerExpanDnD} Action, which can be done as either an Action or Bonus Action, and which allows the character in question to consume a number of pounds of food within their reach equal to half their {@skill Eating} Skill modifier (minimum 1). Do note that unique food items, such as magical food items, typically require one to use the Use an Object action rather than the {@action Eating|StorymakerExpanDnD} action, unless otherwise specified. The amount of food a creature can consume with the {@action Eating|StorymakerExpanDnD} action follows the same rules regarding size capacity increases and decreases as stomach capacity. Also, certain spells, abilities, or effects will dictate how much someone eats in a given round regardless, in which case refer to those features rather than the {@action Eating|StorymakerExpanDnD} action. This calculation is only for how much food a creature can eat when it takes the {@action Eating|StorymakerExpanDnD} action on its turn."
                     ]
                 },
                 {
@@ -421,14 +421,14 @@
                             "type": "entries",
                             "name": "Clumsy",
                             "entries": [
-                                "If a character has exceeded their Flex limit, they are considered clumsy. The character has disadvantage on Dexterity(Sleight of Hand) checks."
+                                "If a character has exceeded their Flex limit, they are considered clumsy. The character has disadvantage on Dexterity ({@skill Sleight of Hand}) checks."
                             ]
                         },
                         {
                             "type": "entries",
                             "name": "Lumbering",
                             "entries": [
-                                "If a character has reached a muscle mass of 1.5 times their Flex limit, they are considered lumbering. They have disadvantage on Stealth and Acrobatics checks, as well as Dexterity Saving Throws"
+                                "If a character has reached a muscle mass of 1.5 times their Flex limit, they are considered lumbering. They have disadvantage on {@skill Stealth} and {@skill Acrobatics} checks, as well as Dexterity Saving Throws"
                             ]
                         },
                         {
@@ -520,7 +520,7 @@
     ],
     "action": [
         {
-            "name": "Eat",
+            "name": "Eating",
             "source": "StorymakerExpanDnD",
             "page": 7,
             "time": [
@@ -538,7 +538,7 @@
             ]
         },
         {
-            "name": "Force-Feed",
+            "name": "Force-Feeding",
             "source": "StorymakerExpanDnD",
             "page": 7,
             "time": [
@@ -569,7 +569,7 @@
                 {
                     "type": "list",
                     "items": [
-                        "A ravenous creature does not roll to stuff itself, and instead treats their extended stomach capacity for stuffing themselves as if they had rolled a Natural 20 on their eating check.",
+                        "A ravenous creature does not roll to stuff itself, and instead treats their extended stomach capacity for stuffing themselves as if they had rolled a Natural 20 on their {@skill eating} check.",
                         "A ravenous creature can only willingly move toward a potential source of food. If there is no food within range of any of their senses, the creature cannot move as they are racked with hunger.",
                         "A ravenous creature must use its Action and/or Bonus action if possible to eat any food within their reach after moving.",
                         "A ravenous creature automatically fails any saving throws made to resist eating food.",
@@ -959,7 +959,7 @@
                             "items": [
                                 "You do not have a base weight. Instead, if your weight falls below 25 pounds, you fall unconcsious until your weight is restored above 25 pounds.",
                                 "When you are burdened, your walking speed is reduced by 10 feet in addition to normal effects.",
-                                "When you are impeded, you do not suffer disadvantage on Athletics checks.",
+                                "When you are impeded, you do not suffer disadvantage on {@skill Athletics} checks.",
                                 "When you are immobilized, you are not restrained, but your walking speed is reduced to 5 feet and you cannot dash."
                             ]
                         }
@@ -1070,7 +1070,7 @@
                             "type": "entries",
                             "name": "Sweet (Savory) Snare",
                             "entries": [
-                                "As an action, you can attempt to restrain a creature you can touch. The target must make a Strength saving throw. On a failure, the target is restrained, takes {@dice 1d4} bludgeoning damage, and is forced to consume a number of pounds of fatty food equal to the damage dealt, and you lose an equal amount of weight. The damage increases to {@dice 1d6} at level 6, {@dice 1d8} at level 11, and {@dice 1d10} at level 16. While restraining a creature this way, you can use your action to make it repeat the saving throw or suffer the same effect, you are unable to grapple another target, and your movement speed is reduced to 0. The target is no longer restrained if a creature that can touch it succeeds on a Strength check, if the target succeeds on an Athletics or Acrobatics check, or if you use your action to do anything but stuff the target. The DC for this feature is 8 + your proficiency bonus + your Strength modifier. After you successfully restrain someone on the initial save once, you must finish a short or long rest before using this feature again."
+                                "As an action, you can attempt to restrain a creature you can touch. The target must make a Strength saving throw. On a failure, the target is restrained, takes {@dice 1d4} bludgeoning damage, and is forced to consume a number of pounds of fatty food equal to the damage dealt, and you lose an equal amount of weight. The damage increases to {@dice 1d6} at level 6, {@dice 1d8} at level 11, and {@dice 1d10} at level 16. While restraining a creature this way, you can use your action to make it repeat the saving throw or suffer the same effect, you are unable to grapple another target, and your movement speed is reduced to 0. The target is no longer restrained if a creature that can touch it succeeds on a Strength check, if the target succeeds on an {@skill Athletics} or {@skill Acrobatics} check, or if you use your action to do anything but stuff the target. The DC for this feature is 8 + your proficiency bonus + your Strength modifier. After you successfully restrain someone on the initial save once, you must finish a short or long rest before using this feature again."
                             ]
                         },
                         {
@@ -1251,7 +1251,7 @@
                     "type": "entries",
                     "name": "Culinary Creation",
                     "entries": [
-                        "You have proficiency in the eating skill and with Chef's utensils."
+                        "You have proficiency in the {@skill eating} skill and with Chef's utensils."
                     ]
                 },
                 {
@@ -1996,7 +1996,7 @@
                         "What their stomach capacity is",
                         "How much food is currently in their stomach",
                         "What their currently accumulated diet points and exercise points are",
-                        "What their eating skill is"
+                        "What their {@skill eating} skill is"
                     ]
                 }
             ]
@@ -2408,8 +2408,8 @@
                         "the creature immediately loses 1 pound.",
                         "the creature has advantage on saving throws against exhaustion for the next hour.",
                         "the creature gains darkvision to a distance of 30 feet for the next hour.",
-                        "the creature gains disadvantage on Dexterity(stealth) checks for the next hour",
-                        "the creature gains advantage on Constitution(eating) checks for the next minute."
+                        "the creature gains disadvantage on Dexterity ({@skill stealth}) checks for the next hour",
+                        "the creature gains advantage on Constitution ({@skill eating}) checks for the next minute."
                     ]
                 }
             ]
@@ -2600,7 +2600,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 6,
             "entries": [
-                "At 6th level, your sheer power allows you to move even when others would be completely immobilized. Your Eating Capacity, Bulk Capacity and Carrying Capacity are doubled, and you never lose movement speed from being Encumbered or Impeded by your Bulk."
+                "At 6th level, your sheer power allows you to move even when others would be completely immobilized. Your Stomach Capacity, Bulk Capacity and Carrying Capacity are doubled, and you never lose movement speed from being Encumbered or Impeded by your Bulk."
             ]
         },
         {
@@ -2657,7 +2657,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 3,
             "entries": [
-                "When you join the College of Seduction at 3rd level, you learn to shape your body to your needs. You can expend one of your uses of Bardic Inspiration as a bonus action, transforming your appearance and rolling a Bardic Inspiration die, adding the result to your next Deception, Performance, or Persuasion check. You decide what you look like, including your height, weight, facial features, the sound of your voice, coloration, hair length, sex, and any other distinguishing characteristics. You can make yourself appear as a member of another race, though none of your game statistics change. You also can't appear as a creature of a different size than you, and your basic shape stays the same; if you're bipedal, you can't use this trait to become quadrupedal, for instance. Your clothing and other equipment don't change in appearance, size, or shape to match your new form, requiring you to keep a few extra outfits on hand to make the most compelling disguise possible. These changes last until you are killed or choose to revert the changes as a bonus action."
+                "When you join the College of Seduction at 3rd level, you learn to shape your body to your needs. You can expend one of your uses of Bardic Inspiration as a bonus action, transforming your appearance and rolling a Bardic Inspiration die, adding the result to your next {@skill Deception}, {@skill Performance}, or {@skill Persuasion} check. You decide what you look like, including your height, weight, facial features, the sound of your voice, coloration, hair length, sex, and any other distinguishing characteristics. You can make yourself appear as a member of another race, though none of your game statistics change. You also can't appear as a creature of a different size than you, and your basic shape stays the same; if you're bipedal, you can't use this trait to become quadrupedal, for instance. Your clothing and other equipment don't change in appearance, size, or shape to match your new form, requiring you to keep a few extra outfits on hand to make the most compelling disguise possible. These changes last until you are killed or choose to revert the changes as a bonus action."
             ]
         },
         {
@@ -2724,7 +2724,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 3,
             "entries": [
-                "The College of Decadence not only teaches song and entertainment to best accompany feasting, but also has its students practice culinary arts. When you join the College of Decadence at 3rd level, you gain proficiency with Brewer's Supplies, Cook's utensils, and the Eating skill."
+                "The College of Decadence not only teaches song and entertainment to best accompany feasting, but also has its students practice culinary arts. When you join the College of Decadence at 3rd level, you gain proficiency with Brewer's Supplies, Cook's utensils, and the {@skill Eating} skill."
             ]
         },
         {
@@ -2736,7 +2736,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 3,
             "entries": [
-                "At 3rd level, you are a master of the feast whose words and art may inspire gluttony and satedness as desired. Those upon whom you use an inspiration die may at their expend it to expand their stomach capacity by the result of the inspiration die. Additionally, the result of the die is added to the target's next Eating check. Unlike most uses of inspiration, you may use this on yourself.",
+                "At 3rd level, you are a master of the feast whose words and art may inspire gluttony and satedness as desired. Those upon whom you use an inspiration die may at their expend it to expand their stomach capacity by the result of the inspiration die. Additionally, the result of the die is added to the target's next {@skill Eating} check. Unlike most uses of inspiration, you may use this on yourself.",
                 "Alternatively, you may as a bonus action expend one use of your inspiration, rolling a bardic inspiration die and subtracting the number rolled from the stomach capacity of a creature you can see within 60 feet. This effect persists until the end of your next turn."
             ]
         },
@@ -2986,7 +2986,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 3,
             "entries": [
-                "At 3rd Level you gain Proficiency in Dexterity (Acrobatics) and Charisma (Performance) skills. If you are already proficient with either of these, choose another skill proficiency for each proficiency you already have."
+                "At 3rd Level you gain Proficiency in Dexterity ({@skill Acrobatics}) and Charisma ({@skill Performance}) skills. If you are already proficient with either of these, choose another skill proficiency for each proficiency you already have."
             ]
         },
         {
@@ -3133,8 +3133,8 @@
             "level": 15,
             "entries": [
                 "At 15th level, you can augment your Blood Maledicts to plant a seed of Lipomantic essence within a target's mind which blossoms and spreads to those nearby, twisting them and afflicting the victims with a severe fear of being thin, as well as the irrational sensation that they are rapidly losing weight.",
-                "Whenever a target is affected by one of your Blood Maledicts, you can use this feature to force the target and any creatures of your choice within 20 feet of them to make a Wisdom Saving Throw against your Hemocraft DC (This is in addition to any saving throws caused by your maledict). On a failure, the target immediately takes the Eating action, consuming as much food as possible that is within reach, and must spend their next turn seeking out and eating as much food as they possibly can. Whenever the target takes damage from overeating, and at the end of each of their turns, they can make the saving throw again, ending the effect on a success. Otherwise, the effect continues for up to one minute, requiring concentration as if concentrating on a spell.",
-                "On a successful save, the target immediately takes the Eating action, consuming as much food as possible that is within reach, and the effect ends.",
+                "Whenever a target is affected by one of your Blood Maledicts, you can use this feature to force the target and any creatures of your choice within 20 feet of them to make a Wisdom Saving Throw against your Hemocraft DC (This is in addition to any saving throws caused by your maledict). On a failure, the target immediately takes the {@action Eating|StorymakerExpanDnD} action, consuming as much food as possible that is within reach, and must spend their next turn seeking out and eating as much food as they possibly can. Whenever the target takes damage from overeating, and at the end of each of their turns, they can make the saving throw again, ending the effect on a success. Otherwise, the effect continues for up to one minute, requiring concentration as if concentrating on a spell.",
+                "On a successful save, the target immediately takes the {@action Eating|StorymakerExpanDnD} action, consuming as much food as possible that is within reach, and the effect ends.",
                 "All food consumed by a target while under this ability's effects is considered Fattening, and the target immediately Fattens by one pound per pound of food consumed.",
                 "This ability may be used once, regaining expended uses on a short or long rest."
             ]
@@ -3194,7 +3194,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 3,
             "entries": [
-                "While you are not hindered by sunlight, your true powers awaken in the dark. Starting when you choose this archetype at 3rd level, you gain Darkvision out to 120 feet, and have advantage on any Wisdom (Perception) checks made while you are in dim light or darkness.",
+                "While you are not hindered by sunlight, your true powers awaken in the dark. Starting when you choose this archetype at 3rd level, you gain Darkvision out to 120 feet, and have advantage on any Wisdom ({@skill Perception}) checks made while you are in dim light or darkness.",
                 "You do, however, have vulnerability to Radiant damage, and qualify as Undead for effects that deal additional damage to the Undead, such as Holy Water or a Paladin's Divine Smite.",
                 "Additionally, any Blood Hunter powers with variable effects or DCs based on your Intelligence modifier now use your Charisma modifier, as your vampiric nature has merged with your Blood Hunter abilities."
             ]
@@ -3224,7 +3224,7 @@
             "level": 7,
             "entries": [
                 "At 7th level, you have awakened more of your Vampiric abilities. You can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check, and while you have an active rite on your unarmed strikes, they are considered magical for the purposes of overcoming resistance and immunity to nonmagical attacks and damage.",
-                "Additionally, you gain proficiency in one of the following skills of your choice: Deception, Intimidation, or Persuasion."
+                "Additionally, you gain proficiency in one of the following skills of your choice: {@skill Deception}, {@skill Intimidation}, or {@skill Persuasion}."
             ]
         },
         {
@@ -3333,7 +3333,7 @@
                     "type": "list",
                     "items": [
                         "The casting time is one minute, during which you perform an elaborate ritual that involves drawing the curse from the target, forming into a mass of energy which you then consume.",
-                        "Consuming Sin has a hefty effect on your waistline. Every time you use this ability, you gain {@dice 10d6} pounds of fat immediately, and your stomach is filled to bursting with dark energy, filling your stomach to maximum capacity, including an eating check for overeating, with the equivalent of fatty food. If you are already at this limit when you attempt to use this ability, you overtax yourself, consuming a number of pounds of fatty food over your limit equal to your Character level plus a roll of your rite damage die. (If you have no maximum stomach capacity for any particular reason when you use this ability, consume pounds of fatty food equal to {@dice 2d20} plus your Character level.)",
+                        "Consuming Sin has a hefty effect on your waistline. Every time you use this ability, you gain {@dice 10d6} pounds of fat immediately, and your stomach is filled to bursting with dark energy, filling your stomach to maximum capacity, including an {@skill eating} check for overeating, with the equivalent of fatty food. If you are already at this limit when you attempt to use this ability, you overtax yourself, consuming a number of pounds of fatty food over your limit equal to your Character level plus a roll of your rite damage die. (If you have no maximum stomach capacity for any particular reason when you use this ability, consume pounds of fatty food equal to {@dice 2d20} plus your Character level.)",
                         "Consuming Sin also energizes your body for a time as well, however. Until your next long rest, you take only half of the damage you normally would when activating your crimson rites or empowering blood curses, you may roll one additional crimson rite damage die when determining damage for attacks empowered with your rite, and have advantage on Saving Throws made to resist being cursed (any affect that could be removed by the Remove Curse spell.)",
                         "Any Creature whose sin you consume finds their body drained of mass. They lose {@dice 10d6} pounds of fat (if possible)."
                     ]
@@ -3375,7 +3375,7 @@
             "level": 15,
             "entries": [
                 "At 15th level, you learn to unleash the sins you have consumed upon your foes. As an action that you may only use while you are under the lingering effects of your Consume Sin ability, you can unleash sin. Your stomach empties of all of its contents without digesting them, and you unleash a burst of dark energy in a 30 foot cone originating from your position. Each creature caught within this area of effect must make a Constitution Saving Throw against your hemocraft DC.",
-                "Each creature that fails this saving throw consumes fatty food up to their maximum stomach capacity, including an eating roll for overindulging (creatures without a maximum stomach capacity consume a number of pounds of fatty food equal to your Blood Hunter level.). Affected creatures also take an amount of force damage equal to three rolls of your Rite Damage die, plus your Constitution modifier, or half as much if they succeeded on the saving throw, and gain an amount of pounds of fat equal to four times the damage they took.",
+                "Each creature that fails this saving throw consumes fatty food up to their maximum stomach capacity, including an {@skill eating} roll for overindulging (creatures without a maximum stomach capacity consume a number of pounds of fatty food equal to your Blood Hunter level.). Affected creatures also take an amount of force damage equal to three rolls of your Rite Damage die, plus your Constitution modifier, or half as much if they succeeded on the saving throw, and gain an amount of pounds of fat equal to four times the damage they took.",
                 "Once you have used this ability, you cannot do so again until you complete a long rest."
             ]
         },
@@ -3602,7 +3602,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 1,
             "entries": [
-                "Also at 1st level, you learn the Trim cantrip if you don't already know it. For you, it is a cleric cantrip. You also gain proficiency in one of the following skills of your choice: Acrobatics or Athletics."
+                "Also at 1st level, you learn the Trim cantrip if you don't already know it. For you, it is a cleric cantrip. You also gain proficiency in one of the following skills of your choice: {@skill Acrobatics} or {@skill Athletics}."
             ]
         },
         {
@@ -3714,7 +3714,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 1,
             "entries": [
-                "Beginning when you choose this domain at 1st level, you gain the flabshock cantrip. It is considered a cleric spell for you. You also gain proficiency in the Eating skill."
+                "Beginning when you choose this domain at 1st level, you gain the flabshock cantrip. It is considered a cleric spell for you. You also gain proficiency in the {@skill Eating} skill."
             ]
         },
         {
@@ -3806,7 +3806,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 2,
             "entries": [
-                "At 2nd level you gain proficiency with Cook's Utensils, and whenever you make a Wisdom (Survival) roll to forage for food, you add your levels in druid to the number of pounds of food you find.",
+                "At 2nd level you gain proficiency with Cook's Utensils, and whenever you make a Wisdom ({@skill Survival}) roll to forage for food, you add your levels in druid to the number of pounds of food you find.",
                 "Additionally, over the course of 1 minute, you can touch a number of pounds of non-meat food equal to your Druid level and make them into food of any quality. You can instead touch a creature's stomach for 1 minute, changing the the quality of non-meat food in their stomach to any other quality. Once you transmute food in this way, you must finish a short or long rest before you can do so again."
             ]
         },
@@ -4216,8 +4216,8 @@
             "level": 7,
             "entries": [
                 "At 7th level, you have learned the secrets the knights employ to not only maintain their physique, but also employ it on the battlefield.",
-                "You gain proficiency in the Eating skill.",
-                "Whether you already had proficiency in the Eating skill or not, you gain expertise in it as well.",
+                "You gain proficiency in the {@skill Eating} skill.",
+                "Whether you already had proficiency in the {@skill Eating} skill or not, you gain expertise in it as well.",
                 "Additionally, while wearing heavy armor and not using a shield, you may attempt to shove or knock an enemy prone as a bonus action."
             ]
         },
@@ -4401,7 +4401,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 1,
             "entries": [
-                "Upon following this calling at 1st level, your unending hunger infects anyone you possess. Any Host you possess is unendingly hungry, as if their stomach was empty, and you can use your Action or Bonus Action to force your host to take the Eating Action, or to take the Use an Object action to eat a Food Item. You do not suffer any of the bludgeoning damage your host takes from overeating past their fullness limit.",
+                "Upon following this calling at 1st level, your unending hunger infects anyone you possess. Any Host you possess is unendingly hungry, as if their stomach was empty, and you can use your Action or Bonus Action to force your host to take the {@action Eating|StorymakerExpanDnD} Action, or to take the Use an Object action to eat a Food Item. You do not suffer any of the bludgeoning damage your host takes from overeating past their fullness limit.",
                 "Additionally, at the end of each of your turns, if your host's stomach is empty, they take an amount of psychic damage equal to your Lingering Soul level, as the unnatural hunger gnaws at their mind. You do not suffer any of this damage. You may choose not to inflict this damage if you so desire, but doing so requires your reaction to stave off the hunger you feel."
             ]
         },
@@ -4462,8 +4462,8 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 15,
             "entries": [
-                "At 15th level, your gluttonous influence twists your host and those nearby into superhuman feats of voracity. You have complete control over the metabolism of your host and any creatures affected by your Ravenous Plague feature. You choose whether any food they consume enters their stomach, or is immediately converted into a number of pounds of fat equal to twice the number of pounds of food consumed. Additionally, whenever you use your Action or Bonus action to force a creature to take the Eating action, they can eat twice the amount of food they normally could when they take that action.",
-                "Beyond this, whenever your host or a creature affected by your Ravenous Plague feature is targeted by an attack, spell or ability that would force them to eat food, you can use your reaction to attempt to force them to eat it. If they are unaware of your possession, such as by the Unseen Passenger feature, the attack roll automatically succeeds or they automatically fail the ability check or saving throw, and can then make a Wisdom (Insight) check against your Lingering Soul DC, becoming aware of the possession on a success. Otherwise, the attack roll against them gains advantage, or they gain disadvantage on the ability check or saving throw."
+                "At 15th level, your gluttonous influence twists your host and those nearby into superhuman feats of voracity. You have complete control over the metabolism of your host and any creatures affected by your Ravenous Plague feature. You choose whether any food they consume enters their stomach, or is immediately converted into a number of pounds of fat equal to twice the number of pounds of food consumed. Additionally, whenever you use your Action or Bonus action to force a creature to take the {@action Eating|StorymakerExpanDnD} action, they can eat twice the amount of food they normally could when they take that action.",
+                "Beyond this, whenever your host or a creature affected by your Ravenous Plague feature is targeted by an attack, spell or ability that would force them to eat food, you can use your reaction to attempt to force them to eat it. If they are unaware of your possession, such as by the Unseen Passenger feature, the attack roll automatically succeeds or they automatically fail the ability check or saving throw, and can then make a Wisdom ({@skill Insight}) check against your Lingering Soul DC, becoming aware of the possession on a success. Otherwise, the attack roll against them gains advantage, or they gain disadvantage on the ability check or saving throw."
             ]
         },
         {
@@ -4495,7 +4495,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 3,
             "entries": [
-                "At 3rd level your training and diet has honed your body for your Path. You gain Proficiency in the Strength (Athletics) and Constitution (Eating) skills if you don't have them already. When you attempt to grapple or shove a creature, you add a bonus to the Strength(Athletics) check to do so equal to half your Wisdom modifier, rounded down (minimum 1). If you are Burdened or greater by your bulk or Clumsy or greater by your Flex, you instead add your full Wisdom modifier (minimum 1) as a bonus to the check.",
+                "At 3rd level your training and diet has honed your body for your Path. You gain Proficiency in the Strength ({@skill Athletics}) and Constitution ({@skill Eating}) skills if you don't have them already. When you attempt to grapple or shove a creature, you add a bonus to the Strength (Athletics) check to do so equal to half your Wisdom modifier, rounded down (minimum 1). If you are Burdened or greater by your bulk or Clumsy or greater by your Flex, you instead add your full Wisdom modifier (minimum 1) as a bonus to the check.",
                 "Additionally, if you are Burdened or greater by your bulk or Clumsy or greater from your Flex, enemies one size larger than you do not automatically succeed on attempts to break your grapples."
             ]
         },
@@ -4513,7 +4513,7 @@
                     "type": "entries",
                     "name": "Demon Crushing Hold (1 Ki point)",
                     "entries": [
-                        "Make a Strength (Athletics) check, contested by your opponent's Strength (Athletics) or Dexterity (Acrobatics), as if grappling, against a creature currently grappled by you. If you succeed, your target is restrained while they are grappled by you, and you may move freely through your target's space. At the start of each of your target's turns while they are grappled by you, they take bludgeoning damage equal to your Wisdom modifier (minimum of 1)."
+                        "Make a Strength ({@skill Athletics}) check, contested by your opponent's Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}), as if grappling, against a creature currently grappled by you. If you succeed, your target is restrained while they are grappled by you, and you may move freely through your target's space. At the start of each of your target's turns while they are grappled by you, they take bludgeoning damage equal to your Wisdom modifier (minimum of 1)."
                     ]
                 },
                 {
@@ -4726,7 +4726,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 11,
             "entries": [
-                "At 11th level, you are considered one size larger than normal when determining stomach capacity and how much food you can eat in a single eating check."
+                "At 11th level, you are considered one size larger than normal when determining stomach capacity and how much food you can eat in a single {@skill eating} check."
             ]
         },
         {
@@ -5420,7 +5420,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 3,
             "entries": [
-                "Starting when you choose this fight club at 3rd level, you gain proficiency in the Performance skill.",
+                "Starting when you choose this fight club at 3rd level, you gain proficiency in the {@skill Performance} skill.",
                 "As a Bonus action, you can expend 1 moxie point make a shout, salute, or other gesture of respect to one target within 30 feet of you that can see and hear you. The target must make a Wisdom saving throw. On a failure, your attack rolls against that target gain advantage until the start of your next turn, and their attack rolls against you gain disadvantage until the start of your next turn, as your imposing presence shakes them to the core. Undead and Constructs are immune to this effect.",
                 "The Save DC for all Salt and Ceremony abilities is calculated as follows:",
                 {
@@ -5474,7 +5474,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 11,
             "entries": [
-                "Starting at 11th level, you have hardened body and soul into a perfect machine. You have resistance to poison damage and advantage on saving throws against poison, you have advantage on Constitution(Eating) checks and your full capacity for eating is doubled, and the DC of your Salt and Ceremony abilities increases by 2."
+                "Starting at 11th level, you have hardened body and soul into a perfect machine. You have resistance to poison damage and advantage on saving throws against poison, you have advantage on Constitution (Eating) checks and your full capacity for eating is doubled, and the DC of your Salt and Ceremony abilities increases by 2."
             ]
         },
         {
@@ -5638,7 +5638,7 @@
             "level": 3,
             "entries": [
                 "Beginning at 3rd level, the number of diet points you burn, your stomach capacity, your stuffing limits, and your digestion rate are all doubled.",
-                "Also at 3rd level, your hunting prowess has been amplified to feed the beast within you. When you roll a Wisdom (Survival) check to forage and succeed, you find 4 times as much food as you normally would. On a failure, you find 2 times as much food as you normally would on a success. This replaces the benefit to foraging from Natural Explorer."
+                "Also at 3rd level, your hunting prowess has been amplified to feed the beast within you. When you roll a Wisdom ({@skill Survival}) check to forage and succeed, you find 4 times as much food as you normally would. On a failure, you find 2 times as much food as you normally would on a success. This replaces the benefit to foraging from Natural Explorer."
             ]
         },
         {
@@ -5655,7 +5655,7 @@
                     "type": "entries",
                     "name": "Prowler's Instincts",
                     "entries": [
-                        "You gain darkvision out to 60 feet, and you do not have disadvantage on Wisdom (Perception) checks that rely on sight in a lightly obscured area. Additionally, if you spend 1 minute observing or interacting with another creature outside of combat, you can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal, superior, or inferior in regard to one of the following characteristics of your choice: AC, current hit points, movement speed, or one of your ability scores."
+                        "You gain darkvision out to 60 feet, and you do not have disadvantage on Wisdom ({@skill Perception}) checks that rely on sight in a lightly obscured area. Additionally, if you spend 1 minute observing or interacting with another creature outside of combat, you can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal, superior, or inferior in regard to one of the following characteristics of your choice: AC, current hit points, movement speed, or one of your ability scores."
                     ]
                 },
                 {
@@ -5690,7 +5690,7 @@
                     "type": "entries",
                     "name": "Prowler's Stealth",
                     "entries": [
-                        "You have advantage on Dexterity (Stealth) checks to hide in natural environments, and can hide even when only lightly obscured by the shadows of trees, foliage, morning mist, or similar natural phenomena. In addition, any hit you score against a creature that is suprised is a critical hit."
+                        "You have advantage on Dexterity ({@skill Stealth}) checks to hide in natural environments, and can hide even when only lightly obscured by the shadows of trees, foliage, morning mist, or similar natural phenomena. In addition, any hit you score against a creature that is suprised is a critical hit."
                     ]
                 },
                 {
@@ -5883,7 +5883,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 3,
             "entries": [
-                "Beginning at 3rd level, you gain the ability to steal some of your victims' essence with but a touch. You can steal essence from a hostile creature using a Dexterity (Sleight of Hand) check opposed by their Strength (Athletics) check or Dexterity (Acrobatics) check, or as a result of dealing sneak attack damage to them. You can also steal essence from a non-hostile creature using a Dexterity (Sleight of Hand) check opposed by their Wisdom (Perception) check.",
+                "Beginning at 3rd level, you gain the ability to steal some of your victims' essence with but a touch. You can steal essence from a hostile creature using a Dexterity ({@skill Sleight of Hand}) check opposed by their Strength ({@skill Athletics}) check or Dexterity ({@skill Acrobatics}) check, or as a result of dealing sneak attack damage to them. You can also steal essence from a non-hostile creature using a Dexterity ({@skill Sleight of Hand}) check opposed by their Wisdom ({@skill Perception}) check.",
                 "On a success, choose two Attributes. For the next minute, ability checks using those attributes have advantage, and the target has disadvantage on ability checks using those same attributes. These stolen attributes might manifest on your body as simple glowing marks, or they might manifest as suddenly appearing muscle, sexual characteristic mass, body fat, height, or other traits which do not count against your character's total weight or other characteristics. After the minute is over, these attributes recede as they are expended.",
                 "This ability's duration increases to an hour at 17th level.",
                 "This ability can be used a number of times equal to your Charisma modifier (minimum 1.) You regain all expended uses of this ability after a long rest."
@@ -5972,7 +5972,7 @@
             "level": 3,
             "entries": [
                 "When you choose this archetype at 3rd level, you gain proficiency with poisoner's kits and cooks utensil's. Your proficiency bonus is doubled for any ability check you make that uses either of those proficiencies.",
-                "When you force-feed a creature, you may replace the Strength (Athletics) check required with a Dexterity (Sleight of Hand) check, if you are proficient with the skill."
+                "When you force-feed a creature, you may replace the Strength ({@skill Athletics}) check required with a Dexterity ({@skill Sleight of Hand}) check, if you are proficient with the skill."
             ]
         },
         {
@@ -6023,7 +6023,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 17,
             "entries": [
-                "At 17th level, you have mastered the ultimate recipe; the Self-Rising Dough. This small, innocuous looking ball of pink dough fits in the palm of your hand, and weighs five pounds. When fed to a creature, they must make a Constitution saving throw. On a failed save, roll {@dice 2d6}. The weight of the Dough multiplies by this amount, potentially resulting in a Constitution (Eating) check. On a successful save, the final weight of the Self-Rising Dough is halved. The creature has disadvantage on this saving throw if they are not hostile to you, as they are taken by surprise."
+                "At 17th level, you have mastered the ultimate recipe; the Self-Rising Dough. This small, innocuous looking ball of pink dough fits in the palm of your hand, and weighs five pounds. When fed to a creature, they must make a Constitution saving throw. On a failed save, roll {@dice 2d6}. The weight of the Dough multiplies by this amount, potentially resulting in a Constitution ({@skill Eating}) check. On a successful save, the final weight of the Self-Rising Dough is halved. The creature has disadvantage on this saving throw if they are not hostile to you, as they are taken by surprise."
             ]
         },
         {
@@ -6157,7 +6157,7 @@
                             "type": "entries",
                             "name": "Self",
                             "entries": [
-                                "You can give yourself advantage on Dexterity(Stealth) checks by filling yourself with just enough air to dampen the sound of your movement."
+                                "You can give yourself advantage on Dexterity ({@skill Stealth}) checks by filling yourself with just enough air to dampen the sound of your movement."
                             ]
                         },
                         {
@@ -6212,8 +6212,8 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 3,
             "entries": [
-                "Starting at 3rd level you gain Proficiency in Constitution (Eating) and Dexterity (Sleight of Hand) skills. If you are already proficient with either of these, choose another skill proficiency for each proficiency you already have.",
-                "If you have Proficiency (or Expertise) in the Constitution (Eating) skill, you may use your Cunning Action to drink a potion or eat a piece of food."
+                "Starting at 3rd level you gain Proficiency in Constitution ({@skill Eating}) and Dexterity ({@skill Sleight of Hand}) skills. If you are already proficient with either of these, choose another skill proficiency for each proficiency you already have.",
+                "If you have Proficiency (or Expertise) in the Constitution ({@skill Eating}) skill, you may use your Cunning Action to drink a potion or eat a piece of food."
             ]
         },
         {
@@ -6469,7 +6469,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 1,
             "entries": [
-                "At 1st level, you gain proficiency in Stealth. Additionally, you can Hide as a bonus action.",
+                "At 1st level, you gain proficiency in {@skill Stealth}. Additionally, you can Hide as a bonus action.",
                 "When you reach 3rd level in this class, you learn invisibility, which doesn't count against your number of sorcerer spells known. In addition, you can cast it by spending 2 Sorcery Points or by expending a spell slot. If you cast it with sorcery points, you can cast it as a bonus action."
             ]
         },
@@ -6598,7 +6598,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 18,
             "entries": [
-                "At 18th level, your gaseous releases have become constant and unceasing, but you have magical control over its potency. You have disadvantage on Stealth checks, but you constantly exhude an aura of gas within 20 feet of you. Creatures you choose that enter your aura for the first time on their turn or start their turn in your aura must make a Constitution saving throw or spend their Action retching and coughing. Creatures that don't need to breathe or are immune to poison automatically succeed on this saving throw.",
+                "At 18th level, your gaseous releases have become constant and unceasing, but you have magical control over its potency. You have disadvantage on {@skill Stealth} checks, but you constantly exhude an aura of gas within 20 feet of you. Creatures you choose that enter your aura for the first time on their turn or start their turn in your aura must make a Constitution saving throw or spend their Action retching and coughing. Creatures that don't need to breathe or are immune to poison automatically succeed on this saving throw.",
                 "Additionally, you can also use this aura to bolster allies by making the stench pleasant to their senses. You can choose a number of allies within your aura equal to your Charisma modifier (minimum 1) to be bolstered by your aura, granting them advantage on Constitution Checks and Constitution Saving throws. You are always affected by this version of the ability and do not count against the number of creatures that can be affected by it."
             ]
         },
@@ -6728,7 +6728,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 1,
             "entries": [
-                "Starting at 1st level, you have an innate sense of what a creature desires most and when they are feeling physically hungry. As an Action, you can make a Wisdom (Insight) check against a creature that you can see, opposed by that creature's Charisma (Deception) check. On a success, you learn the thing the creature desires most at the moment, as well as its stomach capacity and how much food is currently in their stomach. If the check fails against a creature, that creature cannot be targeted by this ability again until you finish a short or long rest."
+                "Starting at 1st level, you have an innate sense of what a creature desires most and when they are feeling physically hungry. As an Action, you can make a Wisdom ({@skill Insight}) check against a creature that you can see, opposed by that creature's Charisma ({@skill Deception}) check. On a success, you learn the thing the creature desires most at the moment, as well as its stomach capacity and how much food is currently in their stomach. If the check fails against a creature, that creature cannot be targeted by this ability again until you finish a short or long rest."
             ]
         },
         {
@@ -6845,7 +6845,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 1,
             "entries": [
-                "Also at 1st level, you gain Proficiency in the Constitution (Eating) skill. You gain a number of temporary Hit Points equal to half your Charisma modifier (rounded down) at the end of each of your turns. This number increases to your full Charisma modifier when you reach 6th level in this class."
+                "Also at 1st level, you gain Proficiency in the Constitution ({@skill Eating}) skill. You gain a number of temporary Hit Points equal to half your Charisma modifier (rounded down) at the end of each of your turns. This number increases to your full Charisma modifier when you reach 6th level in this class."
             ]
         },
         {
@@ -6870,7 +6870,7 @@
             "level": 10,
             "entries": [
                 "Starting at 10th level, you add your Charisma modifier to your stomach capacity and stuffing rolls.",
-                "Additionally, you emanate an aura of hunger in a 10-foot radius. The first time any enemy creature enters the aura or starts its turn there during a battle, the creature takes necrotic damage equal to your Charisma modifier. When you damage an enemy with this feature and you are not full (including the result of an Eating check), your stomach fills with pounds of Fatty food equal to half the damage done to that creature."
+                "Additionally, you emanate an aura of hunger in a 10-foot radius. The first time any enemy creature enters the aura or starts its turn there during a battle, the creature takes necrotic damage equal to your Charisma modifier. When you damage an enemy with this feature and you are not full (including the result of an {@skill Eating} check), your stomach fills with pounds of Fatty food equal to half the damage done to that creature."
             ]
         },
         {
@@ -6977,7 +6977,7 @@
                 {
                     "type": "list",
                     "items": [
-                        "You fill the creature's stomach capacity, including an Eating check for overindulging. Creatures with no maximum stomach capacity treat your size in their stomach as double your normal weight. You cannot be digested or affected by spells like Abyssal Stomach",
+                        "You fill the creature's stomach capacity, including an {@skill Eating} check for overindulging. Creatures with no maximum stomach capacity treat your size in their stomach as double your normal weight. You cannot be digested or affected by spells like Abyssal Stomach",
                         "You have total cover from any effects not originating inside your target. You do however also take any falling or thunder damage the target suffers.",
                         "You can use your bonus action to overfill your target, increasing your volume in their stomach by a number of pounds equal to your Proficiency bonus.",
                         "You can use your reaction whenever your target would be forced to eat food to consume any food they ingest until the start of your next turn, adding it to your stomach capacity instead of theirs.",
@@ -7162,7 +7162,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 2,
             "entries": [
-                "Beginning when you take this tradition at 2nd level, your arcane mastery over muscularity allows you to use your Intelligence score rather than your Strength score for the purposes of determining your Bulk limit, Flex limit, and Carrying Capacity, as well as for determining how much muscle you gain over the course of a rest. Additionally, you may use Intelligence in place of Strength for any Strength (Athletics) ability checks."
+                "Beginning when you take this tradition at 2nd level, your arcane mastery over muscularity allows you to use your Intelligence score rather than your Strength score for the purposes of determining your Bulk limit, Flex limit, and Carrying Capacity, as well as for determining how much muscle you gain over the course of a rest. Additionally, you may use Intelligence in place of Strength for any Strength ({@skill Athletics}) ability checks."
             ]
         },
         {
@@ -7863,7 +7863,7 @@
             "entries": [
                 "This pact grants a warlock magical command over conjured food, allowing them to produce it in endless amounts, providing yet another tool to their reprtoire to attack their foes. After all, the best way to one's heart is through their stomach.",
                 "You gain the ability to generate food from your body at will. In narrative play this means you always have a supply of mundane food, of the quality of your choice, to eat or share as you please. Aside from being generated magically, this food is inherently mundane.",
-                "In combat, this means that you have an unlimited supply of food to use with things like the Force-Feeding and Eating actions as well, but more than that, you also gain a unique ability to use in combat.",
+                "In combat, this means that you have an unlimited supply of food to use with things like the {@action Force-Feeding|StorymakerExpanDnD} and {@action Eating|StorymakerExpanDnD} actions as well, but more than that, you also gain a unique ability to use in combat.",
                 {
                     "type": "entries",
                     "name": "Fattening Blast",
@@ -9387,7 +9387,7 @@
             "areaTags": [],
             "miscTags": [],
             "entries": [
-                "You accentuate your sexual characteristics with a little extra oomph--a broader bust with deeper cleavage, a more shapely and prominent butt, more soft and appealing features-- and gain Advantage on Charisma (Persuasion) checks made against targets who could be sexually attracted to your race and sex for the duration of the spell. "
+                "You accentuate your sexual characteristics with a little extra oomph--a broader bust with deeper cleavage, a more shapely and prominent butt, more soft and appealing features-- and gain Advantage on Charisma ({@skill Persuasion}) checks made against targets who could be sexually attracted to your race and sex for the duration of the spell. "
             ]
         },
         {
@@ -9853,7 +9853,7 @@
             "savingThrow": [],
             "miscTags": [],
             "entries": [
-                "The smell of food registers strongly on your senses. For the duration of the spell, you can find the shortest path to the nearest piece of food or drink and you have advantage on Survival checks to forage."
+                "The smell of food registers strongly on your senses. For the duration of the spell, you can find the shortest path to the nearest piece of food or drink and you have advantage on {@skill Survival} checks to forage."
             ]
         },
         {
@@ -11396,7 +11396,7 @@
             "opposedCheck": [],
             "miscTags": [],
             "entries": [
-                "Uplifting energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) can't become burdened, impeded, or immobilized by their own bulk and has advantage on Dexterity saving throws and Acrobatics checks."
+                "Uplifting energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) can't become burdened, impeded, or immobilized by their own bulk and has advantage on Dexterity saving throws and {@skill Acrobatics} checks."
             ]
         },
         {
@@ -12609,7 +12609,7 @@
             ],
             "miscTags": [],
             "entries": [
-                "Writhing, sappy vines fill a 20-foot square on the ground that you can see within range. For the duration, these vines turn the ground in the area into difficult terrain. When a creature enters the affected area for the first time on a turn or starts its turn there, the creature must succeed on a Dexterity saving throw or be forced to consume a number of pounds of fatty food equal to their stomach capacity (including the result of an Eating check) plus {@dice 2d6} and be restrained by the vines until the spell ends. A creature that starts its turn in the area and is already restrained by the vines is forced to consume an additional {@dice 2d6} pounds of fatty food. A creature restrained by the vines can use its action to make a Strength or Dexterity check (its choice) against your spell save DC. On a success, it frees itself."
+                "Writhing, sappy vines fill a 20-foot square on the ground that you can see within range. For the duration, these vines turn the ground in the area into difficult terrain. When a creature enters the affected area for the first time on a turn or starts its turn there, the creature must succeed on a Dexterity saving throw or be forced to consume a number of pounds of fatty food equal to their stomach capacity (including the result of an {@skill Eating} check) plus {@dice 2d6} and be restrained by the vines until the spell ends. A creature that starts its turn in the area and is already restrained by the vines is forced to consume an additional {@dice 2d6} pounds of fatty food. A creature restrained by the vines can use its action to make a Strength or Dexterity check (its choice) against your spell save DC. On a success, it frees itself."
             ]
         },
         {
@@ -13974,7 +13974,7 @@
                     "type": "entries",
                     "name": "Round 2",
                     "entries": [
-                        "A wave of magic causes food in the area to multiply. Uncovered food is carried into the storm as it grows, while food in containers expand to fill their vessels to the brim. Creatures with food in their stomachs feel the effects of this as well, and are effectively forcefed enough food to make their stomachs full, if they were not already, including the result of an Eating check."
+                        "A wave of magic causes food in the area to multiply. Uncovered food is carried into the storm as it grows, while food in containers expand to fill their vessels to the brim. Creatures with food in their stomachs feel the effects of this as well, and are effectively forcefed enough food to make their stomachs full, if they were not already, including the result of an {@skill Eating} check."
                     ]
                 },
                 {
@@ -14135,7 +14135,7 @@
                 {
                     "type": "list",
                     "items": [
-                        "You gain proficiency in the Eating skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
+                        "You gain proficiency in the {@skill Eating} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
                         "you can eat one piece of food or drink one drink or potion without spending an action or bonus action. You may only use this ability once per turn."
                     ]
                 }
@@ -14235,7 +14235,7 @@
                 {
                     "type": "list",
                     "items": [
-                        "You gain proficiency in the Persuasion Skill. If you are already proficient in the skill you, add double your proficiency bonus to checks you make with it.",
+                        "You gain proficiency in the {@skill Persuasion} Skill. If you are already proficient in the skill you, add double your proficiency bonus to checks you make with it.",
                         "You may reroll one Charisma skill check of your choosing. You must accept the second result, even if it is worse. You must finish a long rest before you can use this ability again."
                     ]
                 }
@@ -15284,7 +15284,7 @@
                 {
                     "name": "Detect",
                     "entries": [
-                        "The dragon makes a Wisdom (Perception) check."
+                        "The dragon makes a Wisdom ({@skill Perception}) check."
                     ]
                 },
                 {
@@ -15473,7 +15473,7 @@
                 {
                     "name": "Detect",
                     "entries": [
-                        "The dragon makes a Wisdom (Perception) check."
+                        "The dragon makes a Wisdom ({@skill Perception}) check."
                     ]
                 },
                 {
@@ -15907,7 +15907,7 @@
                 {
                     "name": "Detect",
                     "entries": [
-                        "The dragon makes a Wisdom (Perception) check."
+                        "The dragon makes a Wisdom ({@skill Perception}) check."
                     ]
                 },
                 {
@@ -16085,7 +16085,7 @@
                 {
                     "name": "Detect",
                     "entries": [
-                        "The dragon makes a Wisdom (Perception) check."
+                        "The dragon makes a Wisdom ({@skill Perception}) check."
                     ]
                 },
                 {
@@ -16500,7 +16500,7 @@
                 {
                     "name": "Detect",
                     "entries": [
-                        "The dragon makes a Wisdom (Perception) check."
+                        "The dragon makes a Wisdom ({@skill Perception}) check."
                     ]
                 },
                 {
@@ -16695,7 +16695,7 @@
                 {
                     "name": "Detect",
                     "entries": [
-                        "The dragon makes a Wisdom (Perception) check."
+                        "The dragon makes a Wisdom ({@skill Perception}) check."
                     ]
                 },
                 {
