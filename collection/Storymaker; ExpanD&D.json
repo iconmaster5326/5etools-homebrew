@@ -713,7 +713,7 @@
                     "type": "entries",
                     "name": "Heritage of Hunger",
                     "entries": [
-                        "Your nature is one influenced by supernatural gluttony. You have disadvantage on checks and saves made to resist food or drink when it is offered, even when eating would push you past your natural full limit, but in return you have some of the abilities of your otherworldly kin. You know the Sex Appeal cantrip. Once you reach 3rd level, you can cast Stretch Stomach once per day as a 2nd level spell. Once you reach 5th level, you can also cast the Abyssal Stomach spell once per day. Charisma is your spellcasting ability for these spells."
+                        "Your nature is one influenced by supernatural gluttony. You have disadvantage on checks and saves made to resist food or drink when it is offered, even when eating would push you past your natural full limit, but in return you have some of the abilities of your otherworldly kin. You know the Sex Appeal cantrip. Once you reach 3rd level, you can cast {@spell Stretch Stomach|StorymakerExpanDnD} once per day as a 2nd level spell. Once you reach 5th level, you can also cast the {@spell Abyssal Stomach|StorymakerExpanDnD} spell once per day. Charisma is your spellcasting ability for these spells."
                     ]
                 },
                 {
@@ -865,7 +865,7 @@
                     "type": "entries",
                     "name": "Fiendish Legacy",
                     "entries": [
-                        "Three times each day, you can cast Create Fattening Food and Drink, limited to 2 pounds of food and 2 cups of drink each cast and it does not restore hit points. When you reach level 3, you can cast Stretch Stomach at its lowest level once per day, and when you reach level 7 you can cast Hypnotic Hunger at its lowest level once per day. Your spellcasting ability is Charisma for these spells."
+                        "Three times each day, you can cast {@spell Create Fattening Food and Drink|StorymakerExpanDnD}, limited to 2 pounds of food and 2 cups of drink each cast and it does not restore hit points. When you reach level 3, you can cast {@spell Stretch Stomach|StorymakerExpanDnD} at its lowest level once per day, and when you reach level 7 you can cast {@spell Hypnotic Hunger|StorymakerExpanDnD} at its lowest level once per day. Your spellcasting ability is Charisma for these spells."
                     ]
                 },
                 {
@@ -976,7 +976,7 @@
                     "type": "entries",
                     "name": "Amorphous Body",
                     "entries": [
-                        "Gelatinfolk are made of a gelatinous substance, and can cast Alter Self, only choosing the change appearance option but not limited to the body structure you have, once per short rest. You cannot change your size, weight, color, or texture to anything other than what it normally is. When you Squeeze to fit into a smaller space, you fit through a gap as small as 6 inches in both directions, regardless of your size. At the DM's discretion, it may take several turns to squeeze through it."
+                        "Gelatinfolk are made of a gelatinous substance, and can cast {@spell Alter Self}, only choosing the change appearance option but not limited to the body structure you have, once per short rest. You cannot change your size, weight, color, or texture to anything other than what it normally is. When you Squeeze to fit into a smaller space, you fit through a gap as small as 6 inches in both directions, regardless of your size. At the DM's discretion, it may take several turns to squeeze through it."
                     ]
                 }
             ],
@@ -1033,7 +1033,7 @@
                             "type": "entries",
                             "name": "Body Blaster",
                             "entries": [
-                                "Using the edible slime from your own body, you are able to cast the Feed once with this trait using as a 1st-level spell, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell."
+                                "Using the edible slime from your own body, you are able to cast the {@spell Feed|StorymakerExpanDnD} once with this trait using as a 1st-level spell, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell."
                             ]
                         }
                     ]
@@ -2275,7 +2275,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 17,
             "entries": [
-                "At 17th level, your abilities tap into the bridge between life and death, and can drag an ally back from beyond, though such a return is taxing on their bodies. Once per long rest, you may cast the Raise Dead spell, expending material components as necessary. A creature that is successfully revived this way, however, burns most of their body fat in the return, and is left at their scrawny emaciation threshold."
+                "At 17th level, your abilities tap into the bridge between life and death, and can drag an ally back from beyond, though such a return is taxing on their bodies. Once per long rest, you may cast the {@spell Raise Dead} spell, expending material components as necessary. A creature that is successfully revived this way, however, burns most of their body fat in the return, and is left at their scrawny emaciation threshold."
             ]
         },
         {
@@ -2348,23 +2348,23 @@
                     "rows": [
                         [
                             "3rd",
-                            "Hearty Tonic, Syrup Trap"
+                            "{@spell Hearty Tonic|StorymakerExpanDnD}, {@spell Syrup Trap|StorymakerExpanDnD}"
                         ],
                         [
                             "5th",
-                            "Stretch Stomach, Emburden"
+                            "{@spell Stretch Stomach|StorymakerExpanDnD}, {@spell Emburden|StorymakerExpanDnD}"
                         ],
                         [
                             "9th",
-                            "Healing Salve, Redirect Repast"
+                            "{@spell Healing Salve|StorymakerExpanDnD}, {@spell Redirect Repast|StorymakerExpanDnD}"
                         ],
                         [
                             "13th",
-                            "Create Fattening Food and Drink, Fatball"
+                            "{@spell Create Fattening Food and Drink|StorymakerExpanDnD}, {@spell Fatball|StorymakerExpanDnD}"
                         ],
                         [
                             "17th",
-                            "Immobilize Monster, Rampant Vitality"
+                            "{@spell Immobilize Monster|StorymakerExpanDnD}, {@spell Rampant Vitality|StorymakerExpanDnD}"
                         ]
                     ]
                 }
@@ -2749,7 +2749,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 6,
             "entries": [
-                "At 6th level, your performances speak not only to the minds of your audience, but also quite literally to their stomachs. As a reaction, you may cast Abyssal Stomach without expending a spell slot. Your taget must be able to hear you. You may also use this ability to cast Hypnotic Hunger without expending a spell slot. You have two uses of this ability, and you regain all expended uses of it when you finish a short or long rest."
+                "At 6th level, your performances speak not only to the minds of your audience, but also quite literally to their stomachs. As a reaction, you may cast {@spell Abyssal Stomach|StorymakerExpanDnD} without expending a spell slot. Your taget must be able to hear you. You may also use this ability to cast {@spell Hypnotic Hunger|StorymakerExpanDnD} without expending a spell slot. You have two uses of this ability, and you regain all expended uses of it when you finish a short or long rest."
             ]
         },
         {
@@ -3328,7 +3328,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 3,
             "entries": [
-                "Also at 3rd level, you learn the ancient technique of sin eating. You are able to cast the Remove Curse or Greater Restoration spells without material components, though your renditions of them has the following alterations:",
+                "Also at 3rd level, you learn the ancient technique of sin eating. You are able to cast the {@spell Remove Curse} or {@spell Greater Restoration} spells without material components, though your renditions of them has the following alterations:",
                 {
                     "type": "list",
                     "items": [
@@ -3419,23 +3419,23 @@
                     "rows": [
                         [
                             "1st",
-                            "Burn Fat, Charm Person"
+                            "{@spell Burn Fat|StorymakerExpanDnD}, {@spell Charm Person}"
                         ],
                         [
                             "3rd",
-                            "Stretch Stomach, Weighing Ward"
+                            "{@spell Stretch Stomach|StorymakerExpanDnD}, {@spell Weighing Ward|StorymakerExpanDnD}"
                         ],
                         [
                             "5th",
-                            "Abyssal Stomach, Overabundance"
+                            "{@spell Abyssal Stomach|StorymakerExpanDnD}, {@spell Overabundance|StorymakerExpanDnD}"
                         ],
                         [
                             "7th",
-                            "Sexual Hypnotism, Create Fattening Food and Drink"
+                            "{@spell Sexual Hypnotism|StorymakerExpanDnD}, {@spell Create Fattening Food and Drink|StorymakerExpanDnD}"
                         ],
                         [
                             "9th",
-                            "Amazonian Figure, Fat Surge"
+                            "{@spell Amazonian Figure|StorymakerExpanDnD}, {@spell Fat Surge|StorymakerExpanDnD}"
                         ]
                     ]
                 },
@@ -3551,23 +3551,23 @@
                     "rows": [
                         [
                             "1st",
-                            "Burn Fat, Modify Metabolism"
+                            "{@spell Burn Fat|StorymakerExpanDnD}, {@spell Modify Metabolism|StorymakerExpanDnD}"
                         ],
                         [
                             "3rd",
-                            "Enhance Ability, Moonbeam"
+                            "{@spell Enhance Ability}, {@spell Moonbeam}"
                         ],
                         [
                             "5th",
-                            "Aura of Lightness, Melf's Minute Meteors"
+                            "{@spell Aura of Lightness|StorymakerExpanDnD}, {@spell Melf's Minute Meteors|XGE}"
                         ],
                         [
                             "7th",
-                            "Aura of life, Fire Shield (warm shield only)"
+                            "{@spell Aura of Life}, {@spell Fire Shield} (warm shield only)"
                         ],
                         [
                             "9th",
-                            "Amazonian Figure, Flame Strike"
+                            "{@spell Amazonian Figure|StorymakerExpanDnD}, {@spell Flame Strike}"
                         ]
                     ]
                 },
@@ -3675,23 +3675,23 @@
                     "rows": [
                         [
                             "1st",
-                            "Feed, Gaseous Rupture"
+                            "{@spell Feed|StorymakerExpanDnD}, {@spell Gaseous Rupture|StorymakerExpanDnD}"
                         ],
                         [
                             "3rd",
-                            "Dietary Curse, Emburden"
+                            "{@spell Dietary Curse|StorymakerExpanDnD}, {@spell Emburden|StorymakerExpanDnD}"
                         ],
                         [
                             "5th",
-                            "Noxious Wave, Slow"
+                            "{@spell Noxious Wave|StorymakerExpanDnD}, {@spell Slow}"
                         ],
                         [
                             "7th",
-                            "Alluring Feast, Fatball"
+                            "{@spell Alluring Feast|StorymakerExpanDnD}, {@spell Fatball|StorymakerExpanDnD}"
                         ],
                         [
                             "9th",
-                            "Fat Surge, Slovenly Plague"
+                            "{@spell Fat Surge|StorymakerExpanDnD}, {@spell Slovenly Plague|StorymakerExpanDnD}"
                         ]
                     ]
                 },
@@ -3907,19 +3907,19 @@
                     "rows": [
                         [
                             "3rd",
-                            "Emburden, Narce's Fatness Arrow"
+                            "{@spell Emburden|StorymakerExpanDnD}, {@spell Narce's Fatness Arrow|StorymakerExpanDnD}"
                         ],
                         [
                             "5th",
-                            "Noxious Wave, Overabundance"
+                            "{@spell Noxious Wave|StorymakerExpanDnD}, {@spell Overabundance|StorymakerExpanDnD}"
                         ],
                         [
                             "7th",
-                            "Blight, Nature's Bounty"
+                            "{@spell Blight}, {@spell Nature's Bounty|StorymakerExpanDnD}"
                         ],
                         [
                             "9th",
-                            "Cloudkill, Slovenly Plague"
+                            "{@spell Cloudkill}, {@spell Slovenly Plague|StorymakerExpanDnD}"
                         ]
                     ]
                 }
@@ -4801,23 +4801,23 @@
                             "rows": [
                                 [
                                     "3rd",
-                                    "Shield of Faith, Burn Fat"
+                                    "{@spell Shield of Faith}, {@spell Burn Fat|StorymakerExpanDnD}"
                                 ],
                                 [
                                     "5th",
-                                    "Lesser Restoration, Narce's Fatness Arrow"
+                                    "{@spell Lesser Restoration}, {@spell Narce's Fatness Arrow|StorymakerExpanDnD}"
                                 ],
                                 [
                                     "9th",
-                                    "Remove Curse, Noxious Wave"
+                                    "{@spell Remove Curse}, {@spell Noxious Wave|StorymakerExpanDnD}"
                                 ],
                                 [
                                     "13th",
-                                    "Banishment, Fatball"
+                                    "{@spell Banishment}, {@spell Fatball|StorymakerExpanDnD}"
                                 ],
                                 [
                                     "17th",
-                                    "Geas, Slovenly Plague"
+                                    "{@spell Geas}, {@spell Slovenly Plague|StorymakerExpanDnD}"
                                 ]
                             ]
                         }
@@ -4973,23 +4973,23 @@
                             "rows": [
                                 [
                                     "3rd",
-                                    "Burn Fat, Modify Metabolism"
+                                    "{@spell Burn Fat|StorymakerExpanDnD}, {@spell Modify Metabolism|StorymakerExpanDnD}"
                                 ],
                                 [
                                     "5th",
-                                    "Enhance Ability, Aid"
+                                    "{@spell Enhance Ability}, {@spell Aid}"
                                 ],
                                 [
                                     "9th",
-                                    "Haste, Aura of Vitality"
+                                    "{@spell Haste}, {@spell Aura of Vitality}"
                                 ],
                                 [
                                     "13th",
-                                    "Softskin, Guardian of Faith"
+                                    "{@spell Softskin|StorymakerExpanDnD}, {@spell Guardian of Faith}"
                                 ],
                                 [
                                     "17th",
-                                    "Amazonian Figure, Destructive Wave"
+                                    "{@spell Amazonian Figure|StorymakerExpanDnD}, {@spell Destructive Wave}"
                                 ]
                             ]
                         }
@@ -5127,23 +5127,23 @@
                             "rows": [
                                 [
                                     "3rd",
-                                    "Heavy Smite, Shield"
+                                    "{@spell Heavy Smite|StorymakerExpanDnD}, {@spell Shield}"
                                 ],
                                 [
                                     "5th",
-                                    "Enhance Ability, Weighing Ward"
+                                    "{@spell Enhance Ability}, {@spell Weighing Ward|StorymakerExpanDnD}"
                                 ],
                                 [
                                     "9th",
-                                    "Aura of Vitality, Spirit Guardians"
+                                    "{@spell Aura of Vitality}, {@spell Spirit Guardians}"
                                 ],
                                 [
                                     "13th",
-                                    "Softskin, Guardian of Faith"
+                                    "{@spell Softskin|StorymakerExpanDnD}, {@spell Guardian of Faith}"
                                 ],
                                 [
                                     "17th",
-                                    "Amazonian Figure, Wall of Force"
+                                    "{@spell Amazonian Figure|StorymakerExpanDnD}, {@spell Wall of Force}"
                                 ]
                             ]
                         }
@@ -5287,23 +5287,23 @@
                             "rows": [
                                 [
                                     "3rd",
-                                    "Goodberry, Tango's Tincture"
+                                    "{@spell Goodberry}, {@spell Tango's Tincture|StorymakerExpanDnD}"
                                 ],
                                 [
                                     "5th",
-                                    "Calm Emotions, Prayer of Healing"
+                                    "{@spell Calm Emotions}, {@spell Prayer of Healing}"
                                 ],
                                 [
                                     "9th",
-                                    "Beacon of Hope, Plant Growth"
+                                    "{@spell Beacon of Hope}, {@spell Plant Growth}"
                                 ],
                                 [
                                     "13th",
-                                    "Create Fattening Food and Drink, Fabricate"
+                                    "{@spell Create Fattening Food and Drink|StorymakerExpanDnD}, {@spell Fabricate}"
                                 ],
                                 [
                                     "17th",
-                                    "Amazonian Figure, Fist of the Feeding Star"
+                                    "{@spell Amazonian Figure|StorymakerExpanDnD}, {@spell Fist of the Feeding Star|StorymakerExpanDnD}"
                                 ]
                             ]
                         }
@@ -5370,7 +5370,7 @@
             "subclassSource": "StorymakerExpanDnD",
             "level": 15,
             "entries": [
-                "Starting at 15th level, you have the ability to travel quickly to respond to emergencies. You can cast the spell Find Greater Steed without expending a spell slot. When you do, you can also create a number of spectral mounts equal to your Charisma modifier, summoned as if by the spell Phantom Steed. These other mounts follow you, staying within 100 feet of you, unless you mentally instruct them to stay in a location or they have a rider. They must stay within a mile of you or disappear as if the spell that summoned them had ended. All mounts summoned in this way count as one size larger when determining their carrying capacity, bulk limit, and the weight they can push, drag, or lift."
+                "Starting at 15th level, you have the ability to travel quickly to respond to emergencies. You can cast the spell {@spell Find Greater Steed} without expending a spell slot. When you do, you can also create a number of spectral mounts equal to your Charisma modifier, summoned as if by the spell Phantom Steed. These other mounts follow you, staying within 100 feet of you, unless you mentally instruct them to stay in a location or they have a rider. They must stay within a mile of you or disappear as if the spell that summoned them had ended. All mounts summoned in this way count as one size larger when determining their carrying capacity, bulk limit, and the weight they can push, drag, or lift."
             ]
         },
         {
@@ -6438,23 +6438,23 @@
                     "rows": [
                         [
                             "1st",
-                            "Resize"
+                            "{@spell Resize|StorymakerExpanDnD}"
                         ],
                         [
                             "2nd",
-                            "Narce's Fatness Arrow"
+                            "{@spell Narce's Fatness Arrow|StorymakerExpanDnD}"
                         ],
                         [
                             "3rd",
-                            "Overabundance"
+                            "{@spell Overabundance|StorymakerExpanDnD}"
                         ],
                         [
                             "4th",
-                            "Create Fattening Food and Drink"
+                            "{@spell Create Fattening Food and Drink|StorymakerExpanDnD}"
                         ],
                         [
                             "5th",
-                            "Blueberrify"
+                            "{@spell Blueberrify|StorymakerExpanDnD}"
                         ]
                     ]
                 }
@@ -6513,7 +6513,7 @@
                     "items": [
                         "You gain a flying speed of 30 feet.",
                         "You are affected by the Reduce effect of the Enlarge Reduce spell, reducing your size to Tiny instead of the normal reduction.",
-                        "You can cast feed and abyssal stomach at their lowest levels without expending a spell slot or requiring material components.",
+                        "You can cast {@spell feed|StorymakerExpanDnD} and {@spell abyssal stomach|StorymakerExpanDnD} at their lowest levels without expending a spell slot or requiring material components.",
                         "As an action, you can turn invisible until your concentration ends (as if concentrating on a spell), with any equipment you are wearing or carrying turning invisible as long as it is on your person."
                     ]
                 },
@@ -6691,23 +6691,23 @@
                             "rows": [
                                 [
                                     "1st",
-                                    "Goodberry, Fattening Jest"
+                                    "{@spell Goodberry}, {@spell Fattening Jest|StorymakerExpanDnD}"
                                 ],
                                 [
                                     "2nd",
-                                    "Narce's Sympathy Gain, Stretch Stomach"
+                                    "{@spell Narce's Sympathy Gain|StorymakerExpanDnD}, {@spell Stretch Stomach|StorymakerExpanDnD}"
                                 ],
                                 [
                                     "3rd",
-                                    "Hypnotic Hunger, Overabundance"
+                                    "{@spell Hypnotic Hunger|StorymakerExpanDnD}, {@spell Overabundance|StorymakerExpanDnD}"
                                 ],
                                 [
                                     "4th",
-                                    "Create Fattening Food and Drink, Sexual Hypnotism"
+                                    "{@spell Create Fattening Food and Drink|StorymakerExpanDnD}, {@spell Sexual Hypnotism|StorymakerExpanDnD}"
                                 ],
                                 [
                                     "5th",
-                                    "Dominate Person, Blueberrify"
+                                    "{@spell Dominate Person}, {@spell Blueberrify|StorymakerExpanDnD}"
                                 ]
                             ]
                         }
@@ -6791,23 +6791,23 @@
                             "rows": [
                                 [
                                     "1st",
-                                    "Absorb Elements, Purify Food and Drink"
+                                    "{@spell Absorb Elements}, {@spell Purify Food and Drink}"
                                 ],
                                 [
                                     "2nd",
-                                    "Alter Self, Stretch Stomach"
+                                    "{@spell Alter Self}, {@spell Stretch Stomach|StorymakerExpanDnD}"
                                 ],
                                 [
                                     "3rd",
-                                    "Redirect Repast, Siphoning Smite"
+                                    "{@spell Redirect Repast|StorymakerExpanDnD}, {@spell Siphoning Smite|StorymakerExpanDnD}"
                                 ],
                                 [
                                     "4th",
-                                    "Softskin, Stoneskin"
+                                    "{@spell Softskin|StorymakerExpanDnD}, {@spell Stoneskin}"
                                 ],
                                 [
                                     "5th",
-                                    "Amazonian Figure, Rampant Vitality"
+                                    "{@spell Amazonian Figure|StorymakerExpanDnD}, {@spell Rampant Vitality|StorymakerExpanDnD}"
                                 ]
                             ]
                         }
@@ -6919,23 +6919,23 @@
                             "rows": [
                                 [
                                     "1st",
-                                    "Acid Stream, Syrup Trap"
+                                    "{@spell Acid Stream|ua2020spellsandmagictattoos}, {@spell Syrup Trap|StorymakerExpanDnD}"
                                 ],
                                 [
                                     "2nd",
-                                    "Stretch Stomach, Web"
+                                    "{@spell Stretch Stomach|StorymakerExpanDnD}, {@spell Web}"
                                 ],
                                 [
                                     "3rd",
-                                    "Bestow Curse, Overabundance"
+                                    "{@spell Bestow Curse}, {@spell Overabundance|StorymakerExpanDnD}"
                                 ],
                                 [
                                     "4th",
-                                    "Evard's Black Tentacles, Softskin"
+                                    "{@spell Evard's Black Tentacles}, {@spell Softskin|StorymakerExpanDnD}"
                                 ],
                                 [
                                     "5th",
-                                    "Contagion, Fist of the Feeding Star"
+                                    "{@spell Contagion}, {@spell Fist of the Feeding Star|StorymakerExpanDnD}"
                                 ]
                             ]
                         }
@@ -7699,7 +7699,7 @@
                 }
             ],
             "entries": [
-                " This cherry red apple contains a powerful hex. Upon consumption, the imbiber must make a Charisma saving throw or be subject to the spell Charm Person, as if it were cast by the Arcane Gourmand."
+                " This cherry red apple contains a powerful hex. Upon consumption, the imbiber must make a Charisma saving throw or be subject to the spell {@spell Charm Person}, as if it were cast by the Arcane Gourmand."
             ],
             "featureType": "GLR"
         },
@@ -7932,7 +7932,7 @@
                 }
             ],
             "entries": [
-                "You can cast Amazonian Figure on yourself at will, without expending a spell slot or material components."
+                "You can cast {@spell Amazonian Figure|StorymakerExpanDnD} on yourself at will, without expending a spell slot or material components."
             ],
             "featureType": "EI"
         },
@@ -8006,7 +8006,7 @@
                 }
             ],
             "entries": [
-                "You can cast Stoneskin on yourself at will, without expending material components."
+                "You can cast {@spell Stoneskin} on yourself at will, without expending material components."
             ],
             "featureType": "EI"
         },
@@ -8077,7 +8077,7 @@
                 }
             ],
             "entries": [
-                "You can cast Enlarge/Reduce once without expending a spell slot. You regain the ability to do so when you finish a short or long rest."
+                "You can cast {@spell Enlarge/Reduce|StorymakerExpanDnD} once without expending a spell slot. You regain the ability to do so when you finish a short or long rest."
             ],
             "featureType": "EI"
         },
@@ -14796,7 +14796,7 @@
                                 "Attacks made with this weapon can be made using the attacker's Strength, Dexterity, or Intelligence modifier for attack and damage.",
                                 "The weapon traces with lipomantic lightning drawn from not only the weapon, but its wielder's connection to it, causing all successful hits to deal an additional {@dice 2d6} + the Wielder's Constitution modifier points of Lightning damage, and causing targets hit to Fatten equal to the Lightning damage dealt in this way.",
                                 "{@b Lipomantic Charges.} The weapon forms a symbiotic relationship with its wielder, siphoning its lipomantic energy into charges that the wielder can use in a number of ways. The Weapon has a maximum number of charges equal to a combination of its wielder's Charisma and Constitution Modifiers, and regains {@dice 1d6} charges each day at dawn. The wielder can also charge the weapon with their own lipomantic energy, suffering {@dice 2d6} points of Necrotic damage that ignore damage resistance and losing a number of pounds of fat equal to twice that number, causing the weapon to regain Lipomantic Charges equal to half that number. Performing this sacrifice takes an Action.",
-                                "{@b Invoke Lipomancy.} Arc Carver's Wielder can expend Lipomantic Charges to cast certain spells at their lowest spell level, ignoring material components; the spells available and the number of charges required to cast them are as follows: Burn Fat (1 charge), Chaotic Corpulence (1 charge), Heavy Smite (2 charges), Modify Metabolism (2 charges), Asset Barrier (2 charges), Immobilize Person (3 charges), Narce's Fatness Arrow (3 charges), Siphoning Smite (3 charges)",
+                                "{@b Invoke Lipomancy.} Arc Carver's Wielder can expend Lipomantic Charges to cast certain spells at their lowest spell level, ignoring material components; the spells available and the number of charges required to cast them are as follows: {@spell Burn Fat|StorymakerExpanDnD} (1 charge), {@spell Chaotic Corpulence|StorymakerExpanDnD} (1 charge),  {@spell Heavy Smite|StorymakerExpanDnD} (2 charges),  {@spell Modify Metabolism|StorymakerExpanDnD} (2 charges),  {@spell Asset Barrier|StorymakerExpanDnD} (2 charges), {@spell Immobilize Person|StorymakerExpanDnD} (3 charges), {@spell Narce's Fatness Arrow|StorymakerExpanDnD} (3 charges), {@spell Siphoning Smite|StorymakerExpanDnD} (3 charges)",
                                 "{@b Fuel Magic.} Arc Carver's Wielder can expend Lipomantic Charges to heighten the level of a spell being cast by its wielder using their own spell slots or Arc Carver's Invoke Lipomancy ability at a cost of 3 Lipomantic Charges per spell level beyond the spell's base level.",
                                 "{@b Unleash Potential.} The Wielder can attempt to unleash Arc Carver into its next state by making a Charisma Ability Check (DC 25). On a success, the weapon advances to its next stage of release. On a failure, the weapon refuses its release and the wielder cannot attempt to release it again until the weapon is ready. Roll a D6 at the beginning of each of the wielder's turns. On a 5 or a 6, the weapon is ready to attempt to unleash again."
                             ]
@@ -14919,7 +14919,7 @@
                 {
                     "name": "Elusive",
                     "entries": [
-                        "The brownie may cast Pass Without Trace once per day."
+                        "The brownie may cast {@spell Pass Without Trace} once per day."
                     ]
                 },
                 {
@@ -17082,25 +17082,25 @@
                         "The fatcubus's innate spellcasting ability is Charisma (spell save DC 18). The fatcubus can cast the following spells, requiring no material components:"
                     ],
                     "will": [
-                        "Abyssal Stomach",
-                        "Create Fattening Food and Drink (one 4lb. meal at a time)",
-                        "Modify Metabolism",
-                        "Resize",
-                        "Sex Appeal",
-                        "Stretch Stomach"
+                        "{@spell Abyssal Stomach|StorymakerExpanDnD}",
+                        "{@spell Create Fattening Food and Drink|StorymakerExpanDnD} (one 4lb. meal at a time)",
+                        "{@spell Modify Metabolism|StorymakerExpanDnD}",
+                        "{@spell Resize|StorymakerExpanDnD}",
+                        "{@spell Sex Appeal|StorymakerExpanDnD}",
+                        "{@spell Stretch Stomach|StorymakerExpanDnD}"
                     ],
                     "daily": {
                         "2e": [
-                            "Amazonian Figure",
-                            "Ass Barrier",
-                            "Fattening Jest",
-                            "Hypnotic Hunger",
-                            "Immobilize Person",
-                            "Sexual Hypnotism"
+                            "{@spell Amazonian Figure|StorymakerExpanDnD}",
+                            "{@spell Ass Barrier|StorymakerExpanDnD}",
+                            "{@spell Fattening Jest|StorymakerExpanDnD}",
+                            "{@spell Hypnotic Hunger|StorymakerExpanDnD}",
+                            "{@spell Immobilize Person|StorymakerExpanDnD}",
+                            "{@spell Sexual Hypnotism|StorymakerExpanDnD}"
                         ],
                         "1e": [
-                            "Dietary Curse (24 hrs)",
-                            "Fatball"
+                            "{@spell Dietary Curse|StorymakerExpanDnD} (24 hrs)",
+                            "{@spell Fatball|StorymakerExpanDnD}"
                         ]
                     },
                     "ability": "cha",
@@ -17320,17 +17320,17 @@
                         "The fatling's spellcasting ability is Charisma (spell save DC 15). The fatling can innately cast the following spells, requiring no material components:"
                     ],
                     "will": [
-                        "Create Fattening Food and Drink (one 2lb. meal at a time)"
+                        "{@spell Create Fattening Food and Drink|StorymakerExpanDnD} (one 2lb. meal at a time)"
                     ],
                     "daily": {
                         "3e": [
-                            "Fattening Jest",
-                            "Hypnotic Hunger",
-                            "Sexual Hypnotism"
+                            "{@spell Fattening Jest|StorymakerExpanDnD}",
+                            "{@spell Hypnotic Hunger|StorymakerExpanDnD}",
+                            "{@spell Sexual Hypnotism|StorymakerExpanDnD}"
                         ],
                         "1e": [
-                            "plane shift (self only)",
-                            "Fat Surge"
+                            "{@spell plane shift} (self only)",
+                            "{@spell Fat Surge|StorymakerExpanDnD}"
                         ]
                     },
                     "ability": "cha",
@@ -17587,22 +17587,22 @@
                         "The feeder fairy's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit on spell attack rolls). It can innately cast the following spells, requiring only its fairy dust as a component:"
                     ],
                     "will": [
-                        "abyssal stomach",
-                        "flabshock ({@dice 1d8})",
-                        "feed"
+                        "{@spell abyssal stomach|StorymakerExpanDnD}",
+                        "{@spell flabshock|StorymakerExpanDnD} ({@dice 1d8})",
+                        "{@spell feed|StorymakerExpanDnD}"
                     ],
                     "daily": {
                         "1e": [
-                            "asset barrier",
-                            "blueberrify",
-                            "dietary curse",
-                            "fat feedback",
-                            "fly",
-                            "immobilize monster",
-                            "modify metabolism",
-                            "overabundance",
-                            "resize",
-                            "softskin"
+                            "{@spell asset barrier|StorymakerExpanDnD}",
+                            "{@spell blueberrify|StorymakerExpanDnD}",
+                            "{@spell dietary curse|StorymakerExpanDnD}",
+                            "{@spell fat feedback|StorymakerExpanDnD}",
+                            "{@spell fly}",
+                            "{@spell immobilize monster|StorymakerExpanDnD}",
+                            "{@spell modify metabolism|StorymakerExpanDnD}",
+                            "{@spell overabundance|StorymakerExpanDnD}",
+                            "{@spell resize|StorymakerExpanDnD}",
+                            "{@spell softskin|StorymakerExpanDnD}"
                         ]
                     },
                     "ability": "cha",
@@ -17893,18 +17893,18 @@
                         "The Glutton Titan's innate spellcasting ability is Charisma (spell save DC 23, +15 to hit with spell attacks). It can ainnately cast the following spells, requiring no material components:"
                     ],
                     "will": [
-                        "Abyssal Stomach",
-                        "Aura of Lightness",
-                        "Create Fattening Food and Drink",
-                        "Redirect Repast"
+                        "{@spell Abyssal Stomach|StorymakerExpanDnD}",
+                        "{@spell Aura of Lightness|StorymakerExpanDnD}",
+                        "{@spell Create Fattening Food and Drink|StorymakerExpanDnD}",
+                        "{@spell Redirect Repast|StorymakerExpanDnD}"
                     ],
                     "daily": {
                         "1e": [
-                            "Expanding Edict",
-                            "Investiture of Fat",
-                            "Rampant Vitality",
-                            "Slavering Beast",
-                            "plane shift (self only)"
+                            "{@spell Expanding Edict|StorymakerExpanDnD}",
+                            "{@spell Investiture of Fat|StorymakerExpanDnD}",
+                            "{@spell Rampant Vitality|StorymakerExpanDnD}",
+                            "{@spell Slavering Beast|StorymakerExpanDnD}",
+                            "{@spell plane shift|StorymakerExpanDnD} (self only)"
                         ]
                     },
                     "ability": "cha",
@@ -18238,90 +18238,90 @@
                         "0": {
                             "slots": 0,
                             "spells": [
-                                "mage hand",
-                                "prestidigitation",
-                                "flabshock"
+                                "{@spell mage hand}",
+                                "{@spell prestidigitation}",
+                                "{@spell flabshock|StorymakerExpanDnD}"
                             ]
                         },
                         "1": {
                             "slots": 0,
                             "spells": [
-                                "detect magic",
-                                "magic missile",
-                                "shield",
-                                "thunderwave",
-                                "resize"
+                                "{@spell detect magic}",
+                                "{@spell magic missile}",
+                                "{@spell shield}",
+                                "{@spell thunderwave}",
+                                "{@spell resize|StorymakerExpanDnD}"
                             ]
                         },
                         "2": {
                             "slots": 0,
                             "spells": [
-                                "detect thoughts",
-                                "invisibility",
-                                "Mirror Image",
-                                "Impede",
-                                "Narce's Sympathy Gain",
-                                "Dietary Curse",
-                                "Asset Barrier"
+                                "{@spell detect thoughts}",
+                                "{@spell invisibility}",
+                                "{@spell Mirror Image}",
+                                "{@spell Impede}",
+                                "{@spell Narce's Sympathy Gain|StorymakerExpanDnD}",
+                                "{@spell Dietary Curse|StorymakerExpanDnD}",
+                                "{@spell Asset Barrier|StorymakerExpanDnD}"
                             ]
                         },
                         "3": {
                             "slots": 0,
                             "spells": [
-                                "animate dead",
-                                "counterspell",
-                                "dispel magic",
-                                "firebal",
-                                "Drain",
-                                "Abyssal Stomach"
+                                "{@spell animate dead}",
+                                "{@spell counterspell}",
+                                "{@spell dispel magic}",
+                                "{@spell fireball}",
+                                "{@spell Drain|StorymakerExpanDnD}",
+                                "{@spell Abyssal Stomach|StorymakerExpanDnD}"
                             ]
                         },
                         "4": {
                             "slots": 0,
                             "spells": [
-                                "blight",
-                                "dimension door",
-                                "fatball"
+                                "{@spell blight}",
+                                "{@spell dimension door}",
+                                "{@spell fatball|StorymakerExpanDnD}"
                             ]
                         },
                         "5": {
                             "slots": 0,
                             "spells": [
-                                "cloudkill",
-                                "scrying",
-                                "fat surge"
+                                "{@spell cloudkill}",
+                                "{@spell scrying}",
+                                "{@spell fat surge|StorymakerExpanDnD}"
                             ]
                         },
                         "6": {
                             "slots": 0,
                             "spells": [
-                                "disintegrate",
-                                "globe of invulnerability",
-                                "investiture of fat",
-                                "narce's hypnotic trance"
+                                "{@spell disintegrate}",
+                                "{@spell globe of invulnerability}",
+                                "{@spell investiture of fat|StorymakerExpanDnD}",
+                                "{@spell narce's hypnotic trance|StorymakerExpanDnD}"
                             ]
                         },
                         "7": {
                             "slots": 0,
                             "spells": [
-                                "finger of death",
-                                "plane shift",
-                                "Mordenkainen's magnificent mansion"
+                                "{@spell finger of death}",
+                                "{@spell plane shift}",
+                                "{@spell Mordenkainen's magnificent mansion}"
                             ]
                         },
                         "8": {
                             "slots": 0,
                             "spells": [
-                                "dominate monster",
-                                "power word stun"
+                                "{@spell dominate monster}",
+                                "{@spell power word stun}"
                             ]
                         },
                         "9": {
                             "slots": 0,
                             "spells": [
-                                "power word kill",
-                                "imprisonment",
-                                "sculpt flesh"
+                                "{@spell power word kill}",
+                                "{@spell imprisonment}",
+                                "{@spell sculpt flesh|StorymakerExpanDnD}"
                             ]
                         }
                     },
@@ -18351,13 +18351,13 @@
                 {
                     "name": "Spell Mastery",
                     "entries": [
-                        "Per the Spell Mastery Wizard ability, Narce can cast the Feed and Narce's Fatness Arrow spells at will at their base level without expending a spell slot."
+                        "Per the Spell Mastery Wizard ability, Narce can cast the {@spell Feed|StorymakerExpanDnD} and {@spell Narce's Fatness Arrow|StorymakerExpanDnD} spells at will at their base level without expending a spell slot."
                     ]
                 },
                 {
                     "name": "Signature Spells",
                     "entries": [
-                        "Per the Signature Spells Wizard ability, Narce can cast the Bloat and Hypnotic Hunger spells at 3rd level once per short or long rest each without expending a spell slot."
+                        "Per the Signature Spells Wizard ability, Narce can cast the {@spell Bloat|StorymakerExpanDnD} and {@spell Hypnotic Hunger|StorymakerExpanDnD} spells at 3rd level once per short or long rest each without expending a spell slot."
                     ]
                 }
             ],
@@ -18639,7 +18639,9 @@
             "ac": [
                 {
                     "ac": 20,
-                    "from": ["plate"]
+                    "from": [
+                        "plate"
+                    ]
                 }
             ],
             "hp": {
@@ -18803,48 +18805,48 @@
                         "0": {
                             "slots": 0,
                             "spells": [
-                                "flabshock",
-                                "light",
-                                "mage hand",
-                                "prestidigtation"
+                                "{@spell flabshock|StorymakerExpanDnD}",
+                                "{@spell light}",
+                                "{@spell mage hand}",
+                                "{@spell prestidigtation}"
                             ]
                         },
                         "1": {
                             "slots": 0,
                             "spells": [
-                                "Detect Magic",
-                                "Feed",
-                                "Mage Armor",
-                                "Resize",
-                                "Shield"
+                                "{@spell Detect Magic}",
+                                "{@spell Feed|StorymakerExpanDnD}",
+                                "{@spell Mage Armor}",
+                                "{@spell Resize|StorymakerExpanDnD}",
+                                "{@spell Shield}"
                             ]
                         },
                         "2": {
                             "slots": 0,
                             "spells": [
-                                "Immobilize Person",
-                                "Narce's Fatness Arrow"
+                                "{@spell Immobilize Person|StorymakerExpanDnD}",
+                                "{@spell Narce's Fatness Arrow|StorymakerExpanDnD}"
                             ]
                         },
                         "3": {
                             "slots": 0,
                             "spells": [
-                                "Abyssal Stomach",
-                                "Fat Feedback",
-                                "Hypnotic Hunger"
+                                "{@spell Abyssal Stomach|StorymakerExpanDnD}",
+                                "{@spell Fat Feedback|StorymakerExpanDnD}",
+                                "{@spell Hypnotic Hunger|StorymakerExpanDnD}"
                             ]
                         },
                         "4": {
                             "slots": 0,
                             "spells": [
-                                "Fatball",
-                                "Softskin"
+                                "{@spell Fatball|StorymakerExpanDnD}",
+                                "{@spell Softskin|StorymakerExpanDnD}"
                             ]
                         },
                         "5": {
                             "slots": 0,
                             "spells": [
-                                "Fat Surge"
+                                "{@spell Fat Surge|StorymakerExpanDnD}"
                             ]
                         }
                     },
